@@ -1,0 +1,6 @@
+
+This tar file contains the training portion of the Senseval-2 sense tagged  
+corpora formatted as plain text. All of the xml markup has been removed,  
+except for the <head> tags (in Sval2.train.plain.nohead.txt).
+
+Date of last update, June 19, 2004 by Ted Pedersen

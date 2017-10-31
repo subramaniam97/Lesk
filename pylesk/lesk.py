@@ -5,7 +5,7 @@ from nltk.corpus import wordnet as wn
 from nltk.corpus import stopwords
 from nltk import word_tokenize, pos_tag
 from utils import lemmatize, porter, lemmatize_sentence, synset_properties
-import allwords_wsd 
+import allwords_wsd
 
 EN_STOPWORDS = stopwords.words('english') + list(string.punctuation)
 
@@ -90,7 +90,7 @@ def adapted_lesk(context_sentence, ambiguous_word, \
                 pos=None, lemma=True, stem=True, hyperhypo=True, \
                 stop=True, context_is_lemmatized=False, \
                 nbest=False, keepscore=False, normalizescore=False):
-    
+
     # Ensure that ambiguous word is a lemma.
     ambiguous_word = lemmatize(ambiguous_word)
     # If ambiguous word not in WordNet return None
@@ -139,8 +139,35 @@ def adapted_lesk(context_sentence, ambiguous_word, \
 
 if __name__ == "__main__":
     synonyms = []
-    synset = allwords_wsd.disambiguate('the east bank circulates a lot of water')
-    print(synset)
-    for l in synset[2][1].lemmas():
-        synonyms.append(l.name())
-    print(set(synonyms))
+
+    filepath = '/home/subbu/Desktop/MP/pylesk/senseval/Sval2.plain/Sval2.train.plain.txt'
+    keypath = '/home/subbu/Desktop/MP/pylesk/senseval/Sval2.keys/Senseval2.key'
+
+    keylist = []
+    num = 0
+    denom = 0
+
+    with open(keypath) as kp:
+        line = kp.readline()
+        while line:
+            tlist = line.split()
+            tlist = tlist[2:]
+            keylist.append(tlist)
+            line = kp.readline()
+
+
+    with open(filepath) as fp:
+        line = fp.readline()
+        while line:
+            synset = allwords_wsd.disambiguateWithHead(line)
+            try:
+                s = synset[0][1].lemmas()[0].key()
+                for x in keylist[denom]:
+                    if x == s:
+                        num += 1
+                        break
+            except:
+                pass
+            denom += 1
+            line = fp.readline()
+            print("Accuracy: ", num / denom)

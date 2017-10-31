@@ -1,5 +1,4 @@
 from string import punctuation
-
 from nltk import word_tokenize, pos_tag
 from nltk.corpus import wordnet as wn
 from nltk.corpus import stopwords
@@ -20,7 +19,7 @@ def disambiguate(sentence, algorithm=adapted_lesk,
                  context_is_lemmatized=False, similarity_option='path',
                  keepLemmas=False, prefersNone=True):
     tagged_sentence = []
-    # Pre-lemmatize the sentnece before WSD
+    # Pre-lemmatize the sentence before WSD
     if not context_is_lemmatized:
         surface_words, lemmas, morphy_poss = lemmatize_sentence(sentence, keepWordPOS=True)
         lemma_sentence = " ".join(lemmas)
@@ -39,6 +38,59 @@ def disambiguate(sentence, algorithm=adapted_lesk,
             tagged_sentence.append((word, lemma, synset))
         else:
             tagged_sentence.append((word, synset))
+    # Change #NOT_IN_WN# and #STOPWORD/PUNCTUATION# into None.
+    if prefersNone and not keepLemmas:
+        tagged_sentence = [(word, None) if str(tag).startswith('#')
+                           else (word, tag) for word, tag in tagged_sentence]
+    if prefersNone and keepLemmas:
+        tagged_sentence = [(word, lemma, None) if str(tag).startswith('#')
+                           else (word, lemma, tag) for word, lemma, tag in tagged_sentence]
+    return tagged_sentence
+
+
+def disambiguateWithHead(sentenceWithHead, algorithm=adapted_lesk,
+                 context_is_lemmatized=False, similarity_option='path',
+                 keepLemmas=False, prefersNone=True):
+    tagged_sentence = []
+    tlist = []
+    positionOfReqWord = -1
+    ctr = 0
+    sentence = ""
+    reqWord = ""
+    sentenceWithHead = sentenceWithHead.split()
+
+    for word in sentenceWithHead:
+        if word == "<head>":
+            positionOfReqWord = ctr
+        if word != "<head>" and word != "</head>":
+            tlist.append(word)
+        ctr = ctr + 1
+
+
+    reqWord = tlist[positionOfReqWord]
+    sentence = " ".join(tlist)
+    # Pre-lemmatize the sentence before WSD
+    if not context_is_lemmatized:
+        surface_words, lemmas, morphy_poss = lemmatize_sentence(sentence, keepWordPOS=True)
+        lemma_sentence = " ".join(lemmas)
+    else:
+        lemma_sentence = sentence # TODO: Miss out on POS specification, how to resolve?
+
+    if lemmas[positionOfReqWord] not in stopwords: # Checks if it is a content word
+        try:
+            synset = algorithm(lemma_sentence, lemmas[positionOfReqWord], pos=morphy_poss[positionOfReqWord], context_is_lemmatized=True)
+        except: # In case the content word is not in WordNet
+            synset = '#NOT_IN_WN#'
+    else:
+        synset = '#STOPWORD/PUNCTUATION#'
+
+    if keepLemmas:
+        tagged_sentence.append((reqWord, lemmas[positionOfReqWord], synset))
+    else:
+        tagged_sentence.append((reqWord, synset))
+
+
+
     # Change #NOT_IN_WN# and #STOPWORD/PUNCTUATION# into None.
     if prefersNone and not keepLemmas:
         tagged_sentence = [(word, None) if str(tag).startswith('#')

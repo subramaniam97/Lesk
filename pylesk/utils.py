@@ -50,7 +50,7 @@ def lemmatize_sentence(sentence, neverstem=False, keepWordPOS=False,
                        tokenizer=word_tokenize, postagger=pos_tag,
                        lemmatizer=wnl, stemmer=porter):
     words, lemmas, poss = [], [], []
-    for word, pos in postagger(tokenizer(sentence)):
+    for word, pos in postagger(sentence.split()):
         pos = penn2morphy(pos)
         lemmas.append(lemmatize(word.lower(), pos, neverstem,
                                 lemmatizer, stemmer))

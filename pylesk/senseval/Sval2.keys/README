@@ -1,0 +1,12 @@
+
+This tar file includes two keys for the Senseval-2 data. 
+
+Senseval2.key is based on fine.key, which was distributed
+by the Senseval-2 organizers. 
+
+SenseClusters.key is Senseval2.key reformatted for use by
+the SenseClusters package (senseclusters.sourceforge.net).
+
+Last update on June 19,2004 by Ted Pedersen
+
+
