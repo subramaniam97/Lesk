@@ -1,0 +1,193 @@
+Data Set of SENSEVAL2 Japanese Task (monolingual dictionary-based task)
+
+* Notice
+
+This package contains the evaluation data, training data and sense
+inventory for the monolingual dictionary-based task (dictionary task
+hereafter).
+
+For evaluation and training data, we use text excerpts from 1994
+Mainiti Shimbun newspaper articles. Due to copyright restrictions, you
+are required to purchase the `1994 Mainiti Shimbun' CD-ROM and
+individually reconstruct the evaluation and training data using tools
+provided in this package. Purchase details for the Mainiti Shimbun
+CD-ROM can be viewed at: 
+
+  http://cactus.aist-nara.ac.jp/lab/resource/cdrom/Mainichi/MS.html
+  (written in Japanese only)
+
+Alternatively, e-mail Kiyoaki Shirai at kshirai@jaist.ac.jp for details.
+
+The following data used for the dictionary task have been developed by
+RWCP (Real World Computing Partnership).
+  - Morphological information and the categorical codes (Universal
+    Decimal Classification codes, UDC codes) for newspaper articles in
+    the evaluation data
+  - Annotated Japanese dictionary `Iwanami Kokugo Jiten', which is the 
+    sense inventory of the dictionary task. For each sense in the
+    dictionary, a corresponding sense ID and morphological information
+    are supplied.
+  - Morphological information, sense IDs and the UDC codes for
+    newspaper articles in the training data
+You also need the `RWC text database ver. 2' CD-ROM, and can obtain it
+for a small charge. Purchase details for RWC text database CD-ROM can
+be viewed at:
+
+  http://www.rwcp.or.jp/wswg/rwcdb/text/index.html
+  (written in Japanese only)
+
+Alternatively, e-mail Kiyoaki Shirai at kshirai@jaist.ac.jp for details.
+
+Note that the character coding system used in the data set is EUC, and
+the character at the end of each line is LF (Line Feed).
+
+* Permitted Uses
+
+- The data in this package may only be used for research purpose.
+- When you purchase 1994 Mainiti Shimbun CD-ROM, you may sign the
+  copyright agreement form for Mainiti newspapers. If you violate the
+  copyright restriction to use the CD-ROM, you lose the right to use
+  the data in this package too, and should remove it from your
+  organization immediately.
+
+* Contents
+
+test/jp-dic.evaluation.xml.in
+	Evaluation data for the dictionary task
+	** text not included **
+
+sense/jp-dic.iwanami.xml.in
+	Iwanami Kokugo Jiten (sense inventory of the dictionary task)
+	** text not included **
+
+train/jp-dic.training.xml.in
+	Training data for the dictionary task
+	** text not included **
+
+test/jp-lexical-sample.dtd
+	DTD file for the evaluation data
+
+sense/jp-dic-iwa.dtd
+	DTD file for the Iwanami Kokugo Jiten
+
+train/jp-dic-train.dtd
+	DTD file for the training data
+
+pos-code.tbl
+	POS tag--code mapping table
+
+test/recon-art.pl
+test/recon-eval.pl
+sense/recon-iwa.pl
+train/recon-train.pl
+	Tools to reconstruct the complete data using files provided in
+        this package. These tools are in the form of Perl scripts.
+
+test/eval.idx
+train/train.idx
+	Index file to reconstruct the data
+
+
+* Data for Dictionary Task
+
+1. Evaluation Data
+
+You must reconstruct the evaluation data from `jp-dic.evaluation.xml.in'
+(see below). See also `jp-lexical-sample.dtd' for details of tags and
+attributes used in the evaluation data.
+
+2. Iwanami Kokugo Jiten
+
+You must reconstruct the Iwanami Kokugo Jiten from `jp-dic.iwanami.xml.in'
+(see below). See also `jp-dic-iwa.dtd' for details of tags and
+attributes used in the Iwanami Kokugo Jiten.
+
+3. Training Data
+
+You must reconstruct the training data from `jp-dic.training.xml.in'
+(see below). See also `jp-dic-train.dtd' for details of tags and
+attributes used in the training data.
+
+
+* Data Reconstruction
+
+1. To reconstruct the evaluation data:
+
+cd test/
+perl recon-art.pl -e -D text97_1/ma94 -I mai -F mai94.txt > art-eval.txt
+perl recon-eval.pl -D jp-dic.evaluation.xml.in -I eval.idx -a art-eval.txt -u text95_3/ma94.udc > jp-dic.evaluation.xml
+
+Note:
+  - 1994 Mainiti Shimbun CD-ROM and RWC CD-ROM are required to
+    reconstruct the data. 
+  - `jp-dic.evaluation.xml' is the reconstructed evaluation data. Its
+    size will be 115,588,931 bytes.
+  - `art-eval.txt' is the temporary file. Its size will be 10,480,584
+    bytes.
+  - `mai94.txt' is the file in the 1994 Mainiti Shimbun CD-ROM.
+  - `text97_1/ma94' is the directory where four index files
+    (mai.{idx,dif,ix1,ix2}) exist in the RWC CD-ROM.
+  - `text95_3/ma94.udc' is the file in the RWC CD-ROM that consists of
+    the ID number of the newspaper articles and UDC codes for those
+    articles.
+
+2. To reconstruct the evaluation data without morphological information:
+
+cd test/
+perl recon-eval.pl -D jp-dic.evaluation.xml.in -I eval.idx -A mai94.txt > jp-dic.evaluation2.xml
+
+Note:
+  - 1994 Mainiti Shimbun CD-ROM is required to reconstruct the data.
+    In this case, no morphological information and UDC codes for
+    newspaper articles will be reconstructed.
+  - `jp-dic.evaluation2.xml' is the reconstructed evaluation data. Its
+    size will be 15,488,621 bytes.
+  - `mai94.txt' is the file in the 1994 Mainiti Shimbun CD-ROM.
+
+3. To reconstruct the Iwanami Kokugo Jiten in XML format:
+
+cd sense/
+perl recon-iwa.pl -D jp-dic.iwanami.xml.in -P ../pos-code.tbl -I text96_2 > jp-dic.iwanami.xml
+
+Note:
+  - RWC CD-ROM is required to reconstruct the data.
+  - `jp-dic.iwanami.xml' is the reconstructed Iwanami Kokugo
+    Jiten. Its size will be 67,241,492 bytes.
+  - `text96_2' is the directory where the original files of Iwanami
+    Kokugo Jiten (i01 - i30) exist in the RWC CD-ROM. As there are
+    some format errors in these original files, you must correct them
+    with the patch `tx96_2p1.tar.gz'. This patch is available at the
+    following URL:
+
+	http://www.rwcp.or.jp/wswg/rwcdb/text/tx96_2p1.tar.gz
+
+4. To reconstruct the training data:
+
+cd train/
+perl recon-art.pl -t -D text95_2 -I mai -F mai94.txt > art-train.txt
+perl recon-train.pl -D jp-dic.training.xml.in -I train.idx -S text98_1/mai_ws.txt -a art-train.txt -u text95_3/ma94.udc > jp-dic.training.xml
+
+Note:
+  - 1994 Mainiti Shimbun CD-ROM and RWC CD-ROM are required to
+    reconstruct the data. 
+  - `jp-dic.training.xml' is the reconstructed evaluation data. Its
+    size will be 26,818,377 bytes.
+  - `art-train.txt' is the temporary file. Its size will be 10,808,264
+    bytes.
+  - `mai94.txt' is the file in the 1994 Mainiti Shimbun CD-ROM.
+  - `text95_2' is the directory where four index files
+    (mai.{idx,dif,ix1,ix2}) exist in the RWC CD-ROM.
+  - `text95_3/ma94.udc' is the file in the RWC CD-ROM that consists of
+    the ID number of the newspaper articles and UDC codes for those
+    articles.
+  - `text98_1/mai_ws.txt' consists of the sense IDs for the training
+    data. This file is available at the following URL:
+
+	http://www.rwcp.or.jp/wswg/rwcdb/text/text98_1.tar.gz
+
+---
+Sadao Kurohashi (University of Tokyo)
+kuro@kc.t.u-tokyo.ac.jp
+
+Kiyoaki Shirai (Japan Advanced Institute of Science and Technology)
+kshirai@jaist.ac.jp

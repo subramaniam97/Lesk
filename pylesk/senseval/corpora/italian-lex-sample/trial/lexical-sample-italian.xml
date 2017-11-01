@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE corpus SYSTEM "lexical-sample.dtd">
+<!-- <!DOCTYPE corpus SYSTEM
+  "/home/cotton/tmp/senseval-fmts/lexical-sample.dtd"> -->
+
+<corpus lang="it">
+
+<lexelt item="macchina">
+
+<instance id="macchina.0000">
+<answer instance="macchina.0000" senseid="2"/>
+<context>
+
+E' nel marzo del 1993, seguendo le tracce di un latitante specializzato in rapine, 
+che i poliziotti vedono incontrarsi un suo &quot;contatto&quot; con l&apos;autista di una Dyane 
+furgonata lasciata in sosta a Cologno Monzese. 
+I due spariscono, il 4 giugno la <head>macchina</head> viene perquisita.
+
+</context>
+</instance>
+
+<instance id="macchina.0001">
+<answer instance="macchina.0001" senseid="3"/>
+<context>
+
+A fare rumore, lontano da quello che il primo ministro di Sarajevo Silajidzic chiama 
+&quot;il genocidio in diretta televisiva&quot;, è ancora la diplomazia, gli alti comandi 
+militari che il portavoce Gerard Coward non sa più come difendere. E&apos; la poderosa 
+<head>macchina</head> bellica franco-britannica che sonnecchia sulle rive adriatiche di Ploce 
+esercitandosi al tiro al bersaglio, assalendo a colpi di baionetta sagome di cartone di 
+improbabili serbi.
+
+</context>
+</instance>
+
+</lexelt>
+
+<lexelt item="musicale">
+
+<instance id="musicale.0000">
+<answer instance="musicale.0000" senseid="2"/>
+<context>
+Gli spettatori (per un concerto sorprendentemente esaurito per tre sere consecutive) 
+arrivano a teatro già preparati, perfettamente consapevole di stare per vivere una 
+sorta di privilegio e di partecipazione a quella che col tempo assomiglia sempre 
+di più a una esperienza mistica. Niente a che vedere con l&apos;opposta concezione del 
+suo &quot;fratello&quot; artistico Gilberto Gil, il quale poche ore prima, giovedì sera, 
+si era esibito ai giardini del Frontone sfoderando tutta la sua divertente e 
+disincantata allegria <head>musicale</head> .
+
+</context>
+</instance>
+
+<instance id="musicale.0001">
+<answer instance="musicale.0001" senseid="1"/>
+<context>
+
+Appuntamento dalle 20,30 alle 23,30. Mattine <head>musicali</head> - Sulla Terrazza del Pincio 
+domani mattina, con appuntamento alle ore 10,30, si tiene un concerto della rassegna promossa 
+dall&apos;Ente Provinciale per il Turismo di Roma.
+
+</context>
+</instance>
+
+</lexelt>
+
+<lexelt item="adottare">
+
+<instance id="adottare.0000">
+<answer instance="adottare.0000" senseid="1"/>
+<context>
+
+Anche grazie ai miglioramenti tecnologici, Area ha aumentato i servizi: 
+è prevista una nuova linea di news che si affiancherà alle due che già sono 
+in collegamento con l&apos;emittenza locale.
+Il circuito di emittenti legate ad una agenzia di stampa ha <head>adottato</head> il satellite. 
+
+</context>
+</instance>
+
+<instance id="adottare.0001">
+<answer instance="adottare.0001" senseid="3"/>
+<context>
+
+Da allora in tutta Europa è tornato l&apos;allarme hooligans. Calcio- Per le partite 
+delle squadre inglesi nelle coppe europee verranno <head>adottate</head> misure di sicurezza.
+
+</context>
+</instance>
+</lexelt>
+</corpus>

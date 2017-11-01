@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO8859-1" ?>
+
+<!--
+This is the DTD file for the translation memory for SENSEVAL2 Japanese
+translation task.
+ -->
+
+<!ELEMENT tm (entry+)>
+
+<!--
+  An entry tag marks the crosslingual sense set for a given word.
+  Attributes are the following:
+	id			Word ID
+	headword		Head word
+	pronounciation		Pronounciation
+ -->
+
+<!ELEMENT entry (sense+)>
+<!ATTLIST entry id CDATA #REQUIRED>
+<!ATTLIST entry headword CDATA #REQUIRED>
+<!ATTLIST entry pronunciation CDATA #IMPLIED>
+
+
+<!--
+  An sense tag marks each sense. `id' attribute is a translation-based
+  sense ID.
+  Within each `sense', the following tags are used:
+	jexpression	Japanese expression (mandatory)
+	eexpression	English expression (mandatory)
+	jexample	Example of the Japanese expression (optional)
+	jnotes		Remarks for the Japanese expression (optional)
+	transmemo	Translation memo from the TM creator (optional)
+ -->
+
+<!ELEMENT sense (jexpression,eexpression,jexample?,jnotes?,transmemo?)>
+<!ATTLIST sense id CDATA #REQUIRED>
+
+<!ELEMENT jexpression (#PCDATA)>
+
+<!ELEMENT eexpression (#PCDATA)>
+
+<!ELEMENT jexample (#PCDATA)>
+
+<!ELEMENT jnotes (#PCDATA)>
+
+<!ELEMENT transmemo (#PCDATA)>

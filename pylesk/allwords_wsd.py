@@ -48,33 +48,19 @@ def disambiguate(sentence, algorithm=adapted_lesk,
     return tagged_sentence
 
 
-def disambiguateWithHead(sentenceWithHead, algorithm=adapted_lesk,
+def disambiguateWithHead(sentence, posTarget, algorithm=adapted_lesk,
                  context_is_lemmatized=False, similarity_option='path',
                  keepLemmas=False, prefersNone=True):
     tagged_sentence = []
-    tlist = []
-    positionOfReqWord = -1
-    ctr = 0
-    sentence = ""
-    reqWord = ""
-    sentenceWithHead = sentenceWithHead.split()
-
-    for word in sentenceWithHead:
-        if word == "<head>":
-            positionOfReqWord = ctr
-        if word != "<head>" and word != "</head>":
-            tlist.append(word)
-        ctr = ctr + 1
-
-
-    reqWord = tlist[positionOfReqWord]
-    sentence = " ".join(tlist)
+    reqWord = sentence[posTarget]
+    positionOfReqWord = posTarget
     # Pre-lemmatize the sentence before WSD
     if not context_is_lemmatized:
         surface_words, lemmas, morphy_poss = lemmatize_sentence(sentence, keepWordPOS=True)
         lemma_sentence = " ".join(lemmas)
     else:
         lemma_sentence = sentence # TODO: Miss out on POS specification, how to resolve?
+
 
     if lemmas[positionOfReqWord] not in stopwords: # Checks if it is a content word
         try:

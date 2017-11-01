@@ -6,6 +6,8 @@ from nltk.corpus import stopwords
 from nltk import word_tokenize, pos_tag
 from utils import lemmatize, porter, lemmatize_sentence, synset_properties
 import allwords_wsd
+import xml.etree.ElementTree as ET
+
 
 EN_STOPWORDS = stopwords.words('english') + list(string.punctuation)
 
@@ -140,12 +142,13 @@ def adapted_lesk(context_sentence, ambiguous_word, \
 if __name__ == "__main__":
     synonyms = []
 
-    filepath = '/home/subbu/Desktop/MP/pylesk/senseval/Sval2.plain/Sval2.train.plain.txt'
+
     keypath = '/home/subbu/Desktop/MP/pylesk/senseval/Sval2.keys/Senseval2.key'
 
     keylist = []
     num = 0
     denom = 0
+
 
     with open(keypath) as kp:
         line = kp.readline()
@@ -156,12 +159,20 @@ if __name__ == "__main__":
             line = kp.readline()
 
 
-    with open(filepath) as fp:
-        line = fp.readline()
-        while line:
-            synset = allwords_wsd.disambiguateWithHead(line)
+    tree = ET.parse("/home/subbu/Desktop/MP/pylesk/senseval/Sval2.xml/dataWithoutHead.xml")
+    tree1 = ET.parse("/home/subbu/Desktop/MP/pylesk/senseval/Sval2.xml/data.xml")
+    root = tree.getroot()
+    root1 = tree1.getroot()
+
+    cnt = 0
+    for lexltIndex in range(0, len(root)):
+        for inst in range(0, len(root[lexltIndex])):
             try:
+                line = root[lexltIndex][inst][0].text
+                posTarget = len(root1[lexltIndex][inst][0].text.split())
+                synset = allwords_wsd.disambiguateWithHead(line, posTarget)
                 s = synset[0][1].lemmas()[0].key()
+                print(denom + 1, ": ", line.split()[posTarget],  s)
                 for x in keylist[denom]:
                     if x == s:
                         num += 1
@@ -169,5 +180,7 @@ if __name__ == "__main__":
             except:
                 pass
             denom += 1
-            line = fp.readline()
-            print("Accuracy: ", num / denom)
+            cnt += 1
+            #print("Line: ", cnt, "Accuracy: ", num / denom)
+
+    print(num)

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE corpus SYSTEM 
+	  "/home/cotton/tmp/senseval-fmts/all-words.dtd">
+<corpus lang="en">
+<text id="text.0000">
+
+The <head id="text.0000.t0">hours</head> <head id="text.0000.t1" sats="text.0000.t1.s0">drag</head> 
+<sat id="text.0000.t1.s0">on</sat>, and in those <head id="text.0000.t2">hours</head> she 
+<head id="text.0000.t3">knows</head> every <head id="text.0000.t4">shade</head> of 
+<head id="text.0000.t5">doubt</head>, of rallying, of 
+<head id="text.0000.t6">terror</head> and <head id="text.0000.t7">eventually</head> of 
+<head id="text.0000.t8">despair</head>.  She <head id="text.0000.t9">remembers</head> a 
+<head id="text.0000.t10">million</head> <head id="text.0000.t11">things</head>, 
+<head id="text.0000.t12">moments</head> of her <head id="text.0000.t13">son&apos;s</head> 
+<head id="text.0000.t14">childhood</head>, his <head id="text.0000.t15">wanting</head> to 
+<head id="text.0000.t16">pluck</head> his <head id="text.0000.t17">long</head> 
+<head id="text.0000.t18">curved</head> <head id="text.0000.t19">eyelashes</head> and 
+<head id="text.0000.t20">give</head> them to her, a <head id="text.0000.t21">little</head> 
+<head id="text.0000.t22">painted</head> <head id="text.0000.t23">xylophone</head> he had had, 
+<head id="text.0000.t24">stamps</head> that he <head id="text.0000.t25">collected</head> and 
+<head id="text.0000.t26">displayed</head> so <head id="text.0000.t27">beautifully</head> under 
+<head id="text.0000.t28">single</head> <head id="text.0000.t29">folds</head> of 
+<head id="text.0000.t30">yellow</head> <head id="text.0000.t31">transparent</head> 
+<head id="text.0000.t32">paper</head>.
+
+She <head id="text.0000.t33">sees</head> 
+<head id="text.0000.t34">Penny</head> <head id="text.0000.t35">tall</head> and 
+<head id="text.0000.t36">stalklike</head> in her <head id="text.0000.t37">tight</head> 
+<head id="text.0000.t38">jeans</head> and <head id="text.0000.t39">pink</head>
+<head id="text.0000.t40">T-shirt</head> with
+<head id="text.0000.t41">pearl</head> <head id="text.0000.t42">droplets</head> 
+<head id="text.0000.t43">stitched</head> to the <head id="text.0000.t44">front</head>, 
+her eyes <head id="text.0000.t45">flashing</head>, 
+<head id="text.0000.t46">dancing</head> on his every <head id="text.0000.t47">whim</head>.
+
+</text>
+
+<!-- 
+     Incomplete list of answers shown here to demonstrate where they
+     are situated in a document and how they are formed.
+ -->
+
+<answer head="text.0000.t0" senseid="10938914"/>
+<answer head="text.0000.t1" senseid="00236508"/>
+<answer head="text.0000.t2" senseid="10938914"/>
+
+</corpus>
+

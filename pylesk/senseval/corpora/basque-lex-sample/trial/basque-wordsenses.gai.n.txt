@@ -1,0 +1,17 @@
+
+gai	A1	N
+gai	A1.n1	N
+gai	A1.n2	N
+gai	A1.n3	N
+gai	A2	N
+gai	A3	N
+gai	A4	N
+gai	A5	N
+gai egin		V
+gai egon		V
+gai izan	Sa	V
+gai izan	Sa.n1	V
+gai izan	Sa.n2	V
+gai izan	Sb	V
+gai izan	Sb.n1	V
+

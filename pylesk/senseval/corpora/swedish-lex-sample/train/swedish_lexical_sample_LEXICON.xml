@@ -1,0 +1,3372 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+
+<!--
+    PLEASE READ THE COPYRIGHT STATEMENT
+    **************************************************************
+    ##############################################################
+    LEXICON FILE FOR THE SWEDISH "lexical sample" TASK OF SENSEVAL-2
+    File Name: "swedish_lexical_sample_LEXICON.xml"
+    File Content: (i) the DTD for lexicon encoding
+                 (ii) 40 base forms, 145 senses, 304 sub-senses
+    ##############################################################
+    **************************************************************
+    The lexical sample task in SENSEVAL-2 is a word sense disambiguation
+    task for particular (preselected) lexical items.
+    The Swedish lexical sample consists of 40 lemmas; 
+           20 NOUNS
+	   15 VERBS
+	    5 ADJECTIVES
+    **************************************************************
+    The lexicon was generated the 2001-04-24 from GLDB/SDB by
+    Yvonne Cederholm and validated with "xmlnorm" the 2001-04-25
+    by Dimitrios Kokkinakis
+    **************************************************************
+    Contact:
+        For more information, comments etc. on the SWEDISH SENSEVAL contact:
+        Dimitrios.Kokkinakis@svenska.gu.se
+        For more information about GLDB/SDB contact:
+        Jerker.Jaerborg@svenska.gu.se
+    References: 
+        GLDB/SDB: http://spraakdata.gu.se/
+        Järborg J. (1999), Lexikon i konfrontation. Research Reports
+          from the Department of Swedish, Göteborg University. GU-ISS-99-6.
+          (In Swedish); http://svenska.gu.se/~svedk/resrapp/konfront.pdf
+
+        Kokkinakis D., Järborg J. and Cederholm Y. (May, 2001), Swedish
+          SENSEVAL; a Developers' Perspective. Proceedings of the NODALIDA
+          (Nordiska Datalingvistikdagarna) Conference. Uppsala, Sweden;
+          http://svenska.gu.se/~svedk/publics/swe_senseval.pdf
+    **************************************************************
+-->
+
+<!--
+   COPYRIGHT STATEMENT:
+     The content of this file is being provided to you, the LICENSEE, by the 
+     Språkdata (Department of Swedish, Göteborg University) under the 
+     following license.  By obtaining, using and/or copying this file, you 
+     agree that you have read, understood, and will comply with these terms
+     and conditions:  
+
+     Permission to use and/or copy the content of this file
+     and its documentation for any purpose and without fee or royalty is
+     hereby granted, provided that you agree to comply with the following
+     copyright notice and statements, including the disclaimer, and that
+     the same appear on ALL copies of the file and documentation, including 
+     modifications that you make for internal use or for distribution:
+
+     Copyright 2001 by Språkdata and the Göteborg University.
+     All rights reserved.  
+
+     THIS FILE CONTENT IS PROVIDED "AS IS", AND Språkdata MAKES NO 
+     REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. By way of example,
+     but not limitation, Språkdata MAKES NO REPRESENTATIONS OR WARRANTIES OF 
+     MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF 
+     THE LICENSED FILE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY 
+     PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.   
+
+     The name of the Språkdata may NOT be used in advertising or publicity
+     pertaining to distribution of the file content. Title to copyright in
+     this software and any associated documentation shall at all times remain
+     with Språkdata, and LICENSEE agrees to preserve same.
+-->
+
+<!-- 
+    A lexicon is divided up by lexical items (for Swedish lemma-entries) 
+    and is associated with a language (should use ISO-XXXX character 
+    set encodings)
+-->
+
+<!DOCTYPE lexicon [
+<!ELEMENT lexicon (lemma-entry+)>
+<!ATTLIST lexicon lang CDATA #REQUIRED>
+
+<!ELEMENT lemma-entry		(lexeme+)>
+<!ATTLIST lemma-entry		form		CDATA		#REQUIRED
+	    		     	pos		(n|v|a)		"n"
+				inflection	CDATA		#REQUIRED
+                   		id		ID		#REQUIRED>
+
+<!--  The 'lexemes' (senses) and 'cycles' (sub-senses) must denote exactly
+      one head element. One 'lemma' (base form) can have 1 or more 'lexemes'
+      (since we provide only polysemous entries); and 1 lexeme can have 0 or
+      more cycles. 
+-->
+
+<!ELEMENT lexeme 	(definition, definition-ext?, compound*, 
+					synt-example*, cycle*, valency*, comment*)>
+<!ATTLIST lexeme	id  ID #REQUIRED>
+
+<!ELEMENT cycle		(trans, definition?, definition-ext?, compound*, 
+					synt-example*, valency*, comment*)>
+<!ATTLIST cycle		id  ID #REQUIRED>
+
+<!ELEMENT definition		(#PCDATA)>
+<!ELEMENT definition-ext	(#PCDATA)>
+<!ELEMENT synt-example	(#PCDATA)>
+<!ELEMENT compound		(#PCDATA)>
+<!ELEMENT valency		(#PCDATA)>
+<!ELEMENT comment		(#PCDATA)>
+]>
+
+
+<lexicon lang="swe">
+<lemma-entry id="klar_1" form="klar" pos="a" inflection="~t">
+	<lexeme id="klar_1_1">
+		<definition>som ej innehåller dämpande eller störande inslag</definition>
+		<definition-ext>om (flöde av) ljus el. ljud, verkligt el. skenbart</definition-ext>
+		<synt-example>~t solsken</synt-example>
+		<synt-example>en ~ stråle</synt-example>
+		<synt-example>~a gossröster</synt-example>
+		<synt-example>en ~ blick</synt-example>
+		<synt-example>en spröd, ~ klang</synt-example>
+		<synt-example>~a toner från en ensam flöjt</synt-example>
+		<compound>klarblå</compound>
+	<cycle id="klar_1_1_a">
+		<trans>äv. utvidgat om ämne e.d.</trans>
+		<synt-example>varmt och ~t väder</synt-example>
+		<synt-example>en ~ himmel</synt-example>
+		<synt-example>~ buljong</synt-example>
+		<synt-example>matt eller ~t glas i glödlampan</synt-example>
+		<synt-example>~t badvatten</synt-example>
+	</cycle>
+	<cycle id="klar_1_1_b">
+		<trans>äv. överfört om person, mental förmåga etc.</trans>
+		<synt-example>~ i hjärnan</synt-example>
+		<synt-example>intellektuellt verkade han helt ~</synt-example>
+		<synt-example>den dagen var hon så ~ att det gick att tala med henne</synt-example>
+		<compound>förståndsklar</compound>
+	</cycle>
+	<cycle id="klar_1_1_c">
+		<trans>ibl. överfört om motsvarande tidsperiod</trans>
+		<synt-example>i sina korta ~a stunder kände hon igen sin dotter</synt-example>
+		<synt-example>NN tycktes ha en ~ dag</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="klar_1_2">
+		<definition>som enkelt uppfattas och förstås</definition>
+		<definition-ext>om ngt som har tankemässigt innehåll; antingen enstaka begrepp el. utsaga om sakförhållande e.d.</definition-ext>
+		<synt-example>en ~ definition</synt-example>
+		<synt-example>den saken måste man ha ~ för sig</synt-example>
+		<synt-example>principen verkar helt ~</synt-example>
+		<synt-example>yttrandet hade ~ hänsyftning på NN</synt-example>
+		<synt-example>det stod ~t att laget hade fått en ny lirare</synt-example>
+		<synt-example>han gjorde ~t att han inte ville medverka</synt-example>
+	<cycle id="klar_1_2_a">
+		<trans>ibl. äv. ngt bildligt, med föreställning om urskiljbarhet för synsinnet</trans>
+		<synt-example>ett glasklart resonemang</synt-example>
+		<synt-example>polisen har en ~ bild av hur mordet begicks</synt-example>
+	</cycle>
+	<cycle id="klar_1_2_b">
+		<trans>ofta utvidgat om allmännare företeelser</trans>
+		<synt-example>valresultaten har en ~ tendens</synt-example>
+		<synt-example>NN har en ~ ledning i rallyt</synt-example>
+		<synt-example>en knapp men ~ majoritet</synt-example>
+		<synt-example>en ~ förstärkning av konjunkturen</synt-example>
+	</cycle>
+	<cycle id="klar_1_2_c">
+		<trans>ibl. mer utpräglat</trans>
+		<synt-example>det är ~t att han kommer</synt-example>
+		<synt-example>naturligtvis måste barn hävda sig, den saken är ju ~</synt-example>
+		<synt-example>det var Pelle, så ~t!</synt-example>
+		<compound>självklar</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="klar_1_3">
+		<definition>som bringats till fullbordat tillstånd</definition>
+		<definition-ext>om angiven el. antydd verksamhet, produkt under arbete, etc.</definition-ext>
+		<synt-example>maten är ~</synt-example>
+		<synt-example>nu är disken ~</synt-example>
+		<synt-example>packa ~t (adv.)</synt-example>
+		<synt-example>de nya lokalerna står snart ~a</synt-example>
+		<synt-example>utredningen beräknas bli ~ vid årsskiftet</synt-example>
+	<cycle id="klar_1_3_a">
+		<trans>ibl. med samtidig föreställning om tydlighet e.d.</trans>
+		<synt-example>det är nu alldeles ~t att landslaget missar VM</synt-example>
+		<synt-example>det blev ~t att samarbetsavtalet hade spruckit</synt-example>
+	</cycle>
+	<cycle id="klar_1_3_b">
+		<trans>äv. om person som slutfört ngt</trans>
+		<synt-example>han är ~ med sin utbildning</synt-example>
+	</cycle>
+	<cycle id="klar_1_3_c">
+		<trans>äv. (om person el. produkt) med tanke på beredskap för (viss) fortsatt verksamhet el. användning</trans>
+		<synt-example>huset är ~t för inflyttning</synt-example>
+		<synt-example>hon är ~ att ge sig i väg</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="klar_1_4">
+		<definition>som medger säker passage</definition>
+		<definition-ext>förbi hinder etc.</definition-ext>
+		<synt-example>gå ~ från grundet</synt-example>
+	<cycle id="klar_1_4_a">
+		<trans>äv. i fråga om abstrakt hinder</trans>
+		<synt-example>tullkryssaren var borta och kusten ~ för smugglarna</synt-example>
+	</cycle>
+	<cycle id="klar_1_4_b">
+		<trans>äv. bildligt</trans>
+		<synt-example>kusten är ~</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="stark_1" form="stark" pos="a" inflection="~t">
+	<lexeme id="stark_1_1">
+		<definition>som har stor muskelkraft</definition>
+		<definition-ext>om levande varelse el. (del av) kropp</definition-ext>
+		<synt-example>en stor ~ skogshuggare</synt-example>
+		<synt-example>~a armar</synt-example>
+		<synt-example>~ i benen</synt-example>
+		<synt-example>~ som en björn</synt-example>
+		<synt-example>den ~ares rätt</synt-example>
+	<cycle id="stark_1_1_a">
+		<trans>äv. utvidgat i fråga om stor andlig kraft</trans>
+		<synt-example>ha ~a nerver</synt-example>
+		<synt-example>hon är ~ så hon ska nog klara av krisen</synt-example>
+		<synt-example>~ egen vilja</synt-example>
+		<synt-example>en ~ personlighet</synt-example>
+		<synt-example>teckning är inte hans ~a sida</synt-example>
+	</cycle>
+	<cycle id="stark_1_1_b">
+		<trans>äv.</trans>
+		<synt-example>en ~ armé</synt-example>
+		<synt-example>en ~ front</synt-example>
+		<synt-example>regeringens ~e man</synt-example>
+		<synt-example>en ~ regering</synt-example>
+		<synt-example>han hade en ~ ställning inom företaget</synt-example>
+	</cycle>
+	<cycle id="stark_1_1_c">
+		<trans>äv. om föremål</trans>
+		<synt-example>en ~ nylonlina</synt-example>
+	</cycle>
+	<cycle id="stark_1_1_d">
+		<trans>äv. om företeelse</trans>
+		<synt-example>~a vindar</synt-example>
+		<synt-example>en ~ kustström</synt-example>
+		<synt-example>~ blåst</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="stark_1_2">
+		<definition>duktig</definition>
+		<definition-ext>i ngt</definition-ext>
+		<synt-example>vara ~ i matematik</synt-example>
+		<synt-example>det var ~t av honom att bli tvåa</synt-example>
+	</lexeme>
+	<lexeme id="stark_1_3">
+		<definition>som har stor omfattning</definition>
+		<synt-example>~ kyla</synt-example>
+		<synt-example>~ värme</synt-example>
+		<synt-example>han talade med ~ brytning</synt-example>
+		<synt-example>~ efterfrågan på arbetskraft</synt-example>
+		<synt-example>hon var ~t sminkad (adv.)</synt-example>
+		<synt-example>~ artillerield</synt-example>
+	<cycle id="stark_1_3_a">
+		<trans>särsk. om känsla el. attityd</trans>
+		<synt-example>hon kände ~ sorg</synt-example>
+		<synt-example>spänningen var ~</synt-example>
+		<synt-example>han kände en ~ längtan efter sina barn</synt-example>
+		<synt-example>~ lust</synt-example>
+		<synt-example>en ~ främlingskänsla</synt-example>
+		<synt-example>~ respekt</synt-example>
+		<synt-example>hon kände ~ samhörighet med honom</synt-example>
+	</cycle>
+	<cycle id="stark_1_3_b">
+		<trans>äv. neutralt</trans>
+		<synt-example>delegationen var 20 man ~</synt-example>
+		<synt-example>den 600 sidor ~a volymen</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="stark_1_4">
+		<definition>som gör intensivt intryck på sinnena</definition>
+		<definition-ext>el. kroppen; särsk. på lukt- och smaksinnet</definition-ext>
+		<synt-example>en ~ doft av lavendel</synt-example>
+		<synt-example>stanken var ~</synt-example>
+		<synt-example>~t kaffe</synt-example>
+		<synt-example>~a cigaretter</synt-example>
+		<synt-example>~a kryddor</synt-example>
+		<synt-example>spaghetti med ~ köttfärssås</synt-example>
+		<synt-example>~ senap</synt-example>
+		<synt-example>~a mediciner</synt-example>
+		<compound>starkdoftande</compound>
+		<compound>starksmakande</compound>
+	<cycle id="stark_1_4_a">
+		<trans>spec. om dryck med hög alkoholhalt</trans>
+		<synt-example>~a drycker</synt-example>
+		<compound>starksprit</compound>
+		<compound>starkvin</compound>
+		<compound>starköl</compound>
+	</cycle>
+	<cycle id="stark_1_4_b">
+		<trans>spec. äv. om ljusintryck</trans>
+		<synt-example>hans ögon tålde inte det ~a dagsljuset</synt-example>
+		<synt-example>~t solljus</synt-example>
+		<synt-example>en ~ glödlampa</synt-example>
+		<compound>färgstark</compound>
+	</cycle>
+	<cycle id="stark_1_4_c">
+		<trans>spec. äv. om ljudintryck</trans>
+		<synt-example>han har en ~ röst</synt-example>
+		<synt-example>hon lade en ~ betoning på det sista ordet</synt-example>
+		<compound>starktonig</compound>
+	</cycle>
+	<cycle id="stark_1_4_d">
+		<trans>äv. om handling e. d.</trans>
+		<synt-example>det är en ~ text i den sången</synt-example>
+		<synt-example>en ~ film</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="stark_1_5">
+		<definition>vars böjning kännetecknas av vokalväxling</definition>
+		<definition-ext>i de olika temaformerna; om verb</definition-ext>
+		<synt-example>"springa" är ett ~t verb som böjs "springa, sprang, sprungit"</synt-example>
+	<cycle id="stark_1_5_a">
+		<trans>äv. i fråga om adjektivböjning</trans>
+		<synt-example>~ adjektivböjning har man bl. a. efter obestämd artikel</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="naturlig_1" form="naturlig" pos="a" inflection="~t">
+	<lexeme id="naturlig_1_1">
+		<definition>som finns i eller uppkommer ur den ursprungliga, omgivande verkligheten</definition>
+		<definition-ext>enl. dess inneboende lagar; om föremål och företeelser som ej framställts el. föreskrivits av människor</definition-ext>
+		<synt-example>~ magnet</synt-example>
+		<synt-example>den ~a radioaktiva bakgrundsstrålningen</synt-example>
+		<synt-example>sjöns ~a fauna</synt-example>
+		<synt-example>~t källvatten</synt-example>
+		<synt-example>klippan bildade en ~ länstol</synt-example>
+		<synt-example>människans ~a förutsättningar för tal</synt-example>
+		<synt-example>en ~t uppkommen kreatursras (adv.)</synt-example>
+		<synt-example>uppvisa ett ~t rörelsemönster</synt-example>
+	<cycle id="naturlig_1_1_a">
+		<trans>ofta om skeenden</trans>
+		<synt-example>~ befruktning</synt-example>
+		<synt-example>~ förlossning</synt-example>
+		<synt-example>~a ålderskrämpor</synt-example>
+		<synt-example>dö en ~ död</synt-example>
+		<synt-example>det ~a urvalet</synt-example>
+	</cycle>
+	<cycle id="naturlig_1_1_b">
+		<trans>äv. allmännare</trans>
+		<synt-example>det finns säkert en ~ förklaring till att hon inte är hemma</synt-example>
+		<synt-example>det är inte ~t att glömma en sådan sak</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="naturlig_1_2">
+		<definition>som framstår såsom självklar</definition>
+		<definition-ext>i förh. till de rådande omständigheterna; spec. om person el. företeelse som fyller viss funktion e. d.</definition-ext>
+		<synt-example>den ~e kandidaten till ordförandeposten</synt-example>
+		<synt-example>problemet får diskuteras i sitt ~a sammanhang</synt-example>
+		<synt-example>biblioteket har blivit den ~a samlingsplatsen</synt-example>
+		<synt-example>det borde vara ~t att skolan ger handikappade hjälp</synt-example>
+		<synt-example>en ~ följdfråga</synt-example>
+		<synt-example>av ~a skäl</synt-example>
+		<synt-example>~t nog ville hon gå hem (adv.)</synt-example>
+	<cycle id="naturlig_1_2_a">
+		<trans>äv.</trans>
+		<synt-example>musiken ingår som en ~ del i föreställningen</synt-example>
+		<synt-example>känna en ~ gemenskap</synt-example>
+		<synt-example>han har en ~ auktoritet</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="naturlig_1_3">
+		<definition>fri från konstlade spärrar och hämningar</definition>
+		<definition-ext>om person el. beteende</definition-ext>
+		<synt-example>han har svårt att vara ~ bland folk han inte känner</synt-example>
+		<synt-example>~a kontakter mellan människor</synt-example>
+		<synt-example>~ sensualism</synt-example>
+		<synt-example>~ nakenhet</synt-example>
+		<synt-example>skratta ~t (adv.)</synt-example>
+		<synt-example>umgås otvunget och ~t med sina vänner (adv.)</synt-example>
+	<cycle id="naturlig_1_3_a">
+		<trans>ibl. äv. negativt</trans>
+		<synt-example>NN:s ungar uppför sig lite väl ~t vid matbordet (adv.)</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="naturlig_1_4">
+		<definition>som är bestämd av naturens lagar</definition>
+		<synt-example>~ radioaktiv strålning</synt-example>
+		<synt-example>sjöns ~a fauna</synt-example>
+		<synt-example>vårt ~a rörelsemönster</synt-example>
+		<synt-example>~a vattentäkter</synt-example>
+		<synt-example>~a ålderskrämpor</synt-example>
+		<synt-example>människans ~a förutsättningar för tal</synt-example>
+		<synt-example>~ avgång</synt-example>
+		<synt-example>dö en ~ död</synt-example>
+		<synt-example>det ~a urvalet</synt-example>
+		<synt-example>~t källvatten</synt-example>
+	<cycle id="naturlig_1_4_a">
+		<trans>äv. om avbildning o. d.</trans>
+		<synt-example>i ~ storlek</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="öppen_1" form="öppen" pos="a" inflection="-et -na">
+	<lexeme id="öppen_1_1">
+		<definition>som är i ett läge som medger direkt kontakt med innanför eller bortanför liggande utrymme</definition>
+		<definition-ext>om anordning som är avsedd att kunna spärra kontakt el. tillträde, t. ex. dörr el. lucka</definition-ext>
+		<synt-example>sova för -et fönster</synt-example>
+		<synt-example>badrumsdörren stod ~ för att släppa ut ångorna</synt-example>
+		<synt-example>för att få med sig lasten var han tvungen att köra med bagageluckan ~</synt-example>
+		<synt-example>aktörerna fick applåder för ~ ridå</synt-example>
+	<cycle id="öppen_1_1_a">
+		<trans>äv. om lås e. d., ibl. underförstått</trans>
+		<synt-example>hänglåset var -et men inget var stulet</synt-example>
+		<synt-example>om jag inte är inne när du kommer så kliv bara på --- ytterdörren är ~</synt-example>
+	</cycle>
+	<cycle id="öppen_1_1_b">
+		<trans>äv. om motsvarande utrymme</trans>
+		<synt-example>hamnen brukar frysa vintertid men hålls ~ av isbrytare</synt-example>
+		<synt-example>frysen får stå ~ ett tag för att avfrostas</synt-example>
+		<synt-example>han brukar lämna bilen ~ så att han inte skall få den uppbruten av tjuvar</synt-example>
+		<synt-example>garderoberna var -na</synt-example>
+	</cycle>
+	<cycle id="öppen_1_1_c">
+		<trans>särsk. om kroppsdel etc. som kan vara i motsvarande tillstånd; ibl med symbolisk bibetydelse</trans>
+		<synt-example>han lyssnade till nyheten med ~ mun och tom blick</synt-example>
+		<synt-example>hon gnuggade sig i ögonen för att försöka hålla dem -na</synt-example>
+	</cycle>
+	<cycle id="öppen_1_1_d">
+		<trans>spec. om mål i bollspel; äv. underförstått</trans>
+		<synt-example>NN sköt utanför -et mål</synt-example>
+		<synt-example>svenskarna missade flera -na tillfällen</synt-example>
+	</cycle>
+	<cycle id="öppen_1_1_e">
+		<trans>äv. allmännare om ngt som kan karakteriseras med tanke på möjligheter till kontakt e.d.</trans>
+		<synt-example>efter vapenstilleståndet är gränsen åter ~</synt-example>
+		<synt-example>han fick avtjäna straffet på ~ anstalt</synt-example>
+	</cycle>
+	<cycle id="öppen_1_1_f">
+		<trans>äv. utvidgat om väg e.d. i fråga om avsaknad av hinder för passage, seende etc.</trans>
+		<synt-example>ett program som kallades "Öppen kanal"</synt-example>
+		<synt-example>de stod i kontakt med räddningsledningen via en ständigt ~ telefonlinje</synt-example>
+		<synt-example>isrännan hålls ~ hela vintern</synt-example>
+		<synt-example>en ~ vokal kallas så eftersom den uttalas med låg tungställning som föga hindrar luftströmmen</synt-example>
+		<synt-example>vid inseglingen bör man hela tiden hålla gapet mellan Flatholmen och Svartskär -et</synt-example>
+	</cycle>
+	<cycle id="öppen_1_1_g">
+		<trans>ofta bildligt i liknelser e. d.</trans>
+		<synt-example>motparten håller dörren ~ för fortsatta förhandlingar</synt-example>
+		<synt-example>ett gräl för ~ ridå</synt-example>
+		<synt-example>det gäller att hålla ögon och öron -na (för vad som händer)</synt-example>
+		<synt-example>det inte bara regnade --- himlens portar stod helt -na</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="öppen_1_2">
+		<definition>som ej bildar en sammanhållen eller obruten helhet</definition>
+		<definition-ext>om ngt som normalt el. ofta har en sluten form, ett hölje e. d.</definition-ext>
+		<synt-example>skjortan var ~ i halsen</synt-example>
+		<synt-example>boken låg ~ på skrivbordet</synt-example>
+		<synt-example>han slog till henne med ~ hand</synt-example>
+		<synt-example>hennes famn var ~ för honom</synt-example>
+		<synt-example>en kakelugn är mycket effektivare än en ~ spis</synt-example>
+		<synt-example>vattnet avleds genom ett -et dike</synt-example>
+	<cycle id="öppen_1_2_a">
+		<trans>äv. om ohöljd del av ngt</trans>
+		<synt-example>lägga förband över ett -et sår</synt-example>
+	</cycle>
+	<cycle id="öppen_1_2_b">
+		<trans>äv. överfört i fråga om avsaknad av begränsning</trans>
+		<synt-example>i mängdläran skiljer man på slutna och -na mängder</synt-example>
+		<synt-example>ett -et intervall inkluderar inte sina ändpunkter</synt-example>
+		<synt-example>med en ~ stavelse menas en stavelse som slutar på vokal</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="öppen_1_3">
+		<definition>som ej innehåller ngt som hindrar överblick eller fria rörelser</definition>
+		<definition-ext>om utrymme, område etc.</definition-ext>
+		<synt-example>byggnadens centrum är en ~ hall med fönster högt under taket</synt-example>
+		<synt-example>de -na fjällvidderna</synt-example>
+		<synt-example>både skog och ~ terräng</synt-example>
+		<synt-example>han blev rånad på ~ gata</synt-example>
+		<synt-example>en ~ plats i staden</synt-example>
+		<synt-example>-na horisonter</synt-example>
+	<cycle id="öppen_1_3_a">
+		<trans>äv. mer abstrakt i fråga om känslo- el. tankemässig överblick e.d.</trans>
+		<synt-example>planlösningen gör ett -et intryck</synt-example>
+		<synt-example>ett ljust och -et musikstycke</synt-example>
+		<synt-example>hans skuld ligger i ~ dag</synt-example>
+		<synt-example>sova under ~ himmel</synt-example>
+		<synt-example>en trots allt ~ och leende värld</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="öppen_1_4">
+		<definition>som saknar skydd mot yttre påverkan</definition>
+		<definition-ext>särsk. mot naturkrafter e. d.</definition-ext>
+		<synt-example>de gav sig ut i en liten ~ båt</synt-example>
+		<synt-example>i vårt klimat passar -na bilar illa</synt-example>
+		<synt-example>huset ligger -et för alla vindar från västkanten</synt-example>
+		<synt-example>staden har ingen hamn, bara en ~ redd</synt-example>
+		<synt-example>det är skillnad på att segla i skärgården och att gå ut i ~ sjö</synt-example>
+	<cycle id="öppen_1_4_a">
+		<trans>spec. i fråga om avsaknad av skydd mot våld el. annat angrepp</trans>
+		<synt-example>den ena flygeln var starkt befäst men den andra låg helt ~</synt-example>
+		<synt-example>efter den våldsamma högersvingen var boxaren ~ för en vänsterkrok</synt-example>
+		<synt-example>han borde inte tagit upp det ämnet, ty där ligger hans tes ~ för motkritik</synt-example>
+	</cycle>
+	<cycle id="öppen_1_4_b">
+		<trans>äv. överfört i fråga om mottaglighet för själslig påverkan, mest med positiv bibetydelse</trans>
+		<synt-example>hon är ~ för nya intryck</synt-example>
+		<synt-example>en ~ attityd</synt-example>
+		<synt-example>jag är ~ för andra förslag till lösningar</synt-example>
+		<compound>öppenhet</compound>
+	</cycle>
+	<cycle id="öppen_1_4_c">
+		<trans>äv. med bibetydelse av uppriktighet</trans>
+		<synt-example>en ~ och ärlig natur</synt-example>
+		<synt-example>ett varmt och -et leende</synt-example>
+	</cycle>
+	<cycle id="öppen_1_4_d">
+		<trans>ibl. med omvänd inriktning</trans>
+		<synt-example>laga mat över ~ eld</synt-example>
+		<synt-example>en ~ låga skulle kunna vålla en explosion</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="öppen_1_5">
+		<definition>som utförs eller äger rum på ett (avsiktligt) tydligt sätt</definition>
+		<definition-ext>utan att döljas el. hemlighållas; om utsaga, åsiktsutbyte, motsättning el. annan handling som (direkt el. indirekt) omfattar flera parter</definition-ext>
+		<synt-example>vi måste ha en ~ debatt i frågan</synt-example>
+		<synt-example>en ~ redovisning av problemen</synt-example>
+		<synt-example>tvinga fram ett -et besked</synt-example>
+		<synt-example>detta innebär ett -et avståndstagande från den tidigare linjen</synt-example>
+		<synt-example>en ~ fientlighet</synt-example>
+		<synt-example>jag erkänner -et att misstag har begåtts (adv.)</synt-example>
+		<synt-example>svara mig nu -et vad du anser! (adv.)</synt-example>
+	<cycle id="öppen_1_5_a">
+		<trans>ibl. utvidgat om förhållanden som karakteriseras av detta</trans>
+		<synt-example>i landet rådde tidigare en ~ och demokratisk atmosfär</synt-example>
+	</cycle>
+	<cycle id="öppen_1_5_b">
+		<trans>äv. allmännare</trans>
+		<synt-example>det rör sig om ~ aggression från stormaktens sida</synt-example>
+		<synt-example>hon visade sin kärlek -et (adv.)</synt-example>
+		<synt-example>hans motsträvighet övergick i -et trots</synt-example>
+		<synt-example>det gäller att bekämpa den -na prostitutionen</synt-example>
+	</cycle>
+	<cycle id="öppen_1_5_c">
+		<trans>äv. konkret</trans>
+		<synt-example>du kan inte visa dig -et här i staden (adv.)</synt-example>
+		<synt-example>han visade hur man kan spela hem kontraktet med -na kort</synt-example>
+		<synt-example>de bar sina vapen -et (adv.)</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="öppen_1_6">
+		<definition>direkt tillgänglig för användning eller utnyttjande</definition>
+		<definition-ext>vanl. för en större grupp personer; om inrättning e. d.</definition-ext>
+		<synt-example>butiken är ~ 9--18 på vardagar och 9--13 på lördagar</synt-example>
+		<synt-example>första dagen är mässan endast ~ för pressen</synt-example>
+		<synt-example>den mesta sjukvården sker på ~ klinik</synt-example>
+		<synt-example>med de nya reglerna försökte man åstadkomma ett universitet -et för alla kategorier</synt-example>
+		<synt-example>de bästa spelarna tävlar i ~ klass</synt-example>
+		<compound>öppethållande</compound>
+	<cycle id="öppen_1_6_a">
+		<trans>äv. utvidgat i fråga om tillgänglighet i tiden el. för viss (hög) grad av utnyttjande</trans>
+		<synt-example>en ~ fullmakt</synt-example>
+		<synt-example>tjänsten hålls ~ för NN</synt-example>
+		<synt-example>företaget har en ~ kredit hos banken</synt-example>
+		<synt-example>ett konto hålls -et för detta ändamål</synt-example>
+	</cycle>
+	<cycle id="öppen_1_6_b">
+		<trans>äv. allmännare för att ange valfrihet e. d.</trans>
+		<synt-example>det står dig -et att göra som du vill</synt-example>
+		<synt-example>regeringens dementi lämnar fältet -et för spekulationer</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="öppen_1_7">
+		<definition>som ej har avslutats eller fullbordats</definition>
+		<definition-ext>om skeende men äv.om tankegång e.d.</definition-ext>
+		<synt-example>vi måste tills vidare lämna frågan ~</synt-example>
+		<synt-example>saken får stå ~</synt-example>
+		<synt-example>här fordras en ~ stadsplanering i stället för detaljregleringar</synt-example>
+		<synt-example>Syd höll budgivningen ~ genom att bjuda 1 sang</synt-example>
+	<cycle id="öppen_1_7_a">
+		<trans>äv. om oförutsägbart resultat av skeende etc.</trans>
+		<synt-example>det tredje loppet på V-65 är helt -et --- vilken som helst av fem hästar kan vinna</synt-example>
+	</cycle>
+	<cycle id="öppen_1_7_b">
+		<trans>äv. utvidgat för att ange tänkbara i st. f. faktiska möjligheter e. d.</trans>
+		<synt-example>en dikt vars religiösa innebörd är ~</synt-example>
+		<synt-example>en ~ teaterföreställning som inte försöker tvinga på publiken en enda sanning</synt-example>
+		<synt-example>vi behöver en ~ bildkonst</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="bred_1" form="bred" pos="a" inflection="brett">
+	<lexeme id="bred_1_1">
+		<definition>som har stor utsträckning på tvären mot (tänkt) huvudriktning</definition>
+		<definition-ext>normalt i vågrätt läge</definition-ext>
+		<synt-example>en stor och ~ karl</synt-example>
+		<synt-example>en ~ gata kantad med träd</synt-example>
+		<synt-example>en duk med ~a spetsar</synt-example>
+		<synt-example>en ~ dubbelsäng</synt-example>
+		<synt-example>en kort och ~ näsa</synt-example>
+		<synt-example>~ över ändan</synt-example>
+		<synt-example>ett brett leende</synt-example>
+		<synt-example>hon stod med benen brett isär (adv.)</synt-example>
+	<cycle id="bred_1_1_a">
+		<trans>äv. neutralt</trans>
+		<synt-example>floden är två kilometer ~</synt-example>
+		<compound>milsbred</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="bred_1_2">
+		<definition>som omfattar en förhållandevis stor mängd (typer av) företeelser</definition>
+		<definition-ext>på visst område e. d.</definition-ext>
+		<synt-example>en ~ koalitionsregering</synt-example>
+		<synt-example>försöka hitta ~a lösningar</synt-example>
+		<synt-example>på ~ front</synt-example>
+		<synt-example>med ~ folklig förankring</synt-example>
+		<synt-example>ha ett brett register</synt-example>
+	</lexeme>
+	<lexeme id="bred_1_3">
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="flytta_1" form="flytta" pos="v" inflection="-ade -at">
+	<lexeme id="flytta_1_1">
+		<definition>föra till annan plats</definition>
+		<synt-example>~ flygeln till finrummet</synt-example>
+		<synt-example>~ ut samlingarna till etnografiska institutionen</synt-example>
+	<cycle id="flytta_1_1_a">
+		<trans>äv. refl.</trans>
+		<synt-example>~ på dig så att jag ser!</synt-example>
+	</cycle>
+	<cycle id="flytta_1_1_b">
+		<trans>äv. överfört, särsk. i skolsammanhang</trans>
+		<synt-example>-as upp till nästa klass</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="flytta_1_2">
+		<definition>byta bostad</definition>
+		<synt-example>~ in i den nybyggda villan</synt-example>
+		<synt-example>~ till Amerika</synt-example>
+		<synt-example>~ hemifrån</synt-example>
+		<synt-example>~ ihop med sin pojkvän</synt-example>
+		<compound>flyttbil</compound>
+		<compound>flyttkarl</compound>
+	<cycle id="flytta_1_2_a">
+		<trans>äv. allmännare</trans>
+		<synt-example>företaget -ar till nya lokaler</synt-example>
+	</cycle>
+	<cycle id="flytta_1_2_b">
+		<trans>spec.</trans>
+		<synt-example>fåglarna -ar söderut</synt-example>
+		<compound>flyttfågel</compound>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="gälla_1" form="gälla" pos="v" inflection="-de -t">
+	<lexeme id="gälla_1_1">
+		<definition>vara fråga om</definition>
+		<definition-ext>med avs. på ngt som anses viktigt e. d.</definition-ext>
+		<synt-example>hon var alltid på sin vakt när det -de hennes hälsa</synt-example>
+		<synt-example>springa som om det -de livet</synt-example>
+		<synt-example>vad -er saken?</synt-example>
+	<cycle id="gälla_1_1_a">
+		<trans>ibl. med bibetydelse av krav e. d.</trans>
+		<synt-example>nu är det allvar - nu -er det!</synt-example>
+		<synt-example>här -de det att handla snabbt</synt-example>
+		<synt-example>det -de att bli bäst</synt-example>
+	</cycle>
+	<cycle id="gälla_1_1_b">
+		<trans>äv. allmännare</trans>
+		<synt-example>hans senare studier kom att ~ hela människokroppen</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="gälla_1_2">
+		<definition>ha laglig eller allmänt erkänd giltighet för (viss part) i visst sammanhang</definition>
+		<definition-ext>om regel e.d., med avs. på angiven el. underförstådd part; ofta äv. med angivande av sammanhanget e.d.</definition-ext>
+		<synt-example>förordningen -er endast för skattskyldiga med F-skattesedel</synt-example>
+		<synt-example>körförbudet -er inte nyttotrafiken</synt-example>
+		<synt-example>biljetten -er i två månader</synt-example>
+		<synt-example>enligt -ande bestämmelser</synt-example>
+	<cycle id="gälla_1_2_a">
+		<trans>ibl. med avs. på organisation, system e.d. som baseras på ngt slags regler el. överenskommelser</trans>
+		<synt-example>efter 90 karensdagar -er kontant arbetsmarknadsstöd</synt-example>
+		<synt-example>den nya organisationen börjar ~ från halvårsskiftet</synt-example>
+	</cycle>
+	<cycle id="gälla_1_2_b">
+		<trans>äv. i fråga om icke-jur. förhållanden</trans>
+		<synt-example>sådana svepande omdömen -de kanske för traditionella könsroller</synt-example>
+		<synt-example>kritiken -er mest detaljer i uppsättningen</synt-example>
+	</cycle>
+	<cycle id="gälla_1_2_c">
+		<trans>äv. allmännare</trans>
+		<synt-example>nästa säsong spelar jag kanske utomlands men nu är det AIK som -er</synt-example>
+		<synt-example>i år är det pastellfärger som -er</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="gälla_1_3">
+		<definition>vara värd</definition>
+		<synt-example>silvermyntet -de för en daler kopparmynt</synt-example>
+	<cycle id="gälla_1_3_a">
+		<trans>äv. allmännare</trans>
+		<synt-example>hon -er för (att vara) operavärldens drottning</synt-example>
+		<synt-example>han vill ~ för Gud</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="gälla_1_4">
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="höra_1" form="höra" pos="v" inflection="-de -t, pres. hör">
+	<lexeme id="höra_1_1">
+		<definition>uppfatta (ljud) med sin hörsel (från ngn eller ngt)</definition>
+		<synt-example>en gud med så skarp hörsel att han kunde ~ gräset växa</synt-example>
+		<synt-example>han -de flygplanet långt innan han såg det</synt-example>
+		<synt-example>han -de grannen ropa något</synt-example>
+		<synt-example>hon -de steg i trappan</synt-example>
+		<synt-example>tala högre, jag hör dig inte</synt-example>
+	<cycle id="höra_1_1_a">
+		<trans>ofta enbart i fråga om ljudet</trans>
+		<synt-example>tala högre, det -s ingenting</synt-example>
+		<synt-example>han kommer från Skåne, det -s på dialekten</synt-example>
+	</cycle>
+	<cycle id="höra_1_1_b">
+		<trans>ibl. med inriktning på den information som ljudet ger</trans>
+		<synt-example>man hör genast att stycket är av Mozart</synt-example>
+	</cycle>
+	<cycle id="höra_1_1_c">
+		<trans>äv. i fråga om sinnet som sådant, med avs. på dess kvalitet</trans>
+		<synt-example>katten hör mycket bättre än människan</synt-example>
+		<synt-example>gamla farmor hör dåligt numera</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="höra_1_2">
+		<definition>inrikta sin hörsel (mot ngt) för att försöka utvinna information (ur detta)</definition>
+		<synt-example>jag har påpekat felet många gånger men det är aldrig någon som hör på</synt-example>
+		<synt-example>han satt och -de på ett föredrag i radion när hon kom hem</synt-example>
+		<synt-example>hör nu på vad jag säger!</synt-example>
+	<cycle id="höra_1_2_a">
+		<trans>äv. för att utvinna konstnärlig njutning e.d.</trans>
+		<synt-example>koppla av genom att ~ på en skiva klassisk musik</synt-example>
+		<synt-example>många ville ~ den berömda sångerskan</synt-example>
+	</cycle>
+	<cycle id="höra_1_2_b">
+		<trans>spec. i uttr. för att påkalla uppmärksamhet el. endast för att markera vikten av det man tänker säga</trans>
+		<synt-example>hör du du!</synt-example>
+		<synt-example>hör här!</synt-example>
+		<synt-example>nej hör nu!</synt-example>
+	</cycle>
+	<cycle id="höra_1_2_c">
+		<trans>ibl. med bibetydelse av välvillig inställning</trans>
+		<synt-example>Herre hör vår bön!</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="höra_1_3">
+		<definition>få kännedom om (vissa fakta, synpunkter eller liknande) genom att uppfatta (visst) språkligt meddelande (från ngn eller ngt)</definition>
+		<definition-ext>ofta med hörseln men äv. på annat sätt el. mer obestämt</definition-ext>
+		<synt-example>man får ~ mycket skvaller om honom nu för tiden</synt-example>
+		<synt-example>har du -t vad han tycker om detta?</synt-example>
+		<synt-example>jag hade inte -t något om saken förrän jag såg dagens tidning</synt-example>
+		<synt-example>jag -de att han har kommit tillbaka</synt-example>
+		<synt-example>han har -t sägas...</synt-example>
+		<synt-example>honom hade de aldrig -t talas om</synt-example>
+	<cycle id="höra_1_3_a">
+		<trans>äv. med (omvänd) tonvikt på (det språkliga) uttrycket</trans>
+		<synt-example>jag är trött på att ständigt ~ ekonomisk jargong</synt-example>
+		<synt-example>en historia som han hade fått ~ av en kompis</synt-example>
+		<synt-example>vad ville du säga? Låt mig ~!</synt-example>
+		<synt-example>måste du nödvändigt ~ det igen?</synt-example>
+		<synt-example>hon hade aldrig fått känna sig uppskattad och ~ berömmande ord</synt-example>
+		<synt-example>det är inte roligt att få ~ frågan "vad skall detta vara bra för?"</synt-example>
+	</cycle>
+	<cycle id="höra_1_3_b">
+		<trans>äv. med avs. på person el. likn. källa</trans>
+		<synt-example>man hör flera röster som anklagar honom för korruption</synt-example>
+		<synt-example>jag har aldrig -t honom tala om sin familj</synt-example>
+		<synt-example>i radion kunde man ~ en tjänsteman konstatera att ...</synt-example>
+		<synt-example>hon ville ~ honom säga det högt</synt-example>
+	</cycle>
+	<cycle id="höra_1_3_c">
+		<trans>äv. försvagat i vissa anv.</trans>
+		<synt-example>de har inte -t av henne på flera månader</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="höra_1_4">
+		<definition>skaffa sig information om</definition>
+		<definition-ext>vissa fakta; genom förfrågningar e.d.</definition-ext>
+		<synt-example>ring informationen och hör om det finns biljetter</synt-example>
+		<synt-example>gå och hör efter om tåget har kommit</synt-example>
+	<cycle id="höra_1_4_a">
+		<trans>äv. med avs. på person</trans>
+		<synt-example> polisen kommer att ~ vittnet</synt-example>
+		<synt-example>läraren -de dem på läxan</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="höra_1_5">
+		<definition>ingå i eller lämpligen räknas till</definition>
+		<definition-ext>visst (större) sammanhang</definition-ext>
+		<synt-example>det hör inte till saken!</synt-example>
+		<synt-example>till historien hör att han hade glömt nyckeln</synt-example>
+		<synt-example>de livsformer till vilka bakterierna hör</synt-example>
+		<synt-example>jag hör till dem som inte hade någon trygg barndom</synt-example>
+		<synt-example>NN:s roman hör till denna senare kategori</synt-example>
+		<synt-example>en idrottsman som hör till de sju bästa i världen</synt-example>
+		<synt-example>till bilden hör även följande ...</synt-example>
+		<synt-example>urnan hör till museets samlingar</synt-example>
+		<synt-example>matematiken hör till de naturvetenskapliga ämnena</synt-example>
+	<cycle id="höra_1_5_a">
+		<trans>äv. med sammanhanget underförstått</trans>
+		<synt-example>det hör till att man ringer och tackar för senast</synt-example>
+	</cycle>
+	<cycle id="höra_1_5_b">
+		<trans>äv. försvagat</trans>
+		<synt-example>myndigheter som hör till försvarsdepartementet</synt-example>
+		<synt-example>myskoxen hör till den arktiska tundran</synt-example>
+	</cycle>
+	<cycle id="höra_1_5_c">
+		<trans>ibl. i fråga om mer el. mindre formellt ägande</trans>
+		<synt-example>en stor del av Nordsjöns oljetillgångar hör till Norge</synt-example>
+	</cycle>
+	<cycle id="höra_1_5_d">
+		<trans>äv. ömsesidigt</trans>
+		<synt-example>han kände att just de två -de ihop</synt-example>
+		<synt-example>de båda berättelserna hör ihop</synt-example>
+		<synt-example>bordet och stolen hör samman</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="följa_1" form="följa" pos="v" inflection="-de -t">
+	<lexeme id="följa_1_1">
+		<definition>förflytta sig efter (ngn eller ngt) i rörelsens riktning</definition>
+		<definition-ext>med avs. på ngn framförvarande varelse el. företeelse i rörelse; om person el. motsvarande, vanl i syfte att hinna i kapp, komma till samma plats etc. men äv. skaffa information e.d.</definition-ext>
+		<synt-example>NN gick före till krogen och vi -de honom en stund senare</synt-example>
+		<synt-example>det är en karl som hela tiden -er efter mig</synt-example>
+		<synt-example>följ den bilen</synt-example>
+		<synt-example>~ John</synt-example>
+		<synt-example>~ rymlingen i spåren</synt-example>
+	<cycle id="följa_1_1_a">
+		<trans>ofta i fråga om förflyttning som betraktas som mer el. mindre samtidig</trans>
+		<synt-example>hon övergav hem och barn för att ~ en romantisk främling</synt-example>
+		<synt-example>de andra löparna kunde inte ~ (med) i det hårda tempot</synt-example>
+		<synt-example>hon dansar väl och -er så bra</synt-example>
+		<synt-example>personalen erbjöds ~ med till den nya fabriken</synt-example>
+		<synt-example>kavaljeren fick bara ~ henne till porten</synt-example>
+		<synt-example>tonåringen ville inte ~ med familjen på semesterresan</synt-example>
+		<synt-example>jag -er dig till busshållplatsen</synt-example>
+	</cycle>
+	<cycle id="följa_1_1_b">
+		<trans>äv. med avs. på motsvarande bana e.d.</trans>
+		<synt-example>det föreslagna naturvårdsområdet skall huvudsakligen ~ kommungränsen</synt-example>
+		<synt-example>följ stigen</synt-example>
+		<synt-example>hundarna -de spåret i flera timmar</synt-example>
+		<synt-example>vägen -er älven ett gott stycke</synt-example>
+	</cycle>
+	<cycle id="följa_1_1_c">
+		<trans>äv. i fråga om skenbar egen förflyttning</trans>
+		<synt-example>~ ngn med blicken</synt-example>
+	</cycle>
+	<cycle id="följa_1_1_d">
+		<trans>äv. om föremål e.d. utan rörelseförmåga</trans>
+		<synt-example>musslan livnär sig på de partiklar som -er med andingsvattnet</synt-example>
+		<synt-example>med dagens tidning -er en bilaga</synt-example>
+		<synt-example>det fanns inte mycket att göra annat än att ~ med i jordskredet</synt-example>
+		<synt-example>alla ringarna runt magen -de med när han hoppade</synt-example>
+		<synt-example>skeppet -de sjögången väl</synt-example>
+	</cycle>
+	<cycle id="följa_1_1_e">
+		<trans>äv. för att ange ordning, utan ngn faktisk förflyttning</trans>
+		<synt-example>efter introduktionen i kapitel 1 -er ett kapitel om den historiska bakgrunden</synt-example>
+		<synt-example>nedan -er ett diagram </synt-example>
+		<synt-example>i nationstävlingen i vinter-OS leder Norge, -t av USA, Österrike och Ryssland</synt-example>
+		<compound>ordningsföljd</compound>
+	</cycle>
+	<cycle id="följa_1_1_f">
+		<trans>ofta överfört i fråga om (tänkt) abstrakt förflyttning efter ngn el. ngt som tänks röra sig</trans>
+		<synt-example>framställningen -er här Johannesevangeliets version</synt-example>
+		<synt-example>boken -er historien fram till våra dagar</synt-example>
+		<synt-example>jag kunde inte ~ hans resonemang</synt-example>
+	</cycle>
+	<cycle id="följa_1_1_g">
+		<trans>äv. överfört i fråga om ngn beledsagande (abstrakt) företeelse</trans>
+		<synt-example>ackompanjemanget -de skickligt melodistämman</synt-example>
+		<synt-example>temperaturen i djupare jordlager -er inte med i dygnsvariationerna</synt-example>
+		<synt-example>skulle släktens förbannelse ~ honom?</synt-example>
+	</cycle>
+	<cycle id="följa_1_1_h">
+		<trans>äv. överfört i fråga om abstrakt bana e.d.</trans>
+		<synt-example>dramatikens utveckling kom att ~ två olika linjer</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="följa_1_2">
+		<definition>fortlöpande försöka skaffa sig kunskap om</definition>
+		<definition-ext>visst (komplicerat) förlopp e.d., ibl. underförstått; vanl. under längre tid</definition-ext>
+		<synt-example>i TV-serien får vi ~ deras olyckliga kärlekssaga</synt-example>
+		<synt-example>om hon bara -de med på lektionerna skulle det gå bättre i skolan</synt-example>
+		<synt-example>~ med i den aktuella debatten</synt-example>
+		<synt-example>vi -er utvecklingen på arbetsmarknaden noga</synt-example>
+		<synt-example>det gäller att ~ svängningarna på börsen</synt-example>
+	<cycle id="följa_1_2_a">
+		<trans>äv. med avs. på person el. företeelse under utveckling</trans>
+		<synt-example>forskaren kan direkt ~ experimentet</synt-example>
+		<synt-example>en journalist som har -t NN under hela hans politiska karriär</synt-example>
+		<synt-example>i studien avser man att ~ två elevgrupper under tre år</synt-example>
+	</cycle>
+	<cycle id="följa_1_2_b">
+		<trans>äv. allmännare</trans>
+		<synt-example>hon älskar att ~ årstidernas växlingar i naturen</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="följa_1_3">
+		<definition>i sitt handlande rätta sig efter</definition>
+		<definition-ext>ngns mer el. mindre fastlagda vilja; särskilt med avs. på viss föreskrift e.d. i lag el. med likn. auktoritet men äv. allmännare med avs. på önskningar, råd etc.</definition-ext>
+		<synt-example>han -er bara bestämmelser som gynnar honom själv</synt-example>
+		<synt-example>läkaren -de inte landstingets regler för sjukjournaler</synt-example>
+		<synt-example>en religiös sekt som alltid -de Skriftens bud</synt-example>
+		<synt-example>han trodde sig ~ Guds vilja</synt-example>
+		<synt-example>~ lagens intentioner i stället för lagens bokstav</synt-example>
+	<cycle id="följa_1_3_a">
+		<trans>äv. med avs. på tongivande auktoritet e.d.</trans>
+		<synt-example>partiets kärntrupp -de alltid okritiskt sin ledare</synt-example>
+		<synt-example>teologen vägrade ~ Paulus på denna punkt</synt-example>
+	</cycle>
+	<cycle id="följa_1_3_b">
+		<trans>äv. ngt försvagat</trans>
+		<synt-example>i de flesta kortspel måste man ~ (utspelad) färg</synt-example>
+		<synt-example>han försökte ~ konventionerna men måste till slut ~ sin natur</synt-example>
+		<synt-example>läkaren ville att hon skulle fortsätta att ~ rehabiliteringsprogrammet</synt-example>
+		<synt-example>många hade svårt att ~ de detaljerade instruktionerna i datormanualen</synt-example>
+	</cycle>
+	<cycle id="följa_1_3_c">
+		<trans>äv. ännu allmännare med avs. på annans handling e.d.</trans>
+		<synt-example>efter torsdagens amerikanska räntehöjning väntas många centralbanker ~</synt-example>
+		<synt-example>jag -er hans exempel och går och lägger mig</synt-example>
+	</cycle>
+	<cycle id="följa_1_3_d">
+		<trans>äv. om abstrakt (föränderlig) företeelse</trans>
+		<synt-example>utvecklingen på området -er inte huvudregeln</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="följa_1_4">
+		<definition>inträffa vid nästa punkt eller avsnitt i tiden</definition>
+		<definition-ext>om händelse etc. i förh. till annan, angiven händelse el. tidpunkt</definition-ext>
+		<synt-example>en vecka i Florens -s av en vecka i Venedig</synt-example>
+		<synt-example>olyckorna -er slag i slag</synt-example>
+		<synt-example>fortsättning -er</synt-example>
+		<compound>tidsföljd</compound>
+	<cycle id="följa_1_4_a">
+		<trans>äv. om företeelse i förh. till annan sådan</trans>
+		<synt-example>experimenten var framgångsrika och flera, större, acceleratorer skulle ~</synt-example>
+	</cycle>
+	<cycle id="följa_1_4_b">
+		<trans>ibl. om person el. organisation i viss funktion</trans>
+		<synt-example>efter NN -de ON som ständig sekreterare</synt-example>
+		<synt-example>koalitionsregeringen -des av en ren vänsterregering</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="följa_1_5">
+		<definition>enligt tankelagarna rimligtvis uppkomma ur</definition>
+		<definition-ext>angivna förutsättningar, tidigare slutsatser etc.; om påstående, slutsats e.d.</definition-ext>
+		<synt-example>av spåren från nedisningarna -er att sydkontinenterna en gång hängt samman</synt-example>
+		<synt-example>av resonemanget -er att...</synt-example>
+		<synt-example>av det faktum att han har gjort fel -er inte att han bör avgå</synt-example>
+	<cycle id="följa_1_5_a">
+		<trans>äv. om faktisk förändring av sakförhållanden</trans>
+		<synt-example>en ökad mottaglighet för vissa sjukdomar tycks ~ av en högre hygienisk standard</synt-example>
+		<synt-example>enligt ekonomen skulle ett bättre utnyttjande av resurserna ~ av en fri hyresmarknad</synt-example>
+		<compound>följd</compound>
+	</cycle>
+	<cycle id="följa_1_5_b">
+		<trans>äv. i fråga om svagare orsakssamband</trans>
+		<synt-example>med romantikens svärmeri -er misstro mot rationalism</synt-example>
+		<synt-example>den osäkerhet som -er med omvälvningar</synt-example>
+	</cycle>
+	<cycle id="följa_1_5_c">
+		<trans>ibl. i jur. sammanhang med avs. på beslut av domstol, myndighet e.d. (ofta underförstådd)</trans>
+		<synt-example>den skattskyldighet som kan ~ enligt paragraf 31</synt-example>
+		<synt-example>brott varå fängelse kan ~</synt-example>
+		<compound>påföljd</compound>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="spela_1" form="spela" pos="v" inflection="-ade äv. -te, -at äv. -t">
+	<lexeme id="spela_1_1">
+		<definition>med (visst) instrument bilda toner som ingår i (visst stycke) musik (av viss typ)</definition>
+		<definition-ext>om person el. grupp; med avs. på musikstycket, musikstilen, sättet, sammanhanget etc. samt äv. instrumentet; äv. absolut</definition-ext>
+		<synt-example>hon -ar i ett rockband</synt-example>
+		<synt-example>till dansen -ar en levande orkester</synt-example>
+		<synt-example>du kan väl ~ lite (piano) för mig!</synt-example>
+		<synt-example>~ Bach på orgel</synt-example>
+		<synt-example>han har -at med många framstående musiker</synt-example>
+		<synt-example>före paus -ade orkestern barock</synt-example>
+		<synt-example>solen sken, flaggorna fladdrade och blåsorkestern -ade</synt-example>
+		<synt-example>hon -ade Gärdebylåten på dragspel</synt-example>
+		<synt-example>ragtimelåtar -as gärna på spikpiano</synt-example>
+		<synt-example>äkta folkmusik -as inte efter noter</synt-example>
+		<synt-example>cellisten -ade med inlevelse</synt-example>
+		<compound>spelman</compound>
+		<compound>spelglädje</compound>
+	<cycle id="spela_1_1_a">
+		<trans>äv. med specificering i komplement</trans>
+		<synt-example>hon -ade blockflöjt på skolavslutningen</synt-example>
+		<synt-example>alla deras barn fick lära sig ~</synt-example>
+		<synt-example>han -ar lite gitarr till husbehov</synt-example>
+		<synt-example>hon -ar fiol och piano</synt-example>
+	</cycle>
+	<cycle id="spela_1_1_b">
+		<trans>äv. mer indirekt</trans>
+		<synt-example>speldosan kunde bara ~ de sista takterna av O sole mio</synt-example>
+		<synt-example>ett radioprogram i vilket NN -ar skivor till kaffet</synt-example>
+		<synt-example>de -ar mycket klassiskt på radion</synt-example>
+		<synt-example>radion -ade Rolling Stones</synt-example>
+		<synt-example>~ grammofon</synt-example>
+	</cycle>
+	<cycle id="spela_1_1_c">
+		<trans>ibl. spec. i fråga om viss fågelsång</trans>
+		<synt-example>orren -ar</synt-example>
+	</cycle>
+	<cycle id="spela_1_1_d">
+		<trans>äv. bildligt i liknelser o.d., mest för att uppnå viss känslomässig effekt</trans>
+		<synt-example>han försökte beveka henne genom att ~ på känslosträngar</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="spela_1_2">
+		<definition>genom att bete sig på visst sätt skapa konstnärligt uttryck för</definition>
+		<definition-ext>viss roll i teaterpjäs, film e.d.; om person, ibl. i förhållande till annan roll i pjäsen</definition-ext>
+		<synt-example>han -ade Hamlet i en berömd uppsättning av pjäsen</synt-example>
+		<synt-example>de -ade i samma film</synt-example>
+		<synt-example>hon älskade att ~ teater</synt-example>
+		<synt-example>han ville helst ~ hjältens roll</synt-example>
+		<synt-example>hon skall ~ huvudrollen</synt-example>
+		<synt-example>hon -ade mot NN i "En förtjusande fröken"</synt-example>
+		<compound>spelkväll</compound>
+		<compound>spelår</compound>
+	<cycle id="spela_1_2_a">
+		<trans>äv. om (grupp av) skådespelare med avs. på hel pjäs, hel scen därav e.d.</trans>
+		<synt-example>han inte bara berättade, han -ade upp en hel liten scen från den misslyckade utflykten</synt-example>
+		<synt-example>förstaårseleverna visar upp sig genom att ~ några avsnitt av Ibsen för att öva sig i att ~ för publik</synt-example>
+		<synt-example>gruppen -ade ett stycke av Strindberg</synt-example>
+		<synt-example>under hösten -ar teatern "Måsen"</synt-example>
+	</cycle>
+	<cycle id="spela_1_2_b">
+		<trans>ibl. mer indirekt om teater e.d.</trans>
+		<synt-example>stadsteatern -ar Ibsens Gengångare</synt-example>
+	</cycle>
+	<cycle id="spela_1_2_c">
+		<trans>äv. med tonvikt på sättet och effekten, ibl. med avs. på utnyttjandet av viss egenskap</trans>
+		<synt-example>NN -ar över kraftigt i skurkrollen med sina vilda grimaser och häftiga åtbörder</synt-example>
+		<synt-example>han -ar den svåra rollen med små medel</synt-example>
+		<synt-example>hon -ar egentligen inte så bra i rollen men kan ~ på sin charm</synt-example>
+		<synt-example>hon -ar alltid på sitt utseende</synt-example>
+		<synt-example>i denna roll kan NN ~ ut hela sin starka personlighet</synt-example>
+	</cycle>
+	<cycle id="spela_1_2_d">
+		<trans>äv. utvidgat</trans>
+		<synt-example>måste han alltid ~ beskyddare?</synt-example>
+		<synt-example>i många år -ade han rollen som nyförälskad äkta man</synt-example>
+		<synt-example>han ska alltid ~ apa</synt-example>
+		<synt-example>han försökte ~ herreman</synt-example>
+	</cycle>
+	<cycle id="spela_1_2_e">
+		<trans>särsk. för att framställa sig själv i visst (lämpligt) perspektiv, ofta med mer el. mindre klandervärt syfte</trans>
+		<synt-example>han klarade sig från björnen genom att ~ död</synt-example>
+		<synt-example>hon vinner fördelar genom att ~ på sin kvinnlighet</synt-example>
+		<synt-example>han -ar alltid tuff och hänsynslös och många låter sig skrämmas</synt-example>
+		<synt-example>hon tog emot priset med -ad blygsamhet</synt-example>
+		<synt-example>med -ad gråt</synt-example>
+	</cycle>
+	<cycle id="spela_1_2_f">
+		<trans>ofta överfört (ngt försvagat) med avs. på (någorlunda framträdande el. urskiljbar) funktion i händelseförlopp e.d.</trans>
+		<synt-example>man vet ännu inte hur mycket växthuseffekten -ar in</synt-example>
+		<synt-example>på sammanträden -ar hon alltid en oppositionell roll</synt-example>
+		<synt-example>staden -ar sin främsta roll som utskeppningshamn för skogsprodukter</synt-example>
+		<synt-example>denna ideologi har -at ut sin roll i samhällsdebatten</synt-example>
+		<synt-example>ekonomerna dominerar företagen medan teknikerna -ar undanskymda roller</synt-example>
+		<synt-example>torghandeln har en roll att ~ för konkurrensen</synt-example>
+		<synt-example>myndigheten kommer att ~ en aktiv roll i kampen mot arbetslösheten</synt-example>
+		<synt-example>partiet -ade enbart rollen av hjälptrupp till regeringen</synt-example>
+		<synt-example>lärargruppen fick ~ huvudrollen i löneförhandlingarna</synt-example>
+		<synt-example>med sin sakkunskap -ade hon en viktig roll i förhandlingarna</synt-example>
+	</cycle>
+	<cycle id="spela_1_2_g">
+		<trans>äv. ytterligare försvagat i negativa sammanhang</trans>
+		<synt-example>skall det verkligen ~ någon roll?</synt-example>
+		<synt-example>det -ade ingen roll för honom vad folk tyckte</synt-example>
+		<synt-example>det -ar inte så stor roll om saken kommer ut</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="spela_1_3">
+		<definition>framföras för publik</definition>
+		<definition-ext>om pjäs, film e.d.</definition-ext>
+		<synt-example>Ibsens Gengångare -ar på statsteatern</synt-example>
+	<cycle id="spela_1_3_a">
+		<trans>ibl. med avs. på ekonomiskt resultat</trans>
+		<synt-example>skräckfilmen har nu -at in 30 miljoner på två veckor</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="spela_1_4">
+		<definition>tävla (mot ngn eller mot varandra) genom att hantera pjäser, kort eller andra symboler enligt reglerna i (visst) spel</definition>
+		<definition-ext>med specificering (i komplementet) av spelet och/el. med avs. på motståndare, insats, sammanhang e.d.</definition-ext>
+		<synt-example>~ krona eller klave om saken</synt-example>
+		<synt-example>jag gillar inte att ~ hasard</synt-example>
+		<synt-example>man kan inte ~ med honom ty han är så dålig förlorare</synt-example>
+		<synt-example>hur stor insats -ar vi med?</synt-example>
+		<synt-example>ett gäng som brukade ~ poker om mycket pengar en gång i veckan</synt-example>
+		<synt-example>hela familjen -ade Monopol</synt-example>
+		<synt-example>Pelle -ar schack med Lisa</synt-example>
+		<synt-example>barnen -ar fia</synt-example>
+		<synt-example>i bridge -ar två par spelare mot varandra</synt-example>
+		<synt-example>~ tärning</synt-example>
+		<compound>spelbräde</compound>
+		<compound>spelprotokoll</compound>
+		<compound>spelöppning</compound>
+	<cycle id="spela_1_4_a">
+		<trans>ibl. i fråga om tävling utan egentlig motståndare</trans>
+		<synt-example>föräldrarna tyckte att pojken borde vara ute och leka med andra i stället för att sitta på sitt rum och ~ dataspel</synt-example>
+	</cycle>
+	<cycle id="spela_1_4_b">
+		<trans>ofta med tonvikt på den direkta hanteringen av tillbehören, på taktik etc.</trans>
+		<synt-example>jag brukar slå honom i schack men i dag -ade han ut mig totalt</synt-example>
+		<synt-example>antingen -ar Pelle falskt eller har han en fantastisk tur</synt-example>
+		<synt-example>om man -ar strikt enligt reglerna måste man flytta rörd pjäs</synt-example>
+		<synt-example>NN -ar alltid mycket försiktigt</synt-example>
+		<synt-example>vit -ade på att utnyttja svarts svagheter på damflygeln</synt-example>
+		<synt-example>om väst -ar ut spaderkungen blir det straff i kontraktet</synt-example>
+		<synt-example>hon -ade överraskande damen till f4</synt-example>
+		<synt-example>han lyckades ~ hem tre sang på en svag hand</synt-example>
+	</cycle>
+	<cycle id="spela_1_4_c">
+		<trans>ofta äv. i fråga om mer slumpbetonade spel, gärna i stor skala; med tonvikt på chans att vinna pengar (el. risk att förlora dem)</trans>
+		<synt-example>han har -at bort en smärre förmögenhet på börsen</synt-example>
+		<synt-example>numera -ar jag bara på stryktipset</synt-example>
+		<synt-example>~ roulette i Monte Carlo</synt-example>
+		<synt-example>jag vågar inte ~ med så dåliga odds</synt-example>
+		<synt-example>Pelle -ar högt men vinner i allmänhet</synt-example>
+		<synt-example>~ på Solvalla</synt-example>
+		<synt-example>~ på lotteri</synt-example>
+		<compound>spelgalen</compound>
+		<compound>spelskuld</compound>
+	</cycle>
+	<cycle id="spela_1_4_d">
+		<trans>äv. bildligt om (mer el. mindre dramatiska) händelseförlopp som liknas vid spel, särsk. kortspel</trans>
+		<synt-example>det finns en rörlig lönedel på 8% som man kan ~ med i avtalsrörelsen</synt-example>
+		<synt-example>ministern valde att inte ~ ut alla trumfkort i förhandlingarna</synt-example>
+	</cycle>
+	<cycle id="spela_1_4_e">
+		<trans>äv. överfört i fråga om annan verksamhet som betraktas som slumpberoende och riskfylld</trans>
+		<synt-example>regeringen -ar ett högt spel i kärnkraftsfrågan</synt-example>
+		<synt-example>~ hasard med sina friheter</synt-example>
+		<synt-example>kaparna -ade med livet som insats</synt-example>
+	</cycle>
+	<cycle id="spela_1_4_f">
+		<trans>äv. överfört i fråga om handlande som betraktas som styrt av (sociala) regler e.d.</trans>
+		<synt-example>hon gillade inte stilen i tjejgänget men var tvungen att ~ med</synt-example>
+		<synt-example> svärdottern fick ~ efter familjens regler</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="spela_1_5">
+		<definition>tävla (mot ngn) genom att försöka driva fram boll (eller liknande) enligt regler i (visst) spel</definition>
+		<definition-ext>med specificering (i komplement) av spelet och/el. med avs. på motståndare, andra deltagare (i visst lag e.d.), (viss) organiserad tävling, (visst) sammanhang e.d.</definition-ext>
+		<synt-example>det är jobbigt att ~ (tennis) mot Pelle ty han ger aldrig upp en boll</synt-example>
+		<synt-example>jag har aldrig haft bollsinne men jag -ar lite golf</synt-example>
+		<synt-example>NN -ar för en annan klubb i år</synt-example>
+		<synt-example>har du lust att ~ badminton med mig på lördag?</synt-example>
+		<synt-example>han har -at med den legendariske NN</synt-example>
+		<synt-example>på landet -ade vi krocket nästan varenda dag</synt-example>
+		<synt-example>jag lägger mig tidigt för jag -ar match i morgon</synt-example>
+		<synt-example>vi -ar klubbmästerskap nästa helg</synt-example>
+		<synt-example>spola planen så att ungarna kan ~ ishockey</synt-example>
+		<synt-example>skolbarnen -ade fotboll på gården</synt-example>
+		<synt-example>han blev petad och fick ~ i B-laget</synt-example>
+	<cycle id="spela_1_5_a">
+		<trans>äv. med avs. på särsk. funktion i laget</trans>
+		<synt-example>han har alltid -at mittfältare men skulle göra sig bättre om han fick ~ ytterback</synt-example>
+		<synt-example>~ center</synt-example>
+	</cycle>
+	<cycle id="spela_1_5_b">
+		<trans>äv. om lag e. d., särsk. med avs. på resultatet el. tävlingen</trans>
+		<synt-example>motståndarna -ade ut oss fullständigt</synt-example>
+		<synt-example>laget är inte moget att ~ i allsvenskan</synt-example>
+		<synt-example>IFK måste ~ hem minst tolv poäng på de avslutande omgångarna</synt-example>
+		<synt-example>nästa vecka -ar laget först semifinal i cupen och sedan en viktig match i serietoppen</synt-example>
+		<synt-example>nästa match -as borta</synt-example>
+		<synt-example>hemmalaget -ade oavgjort</synt-example>
+	</cycle>
+	<cycle id="spela_1_5_c">
+		<trans>äv. med avs. på sätt, taktik etc.; om person el. lag</trans>
+		<synt-example>vi försöker ~ vårt eget spel</synt-example>
+		<synt-example>landslaget måste ~ mera på kanterna</synt-example>
+		<synt-example>laget -ar disciplinerat men tråkigt</synt-example>
+		<synt-example>Pelle -ar mycket hårt</synt-example>
+		<compound>spelstil</compound>
+	</cycle>
+	<cycle id="spela_1_5_d">
+		<trans>äv. med avs. på boll (e.d.), ibl. underförstådd</trans>
+		<synt-example>man skall inte ~ rätt på lagkamraten utan ~ till en fri yta</synt-example>
+		<synt-example>~ bollen till motståndaren</synt-example>
+		<synt-example>~ fram pucken</synt-example>
+		<synt-example>~ på mål</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="spela_1_6">
+		<definition>vara i rörelse fram och tillbaka</definition>
+		<definition-ext>på ett livligt sätt; om synlig företeelse</definition-ext>
+		<synt-example>solljuset -ade i lövverket</synt-example>
+		<synt-example>ryggens -ande muskler</synt-example>
+		<synt-example>en livlig flicka med -ande ögon</synt-example>
+		<synt-example>hennes blick -ade över tavlan</synt-example>
+	<cycle id="spela_1_6_a">
+		<trans>äv. i fråga om annan regelbunden, synlig rörelse, äv. delvis med tanke på motsvarande ljud</trans>
+		<synt-example>fåglarna sjöng, humlorna surrade och fontänen -ade</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="betyda_1" form="betyda" pos="v" inflection="-tydde -tytt">
+	<lexeme id="betyda_1_1">
+		<definition>ha såsom sitt tankemässiga innehåll</definition>
+		<definition-ext>enligt allmänt bruk, lexikon etc.; om språkl. uttr.</definition-ext>
+		<synt-example>slå upp ett ord för att ta reda på vad det -tyder</synt-example>
+		<synt-example>han kom bara med en massa vackra ord som ingenting -tyder</synt-example>
+		<synt-example>samma ord kan ~ flera olika saker</synt-example>
+		<synt-example>vad -tyder egentligen "differentialkalkyl"?</synt-example>
+		<synt-example>engelska "that" -tyder både 'att' och 'som'</synt-example>
+	<cycle id="betyda_1_1_a">
+		<trans>äv. utvidgat om icke-språkligt tecken med konventionellt innehåll</trans>
+		<synt-example>vit flagg har alltid -tytt parlamentär</synt-example>
+		<synt-example>ett runt gult märke med röd kant -tyder förbjudet för fordonstrafik</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="betyda_1_2">
+		<definition>till sitt innehåll motsvara</definition>
+		<definition-ext>viss närmare beskrivning, enligt ngn logisk tolkning; om föreliggande faktum e.d.</definition-ext>
+		<synt-example>hans plötsliga vänlighet -tyder nog att han vill utnyttja mig till något</synt-example>
+		<synt-example>segertiden -tyder en genomsnittlig hastighet på 53 km/h</synt-example>
+		<synt-example>30% höjning av basbeloppet -tyder ett bidrag på 700 kr</synt-example>
+		<synt-example>uppgifterna behöver inte ~ att staden grundlades så tidigt</synt-example>
+		<synt-example>allemansrätten -tyder inte att man får lov att tälta var som helst</synt-example>
+	<cycle id="betyda_1_2_a">
+		<trans>äv. utvidgat med avs. på förmodad verkan e.d.</trans>
+		<synt-example>blodcirkulationen ökar vilket -tyder snabbare ämnesomsättning </synt-example>
+		<synt-example>ett utökat daghemsbyggande -tyder stora kostnader för kommunen</synt-example>
+		<synt-example>konkursen -tyder att tvåhundra man blir arbetslösa</synt-example>
+		<synt-example>krisprogrammet -tyder höjda matpriser</synt-example>
+	</cycle>
+	<cycle id="betyda_1_2_b">
+		<trans>ibl. mycket förkortat i fråga om ngt slags motsvarighet</trans>
+		<synt-example>detta -tyder krig!</synt-example>
+		<synt-example>pengar -tyder makt</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="betyda_1_3">
+		<definition>ge skäl att förmoda</definition>
+		<definition-ext>att angivet sakläge föreligger, angiven företeelse uppträder etc.; om mer el. mindre naturligt, konkret tecken</definition-ext>
+		<synt-example>rök -tyder inte alltid eld</synt-example>
+		<synt-example>rädslan för att ett enda symptom skall ~ cancer</synt-example>
+	<cycle id="betyda_1_3_a">
+		<trans>ibl. utvidgat om (föregivna) tecken av mer el. mindre magisk karaktär; särsk. för förutsägelser om framtiden</trans>
+		<synt-example>att gå under en stege -tyder otur</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="betyda_1_4">
+		<definition>vara av (viss) vikt i sammanhanget</definition>
+		<definition-ext>för viss person, part etc.; i allmänhet el. i ngt angivet el. antytt avseende</definition-ext>
+		<synt-example>skandalen -tydde mindre än man kunde tro för politikerns framtid</synt-example>
+		<synt-example>NNs frånvaro från planeringsmötet -tyder inte så mycket</synt-example>
+		<synt-example>begåvning -tyder inte så mycket som armbågar (i karriären)</synt-example>
+		<synt-example>du -tyder allt för mig</synt-example>
+		<synt-example>en person som verkligen -tyder något här i staden</synt-example>
+		<compound>betydande</compound>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="öka_1" form="öka" pos="v" inflection="-ade -at">
+	<lexeme id="öka_1_1">
+		<definition>bli större</definition>
+		<definition-ext>i antal el. omfattning; ofta med angivande av tal, procent e.d.</definition-ext>
+		<synt-example>arbetslösheten beräknas ~ (till över 9%) under året</synt-example>
+		<synt-example>budgetunderskottet -ar med ytterligare fem miljarder</synt-example>
+		<synt-example>det väntas -ande sydvästlig vind</synt-example>
+		<synt-example>den internationella spänningen har -at</synt-example>
+		<synt-example>frågan har -at i betydelse</synt-example>
+	</lexeme>
+	<lexeme id="öka_1_2">
+		<definition>göra större</definition>
+		<definition-ext>i antal el. omfattning; ibl. med angivande av tal, procent e.d.</definition-ext>
+		<synt-example>företaget ämnar ~ arbetsstyrkan med 300 man</synt-example>
+		<synt-example>ett -at byggande är nödvändigt för att häva bostadsbristen</synt-example>
+		<synt-example>samhället måste ~ insatserna mot ungdomsbrottsligheten</synt-example>
+	<cycle id="öka_1_2_a">
+		<trans>äv. i absolut anv., med underförstått föremål för förändringen</trans>
+		<synt-example>NN -ade (lagets ledning) till 6-0</synt-example>
+		<synt-example>i sista uppförsbacken -ade NN (farten) och drog ifrån medtävlarna</synt-example>
+	</cycle>
+	<cycle id="öka_1_2_b">
+		<trans>äv. ngt utvidgat</trans>
+		<synt-example>NN -ade på (lagets ledning) till 6-0</synt-example>
+		<synt-example>hon ville ~ på sina kunskaper med en extra kurs</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="vänta_1" form="vänta" pos="v" inflection="-ade -at">
+	<lexeme id="vänta_1_1">
+		<definition>hålla sig i beredskap för (ngt eller ngn) genom att avstå från att själv handla</definition>
+		<definition-ext>i visst avseende, särsk. genom att avstå från att förflytta sig men äv. allmännare; med avs. på viss utveckling, viss händelse, viss annan parts (underförstådda) handling etc.</definition-ext>
+		<synt-example>~ på att bli expedierad</synt-example>
+		<synt-example>det är bättre att ~ ut honom än att ta något initiativ just nu</synt-example>
+		<synt-example>~ på att det skall sluta regna</synt-example>
+		<synt-example>låt oss ~ och se (vad som händer)</synt-example>
+		<synt-example>hon -ade på att vattnet skulle koka upp</synt-example>
+		<synt-example>nu har vi -at tillräckligt länge på honom</synt-example>
+		<synt-example>~ på spårvagnen</synt-example>
+		<synt-example>hon vågar ~ in publikens reaktioner</synt-example>
+		<compound>väntbrygga</compound>
+		<compound>väntetid</compound>
+		<compound>väntsal</compound>
+		<compound>invänta</compound>
+	<cycle id="vänta_1_1_a">
+		<trans>äv. med avs. på viss tidpunkt el. tidsperiod, ofta i fråga om underförstådd handling</trans>
+		<synt-example>kan du ~ medan jag ringer ett samtal?</synt-example>
+		<synt-example>jag tycker vi -ar tills i morgon</synt-example>
+		<synt-example>~ en stund</synt-example>
+	</cycle>
+	<cycle id="vänta_1_1_b">
+		<trans>äv. med tonvikt på tidsförlust e.d.</trans>
+		<synt-example>det är oförskämt att låta folk ~ på det sättet</synt-example>
+		<synt-example>här har jag fått sitta och ~ i timmar</synt-example>
+	</cycle>
+	<cycle id="vänta_1_1_c">
+		<trans>ibl. med bibetydelse av fara e.d.</trans>
+		<synt-example>han anade att fienden -ade där ute i mörkret</synt-example>
+	</cycle>
+	<cycle id="vänta_1_1_d">
+		<trans>äv. ngt utvidgat, med avs. på eget handlande</trans>
+		<synt-example>de -ade med (att skaffa) barn tills de var klara med studierna</synt-example>
+		<synt-example>vi -ar med att binda lånet tills räntan har gått ned</synt-example>
+		<synt-example>~ med att låsa dörren</synt-example>
+		<synt-example>många försäljare är listiga nog att ~ med leveransen tills ångerveckan löpt ut</synt-example>
+	</cycle>
+	<cycle id="vänta_1_1_e">
+		<trans>ibl. äv. överfört om företeelser som betraktas som varande i beredskap för ngt</trans>
+		<synt-example>sättpotatisen ligger färdig och -ar (på att komma i jorden)</synt-example>
+	</cycle>
+	<cycle id="vänta_1_1_f">
+		<trans>ibl. spec. som hot el. löfte, utan eg. innebörd av overksamhet</trans>
+		<synt-example>det har inte varit mycket hålligång på sista tiden men ~ tills de betalar ut tipsvinsten!</synt-example>
+		<synt-example>~ (du) bara tills jag får tag på dig (så skall du få!)</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="vänta_1_2">
+		<definition>komma att vara aktuell (för ngn) att (lämpligen eller nödvändigtvis) ägna sig åt</definition>
+		<definition-ext>vanl. i en nära framtid; om verksamhet, föremål el. redskap för denna etc.</definition-ext>
+		<synt-example>vi måste ta itu med problemen som -ar</synt-example>
+		<synt-example>sedan -ar träning på snö för skidtruppen</synt-example>
+		<synt-example>jag måste skynda mig för hushållsbestyren -ar där hemma</synt-example>
+	<cycle id="vänta_1_2_a">
+		<trans>äv. mer passivt</trans>
+		<synt-example>därefter -ade en middag på stadens bästa restaurang</synt-example>
+		<synt-example>nu -ar en ny säsong med många spännande utmaningar</synt-example>
+	</cycle>
+	<cycle id="vänta_1_2_b">
+		<trans>äv. (passivt)</trans>
+		<synt-example>domedagen -ar!</synt-example>
+		<synt-example>svåra prövningar -ar landets invånare</synt-example>
+	</cycle>
+	<cycle id="vänta_1_2_c">
+		<trans>ibl. med tonvikt på underlåtenhet tills vidare</trans>
+		<synt-example>nu måste jag koppla av - disken kan ~</synt-example>
+	</cycle>
+	<cycle id="vänta_1_2_d">
+		<trans>äv. ngt allmännare om företeelse</trans>
+		<synt-example>en lansering på den amerikanska marknaden -ar den nya bilmodellen</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="vänta_1_3">
+		<definition>(själv) förutse ett sannolikt inträffande av</definition>
+		<definition-ext>viss händelse, visst resultat etc.; i en obestämd framtid el vid viss (ofta angiven) tidpunkt</definition-ext>
+		<synt-example>resultatet blev bättre än vi -at (oss)</synt-example>
+		<synt-example>man kan nu ~ (sig) en klappjakt på oppositionella</synt-example>
+		<synt-example>NN stod, som man kunde ~ (sig), i centrum</synt-example>
+		<synt-example>regeringen kan ~ kritik för sitt beslut</synt-example>
+		<synt-example>stora prishöjningar -as till nyår</synt-example>
+		<synt-example>som -at blev det förlust i söndagens match</synt-example>
+		<synt-example>invånarantalet -as öka till det dubbla inom en trettioårsperiod</synt-example>
+		<compound>väntevärde</compound>
+	<cycle id="vänta_1_3_a">
+		<trans>särsk. med avs. på ankomst e.d.</trans>
+		<synt-example>barnet -ades i slutet av sommaren</synt-example>
+		<synt-example>tåget är försenat och -as kl 14.10</synt-example>
+		<synt-example>jag -ar honom vid elvatiden</synt-example>
+	</cycle>
+	<cycle id="vänta_1_3_b">
+		<trans>äv. med inriktning på ngn part som berörs av händelsen etc.</trans>
+		<synt-example>jag -ar mig inget stöd av honom</synt-example>
+		<synt-example>han hade inte -at sig en så dålig pension</synt-example>
+		<synt-example>vi -ar oss en god middag</synt-example>
+		<synt-example>hon -ar sig tacksamhet i gengäld</synt-example>
+	</cycle>
+	<cycle id="vänta_1_3_c">
+		<trans>ibl. om själva utvecklingen i sig</trans>
+		<synt-example>fler förändringar är att ~ inom den närmaste framtiden</synt-example>
+	</cycle>
+	<cycle id="vänta_1_3_d">
+		<trans>äv. med tonvikt på oundviklighet e.d.</trans>
+		<synt-example>flera av de inblandade har åtal att ~</synt-example>
+		<synt-example>regeringen har kritik att ~</synt-example>
+		<synt-example>han måtte väl veta vad han har att ~ (efter ett sådant misstag)</synt-example>
+	</cycle>
+	<cycle id="vänta_1_3_e">
+		<trans>äv. som ett slags hjälpverb för att ange sannolikhet för viss handling e.d.</trans>
+		<synt-example>bankdirektören -as överklaga domen</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="förklara_1" form="förklara" pos="v" inflection="-ade -at">
+	<lexeme id="förklara_1_1">
+		<definition>beskriva underliggande omständigheter kring eller orsaker till (ngt) så att det skapas djupare förståelse (av detta)</definition>
+		<definition-ext>hos viss person el. i allmänhet; med avs. på visst sakläge, förlopp, resultat etc.; om person, utsaga e.d.</definition-ext>
+		<synt-example>man kan ~ saken med att ett viktigt dokument helt enkelt kommit bort</synt-example>
+		<synt-example>teorin -ar fenomenet elegant</synt-example>
+		<synt-example>han kunde inte ~ för mig varför han hade blivit rädd</synt-example>
+		<synt-example>de försök som gjorts att ~ kristendomens uppkomst</synt-example>
+		<synt-example>neutrinon behövs för att man skall kunna ~ att energin bevaras</synt-example>
+		<synt-example>hur skall man ~ att antalet bilolyckor minskar?</synt-example>
+	<cycle id="förklara_1_1_a">
+		<trans>äv. ngt utvidgat</trans>
+		<synt-example>hur skall man ~ musik?</synt-example>
+		<synt-example>han bara är sådan, det går inte att ~ honom</synt-example>
+	</cycle>
+	<cycle id="förklara_1_1_b">
+		<trans>äv. med avs. på egna bevekelsegrunder e.d.</trans>
+		<synt-example>han bara gick utan att ~ (sig) eller be om ursäkt</synt-example>
+		<synt-example>Varför kom du inte? Förklara dig!</synt-example>
+	</cycle>
+	<cycle id="förklara_1_1_c">
+		<trans>äv. ngt försvagat, med tonvikt på förtydligande i st.f. omständigheter el. orsaker</trans>
+		<synt-example>hon -ade hur en dator fungerar</synt-example>
+		<synt-example>jag försökte ~ för henne att jag inte är farlig </synt-example>
+		<synt-example>läraren måste kunna ~ svåra stycken i läroboken</synt-example>
+		<synt-example>~ det ordet för mig!</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="förklara_1_2">
+		<definition>(tydligt) framhålla såsom sin ståndpunkt</definition>
+		<definition-ext>för viss person etc. el. (vanl.) för världen i allmänhet; med avs. på utsaga e.d.</definition-ext>
+		<synt-example>hon -ade att hon inte ville ingå i styrelsen</synt-example>
+		<synt-example>myndigheten -ade för regeringen att verksamheten fordrade ökade resurser</synt-example>
+		<synt-example>han -ade att han var nöjd med beslutet</synt-example>
+	<cycle id="förklara_1_2_a">
+		<trans>äv. ngt utvidgat, gärna med karaktär av löfte el. hot</trans>
+		<synt-example>presidenten -ade att landet måste ompröva sin utrikespolitik</synt-example>
+	</cycle>
+	<cycle id="förklara_1_2_b">
+		<trans>äv. i fråga om egen utfästelse e.d.</trans>
+		<synt-example>företaget -ade sig ha för avsikt att slimma organisationen</synt-example>
+		<synt-example>statsministern -ade sig beredd att ta sitt fulla ansvar</synt-example>
+		<synt-example>hon -ade sig nöjd med domen</synt-example>
+		<synt-example>han -ade sig redo att ställa upp</synt-example>
+	</cycle>
+	<cycle id="förklara_1_2_c">
+		<trans>särsk. i fråga om utsaga som samtidigt utgör ett slags handling</trans>
+		<synt-example>debattören ville ~ ideologierna döda</synt-example>
+		<synt-example>rätten -ade honom skyldig till dådet</synt-example>
+		<synt-example>härmed -ar jag utställningen öppnad</synt-example>
+		<synt-example>doktorn -ade patienten frisk</synt-example>
+		<compound>friskförklara</compound>
+		<compound>helgonförklara</compound>
+		<compound>omyndigförklara</compound>
+	</cycle>
+	<cycle id="förklara_1_2_d">
+		<trans>ibl. i fråga om relation mellan två parter e.d.</trans>
+		<synt-example>Frankrike och Tyskland -ade (varandra) krig</synt-example>
+		<synt-example>Frankrike -ade krig mot Tyskland</synt-example>
+		<synt-example>Frankrike -ade Tyskland krig</synt-example>
+	</cycle>
+	<cycle id="förklara_1_2_e">
+		<trans>ibl. äv. i fråga om personliga relationer</trans>
+		<synt-example>han -ade sin kärlek till henne i romantiska ordalag</synt-example>
+		<synt-example>han -ade henne sin kärlek</synt-example>
+	</cycle>
+	<cycle id="förklara_1_2_f">
+		<trans>äv. (ngt försvagat) som ett slags sägeverb</trans>
+		<synt-example>han -ade att han mådde mycket bättre nu</synt-example>
+		<synt-example>"NN är mycket intresserad av antikviteter", -ade ON</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="växa_1" form="växa" pos="v" inflection="-te, -t/vuxit, -t/vuxen, -ta/vuxna">
+	<lexeme id="växa_1_1">
+		<definition>genom naturliga inre drivkrafter utvecklas till större storlek</definition>
+		<definition-ext>och därmed sammanhängande livsduglighet etc.; om varelse, organism e.d.</definition-ext>
+		<synt-example>gräset -er och frodas</synt-example>
+		<synt-example>under plasten -er spenaten fort</synt-example>
+		<synt-example>vad bestämmer hur snabbt ett träd kan ~?</synt-example>
+		<synt-example>jag -te som mest i tolvårsåldern</synt-example>
+		<synt-example>morötterna kan börja ~ i påsen om de ligger för varmt</synt-example>
+	<cycle id="växa_1_1_a">
+		<trans>äv. med avs. på utbredning e.d.</trans>
+		<synt-example>nya ölkrogar -er upp i landet</synt-example>
+		<synt-example>barnen hade inte lyckats ~ in i den nya miljön</synt-example>
+		<synt-example>buskarna håller på att ~ in på sjöbotten</synt-example>
+		<synt-example>tumören hotar att ~ nedåt i kotpelaren</synt-example>
+	</cycle>
+	<cycle id="växa_1_1_b">
+		<trans>äv. om ny företeelse</trans>
+		<synt-example>kring detta krav har en ny politisk rörelse vuxit upp</synt-example>
+		<synt-example>staden har -t fram som handelsplats</synt-example>
+		<synt-example>pjäsen -te fram i samarbete med skådespelarna</synt-example>
+	</cycle>
+	<cycle id="växa_1_1_c">
+		<trans>äv. med avs. på (angiven) resulterande egenskap</trans>
+		<synt-example>företaget har vuxit sig starkt</synt-example>
+	</cycle>
+	<cycle id="växa_1_1_d">
+		<trans>äv. i fråga om utveckling i visst (angivet) avseende; äv. abstrakt</trans>
+		<synt-example>deltagarna i kursen -er i självförtroende</synt-example>
+		<synt-example>trädet -er i tjocklek innanför barken</synt-example>
+	</cycle>
+	<cycle id="växa_1_1_e">
+		<trans>äv. allmännare</trans>
+		<synt-example>beståndet av rådjur -er</synt-example>
+		<synt-example>ljudet -te och blev allt starkare</synt-example>
+		<synt-example>skuggorna -te runt omkring elden</synt-example>
+	</cycle>
+	<cycle id="växa_1_1_f">
+		<trans>spec. i fråga om ökning i mat. sammanhang</trans>
+		<synt-example>funktionens värde om x får ~ mot oändligheten</synt-example>
+		<synt-example>-ande och avtagande funktioner</synt-example>
+	</cycle>
+	<cycle id="växa_1_1_g">
+		<trans>ofta överfört i fråga om abstrakt utveckling, äv. till större djup, komplexitet e.d.</trans>
+		<synt-example>vårt språk -er i samtal med andra</synt-example>
+		<synt-example>den vetenskapliga kunskapen -er</synt-example>
+		<synt-example>den ekonomiska demokratin kan ~ fram på olika sätt</synt-example>
+		<synt-example>det tog lite tid för dem att ~ in i sina nya roller</synt-example>
+		<synt-example>riskerna -er i takt med antalet kärnkraftverk</synt-example>
+		<synt-example>-ande nervositet</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="växa_1_2">
+		<definition>(naturligen) förekomma och bibehålla sig i levande tillstånd</definition>
+		<definition-ext>om levande organism utan förflyttningsförmåga; med avs. på viss plats, visst sätt etc.</definition-ext>
+		<synt-example>arten -er inte i sur jordmån</synt-example>
+		<synt-example>mossflox -er i tuvor</synt-example>
+		<synt-example>amaryllisen -er vild i Peru</synt-example>
+		<synt-example>numera -er det gran på de forna åkrarna</synt-example>
+		<synt-example>det -er svamp och mögel i husgrunden</synt-example>
+		<synt-example>i parken -er mycket rosor</synt-example>
+		<synt-example>den skyddande vegetationen är borta, så ingenting kan ~ där mer</synt-example>
+	<cycle id="växa_1_2_a">
+		<trans>äv. mer dynamiskt</trans>
+		<synt-example>det -te en stor tumör i skallbasregionen</synt-example>
+		<synt-example>så kommer torkan, inget -er, djuren dör</synt-example>
+		<synt-example>vad skall ~ i framtidens åkerskogar?</synt-example>
+		<synt-example>ett värmeljus i drivbänken räcker för att rädda det som -er</synt-example>
+	</cycle>
+	<cycle id="växa_1_2_b">
+		<trans>äv. abstrakt i liknelser etc.</trans>
+		<synt-example>en kärlek som -er ur den kalaste mark</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="fylla_2" form="fylla" pos="v" inflection="-de -t">
+	<lexeme id="fylla_2_1">
+		<definition>förse med så mycket (av viss) substans som kan rymmas</definition>
+		<definition-ext>särsk. betr. flytande substans; med avs. på behållare, utrymmen, tomrum etc.; vanl. om person men äv. allmännare</definition-ext>
+		<synt-example>~ igen ett hål (med grus)</synt-example>
+		<synt-example>kapillärkrafterna har -t hålrummen med vatten</synt-example>
+		<synt-example>~ koppen med mjölk</synt-example>
+		<synt-example>~ en tand</synt-example>
+		<synt-example>~ tanken med bensin</synt-example>
+	<cycle id="fylla_2_1_a">
+		<trans>ibl. spec. betr. alkohol (med avs. på person)</trans>
+		<synt-example>värden -de gästerna med billigt rödvin</synt-example>
+	</cycle>
+	<cycle id="fylla_2_1_b">
+		<trans>äv. med avs. på substansen, betr. angivet el. underförstått utrymme e.d.</trans>
+		<synt-example>~ bensin i tanken</synt-example>
+		<synt-example>~ på vatten</synt-example>
+	</cycle>
+	<cycle id="fylla_2_1_c">
+		<trans>äv. spec. med avs. på lokal e.d., betr. personer</trans>
+		<synt-example>popbandet -de den stora hallen med en rekordpublik på över 20 000</synt-example>
+	</cycle>
+	<cycle id="fylla_2_1_d">
+		<trans>ibl. med avs. på återstående utrymme som tillägg till tidigare innehåll; både konkret och överfört</trans>
+		<synt-example>han tog svartjobb för att ~ ut arbetslöshetsunderstödet</synt-example>
+		<synt-example>får jag ~ på ditt glas?</synt-example>
+		<synt-example>dottern satt i vävkammaren hela vintern för att ~ på sin brudkista</synt-example>
+	</cycle>
+	<cycle id="fylla_2_1_e">
+		<trans>ofta överfört med avs. på ngt som betraktas som abstrakt utrymme, särsk. i fråga om tid men äv. allmännare</trans>
+		<synt-example>uppgiften har -t mig med ansvarskänsla</synt-example>
+		<synt-example>~ en vakans i ledningsgruppen</synt-example>
+		<synt-example>somliga har svårt att ~ sin lediga tid med innehåll</synt-example>
+		<synt-example>~ en lucka i programmet</synt-example>
+		<synt-example>-as med vrede</synt-example>
+		<synt-example>~ bilden med innehåll</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="fylla_2_2">
+		<definition>utbreda sig i så stor mängd som kan rymmas i</definition>
+		<definition-ext>visst utrymme; om substans e.d.</definition-ext>
+		<synt-example>cigarröken -de rummet</synt-example>
+		<synt-example>vattnet -de båten</synt-example>
+	<cycle id="fylla_2_2_a">
+		<trans>äv. med avs. på lokal; om (mängd av) personer</trans>
+		<synt-example>folkmassan -de torget</synt-example>
+	</cycle>
+	<cycle id="fylla_2_2_b">
+		<trans>äv. mer statiskt</trans>
+		<synt-example>möblerna -er helt lokalen</synt-example>
+		<synt-example>blåbärsris -de gläntorna</synt-example>
+	</cycle>
+	<cycle id="fylla_2_2_c">
+		<trans>ofta överfört med avs. på abstrakt utrymme</trans>
+		<synt-example>de känslor som -de mig</synt-example>
+		<synt-example>blomdoften -de natten</synt-example>
+		<synt-example>pjäsen -er en hel kväll</synt-example>
+		<synt-example>mopsen -de ut tomrummet efter maken</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="fylla_2_3">
+		<definition>motsvara, i fråga om alla sina väsentliga egenskaper</definition>
+		<definition-ext>vissa angivna villkor, önskemål e.d.</definition-ext>
+		<synt-example>~ behörighetskraven</synt-example>
+	<cycle id="fylla_2_3_a">
+		<trans>ofta mer dynamiskt</trans>
+		<synt-example>staden -de förr funktionen som exporthamn</synt-example>
+		<synt-example>~ en funktion som styrelseledamot</synt-example>
+	</cycle>
+	<cycle id="fylla_2_3_b">
+		<trans>äv. med anknytning till att förse ngt med ngt</trans>
+		<synt-example>det gäller att ~ energibehovet utan import</synt-example>
+		<synt-example>boken -er ett länge känt behov</synt-example>
+	</cycle>
+	<cycle id="fylla_2_3_c">
+		<trans>urspr. konkret</trans>
+		<synt-example>han ville ta värvning men -de inte måttet som gardist</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="fylla_2_4">
+		<definition>uppnå en ålder av</definition>
+		<definition-ext>mest om personer men äv. allmännare</definition-ext>
+		<synt-example>~ 50 år</synt-example>
+		<synt-example>gubben är 90 år -da</synt-example>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="öppna_1" form="öppna" pos="v" inflection="-ade -at">
+	<lexeme id="öppna_1_1">
+		<definition>bringa till öppet (eller öppnare) läge</definition>
+		<definition-ext>med avs. på spärrande anordning, ibl. underförstådd; äv. med tanke på utrymmet innanför, personen etc. som skall släppas in m.m.; ibl. symboliskt i liknelser</definition-ext>
+		<synt-example>NN tänker ~ falluckan för honom på mötet </synt-example>
+		<synt-example>vi vill ~ portarna för en ny generation konstnärer</synt-example>
+		<synt-example>jag -ar till källaren så kan du väl leta själv</synt-example>
+		<synt-example>~ för gästerna</synt-example>
+		<synt-example>~ ett fönster för att få frisk luft</synt-example>
+		<synt-example>~ ett hårt åtsittande skruvlock</synt-example>
+		<synt-example>~ dörren innan jag sparkar in den!</synt-example>
+		<synt-example>ett -ande medel mot förstoppning</synt-example>
+	<cycle id="öppna_1_1_a">
+		<trans>äv. med avs. på större el. mindre utrymme e.d.</trans>
+		<synt-example>hon -ade sin portmonnä och gav några slantar till gatumusikanten </synt-example>
+		<synt-example>tjuvarna hade försökt ~ kassaskåpet</synt-example>
+		<synt-example>~ en konservburk</synt-example>
+		<synt-example>revolutionärerna -ade fängelset och släppte ut de politiska fångarna</synt-example>
+	</cycle>
+	<cycle id="öppna_1_1_b">
+		<trans>spec. med avs. på kroppsdel; ibl. med symbolisk bibetydelse</trans>
+		<synt-example>hon -ade sin famn för honom</synt-example>
+		<synt-example>~ handen så jag får se vad du har hittat!</synt-example>
+		<synt-example>lejonet -ade gapet och gäspade stort</synt-example>
+		<synt-example>han -ade ögonen försiktigt</synt-example>
+	</cycle>
+	<cycle id="öppna_1_1_c">
+		<trans>äv. med avs. på förbindelse e.d.</trans>
+		<synt-example>~ vägen till en ny framtid</synt-example>
+		<synt-example>ett av spåren förbi olycksplatsen har kunnat -as för trafik</synt-example>
+		<synt-example>det krävdes militär personal för att ~ vägarna efter snöstormen</synt-example>
+	</cycle>
+	<cycle id="öppna_1_1_d">
+		<trans>äv. med avs. på resultat</trans>
+		<synt-example>~ ett valv i väggen</synt-example>
+	</cycle>
+	<cycle id="öppna_1_1_e">
+		<trans>äv. med avs. på ngt som normalt el. ofta har tillsluten form</trans>
+		<synt-example>jag brukar börja dagen med att ~ posten</synt-example>
+		<synt-example>han har nog aldrig -at en bok</synt-example>
+		<synt-example>hon -ade sin tidning</synt-example>
+		<synt-example>~ en knut</synt-example>
+	</cycle>
+	<cycle id="öppna_1_1_f">
+		<trans>äv. utvidgat om företeelse som har el. antages ha förmåga till rörelse</trans>
+		<synt-example>Sesam, ~ dig!</synt-example>
+		<synt-example>portarna -ade sig</synt-example>
+		<synt-example>blommorna -ar sig mot solen</synt-example>
+		<synt-example>knopparna -ar sig snart</synt-example>
+	</cycle>
+	<cycle id="öppna_1_1_g">
+		<trans>ibl. överfört i fråga om skenbar förändring till öppet tillstånd, gärna i samband med underförstådd förflyttning</trans>
+		<synt-example>ett blodkärl som -ar sig i stora hålvenen</synt-example>
+		<synt-example>en dal -ade sig mellan branta bergväggar</synt-example>
+		<synt-example>några kilometer längre fram -ade sig skogen på nytt</synt-example>
+	</cycle>
+	<cycle id="öppna_1_1_h">
+		<trans>äv. överfört i fråga om persons själsliv e.d.</trans>
+		<synt-example>det dröjde länge innan han litade tillräckligt på henne för att våga ~ sig för henne</synt-example>
+	</cycle>
+	<cycle id="öppna_1_1_i">
+		<trans>äv. överfört, särsk. med tonvikt på avlägsnande av hinder för utveckling el. uppmärksamhet</trans>
+		<synt-example>konsten har -at våra sinnen</synt-example>
+		<synt-example>en vision som -ar framtiden för oss</synt-example>
+		<synt-example>förslaget -ar nya möjligheter</synt-example>
+		<synt-example>nya fält har -ats för exploatörerna</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="öppna_1_2">
+		<definition>göra tillgänglig för användande eller utnyttjande</definition>
+		<definition-ext>av större grupp personer; med avs. på inrättning e. d., ibl. underförstådd; äv. med avs. på tidpunkt</definition-ext>
+		<synt-example>han brukar ~ (sin butik) klockan nio</synt-example>
+	<cycle id="öppna_1_2_a">
+		<trans>äv. om inrättningen</trans>
+		<synt-example>butiken -ar klockan nio</synt-example>
+	</cycle>
+	<cycle id="öppna_1_2_b">
+		<trans>ofta i fråga om mer formell inledande handling; med avs. på sammankomst e. d.</trans>
+		<synt-example>biskopen -ade mötet med en bön på klingande latin</synt-example>
+		<synt-example>utställningen -ades av landshövdingen</synt-example>
+	</cycle>
+	<cycle id="öppna_1_2_c">
+		<trans>äv. utvidgat med avs. på abstrakt nyttighet</trans>
+		<synt-example>~ konto i banken</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="öppna_1_3">
+		<definition>inrätta (och påbörja) verksamhet med</definition>
+		<definition-ext>ngt slags företag e. d.</definition-ext>
+		<synt-example>han tänker ~ cykelverkstad till våren</synt-example>
+		<synt-example>en ny tandläkare har -at praktik i staden</synt-example>
+		<synt-example>banken -ade ett nytt avdelningskontor</synt-example>
+	<cycle id="öppna_1_3_a">
+		<trans>ibl. med avs. på ngt underförstått</trans>
+		<synt-example>han slutade på byggfirman och -ade eget</synt-example>
+	</cycle>
+	<cycle id="öppna_1_3_b">
+		<trans>äv. om inrättningen, betraktad som självständig part</trans>
+		<synt-example>butiken -ar nästa månad med många billighetserbjudanden</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="öppna_1_4">
+		<definition>börja utföra</definition>
+		<definition-ext>viss angiven el. underförstådd verksamhet</definition-ext>
+		<synt-example>fästningen -ade eld mot kryssaren</synt-example>
+		<synt-example>~ korrespondens med en firma i London</synt-example>
+		<synt-example>Syd -ade (budgivningen) med 2 klöver</synt-example>
+		<synt-example>NN -ade (loppet) löst men ökade efter den första halvmilen</synt-example>
+	<cycle id="öppna_1_4_a">
+		<trans>spec. (underförstått) med avs. på schack; särsk. med tanke på sättet</trans>
+		<synt-example>vit -ade mot sin vana med dambonden</synt-example>
+	</cycle>
+	<cycle id="öppna_1_4_b">
+		<trans>äv. om själva verksamheten etc.</trans>
+		<synt-example>börsen -ade lugnt men kurserna drevs upp efter hand</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="handla_1" form="handla" pos="v" inflection="-ade -at">
+	<lexeme id="handla_1_1">
+		<definition>utföra (avsiktlig) handling</definition>
+		<definition-ext>ofta föregången av medvetet beslut e. d.</definition-ext>
+		<synt-example>~ efter bästa förstånd</synt-example>
+		<synt-example>hur regeringen än -ar kommer den i svårigheter</synt-example>
+		<synt-example>polisen -ade snabbt</synt-example>
+	<cycle id="handla_1_1_a">
+		<trans>ibl. med stark tonvikt på beslutskraft, i viss motsats till planering e.d.</trans>
+		<synt-example>han hörde ett metalliskt ljud bakom sig och -ade instinktivt</synt-example>
+		<synt-example>det gäller inte att tänka utan att ~!</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="handla_1_2">
+		<definition>bedriva handel</definition>
+		<definition-ext>med avs. på varor, partners, plats etc.</definition-ext>
+		<synt-example>~ med aktier och optioner på Stockholmsbörsen</synt-example>
+		<synt-example>han -ade med boskap</synt-example>
+		<synt-example>sluta ~ med Sydafrika</synt-example>
+	</lexeme>
+	<lexeme id="handla_1_3">
+		<definition>göra inköp (av)</definition>
+		<definition-ext>mest om enskild person; med avs. på varor, butiker e.d.; ofta underförstått med avs. på normal mängd dagligvaror e. d.</definition-ext>
+		<synt-example>jag måste hinna ~ innan de stänger</synt-example>
+		<synt-example>gå till stan och ~</synt-example>
+		<synt-example>~ mat</synt-example>
+		<synt-example>~ kläder</synt-example>
+		<synt-example>hon -ar alltid på Konsum</synt-example>
+	<cycle id="handla_1_3_a">
+		<trans>äv. ngt utvidgat om företag e.d., med avs. på större el. mer långvariga inköp</trans>
+		<synt-example>bilfabriken -ar delar från flera olika underleverantörer</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="handla_1_4">
+		<definition>ha såsom (en del av) sitt (tankemässiga) ämne eller innehåll</definition>
+		<definition-ext>om framställning i tal el. skrift som berättelse, litterärt verk etc. men äv. om film e.d.; särsk. med avs. på angivet förlopp och/el. medverkande personer etc.</definition-ext>
+		<synt-example>filmen -ar om en ung mans väg till framgång</synt-example>
+		<synt-example>pjäsen -ar om dunkla familjehemligheter som gradvis avslöjas</synt-example>
+		<synt-example>jag fick aldrig klart för mig vad hans långa anekdot -ade om</synt-example>
+		<synt-example>på ytan -ar romanen om en bovjakt men egentligen -ar den om huvudpersonens livskris</synt-example>
+		<synt-example>hennes brev brukade ~ om vardagliga händelser</synt-example>
+	<cycle id="handla_1_4_a">
+		<trans>äv. ngt allmännare med avs. på ämne för studium, diskussion etc.</trans>
+		<synt-example>det sista exemplet i pensionsbroschyren -ar om en kvinna i ett akademiskt yrke</synt-example>
+		<synt-example>debatten -ade om problemen med inflationsbekämpning</synt-example>
+		<synt-example>undersökningen -ar om invandrare från andra kulturer</synt-example>
+		<synt-example>geometri -ar bl.a. om plana figurer</synt-example>
+	</cycle>
+	<cycle id="handla_1_4_b">
+		<trans>äv. utvidgat i fråga om tolkning av underliggande syfte e.d.</trans>
+		<synt-example>hans tillvaro -ade mest om jobbet</synt-example>
+		<synt-example>moral -ar ytterst om att undvika lidande</synt-example>
+		<synt-example>företagets utvecklingsarbete -ar om att ta fram nya system för oljeutvinning</synt-example>
+		<synt-example>toppmötet -ar om att bilda en federation</synt-example>
+	</cycle>
+	<cycle id="handla_1_4_c">
+		<trans>äv. ytterligare utvidgat, ngt försvagat</trans>
+		<synt-example>för NN:s del -ar det om att han vill få sin insats erkänd</synt-example>
+		<synt-example>enligt polisen -ade det om självmord</synt-example>
+		<synt-example>det var ingen upptäckt vilken som helst --- här -ade det om en sensation</synt-example>
+		<synt-example>i andra halvlek -ade det om utklassning</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="skjuta_1" form="skjuta" pos="v" inflection="sköt skjutit skjuten skjutna">
+	<lexeme id="skjuta_1_1">
+		<definition>sända iväg (projektiler) i hög hastighet med (visst) vapen</definition>
+		<definition-ext>särsk. med eldvapen som pistol el. gevär, ofta med tanke äv. på knallen; med avs. på målet, vapnet, ammunitionen, sättet etc.; äv. absolut i fråga om sport</definition-ext>
+		<synt-example>han sköt och bommade</synt-example>
+		<synt-example>han siktade och sköt rent reflexmässigt</synt-example>
+		<synt-example>~ en laddning grovt salt med hagelbössa</synt-example>
+		<synt-example>villan ligger för nära övningsområdet så att man blir störd när militären -er</synt-example>
+		<synt-example>hon var skidlöpare och började ~ först i 20-årsåldern</synt-example>
+		<synt-example>det är svårt att ~ väl med en så kraftig magnumpatron</synt-example>
+		<synt-example>han sköt mitt i prick (på måltavlan) på 500 meters håll</synt-example>
+		<synt-example>~ med luftgevär</synt-example>
+		<synt-example>~ skarpt</synt-example>
+		<synt-example>~ med pilbåge</synt-example>
+		<synt-example>~ med slangbella</synt-example>
+		<compound>träningsskjuta</compound>
+		<compound>skjutbana</compound>
+		<compound>skjutvarning</compound>
+		<compound>skjutövning</compound>
+		<compound>skjutgalen</compound>
+	<cycle id="skjuta_1_1_a">
+		<trans>särsk. med avs. på varje enstaka projektil (i hastig rörelse)</trans>
+		<synt-example>sherriffen sköt ett skott som slog revolvern ur bråkstakens hand</synt-example>
+		<synt-example>får jag prova att ~ ett par skott med det nya geväret?</synt-example>
+		<synt-example>han sköt tre snabba skott mot skuggan utanför dörren</synt-example>
+	</cycle>
+	<cycle id="skjuta_1_1_b">
+		<trans>äv. om vapen med avs. på egenskaper e.d.</trans>
+		<synt-example>geväret -er hål i hål på 50 meter</synt-example>
+		<synt-example>arméns nya karbin -er både automatisk och patronvis eld</synt-example>
+	</cycle>
+	<cycle id="skjuta_1_1_c">
+		<trans>äv. med framhävande av åsyftad verkan</trans>
+		<synt-example>Stopp, annars -er jag!</synt-example>
+		<synt-example>rånarna drog sig inte för att ~ väktarna</synt-example>
+		<synt-example>hans dröm var att fara på safari och ~ storvilt</synt-example>
+		<synt-example>tjuvjägare som sköt älg med salongsgevär</synt-example>
+		<synt-example>han sköt hustruns älskare</synt-example>
+		<synt-example>hot om att ~ gisslan</synt-example>
+		<synt-example>presidenten är -en</synt-example>
+		<synt-example>han sköt tjuven i benet</synt-example>
+	</cycle>
+	<cycle id="skjuta_1_1_d">
+		<trans>äv. med tanke på resulterande tillstånd e.d.</trans>
+		<synt-example>kryssaren sköts i sank</synt-example>
+		<synt-example>detektiven gjorde sig beredd att ~ sönder låset</synt-example>
+		<synt-example>rånaren sköt ner kassören och en kund</synt-example>
+		<synt-example>han sköt ihjäl sin rival</synt-example>
+	</cycle>
+	<cycle id="skjuta_1_1_e">
+		<trans>äv. utvidgat med avs. på andra projektiler, särsk. raketer o.d. men äv. allmännare</trans>
+		<synt-example>undersöka materialet genom att ~ elektroner mot det</synt-example>
+		<synt-example>i morgon -er man upp en ny telesatellit</synt-example>
+		<synt-example>~ raketer på nyårsafton</synt-example>
+		<synt-example>~ ut kärnavfallet i rymden</synt-example>
+	</cycle>
+	<cycle id="skjuta_1_1_f">
+		<trans>äv. utvidgat med tanken på kraft och ljud</trans>
+		<synt-example>småpojkarna sprang omkring och sköt smällare hela nyårshelgen</synt-example>
+		<synt-example>de -er med dynamit på bygget</synt-example>
+	</cycle>
+	<cycle id="skjuta_1_1_g">
+		<trans>äv. bildligt i liknelser etc.</trans>
+		<synt-example>~ skattereformen i sank</synt-example>
+		<synt-example>ögonen sköt blixtar</synt-example>
+	</cycle>
+	<cycle id="skjuta_1_1_h">
+		<trans>äv. överfört i fråga om abstrakta angrepp</trans>
+		<synt-example>hans debattinlägg har vissa poänger men -er över målet</synt-example>
+		<synt-example>kritikerna har -it NN:s argumentation sönder och samman</synt-example>
+		<synt-example>både från höger och vänster har man -it på utredningens förslag </synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="skjuta_1_2">
+		<definition>sända i väg (boll eller liknande) mot mål (med viss kraft)</definition>
+		<definition-ext>i syfte att vinna poäng e.d. enligt reglerna i visst (boll)spel); ofta med avs. på riktning, styrka e.d.</definition-ext>
+		<synt-example>~ i ribban</synt-example>
+		<synt-example>Pelle -er hårt</synt-example>
+		<synt-example>han kom fri men sköt utanför</synt-example>
+		<synt-example>~ pucken i mål</synt-example>
+	<cycle id="skjuta_1_2_a">
+		<trans>äv. med avs. på resultatet</trans>
+		<synt-example>Pelle sköt ett äkta hat trick</synt-example>
+		<synt-example>NN sköt 1 - 0 för hemmalaget redan efter fem minuter</synt-example>
+		<synt-example>~ mål</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="skjuta_1_3">
+		<definition>börja förflytta sig snabbt</definition>
+		<definition-ext>som en projektil; i viss riktning</definition-ext>
+		<synt-example>höken sköt ner genom luften</synt-example>
+		<synt-example>segelbåten -er fart</synt-example>
+	<cycle id="skjuta_1_3_a">
+		<trans>äv. bildligt</trans>
+		<synt-example>tankarna sköt fart igen</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="skjuta_1_4">
+		<definition>(med kraft) utvecklas i viss riktning</definition>
+		<definition-ext>om växt </definition-ext>
+		<synt-example>~ upp som svampar ur jorden</synt-example>
+		<synt-example>tistlar -er upp ur skrevan</synt-example>
+	<cycle id="skjuta_1_4_a">
+		<trans>särsk. med avs. på visst resultat</trans>
+		<synt-example>växterna -er skott</synt-example>
+		<synt-example>åkern -er ax</synt-example>
+	</cycle>
+	<cycle id="skjuta_1_4_b">
+		<trans>äv. utvidgat om ngt som kan tänkas vara resultat av rörelse</trans>
+		<synt-example>hans haka -er ut</synt-example>
+		<synt-example>en landtunga som -er ut i havet</synt-example>
+	</cycle>
+	<cycle id="skjuta_1_4_c">
+		<trans>äv. överfört i fråga om tänkt naturlig tillväxt</trans>
+		<synt-example>papperstravarna på skrivbordet sköt i höjden</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="skjuta_1_5">
+		<definition>förflytta (ngt) genom att knuffa eller trycka på (det)</definition>
+		<synt-example>~ barnvagnen framför sig</synt-example>
+		<synt-example>~ på bilen så den går igång</synt-example>
+		<synt-example>hon sköt ifrån sig katten</synt-example>
+		<synt-example>han sköt undan hennes händer</synt-example>
+		<synt-example>han sköt över bankboken till kassörskan</synt-example>
+		<synt-example>~ in lådan i byrån</synt-example>
+		<compound>skjutdörr</compound>
+		<compound>skjutlucka</compound>
+		<compound>skjutlås</compound>
+		<compound>skjutfönster</compound>
+	<cycle id="skjuta_1_5_a">
+		<trans>äv. ngt allmännare</trans>
+		<synt-example>~ tillbaka axlarna</synt-example>
+		<synt-example>hon sköt fram höfterna</synt-example>
+		<synt-example>han sköt aggressivt fram hakan</synt-example>
+	</cycle>
+	<cycle id="skjuta_1_5_b">
+		<trans>äv. överfört i fråga om avlägsnande, undanröjande e. d. av abstrakta företeelser</trans>
+		<synt-example>han försökte ~ ifrån sig verkligheten</synt-example>
+		<synt-example>~ undan alla mörka tankar</synt-example>
+		<synt-example>~ skulden på någon annan</synt-example>
+		<synt-example>ärendet sköts åt sidan</synt-example>
+		<compound>hänskjuta</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="skjuta_1_6">
+		<definition>senarelägga</definition>
+		<synt-example>de skulle rest utomlands i går men de måste ~ fram det en månad</synt-example>
+		<synt-example>vi får ~ på sammanträdet till onsdag</synt-example>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="måla_1" form="måla" pos="v" inflection="-ade -at">
+	<lexeme id="måla_1_1">
+		<definition>anbringa färg på (ngt), (med pensel eller liknande), så att denna bildar yttre skikt (på detta) i viss kulör, i syfte att pryda eller skydda (detta)</definition>
+		<definition-ext>el. ibl. att åstadkomma märke e.d.; med pensel, rulle, spruta etc.</definition-ext>
+		<synt-example>~ sidlinjer på handbollsplanen</synt-example>
+		<synt-example>~ över tapeterna</synt-example>
+		<synt-example>~ med oljefärg</synt-example>
+		<synt-example>~ huset</synt-example>
+		<synt-example>han -ar och förbättrar själv</synt-example>
+		<synt-example>~ staketet vitt</synt-example>
+	<cycle id="måla_1_1_a">
+		<trans>äv. utvidgat med tanke på hela processen</trans>
+		<synt-example>underarbetet är 90% när man -ar</synt-example>
+		<synt-example>jag är nästan klar med att ~, bara slutstrykningen återstår</synt-example>
+	</cycle>
+	<cycle id="måla_1_1_b">
+		<trans>äv. med avs. på person; endast i prydande syfte</trans>
+		<synt-example>hon -ade munnen smultronröd</synt-example>
+		<synt-example>~ sig</synt-example>
+	</cycle>
+	<cycle id="måla_1_1_c">
+		<trans>äv. utvidgat i fråga om andra tekniker för färgläggning</trans>
+		<synt-example>med det kommandot kan man ~ figurerna på datorskärmen</synt-example>
+	</cycle>
+	<cycle id="måla_1_1_d">
+		<trans>äv. bildligt, mest med avs. på kulören</trans>
+		<synt-example>den nedåtgående solen -ade insjön alldeles röd</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="måla_1_2">
+		<definition>framställa (bild) (av ngt eller ngn) genom att stryka färg på (särskilt förberedd) yta</definition>
+		<definition-ext>vanl. duk, papper e. d.; äv. med avs. på motivet, färgtypen, metoden etc.; i pass el. pret.part. äv med avs. på underlaget</definition-ext>
+		<synt-example>~ ett porträtt i olja</synt-example>
+		<synt-example>han -ade lappländska höstlandskap</synt-example>
+		<synt-example>-ade kyrkfönster</synt-example>
+		<synt-example>barnen älskar att sitta och ~</synt-example>
+	<cycle id="måla_1_2_a">
+		<trans>äv. ngt allmännare i fråga om andra metoder för att uppnå liknande resultat</trans>
+		<synt-example>i sina broderier -ar hon med garn</synt-example>
+	</cycle>
+	<cycle id="måla_1_2_b">
+		<trans>äv. bildligt, med avs. på ansiktsuttryck e. d.</trans>
+		<synt-example>skräck och avsky var -ade i hans drag</synt-example>
+	</cycle>
+	<cycle id="måla_1_2_c">
+		<trans>äv. överfört i fråga om åskådlig (men ej bildmässig) framställning</trans>
+		<synt-example>~ i ord och toner</synt-example>
+		<synt-example>talaren -ade upp en bild av ett land i upplösning</synt-example>
+		<synt-example>det ekonomiska dagsläget måste -as i mörka färger</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="barn_1" form="barn" pos="n" inflection="~et =">
+	<lexeme id="barn_1_1">
+		<definition>människa som ej vuxit färdigt</definition>
+		<definition-ext>till kropp och själ; under ngn åldersgräns som beror på sammanhanget</definition-ext>
+		<synt-example>kvinnor och ~ släpptes fria</synt-example>
+		<synt-example>~ under 6 år kommer in gratis</synt-example>
+		<compound>barnläkare</compound>
+		<compound>barnomsorg</compound>
+		<compound>barnpsykiater</compound>
+		<compound>barnvänlig</compound>
+		<compound>spädbarn</compound>
+		<compound>småbarn</compound>
+		<compound>skolbarn</compound>
+	<cycle id="barn_1_1_a">
+		<trans>spec. om människa som ej nått pubertetsålder, straffmyndighetsålder etc.</trans>
+		<synt-example>ännu något år är hon ett ~</synt-example>
+		<compound>barnarbete</compound>
+		<compound>barnavårdsnämnd</compound>
+	</cycle>
+	<cycle id="barn_1_1_b">
+		<trans>äv. överfört om själsligt omogen el. barnslig person i allmänhet</trans>
+		<synt-example>farfar är ett stort ~</synt-example>
+		<synt-example>han är ett ~ i affärer</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="barn_1_2">
+		<definition>ngn som blivit till genom att avlas eller födas av given person</definition>
+		<definition-ext>dvs. son el. dotter i förh. till (endera av) föräldrarna</definition-ext>
+		<synt-example>de har tre vuxna ~</synt-example>
+		<synt-example>vara som ~ i huset</synt-example>
+		<compound>barnlös</compound>
+		<compound>barnaföderska</compound>
+		<compound>trebarnspappa</compound>
+	<cycle id="barn_1_2_a">
+		<trans>äv. utvidgat, spec. om foster</trans>
+		<synt-example>hon är med ~</synt-example>
+	</cycle>
+	<cycle id="barn_1_2_b">
+		<trans>spec. äv. om avkomling i senare led</trans>
+		<synt-example>Israels ~</synt-example>
+	</cycle>
+	<cycle id="barn_1_2_c">
+		<trans>äv. överfört, spec. om person som står i beroendeförhållande till ngt överhuvud</trans>
+		<synt-example>Guds ~</synt-example>
+		<synt-example>"Mina ~", började prosten</synt-example>
+	</cycle>
+	<cycle id="barn_1_2_d">
+		<trans>spec. äv. om icke-levande produkt</trans>
+		<synt-example>filmen är ett ~ av sin tid</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="barn_1_3">
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="vatten_1" form="vatten" pos="n" inflection="-net =, best. plur. -nen">
+	<lexeme id="vatten_1_1">
+		<definition>en färg-, lukt- och (mer eller mindre) smaklös vätska som förekommer i naturen som nederbörd och i samlingar som bildar hav, sjöar eller vattendrag</definition>
+		<definition-ext>och som är nödvändig för alla levande organismer; bestående av en förening av väte och syre</definition-ext>
+		<synt-example>fruset ~ blir is, kokande ~ blir ånga</synt-example>
+		<synt-example>destillerat ~</synt-example>
+		<synt-example>tabletten löses i ~</synt-example>
+		<synt-example>dricka ett glas ~</synt-example>
+		<synt-example>späd med ~ till lagom konsistens</synt-example>
+		<synt-example>salta ur sillen i rikligt med ~</synt-example>
+		<synt-example>sätt blommorna i ~!</synt-example>
+		<synt-example>~, jord, luft och eld</synt-example>
+		<synt-example>åkrarna står under ~</synt-example>
+		<synt-example>förorenat ~</synt-example>
+		<synt-example>ta ~ från en källa</synt-example>
+		<synt-example>allt ~ i akvariet rann ut på golvet</synt-example>
+		<synt-example>sitta inne på ~ och bröd</synt-example>
+		<compound>vattenfall</compound>
+		<compound>vattenledning</compound>
+		<compound>vattenlås</compound>
+		<compound>vattentryck</compound>
+		<compound>vattentunna</compound>
+		<compound>badvatten</compound>
+		<compound>dagvatten</compound>
+		<compound>dopvatten</compound>
+		<compound>dricksvatten</compound>
+		<compound>grundvatten</compound>
+		<compound>havsvatten</compound>
+		<compound>kokvatten</compound>
+		<compound>mineralvatten</compound>
+		<compound>slaskvatten</compound>
+		<compound>sockervatten</compound>
+		<compound>tidvatten</compound>
+		<compound>varmvatten</compound>
+		<compound>vattenledningsvatten</compound>
+		<compound>ytvatten</compound>
+	<cycle id="vatten_1_1_a">
+		<trans>äv. utvidgat om kroppsvätska som huvudsakligen består av detta ämne</trans>
+		<synt-example>~ i knät</synt-example>
+		<synt-example>~ i lungsäcken</synt-example>
+		<compound>vattenkastning</compound>
+		<compound>fostervatten</compound>
+		<compound>snålvatten</compound>
+	</cycle>
+	<cycle id="vatten_1_1_b">
+		<trans>äv. allmännare om mer el. mindre genomskinliga vätskor</trans>
+		<compound>eldvatten</compound>
+		<compound>kungsvatten</compound>
+		<compound>rakvatten</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="vatten_1_2">
+		<definition>större område i naturen uppfyllt av den vanligaste, färg- och luktlösa vätskan</definition>
+		<definition-ext>t. ex. sjö el. (del av) hav</definition-ext>
+		<synt-example>i de bohuslänska -nen</synt-example>
+		<synt-example>segla ut på de stora -nen</synt-example>
+		<synt-example>i mitten av sjön är det öppet ~</synt-example>
+		<synt-example>slänga ngn i -net</synt-example>
+		<synt-example>ljusa träd och stilla ~</synt-example>
+		<synt-example>hundratals ~ i Västsverige har drabbats av försurning</synt-example>
+		<compound>vattendrag</compound>
+		<compound>fiskevatten</compound>
+	<cycle id="vatten_1_2_a">
+		<trans>särsk. om mätbart sådant område, t. ex. i förh. till naturliga el. konventionella gränser</trans>
+		<synt-example>håller man sig öster om enslinjen har man fritt ~</synt-example>
+		<synt-example>inte mer än en halv meter ~ under kölen</synt-example>
+		<synt-example>kappseglaren som hade styrbords halsar begärde ~ av konkurrenten</synt-example>
+		<compound>farvatten</compound>
+		<compound>territorialvatten</compound>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="kyrka_1" form="kyrka" pos="n" inflection="-an -or">
+	<lexeme id="kyrka_1_1">
+		<definition>byggnad avsedd för en kristen församlings gudstjänst</definition>
+		<definition-ext>samt för dop, bröllop m. m.; vanl. en fristående byggnad med tillhörande torn</definition-ext>
+		<synt-example>en liten vit ~</synt-example>
+		<synt-example>Lundby gamla ~</synt-example>
+		<synt-example>~ns vackra utsmyckning</synt-example>
+		<compound>kyrkbygge</compound>
+		<compound>kyrktorn</compound>
+		<compound>kyrkbacke</compound>
+		<compound>kyrkobesökare</compound>
+		<compound>sockenkyrka</compound>
+		<compound>träkyrka</compound>
+		<compound>domkyrka</compound>
+		<compound>kyrkspira</compound>
+		<compound>kyrkport</compound>
+		<compound>kyrkobyggnad</compound>
+		<compound>kyrkorgel</compound>
+	<cycle id="kyrka_1_1_a">
+		<trans>äv. med tonvikt på funktionen</trans>
+		<synt-example>gå i ~n</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="kyrka_1_2">
+		<definition>organiserad större sammanslutning av personer som bekänner sig till (viss typ av) kristendom</definition>
+		<definition-ext>i visst land el. i allmänhet</definition-ext>
+		<synt-example>hon tillhör inte någon ~</synt-example>
+		<synt-example>den romersk-katolska ~n</synt-example>
+		<synt-example>den anglikanska ~n</synt-example>
+		<synt-example>fädernas ~ i Sveriges land</synt-example>
+		<compound>frikyrka</compound>
+		<compound>statskyrka</compound>
+	<cycle id="kyrka_1_2_a">
+		<trans>ibl. särsk. om den ledande gruppen (präster) i sådan sammanslutning</trans>
+		<synt-example>vad säger ~n om föräktenskapliga förbindelser?</synt-example>
+	</cycle>
+	<cycle id="kyrka_1_2_b">
+		<trans>äv. mer abstrakt om kyrkan som institution</trans>
+		<synt-example>~ns jordegendomar</synt-example>
+		<synt-example>förhållandet ~ --- stat</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="ämne_1" form="ämne" pos="n" inflection="~t ~n">
+	<lexeme id="ämne_1_1">
+		<definition>särskild, enhetlig typ av beståndsdel av vilken konkreta föremål och företeelser kan vara uppbyggda eller sammansatta</definition>
+		<definition-ext>och som kan utskiljas med hjälp av sina (ofta välbestämda) fys. och kem. egenskaper</definition-ext>
+		<synt-example>matjord består av en blandning av organiska och oorganiska ~n</synt-example>
+		<synt-example>förr trodde man att vatten var ett osammansatt ~</synt-example>
+		<synt-example>den kemiska industrin tar fram tusentals nya ~n om året</synt-example>
+		<synt-example>glas är egentligen ett flytande ~</synt-example>
+		<synt-example>man vet inte riktigt vilka ~n som ingick i romarnas murbruk</synt-example>
+		<synt-example>ett ~ som vid rumstemperatur är gasformigt</synt-example>
+		<synt-example>korund är det hårdaste ~t efter diamant</synt-example>
+		<compound>ämnesomsättning</compound>
+		<compound>färgämne</compound>
+		<compound>grundämne</compound>
+		<compound>hornämne</compound>
+		<compound>humusämne</compound>
+		<compound>mineralämne</compound>
+		<compound>näringsämne</compound>
+		<compound>råämne</compound>
+		<compound>smakämne</compound>
+		<compound>smittämne</compound>
+		<compound>smörjämne</compound>
+		<compound>urinämne</compound>
+		<compound>vedämne</compound>
+		<compound>äggviteämne</compound>
+	<cycle id="ämne_1_1_a">
+		<trans>äv. ngt mer abstrakt</trans>
+		<synt-example>för att förklara ljusvågorna tänkte man sig ett immateriellt ~ som man kallade etern</synt-example>
+		<synt-example>alkemisterna letade efter det hemlighetsfulla femte ~t, av vilket de fyra elementen skulle vara uppbyggda</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="ämne_1_2">
+		<definition>naturligt eller i viss utsträckning bearbetat stycke material ur vilket ngt skall framställas</definition>
+		<synt-example>smeden höll det upphettade ~t mot städet</synt-example>
+		<synt-example>den där krumvuxna eken innehåller åtskilliga goda ~n till spant och bottenstockar</synt-example>
+		<compound>yxämne</compound>
+	<cycle id="ämne_1_2_a">
+		<trans>äv. utvidgat om anlag som skall utveckla sig till ngt</trans>
+		<compound>fruktämne</compound>
+	</cycle>
+	<cycle id="ämne_1_2_b">
+		<trans>äv. överfört om person som har anlag i viss riktning</trans>
+		<synt-example>ett utmärkt ~ till skidlöpare</synt-example>
+		<synt-example>den där ynglingen är ett typiskt ~ till en gangster</synt-example>
+		<compound>chefsämne</compound>
+		<compound>professorsämne</compound>
+		<compound>skådespelarämne</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="ämne_1_3">
+		<definition>visst (abstrakt) område som är föremål för (tankemässig) undersökning eller utredning</definition>
+		<definition-ext>genom diskussion (i tal el. skrift), egna funderingar etc.; vanl. naturligen sammanhållet kring viss övergripande fråga, central gestalt e. d.</definition-ext>
+		<synt-example>en debatt med ~t "Svenskarna och invandrarna"</synt-example>
+		<synt-example>ordföranden uppmanade NN att hålla sig till ~t (för debatten)</synt-example>
+		<synt-example>samtalet irrade från ~ till ~</synt-example>
+		<synt-example>han undvek det känsliga ~t</synt-example>
+		<synt-example>ett kåseri som tog upp diverse smärre ~n</synt-example>
+		<synt-example>döden tycks vara ett förbjudet ~ i Sverige</synt-example>
+		<synt-example>en konstnär som tycks ha uttömt sitt ~</synt-example>
+		<compound>debattämne</compound>
+		<compound>predikoämne</compound>
+	<cycle id="ämne_1_3_a">
+		<trans>spec. om utvalt el. förelagt område för viss (skriftlig) framställning, särsk. uppsatsskrivning o. d.</trans>
+		<synt-example>på svenskskrivningarna kunde hon sitta i timmar och försöka välja ~</synt-example>
+		<synt-example>det ~t är alltför omfattande för en uppsats på grundutbildningsnivå</synt-example>
+		<compound>avhandlingsämne</compound>
+		<compound>uppsatsämne</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="ämne_1_4">
+		<definition>visst, naturligt eller traditionellt avgränsat, (abstrakt) område, inom vilket kunskaper byggs upp och lärs ut</definition>
+		<definition-ext>och som utgör en av de funktionella underavdelningarna inom undervisning och forskning</definition-ext>
+		<synt-example>i skolan läser man många ~n samtidigt men på universitetet läser man i allmänhet bara ett ~ per termin</synt-example>
+		<synt-example>~t svenska läser man på alla skolstadier</synt-example>
+		<synt-example>han hade goda betyg i de naturvetenskapliga ~na trots att han var mest intresserad av ~t historia</synt-example>
+		<compound>ämnesgräns</compound>
+		<compound>ämnesindelning</compound>
+		<compound>ämneslärare</compound>
+		<compound>läroämne</compound>
+		<compound>skolämne</compound>
+		<compound>universitetsämne</compound>
+		<compound>övningsämne</compound>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="känsla_1" form="känsla" pos="n" inflection="-an -or">
+	<lexeme id="känsla_1_1">
+		<definition>(kroppslig) upplevelse som uppkommer av yttre eller inre förnimmelse</definition>
+		<synt-example>en ~ av trötthet</synt-example>
+		<synt-example>en ~ av obehag</synt-example>
+		<compound>smärtkänsla</compound>
+	<cycle id="känsla_1_1_a">
+		<trans>äv. utvidgat med tonvikt på den direkta själsliga upplevelsen</trans>
+		<synt-example>en upplivande ~</synt-example>
+		<synt-example>en ~ av obehag</synt-example>
+		<compound>hemkänsla</compound>
+		<compound>glädjekänsla</compound>
+		<compound>skräckkänsla</compound>
+	</cycle>
+	<cycle id="känsla_1_1_b">
+		<trans>äv. om intensiv inre förnimmelse (av ngt förestående e. d.)</trans>
+		<synt-example>hon hade en bestämd/stark ~ av att ngt skulle hända</synt-example>
+	</cycle>
+	<cycle id="känsla_1_1_c">
+		<trans>äv. allmännare</trans>
+		<synt-example>~ för rytm</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="känsla_1_2">
+		<definition>personligt, naturligt och spontant uppkommande sätt att värdera eller förhålla sig till ngn eller ngt</definition>
+		<definition-ext>vilket ej är resultat av tänkande; särsk. om förmåga att känna kärlek e. d.</definition-ext>
+		<synt-example>den karln har inga -or i kroppen</synt-example>
+		<synt-example>hon visar aldrig sina -or</synt-example>
+		<synt-example>hysa varma -or för ngn</synt-example>
+		<synt-example>beskedet mottogs med blandade -or</synt-example>
+		<synt-example>besvara ngns -or</synt-example>
+		<compound>känslobetonad</compound>
+		<compound>känslokall</compound>
+		<compound>känsloengagemang</compound>
+		<compound>känslofull</compound>
+		<compound>känsloliv</compound>
+		<compound>känslomässig</compound>
+		<compound>känslostorm</compound>
+		<compound>känslosvall</compound>
+	<cycle id="känsla_1_2_a">
+		<trans>äv. utvidgat om engagerat själsligt förhållningssätt som äv. bygger på eftertanke</trans>
+		<compound>rättskänsla</compound>
+		<compound>solidaritetskänsla</compound>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="konst_1" form="konst" pos="n" inflection="~en ~er">
+	<lexeme id="konst_1_1">
+		<definition>särskild oundgänglig färdighet</definition>
+		<definition-ext>nödvändig för visst syfte; ofta delvis inlärd</definition-ext>
+		<synt-example>han kan ~en att läsa</synt-example>
+		<synt-example>~en att klara sig helskinnad</synt-example>
+		<compound>talarkonst</compound>
+		<compound>levnadskonst</compound>
+		<compound>framställningskonst</compound>
+	<cycle id="konst_1_1_a">
+		<trans>särsk. om svår sådan, ofta ngt försvagat</trans>
+		<synt-example>det är en ~ att hålla samtalet igång</synt-example>
+		<synt-example>det var väl ingen ~ att lösa det korsordet</synt-example>
+	</cycle>
+	<cycle id="konst_1_1_b">
+		<trans>äv. konkret om utövad färdighet</trans>
+		<synt-example>jonglörerna visade sina ~er</synt-example>
+		<compound>kortkonst</compound>
+		<compound>trollkonst</compound>
+	</cycle>
+	<cycle id="konst_1_1_c">
+		<trans>ibl. nedsätt.</trans>
+		<synt-example>han har alltid en massa ~er för sig</synt-example>
+	</cycle>
+	<cycle id="konst_1_1_d">
+		<trans>äv. konkret om skickligt konstruerade anordningar etc. som kan utföra ngt anmärkningsvärt</trans>
+		<compound>konstlås</compound>
+		<compound>konstur</compound>
+		<compound>vattenkonst</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="konst_1_2">
+		<definition>verksamhet som syftar till att hos människor framkalla särskilda sinnesintryck som ger upphov till känslomässig eller tankemässig inlevelse</definition>
+		<definition-ext>som vanl. innebär ngt slags högre njutning</definition-ext>
+		<synt-example>stor ~</synt-example>
+		<synt-example>fri ~</synt-example>
+		<synt-example>musik är en ~ för örat</synt-example>
+		<synt-example>hon ville ägna sitt liv åt ~en</synt-example>
+		<synt-example>de sköna ~erna</synt-example>
+		<synt-example>~ens ställning i samhället</synt-example>
+		<compound>konstart</compound>
+		<compound>konstform</compound>
+		<compound>bildkonst</compound>
+		<compound>konstföremål</compound>
+		<compound>konsthantverk</compound>
+		<compound>konstnär</compound>
+		<compound>musikkonst</compound>
+		<compound>vardagskonst</compound>
+	<cycle id="konst_1_2_a">
+		<trans>ofta inskränkt om enbart bildkonst</trans>
+		<compound>konsthistoria</compound>
+		<compound>konstakademi</compound>
+	</cycle>
+	<cycle id="konst_1_2_b">
+		<trans>äv. om produkter av bildkonst</trans>
+		<synt-example>en stor mängd modern ~ utbjöds på auktionen</synt-example>
+		<compound>konstmuseum</compound>
+		<compound>konstsamlare</compound>
+		<compound>konstutställning</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="konst_1_3">
+		<definition>anläggning för utpumpning av vatten ur gruva</definition>
+		<definition-ext>driven av mekanisk kraft överförd från vattenhjul</definition-ext>
+		<compound>konstgång</compound>
+		<compound>konststång</compound>
+		<compound>gruvkonst</compound>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="kraft_1" form="kraft" pos="n" inflection="~en ~er">
+	<lexeme id="kraft_1_1">
+		<definition>inneboende egenskap (hos ngn) att kunna påbörja och utföra (vissa) handlingar trots motstånd eller andra svårigheter</definition>
+		<definition-ext>om kroppslig men vanl. (underliggande) själslig egenskap hos person etc., betraktad som nödvändig förutsättning för (konkret) handlande</definition-ext>
+		<synt-example>hon tycks besitta en magisk ~ över sinnena</synt-example>
+		<synt-example>ha ~ att leva vidare</synt-example>
+		<synt-example>efter operationen kan hon nu hålla sig upprätt av egen ~</synt-example>
+		<synt-example>NN har nått sin maktställning av egen ~</synt-example>
+		<synt-example>i sin mannaålders fulla ~</synt-example>
+		<synt-example>han står på höjden av sin skapande ~</synt-example>
+		<synt-example>hon kände ~en i sina muskler</synt-example>
+		<synt-example>han kunde lägga ~ i slaget</synt-example>
+		<synt-example>hon hade inte ~ att ta hand om sina barn</synt-example>
+		<compound>anfallskraft</compound>
+		<compound>viljekraft</compound>
+		<compound>handlingskraft</compound>
+		<compound>dådkraft</compound>
+		<compound>krafttag</compound>
+		<compound>kraftkarl</compound>
+		<compound>muskelkraft</compound>
+		<compound>handkraft</compound>
+		<compound>slagkraft</compound>
+		<compound>motståndskraft</compound>
+	<cycle id="kraft_1_1_a">
+		<trans>ibl. betraktad som ändlig resurs som kan förbrukas el. förnyas</trans>
+		<synt-example>hon fick nya ~er av de vänliga orden</synt-example>
+		<synt-example>problemet tog hans ~er helt i anspråk</synt-example>
+		<synt-example>han ödslade sina ~er förgäves</synt-example>
+		<synt-example>det gäller att ta i med nya ~er</synt-example>
+		<synt-example>han försökte simma i land men hans ~er var slut</synt-example>
+		<synt-example>samla ~ för att berätta allt</synt-example>
+		<compound>själskrafter</compound>
+		<compound>kraftresurser</compound>
+		<compound>kraftlös</compound>
+	</cycle>
+	<cycle id="kraft_1_1_b">
+		<trans>äv. utvidgat i fråga om växter e. d. betr. egenskapen att kunna åstadkomma förändringar etc.</trans>
+		<synt-example>den väldiga ~en hos ett groende frö</synt-example>
+		<compound>grokraft</compound>
+		<compound>jäskraft</compound>
+		<compound>växtkraft</compound>
+	</cycle>
+	<cycle id="kraft_1_1_c">
+		<trans>äv. om motsvarande egenskap hos föremål, anordningar etc.</trans>
+		<synt-example>lokomotivets imponerande ~</synt-example>
+		<synt-example>uppfinnarens stolthet över maskinens ~ och produktionsförmåga</synt-example>
+		<compound>dragkraft</compound>
+		<compound>sprängkraft</compound>
+		<compound>genomslagskraft</compound>
+	</cycle>
+	<cycle id="kraft_1_1_d">
+		<trans>äv. betr. (påtaglig) användning av egenskapen</trans>
+		<synt-example>karolinerna anföll med våldsam ~</synt-example>
+		<synt-example>vågorna bröt med fruktansvärd ~ mot klipporna</synt-example>
+		<synt-example>hon vrålade med sina lungors fulla ~</synt-example>
+		<synt-example>han klämde hennes hand med full ~</synt-example>
+		<synt-example>NN dansar med en enastående ~</synt-example>
+		<synt-example>med all ~ måste det framhållas att ...</synt-example>
+		<synt-example>regnet smattrade i gatan med ~</synt-example>
+	</cycle>
+	<cycle id="kraft_1_1_e">
+		<trans>äv. om uttryck för motsvarande egenskap hos konstnärlig produkt el. likn.</trans>
+		<synt-example>scenerna har ~, spänning och lyster</synt-example>
+		<synt-example>skulpturer som är mjuka i formen men fyllda av ~</synt-example>
+	</cycle>
+	<cycle id="kraft_1_1_f">
+		<trans>äv. utvidgat om mer abstrakt egenskap inom visst angivet el. antytt område</trans>
+		<compound>köpkraft</compound>
+		<compound>beviskraft</compound>
+	</cycle>
+	<cycle id="kraft_1_1_g">
+		<trans>äv. ytterligare utvidgat om motsvarande egenskap med mer obestämd inriktning el. användning</trans>
+		<synt-example>relikens helande och läkande ~</synt-example>
+		<synt-example>gudomens stora ~ på den heliga platsen</synt-example>
+		<compound>kvinnokraft</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="kraft_1_2">
+		<definition>(tänkt) självständig företeelse som kan åstadkomma förändringar i den yttre verkligheten</definition>
+		<definition-ext>i fråga om (vissa föremåls) lägen, tillstånd e.d.</definition-ext>
+		<synt-example>Galilei vederlade den gamla läran om den levande ~en</synt-example>
+		<synt-example>de tidvattenbildande ~erna består främst av månens och solens gravitation</synt-example>
+		<synt-example>de ~er som under lång tid satt spår i berggrunden</synt-example>
+		<synt-example>vulkanutbrottet släppte lös enorma ~er</synt-example>
+		<compound>drivkraft</compound>
+		<compound>kraftmaskin</compound>
+		<compound>naturkraft</compound>
+	<cycle id="kraft_1_2_a">
+		<trans>spec. inom fys. m.m.</trans>
+		<synt-example>i atomkärnans inre uppträder bara två ~er: den starka växelverkan och den elektrosvaga ~en</synt-example>
+		<synt-example>mekaniskt arbete är lika med ~en gånger vägen</synt-example>
+		<synt-example>elektromagnetiska ~er</synt-example>
+		<compound>kraftparallellogram</compound>
+		<compound>kraftfält</compound>
+		<compound>reaktionskraft</compound>
+		<compound>centrifugalkraft</compound>
+		<compound>gravitationskraft</compound>
+		<compound>tyngdkraft</compound>
+	</cycle>
+	<cycle id="kraft_1_2_b">
+		<trans>ofta om angiven el. antydd grupp personer (inklusive nödvändig utrustning e.d.), ibl. äv. om redskap etc., som verkar i viss funktion</trans>
+		<synt-example>starka militära ~er sattes in för att slå tillbaka invasionen</synt-example>
+		<synt-example>partiet tycks ha spelat ut sin roll som politisk ~</synt-example>
+		<compound>datakraft</compound>
+		<compound>arbetskraft</compound>
+		<compound>stridskrafter</compound>
+	</cycle>
+	<cycle id="kraft_1_2_c">
+		<trans>äv. överfört i fråga om mer el. mindre psyk. el. soc. påverkan, ibl. med oklar syftning på obestämd grupp e.d.</trans>
+		<synt-example>alla goda ~er måste medverka i fredsarbetet</synt-example>
+		<synt-example>han kände sig styrd mot undergången av obetvingliga yttre ~er</synt-example>
+		<synt-example>de dunkla ~er som skapar rasism och främlingsfientlighet</synt-example>
+		<synt-example>inflatoriska ~er</synt-example>
+		<synt-example>radikala ~er som verkar i samhället</synt-example>
+		<compound>högerkrafterna</compound>
+	</cycle>
+	<cycle id="kraft_1_2_d">
+		<trans>äv. om enstaka person i viss funktion</trans>
+		<synt-example>han är en dugande ~ i ledningen</synt-example>
+		<synt-example>klubbstugan är byggd av frivilliga ~er</synt-example>
+		<synt-example>vi måste rekrytera yngre ~er</synt-example>
+		<synt-example>hon är en verklig ~ inom företaget</synt-example>
+		<synt-example>NN var den drivande ~en bakom förslaget</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="kraft_1_3">
+		<definition>sammanfattning av medel som används för drift av industrier och transportmedel samt för belysning, uppvärmning och andra viktiga funktioner i samhället</definition>
+		<definition-ext>betraktad som ett slags icke-materiell råvara; nästan alltid levererad i form av elektrisk energi</definition-ext>
+		<synt-example>företaget säljer ~ på den öppna marknaden</synt-example>
+		<synt-example>under köldperioden inköptes mycket ~ från grannländerna</synt-example>
+		<compound>överskottskraft</compound>
+		<compound>atomkraft</compound>
+		<compound>kraftförsörjning</compound>
+		<compound>kraftproduktion</compound>
+		<compound>kraftverk</compound>
+		<compound>elkraft</compound>
+		<compound>vattenkraft</compound>
+	</lexeme>
+	<lexeme id="kraft_1_4">
+		<definition>rättslig giltighet</definition>
+		<synt-example>domen har vunnit laga ~</synt-example>
+		<synt-example>de nya bestämmelserna träder i ~ vid årsskiftet</synt-example>
+		<compound>ikraftträdande</compound>
+		<compound>kraftlösförklaring</compound>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="makt_1" form="makt" pos="n" inflection="~en ~er">
+	<lexeme id="makt_1_1">
+		<definition>position och resurser att styra</definition>
+		<definition-ext>personer, händelser etc.</definition-ext>
+		<synt-example>partiet kom till ~en 1932</synt-example>
+		<synt-example>det stod inte i hans ~ att förhindra olyckan</synt-example>
+		<synt-example>språkets ~ över tanken</synt-example>
+		<compound>maktgalen</compound>
+		<compound>maktställning</compound>
+		<compound>maktutövning</compound>
+		<compound>vapenmakt</compound>
+	<cycle id="makt_1_1_a">
+		<trans>äv. om behärskning av den egna kroppen och dess funktioner</trans>
+		<synt-example>ha ordet i sin ~</synt-example>
+	</cycle>
+	<cycle id="makt_1_1_b">
+		<trans>äv. utvidgat</trans>
+		<synt-example>han stöder förslaget med all ~</synt-example>
+	</cycle>
+	<cycle id="makt_1_1_c">
+		<trans>äv. allmännare</trans>
+		<synt-example>hålla traditionen vid ~</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="makt_1_2">
+		<definition>organisation som utövar kontroll och styrning</definition>
+		<definition-ext>om stat el. statsorgan</definition-ext>
+		<synt-example>de krigförande ~erna</synt-example>
+		<synt-example>den lagstiftande och den verkställande ~en</synt-example>
+		<compound>stormakt</compound>
+		<compound>krigsmakt</compound>
+		<compound>ordningsmakt</compound>
+	<cycle id="makt_1_2_a">
+		<trans>äv. överfört om övernaturliga väsen</trans>
+		<synt-example>ondskans ~er</synt-example>
+		<synt-example>författaren kände sig förföljd av ~erna</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="makt_1_3">
+		<definition>betydelse</definition>
+		<synt-example>det ligger stor ~ uppå att saken behandlas snabbt</synt-example>
+		<compound>maktpåliggande</compound>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="ledning_1" form="ledning" pos="n" inflection="~en ~ar">
+	<lexeme id="ledning_1_1">
+		<definition>det att fungera som underlättande anvisning</definition>
+		<definition-ext>särsk. vid problemlösning, beslutsfattande o. d.</definition-ext>
+		<synt-example>en sammanfattning till ~ för alla deklaranter</synt-example>
+	</lexeme>
+	<lexeme id="ledning_1_2">
+		<definition>tråd- eller rörformig anordning för fortlöpande transport</definition>
+		<definition-ext>av elektricitet, värme el. ngt strömmande ämne</definition-ext>
+		<synt-example>dra in ~ar i huset</synt-example>
+		<synt-example>ett brott på ~en</synt-example>
+		<compound>gasledning</compound>
+		<compound>vattenledning</compound>
+		<compound>ledningsmotstånd</compound>
+		<compound>högspänningsledning</compound>
+		<compound>hetvattensledning</compound>
+	</lexeme>
+	<lexeme id="ledning_1_3">
+		<definition>ställning som ger möjlighet att bestämma</definition>
+		<synt-example>en arbetsgrupp under ~ av statssekreteraren</synt-example>
+		<synt-example>de försökte ta ~en och makten</synt-example>
+	<cycle id="ledning_1_3_a">
+		<trans>äv.</trans>
+		<synt-example>inom företagets ~ diskuteras olika åtgärder</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="ledning_1_4">
+		<definition>det att för tillfället vara främst</definition>
+		<definition-ext>i tävling</definition-ext>
+		<synt-example>på andra varvet gick NN upp i ~en</synt-example>
+		<synt-example>hon tog ~en 100 m från mål</synt-example>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="massa_1" form="massa" pos="n" inflection="-an -or">
+	<lexeme id="massa_1_1">
+		<definition>mängd materia i en kropp</definition>
+		<definition-ext>bestämmande för kroppens vikt och tröghet</definition-ext>
+		<synt-example>kraften = ~n gånger accelerationen</synt-example>
+		<synt-example>bestämma en stjärnas ~</synt-example>
+		<synt-example>syreatomens ~ är 16 gånger så stor som väteatomens</synt-example>
+	</lexeme>
+	<lexeme id="massa_1_2">
+		<definition>formlös substans</definition>
+		<definition-ext>vanl. med halvfast el. klibbig konsistens</definition-ext>
+		<synt-example>sand och vatten i form av en blöt ~</synt-example>
+		<synt-example>hjärnan är en mjuk grå och vit ~</synt-example>
+		<compound>mandelmassa</compound>
+		<compound>lavamassa</compound>
+		<compound>schaktmassa</compound>
+	<cycle id="massa_1_2_a">
+		<trans>spec.</trans>
+		<compound>massaved</compound>
+		<compound>massafabrik</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="massa_1_3">
+		<definition>stor mängd</definition>
+		<definition-ext>vanl. räknebar</definition-ext>
+		<synt-example>tjäna en ~ pengar</synt-example>
+		<synt-example>vi har plockat svamp i -or</synt-example>
+		<synt-example>-or av snö vräkte ner</synt-example>
+		<compound>massproduktion</compound>
+		<compound>massarbetslöshet</compound>
+	<cycle id="massa_1_3_a">
+		<trans>äv. om icke räknebar, kompakt anhopning e. d.</trans>
+		<synt-example>slottets gråa ~</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="massa_1_4">
+		<definition>stor församlad mängd människor</definition>
+		<synt-example>~n samlades utanför regeringsbyggnaden</synt-example>
+		<synt-example>polisen försökte skingra ~n</synt-example>
+		<compound>massdemonstration</compound>
+		<compound>folkmassa</compound>
+	<cycle id="massa_1_4_a">
+		<trans>äv. om sammanfattningen av allt "vanligt" folk, i mots. till rika el. högutbildade personer</trans>
+		<synt-example>den fine poeten appellerade knappast till den stora ~n</synt-example>
+		<synt-example>regeringen var blind för -ornas förhoppningar</synt-example>
+		<compound>masskultur</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="massa_1_5">
+	</lexeme>
+	<lexeme id="massa_1_6">
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="uppgift_1" form="uppgift" pos="n" inflection="~en ~er">
+	<lexeme id="uppgift_1_1">
+		<definition>meddelande om enstaka faktum</definition>
+		<synt-example>lämna ~er till främmande makt</synt-example>
+		<synt-example>enligt ~</synt-example>
+		<synt-example>alla ~er om läget är osäkra</synt-example>
+		<synt-example>detaljerade ~er om utbyggnadsplanerna</synt-example>
+		<compound>uppgiftslämnare</compound>
+		<compound>adressuppgift</compound>
+		<compound>kontrolluppgift</compound>
+		<compound>löneuppgift</compound>
+		<compound>sifferuppgift</compound>
+		<compound>tidningsuppgift</compound>
+		<compound>väderuppgift</compound>
+	</lexeme>
+	<lexeme id="uppgift_1_2">
+		<definition>(viss) speciell verksamhet, med visst syfte, som förväntas bli utförd</definition>
+		<definition-ext>av angiven person, organisation etc.; i fråga om egna, andras el. allmänna förväntningar </definition-ext>
+		<synt-example>han kände sin ~ vara att sprida den kristna läran</synt-example>
+		<synt-example>pressens ~ i ett demokratiskt samhälle</synt-example>
+		<synt-example>~en att vårda barn</synt-example>
+		<synt-example>hänge sig åt sin egentliga ~ (i livet)</synt-example>
+		<synt-example>fylla sin ~ i tillvaron </synt-example>
+		<synt-example>detta är en viktig ~ för föreningen</synt-example>
+		<compound>missionsuppgift</compound>
+		<compound>livsuppgift</compound>
+	<cycle id="uppgift_1_2_a">
+		<trans>äv. mer tvingande, i fråga om (angiven el. underförstådd) konkret verksamhet</trans>
+		<synt-example>fördela ~erna på personalen</synt-example>
+		<synt-example>stadsbuden hade till ~ att hjälpa resenärerna med väskorna</synt-example>
+		<synt-example>han klarar inte jobbet eftersom han har missförstått sina ~er</synt-example>
+		<synt-example>hon fick till ~ att besvara frågor från allmänheten</synt-example>
+		<compound>uppgiftsfördelning</compound>
+		<compound>uppgiftslös</compound>
+	</cycle>
+	<cycle id="uppgift_1_2_b">
+		<trans>spec. i skolsammanhang om problem som elev åläggs att lösa</trans>
+		<synt-example>skrivningen bestod av tio ~er</synt-example>
+		<compound>hemuppgift</compound>
+		<compound>provuppgift</compound>
+		<compound>räkneuppgift</compound>
+	</cycle>
+	<cycle id="uppgift_1_2_c">
+		<trans>ibl. utvidgat om föremål, särsk. (tekn.) anordning e.d.</trans>
+		<synt-example>i en modern bil är karossens ~ bl.a. att upptaga kollisionskrafter genom deformering</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="rad_1" form="rad" pos="n" inflection="~en ~er">
+	<lexeme id="rad_1_1">
+		<definition>uppsättning (av ngt) i mer eller mindre rak linje</definition>
+		<definition-ext>ofta med tonvikt på den uppkomna ordningsföljden</definition-ext>
+		<synt-example>spiltor i långa ~er</synt-example>
+		<synt-example>en ~ av hus</synt-example>
+		<synt-example>det stod ~ efter ~ med malmvagnar på bangården</synt-example>
+		<synt-example>flickorna satt på ~ i soffan</synt-example>
+		<synt-example>gå först i ~en</synt-example>
+		<synt-example>en man i ~en framför reste sig upp</synt-example>
+		<synt-example>fyra bilar i ~</synt-example>
+		<compound>radvis</compound>
+		<compound>radhus</compound>
+		<compound>radsåningsmaskin</compound>
+		<compound>pelarrad</compound>
+		<compound>knapprad</compound>
+		<compound>pärlrad</compound>
+		<compound>tandrad</compound>
+		<compound>ryggrad</compound>
+		<compound>bänkrad</compound>
+		<compound>stolsrad</compound>
+		<compound>fönsterrad</compound>
+		<compound>kotlettrad</compound>
+	<cycle id="rad_1_1_a">
+		<trans>äv. överfört i fråga om tidsförh.</trans>
+		<synt-example>en lång ~ med år</synt-example>
+		<synt-example>tre kvällar i ~</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="rad_1_2">
+		<definition>(större) mängd (av ngt) som kan tänkas vara ordnad i tiden</definition>
+		<definition-ext>el. ibl. i rummet; anv. som ett slags mått</definition-ext>
+		<synt-example>en ~ afrikanska stater har protesterat</synt-example>
+		<synt-example>problemen berodde på en ~ missuppfattningar</synt-example>
+		<synt-example>en hel ~ andra människor har varit inblandade</synt-example>
+		<synt-example>de har redan erkänt en ~ brott</synt-example>
+	</lexeme>
+	<lexeme id="rad_1_3">
+		<definition>vågrät följd av skrivna eller tryckta bokstäver mellan två marginaler</definition>
+		<definition-ext>e. d.; vanl. på papper och som del av längre text; äv. om plats för (planerad) sådan följd</definition-ext>
+		<synt-example>börja (på) ny ~</synt-example>
+		<synt-example>tre ~er från slutet</synt-example>
+		<compound>radavstånd</compound>
+		<compound>radskrivare</compound>
+		<compound>radslut</compound>
+		<compound>radskiftare</compound>
+		<compound>runrad</compound>
+		<compound>versrad</compound>
+		<compound>radbredd</compound>
+	<cycle id="rad_1_3_a">
+		<trans>äv. ngt utvidgat</trans>
+		<compound>notrad</compound>
+		<compound>tipsrad</compound>
+	</cycle>
+	<cycle id="rad_1_3_b">
+		<trans>äv. mer el. mindre bildligt</trans>
+		<synt-example>skriva några ~er</synt-example>
+		<synt-example>han har inte skrivit en ~ på tio år</synt-example>
+		<synt-example>de ovan citerade ~erna</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="rad_1_4">
+		<definition>läktare på teater</definition>
+		<definition-ext>e. d.</definition-ext>
+		<synt-example>första ~en</synt-example>
+		<synt-example>en överbliven biljett på fjärde ~ens sida, andra bänk</synt-example>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="rum_1" form="rum" pos="n" inflection="~met =, best. plur. ~men">
+	<lexeme id="rum_1_1">
+		<definition>del av hus eller lägenhet, för viss verksamhet, som avgränsas från andra delar av väggar, tak och golv</definition>
+		<definition-ext>särsk. i bostad, vanl. möblerad, men äv. i offentlig lokal, på arbetsplats etc.</definition-ext>
+		<synt-example>det minsta ~met använde hon som arbetsrum</synt-example>
+		<synt-example>ett mysigt ~ med kakelugn och brädgolv</synt-example>
+		<synt-example>hela familjen sover i samma ~</synt-example>
+		<synt-example>hon hämtade en bok uppe på sitt ~</synt-example>
+		<compound>rumsinredning</compound>
+		<compound>sovrum</compound>
+		<compound>vardagsrum</compound>
+		<compound>badrum</compound>
+		<compound>lekrum</compound>
+		<compound>finrum</compound>
+		<compound>hörnrum</compound>
+		<compound>rumsindelning</compound>
+		<compound>TV-rum</compound>
+		<compound>duschrum</compound>
+		<compound>lönnrum</compound>
+		<compound>förrum</compound>
+		<compound>vindsrum</compound>
+		<compound>dagrum</compound>
+		<compound>damrum</compound>
+		<compound>kapprum</compound>
+		<compound>klassrum</compound>
+		<compound>klubbrum</compound>
+		<compound>kontrollrum</compound>
+		<compound>lunchrum</compound>
+		<compound>tjänsterum</compound>
+		<compound>uppehållsrum</compound>
+		<compound>väntrum</compound>
+	<cycle id="rum_1_1_a">
+		<trans>spec. om sådan avdelning som ej är kök, hall, toalett etc.</trans>
+		<synt-example>fyra ~ och kök</synt-example>
+	</cycle>
+	<cycle id="rum_1_1_b">
+		<trans>äv. utvidgat om annat (större el. mindre) avgränsat utrymme för spec. användning, med spec. läge etc.</trans>
+		<compound>bergrum</compound>
+		<compound>förrådsrum</compound>
+		<compound>hålrum</compound>
+		<compound>pannrum</compound>
+		<compound>provrum</compound>
+		<compound>skyddsrum</compound>
+		<compound>torkrum</compound>
+	</cycle>
+	<cycle id="rum_1_1_c">
+		<trans>äv. om sådant utrymme som fungerar som tillfällig el. anspråkslös egen bostad e.d.</trans>
+		<synt-example>ha eget ~ på sjukhuset</synt-example>
+		<synt-example>~ för resande</synt-example>
+		<synt-example>beställa ~</synt-example>
+		<synt-example>betala för mat och ~</synt-example>
+		<synt-example>de lyckades få ett ~ på ett ruffigt hotell</synt-example>
+		<compound>dubbelrum</compound>
+		<compound>husrum</compound>
+	</cycle>
+	<cycle id="rum_1_1_d">
+		<trans>äv. om större avgränsat område utomhus</trans>
+		<compound>luftrum</compound>
+	</cycle>
+	<cycle id="rum_1_1_e">
+		<trans>ibl. överfört, särsk. för angivande av rangordning e. d.</trans>
+		<synt-example>de sakkunniga satte NN i första ~met och ON i andra ~met</synt-example>
+		<compound>förslagsrum</compound>
+		<compound>lagrum</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="rum_1_2">
+		<definition>möjlighet till utsträckning i alla tre huvudriktningarna</definition>
+		<definition-ext>el. två i fråga om en yta etc.</definition-ext>
+		<synt-example>det finns inte ~ för fler personer i hissen</synt-example>
+		<synt-example>bordet får inte ~ i köket</synt-example>
+		<synt-example>~ för en svängom</synt-example>
+		<synt-example>det finns ~ för anteckningar i marginalen</synt-example>
+		<compound>armbågsrum</compound>
+		<compound>svängrum</compound>
+		<compound>livsrum</compound>
+		<compound>tomrum</compound>
+		<compound>mellanrum</compound>
+	<cycle id="rum_1_2_a">
+		<trans>äv. överfört</trans>
+		<synt-example>det finns inte ~ för tvivel i detta sammanhang</synt-example>
+		<synt-example>ge ~ för kritik</synt-example>
+		<compound>andrum</compound>
+		<compound>spelrum</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="rum_1_3">
+		<definition>en grundstorhet som beskriver materians utsträckning</definition>
+		<definition-ext>och som (oftast) kan beskrivas med höjd, bredd och längd</definition-ext>
+		<synt-example>utsträckning i tid och ~</synt-example>
+		<synt-example>det tredimensionella ~met</synt-example>
+		<synt-example>den fyrdimensionella rum-tiden</synt-example>
+		<synt-example>det krökta ~met</synt-example>
+		<synt-example>det matematiska ~met</synt-example>
+		<synt-example>relativitetsteorin har medfört en djupgående förändring i tolkningen av ~mets natur</synt-example>
+	<cycle id="rum_1_3_a">
+		<trans>äv. i psykol. sammanhang</trans>
+		<compound>rumsuppfattning</compound>
+		<compound>varseblivningsrummet</compound>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="mening_1" form="mening" pos="n" inflection="~en ~ar">
+	<lexeme id="mening_1_1">
+		<definition>åsikt</definition>
+		<synt-example>säga sin ~ rent ut</synt-example>
+		<synt-example>enligt min ~</synt-example>
+		<synt-example>ha förutfattade ~ar</synt-example>
+		<synt-example>~arna är delade</synt-example>
+		<compound>meningsbrytning</compound>
+		<compound>meningsmotståndare</compound>
+		<compound>meningsutbyte</compound>
+		<compound>folkmening</compound>
+	</lexeme>
+	<lexeme id="mening_1_2">
+		<definition>(åsyftad) innebörd</definition>
+		<synt-example>"konst" i ordets egentliga ~</synt-example>
+		<synt-example>~en i hans ord är oklar</synt-example>
+		<synt-example>objektiv i strikt ~</synt-example>
+		<compound>meningsfull</compound>
+		<compound>andemening</compound>
+	</lexeme>
+	<lexeme id="mening_1_3">
+		<definition>planerad följd av visst handlande</definition>
+		<synt-example>det var inte ~en att hon skulle få veta det</synt-example>
+		<synt-example>vad är ~en med det här?</synt-example>
+	<cycle id="mening_1_3_a">
+		<trans>äv. med svävning mellan syfte och innebörd</trans>
+		<synt-example>livets ~</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="mening_1_4">
+		<definition>största språkliga enhet vars delar står i ett väldefinierat syntaktiskt förhållande till varandra</definition>
+		<definition-ext>med huvudsats och ev. bisats(er); i skrift avslutad med stort skiljetecken, i tal med paus</definition-ext>
+		<synt-example>skriv kortare ~ar!</synt-example>
+		<synt-example>hon gjorde en paus mitt i ~en</synt-example>
+		<compound>meningsbyggnad</compound>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="scen_1" form="scen" pos="n" inflection="~en ~er">
+	<lexeme id="scen_1_1">
+		<definition>särskilt anordnad och avgränsad plats för framförande av teater (eller musik)</definition>
+		<definition-ext>vanl. upphöjd och placerad längst fram i lokalen; ofta med innefattande av tillhörande anordningar för belysning, dekor etc.</definition-ext>
+		<synt-example>göra entré på ~en från vänster</synt-example>
+		<synt-example>strålkastarna rör sig sakta över ~en</synt-example>
+		<synt-example>en halvcirkelformad ~</synt-example>
+		<compound>scenbelysning</compound>
+		<compound>scengolv</compound>
+		<compound>scenmaskineri</compound>
+		<compound>utescen</compound>
+		<compound>vridscen</compound>
+	<cycle id="scen_1_1_a">
+		<trans>äv. ngt utvidgat om sådan plats anordnad för att föreställa viss miljö e.d. i teaterpjäs, ibl. äv. i annan konst</trans>
+		<synt-example>~en föreställer platsen mellan stadsvakten och cigarettfabriken</synt-example>
+		<synt-example>~en är en lantlig krog</synt-example>
+		<compound>scenograf</compound>
+		<compound>scenbild</compound>
+		<compound>scenlösning</compound>
+	</cycle>
+	<cycle id="scen_1_1_b">
+		<trans>ofta symboliskt för (teater)uppträdande i allmänhet</trans>
+		<synt-example>hon började som poet men skriver mest för ~en</synt-example>
+		<synt-example>regissören lyckas inte få människoödena på ~en att beröra oss</synt-example>
+		<synt-example>hans spel utmärks av en enastående närvaro på ~</synt-example>
+		<synt-example>hon var nervös inför sin debut på ~</synt-example>
+		<synt-example>pjäsen verkar konstruerad när man läser den men fungerar bra på ~</synt-example>
+		<synt-example>NN regisserar hellre än han står på ~ (själv)</synt-example>
+		<compound>scentiljor</compound>
+	</cycle>
+	<cycle id="scen_1_1_c">
+		<trans>äv. utvidgat om teater el. dess verksamhet över huvud taget</trans>
+		<synt-example>det spelas mycket klassiker på landets ~er i år</synt-example>
+		<synt-example>staden har fått en fast ~</synt-example>
+		<compound>experimentscen</compound>
+		<compound>nationalscen</compound>
+		<compound>operascen</compound>
+	</cycle>
+	<cycle id="scen_1_1_d">
+		<trans>äv. överfört om skådeplats för verkligt händelseförlopp som har mer el. mindre offentlig karaktär</trans>
+		<synt-example>på den världspolitiska ~en</synt-example>
+		<synt-example>plötsligt dök en ny ledare upp på ~en</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="scen_1_2">
+		<definition>del av teaterpjäs, film eller liknande, som kan avgränsas som egen helhet</definition>
+		<definition-ext>genom avbrott i handlingen, utbyte av personer, växling av perspektiv e.d.</definition-ext>
+		<synt-example>filmen innehåller ~er som kan vara olämpliga för barn</synt-example>
+		<synt-example>NN spelar upp sig och har några övertygande ~er på slutet</synt-example>
+		<synt-example>~en är filmad snett uppifrån</synt-example>
+		<synt-example>ta om ~en flera gånger</synt-example>
+		<synt-example>alla medverkar i sista ~en</synt-example>
+		<compound>dialogscen</compound>
+		<compound>entréscen</compound>
+		<compound>kärleksscen</compound>
+		<compound>krigsscen</compound>
+		<compound>sexscen</compound>
+		<compound>våldsscen</compound>
+	<cycle id="scen_1_2_a">
+		<trans>ibl. om motsvarande del av manuskript e.d., spec. som formell underavdelning till akt</trans>
+		<synt-example>Hamlet akt tre, ~ fem</synt-example>
+		<synt-example>du måste skriva till några ~er (i TV-såpan) så att avsnittet fyller sändningstiden</synt-example>
+	</cycle>
+	<cycle id="scen_1_2_b">
+		<trans>äv. utvidgat om avsnitt i litteratur, bildkonst etc. som skildrar ett motsvarande (tänkt) delförlopp</trans>
+		<synt-example>författaren kan skildra arbetsmiljöer men ~erna från huvudpersonens familjeliv övertygar inte</synt-example>
+	</cycle>
+	<cycle id="scen_1_2_c">
+		<trans>äv. utvidgat om verkligt, naturligen avgränsat, händelseförlopp</trans>
+		<synt-example>fruktansvärda ~er utspelades i flyktinglägret</synt-example>
+		<synt-example>vi fick bevittna en intressant liten ~ i snabbköpet</synt-example>
+		<compound>naturscen</compound>
+		<compound>panikscen</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="scen_1_3">
+		<definition>scenografi</definition>
+		<definition-ext>i recensioner e.d.</definition-ext>
+		<synt-example>Pjäs: Gengångare, Författare: Ibsen, Regi: NN, Scen: ON, Skådespelare: ... </synt-example>
+	</lexeme>
+	<lexeme id="scen_1_4">
+		<definition>uppträde som vållar obehaglig uppmärksamhet</definition>
+		<definition-ext>vilken ofta är avsedd av ngn av parterna; i form av gräl, högljudd diskussion, dramatiska handlingar etc.</definition-ext>
+		<synt-example>en pinsam ~ som slutade med att hon slängde drinken i ansiktet på honom</synt-example>
+		<synt-example>han ställde till med en ~ när han inte fick sin vilja fram</synt-example>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="betydelse_1" form="betydelse" pos="n" inflection="~n ~r">
+	<lexeme id="betydelse_1_1">
+		<definition>tankemässigt innehåll (hos visst uttryck)</definition>
+		<definition-ext>språkl. el. motsvarande</definition-ext>
+		<synt-example>jag använder ordet i dess ursprungliga ~</synt-example>
+		<synt-example>samma form men olika ~r</synt-example>
+		<compound>betydelseförändring</compound>
+		<compound>betydelseförskjutning</compound>
+		<compound>betydelseskiftning</compound>
+		<compound>betydelsetom</compound>
+		<compound>grundbetydelse</compound>
+		<compound>bibetydelse</compound>
+		<compound>specialbetydelse</compound>
+	<cycle id="betydelse_1_1_a">
+		<trans>äv. utvidgat om underliggande innehåll</trans>
+		<synt-example>symbolisk ~</synt-example>
+		<synt-example>den religiösa ~n i Det sjunde inseglet är oklar</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="betydelse_1_2">
+		<definition>(viss) vikt såsom faktor</definition>
+		<definition-ext>i visst sammanhang, för viss person etc.</definition-ext>
+		<synt-example>samtiden insåg inte ~n av hans forskning</synt-example>
+		<synt-example>en person av stor ~ för sitt land</synt-example>
+		<synt-example>militärbaserna var av avgörande ~ för stormakten</synt-example>
+		<synt-example>ekonomisk ~</synt-example>
+		<synt-example>politisk ~</synt-example>
+		<compound>betydelsefull</compound>
+		<compound>betydelselös</compound>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="tillfälle_1" form="tillfälle" pos="n" inflection="~t ~n">
+	<lexeme id="tillfälle_1_1">
+		<definition>enstaka punkt eller läge i ngt händelseförlopp</definition>
+		<definition-ext>som framgår av sammanhanget; ibl. om historiens förlopp i allmänhet och då om tidpunkt el. kort tidsperiod</definition-ext>
+		<synt-example>vid varje ~ man talar med honom lyckas han säga dumheter</synt-example>
+		<synt-example>vid ett ~ hade han slagit sin fru och vid ett annat ~ kört ut henne ur lägenheten</synt-example>
+		<synt-example>det gäller att bli uppmärksammad vid rätt ~</synt-example>
+		<synt-example>vid det ~t bodde han i Stockholm</synt-example>
+		<synt-example>kostymen använder han bara vid högtidliga ~n</synt-example>
+		<synt-example>som hon vid flera ~n påpekat...</synt-example>
+		<compound>olyckstillfälle</compound>
+	<cycle id="tillfälle_1_1_a">
+		<trans>ofta om särskilt anmärkningsvärd punkt e.d.</trans>
+		<synt-example>vid ett teaterhistoriskt ~ uppträdde NN och ON tillsammans</synt-example>
+	</cycle>
+	<cycle id="tillfälle_1_1_b">
+		<trans>äv. utvidgat om viss händelse som ingår i serie e.d. av liknande</trans>
+		<synt-example>vid ett ~ hade den ofullbordade bytts ut mot Beethovens femma</synt-example>
+	</cycle>
+	<cycle id="tillfälle_1_1_c">
+		<trans>spec. i fråga om rådande situation e. d. i nuläget, absolut el. i förhållande till utsagans tid; ofta med antydan om väntad förändring</trans>
+		<synt-example>för ~et hade han inget särskilt att göra</synt-example>
+		<synt-example>för ~t har vi inte den varan inne</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="tillfälle_1_2">
+		<definition>särskild, uppkommande eller övergående möjlighet (för ngn) (att handla på visst sätt)</definition>
+		<definition-ext>angivet el. underförstått; ofta om möjlighet som uppkommer i visst läge av ngt förlopp e.d.</definition-ext>
+		<synt-example>ett utmärkt ~ för dig att visa vad du kan</synt-example>
+		<synt-example>han försatt inte ~t att ställa den obehagliga frågan</synt-example>
+		<synt-example>han hade inte ~ att komma på festen, för hans fru var sjuk</synt-example>
+		<synt-example>passa på ~t!</synt-example>
+		<synt-example>de hade flera ~n att avgöra matchen till sin fördel</synt-example>
+		<synt-example>han lät inte ~t gå sig ur händerna</synt-example>
+		<synt-example>gripa ~t i flykten</synt-example>
+	<cycle id="tillfälle_1_2_a">
+		<trans>äv. utvidgat om särskilt anordnad möjlighet</trans>
+		<synt-example>informationsträffar, kvartersfester och andra ~n att lära känna grannarna</synt-example>
+		<synt-example>bereda den skattskyldige ~ att yttra sig</synt-example>
+		<compound>ansökningstillfälle</compound>
+		<compound>undervisningstillfälle</compound>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="program_1" form="program" pos="n" inflection="~met =, best. plur. ~men">
+	<lexeme id="program_1_1">
+		<definition>plan för (viss) sammansatt händelse eller verksamhet, som anger den ordning i vilka de olika delarna skall förekomma</definition>
+		<definition-ext>t. ex. för konsert, teaterföreställning, studiebesök, kurs el. fest</definition-ext>
+		<synt-example>enligt ~et möts de båda seriefavoriterna redan i andra omgången</synt-example>
+		<synt-example>~met för morgondagens konferens är inte riktigt klart</synt-example>
+		<synt-example>Beethovens nia stod på ~met</synt-example>
+		<compound>kursprogram</compound>
+		<compound>programenlig</compound>
+		<compound>tävlingsprogram</compound>
+	<cycle id="program_1_1_a">
+		<trans>äv. utvidgat om föreställning e.d. som följer sådan plan</trans>
+		<synt-example>~met avslutades med bejublad solosång av NN</synt-example>
+		<synt-example>en stor del av publiken gick mitt i ~met</synt-example>
+	</cycle>
+	<cycle id="program_1_1_b">
+		<trans>äv. utvidgat om (mindre) skrift med sådan plan (samt ofta med kompletterande upplysningar)</trans>
+		<synt-example>publiken prasslade med ~men</synt-example>
+		<synt-example>kolla i ~met vem som spelar skurkrollen</synt-example>
+		<synt-example>köpa ett ~ i biljettkassan</synt-example>
+	</cycle>
+	<cycle id="program_1_1_c">
+		<trans>spec. om sådan förteckning över inslag i TV el. radio; vanl som särsk. spalt el. bilaga i tidning</trans>
+		<synt-example>titta efter i ~met vad det är på TV i kväll</synt-example>
+	</cycle>
+	<cycle id="program_1_1_d">
+		<trans>äv. allmännare om informell el. tänkt plan</trans>
+		<synt-example>nu har vi varit på bio - vad står härnäst på ~met?</synt-example>
+		<synt-example>mitt ~ är fulltecknat den närmaste veckan</synt-example>
+		<compound>dagsprogram</compound>
+	</cycle>
+	<cycle id="program_1_1_e">
+		<trans>ibl. ytterligare utvidgat</trans>
+		<synt-example>firman kan erbjuda ett helt ~ av vitvaror för kök och tvättstuga</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="program_1_2">
+		<definition>plan för utförande av viss verksamhet, bestående av systematiska föreskrifter</definition>
+		<definition-ext>för organisation och/el. dess personal, för enskild person etc.</definition-ext>
+		<synt-example>ett ~ för förtätning av bebyggelsen i centrum</synt-example>
+		<synt-example>några vilopauser ingick inte i arbetsgivarens nya ~ för den slimmade produktionen</synt-example>
+		<synt-example>om man skall öka sin kondition måste man följa ~met noga</synt-example>
+		<synt-example>partiets omarbetade ~ presenterades</synt-example>
+		<compound>träningsprogram</compound>
+		<compound>bantningsprogram</compound>
+		<compound>programförklaring</compound>
+		<compound>bostadsprogram</compound>
+		<compound>handlingsprogram</compound>
+		<compound>forskningsprogram</compound>
+	<cycle id="program_1_2_a">
+		<trans>äv. om faktiskt genomförande av sådan plan</trans>
+		<synt-example>hon hade tränat upp sig så att hon kunde klara hela ~met utan att bli andfådd</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="program_1_3">
+		<definition>system av formella instruktioner som kan få dator att utföra (viss typ av) uppgift</definition>
+		<definition-ext>ofta i samverkan med andra dylika system</definition-ext>
+		<synt-example>köra ett ~</synt-example>
+		<synt-example>ett ~ som jämför två datafiler och gör en lista över avvikelser</synt-example>
+		<synt-example>skriva ~</synt-example>
+		<synt-example>det ~met kan man ladda ner gratis från nätet</synt-example>
+		<synt-example>en bugg i ~met</synt-example>
+		<compound>programutveckling</compound>
+		<compound>statistikprogram</compound>
+		<compound>ordbehandlingsprogram</compound>
+		<compound>dataprogram</compound>
+		<compound>programmera</compound>
+	<cycle id="program_1_3_a">
+		<trans>äv. betraktat som självständigt handlande företeelse</trans>
+		<synt-example>ett tungt ~ som får gå under veckoslutet</synt-example>
+		<synt-example>är ~met inte klart (med jobbet) än?</synt-example>
+		<synt-example>~met tycks ha gått i loop och gör om samma sak gång på gång</synt-example>
+		<synt-example>ta en liten rast medan ~met arbetar</synt-example>
+	</cycle>
+	<cycle id="program_1_3_b">
+		<trans>ibl. överfört i liknelser e.d.</trans>
+		<synt-example>hela ~met för att utveckla individen ligger lagrat i generna</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="program_1_4">
+		<definition>sändning i radio eller TV som betraktas som egen, avgränsad helhet</definition>
+		<definition-ext>och presenteras som sådan, mest under eget namn e.d.</definition-ext>
+		<synt-example>radions klassiska ~ Dagens dikt</synt-example>
+		<synt-example>~met Hylands hörna sågs av nästan hela svenska folket</synt-example>
+		<synt-example>det går ett ~ om invandrare på tisdagskvällar</synt-example>
+		<compound>programledare</compound>
+		<compound>programmakare</compound>
+		<compound>programserie</compound>
+		<compound>programtid</compound>
+		<compound>nyhetsprogram</compound>
+		<compound>radioprogram</compound>
+	<cycle id="program_1_4_a">
+		<trans>äv. om det samlade utbudet under viss tid</trans>
+		<synt-example>helgens ~ i TV</synt-example>
+	</cycle>
+	<cycle id="program_1_4_b">
+		<trans>äv. utvidgat om viss kanal i radio el. TV</trans>
+		<synt-example>~ tre</synt-example>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="natur_1" form="natur" pos="n" inflection="~en ~er">
+	<lexeme id="natur_1_1">
+		<definition>den del av den omgivande verkligheten som inte är skapad av människan</definition>
+		<definition-ext>med tonvikt på det man ser; växter, mineraler etc., ibl. äv. djur</definition-ext>
+		<synt-example>exploatering av ~ och råvaror</synt-example>
+		<synt-example>de sista resterna av orörd ~</synt-example>
+		<synt-example>ölandets vackra ~</synt-example>
+		<synt-example>en vindpinad ~ med sten, gräs och småbuskar</synt-example>
+		<synt-example>bevara värdefull ~ i nationalparkerna</synt-example>
+		<synt-example>med ~en inpå knuten</synt-example>
+		<synt-example>nöjesresor ut i ~en</synt-example>
+		<synt-example>en bok om Europas ~ med tonvikt på djuren</synt-example>
+		<synt-example>det i ~en förekommande uranet</synt-example>
+		<compound>naturfotograf</compound>
+		<compound>naturförhållanden</compound>
+		<compound>naturförstörelse</compound>
+		<compound>naturgeografi</compound>
+		<compound>naturkatastrof</compound>
+		<compound>naturreservat</compound>
+		<compound>natursceneri</compound>
+		<compound>naturtillgång</compound>
+		<compound>naturvetenskap</compound>
+		<compound>alpnatur</compound>
+		<compound>havsnatur</compound>
+		<compound>kustnatur</compound>
+		<compound>skärgårdsnatur</compound>
+		<compound>slättlandsnatur</compound>
+		<compound>naturlig</compound>
+	<cycle id="natur_1_1_a">
+		<trans>särsk. betraktad såsom (mänsklig) livsmiljö, med tonvikt på det äkta och ursprungliga</trans>
+		<synt-example>~ens barn</synt-example>
+		<synt-example>tillbaka till ~en</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="natur_1_2">
+		<definition>sammanfattningen av alla av sig själva uppkommande skeenden och företeelser i (den yttre) verkligheten</definition>
+		<definition-ext>särsk. betraktad som ett självstyrande el. lagbundet system; vanl. i mots. till ngt konstruerat el. tänkt</definition-ext>
+		<synt-example>använda ~en som förebild</synt-example>
+		<synt-example>~ens lagar</synt-example>
+		<synt-example>ett ämne utan föregående motsvarighet i ~en eller laboratoriet</synt-example>
+		<compound>naturbunden</compound>
+		<compound>naturinstinkt</compound>
+		<compound>naturkraft</compound>
+		<compound>naturnödvändighet</compound>
+		<compound>onatur</compound>
+	<cycle id="natur_1_2_a">
+		<trans>äv. personifierat</trans>
+		<synt-example>det är mot ~en att skilja mor och barn åt</synt-example>
+		<synt-example>~en avskyr tomrum</synt-example>
+		<synt-example>en av ~en given form</synt-example>
+		<synt-example>enligt ~ens ordning</synt-example>
+		<synt-example>dessa föremål har ~en själv skapat</synt-example>
+		<synt-example>~ens hämnd</synt-example>
+	</cycle>
+	</lexeme>
+	<lexeme id="natur_1_3">
+		<definition>sammanfattning av grundläggande egenskaper (hos viss företeelse)</definition>
+		<definition-ext>så som de framträder efter undersökning, analys e.d.</definition-ext>
+		<synt-example>svårigheter av teknisk ~</synt-example>
+		<synt-example>det ligger i sakens ~</synt-example>
+		<synt-example>infektionstillstånd av mera kronisk ~</synt-example>
+		<synt-example>mordets sociala ~</synt-example>
+		<compound>engångsnatur</compound>
+	<cycle id="natur_1_3_a">
+		<trans>äv. mer speciellt</trans>
+		<synt-example>hans ansikte hade av ~en något sömnigt över sig</synt-example>
+		<synt-example>det ligger i hans ~ att vara arrogant</synt-example>
+		<synt-example>destruktiva tendenser i människans ~</synt-example>
+		<synt-example>den teologiska striden om Kristi två ~er</synt-example>
+		<compound>människonatur</compound>
+	</cycle>
+	<cycle id="natur_1_3_b">
+		<trans>äv. utvidgat</trans>
+		<synt-example>han var en djupt konservativ ~</synt-example>
+		<compound>vampnatur</compound>
+		<compound>spelarnatur</compound>
+		<compound>diktarnatur</compound>
+		<compound>dubbelnatur</compound>
+	</cycle>
+	</lexeme>
+</lemma-entry>
+<lemma-entry id="färg_1" form="färg" pos="n" inflection="~en ~er">
+	<lexeme id="färg_1_1">
+		<definition>grundläggande, genom synen uppfattad egenskap (hos ngt) som beror på det slags ljus som utsänds (från detta) och som ofta kan jämföras med viss del av regnbågen</definition>
+		<definition-ext>och vanl. kan (ungefärligen) beskrivas med en av ett litet antal standardbeteckningar; eg. bestämd av ljusets våglängd(er)</definition-ext>
+		<synt-example>gräsets friska gröna ~</synt-example>
+		<synt-example>diskreta ~er</synt-example>
+		<synt-example>bjärta ~er</synt-example>
+		<synt-example>lysande ~er</synt-example>
+		<synt-example>höstens nya ~er från Paris är kastanjebrunt och bourgognerött</synt-example>
+		<synt-example>~en lila kan betraktas som en kombination av ~erna rött och blått</synt-example>
+		<synt-example>varma och kalla ~er</synt-example>
+		<synt-example>de klara ~erna rött, gult, grönt och blått</synt-example>
+		<synt-example>barn sorterar ofta föremål efter ~ snarare än form</synt-example>
+		<compound>färgfilm</compound>
+		<compound>färgkrita</compound>
+		<compound>färgprakt</compound>
+		<compound>färgskala</compound>
+		<compound>färgspel</compound>
+		<compound>hårfärg</compound>
+		<compound>modefärg</compound>
+	<cycle id="färg_1_1_a">
+		<trans>äv. inskränkt om sådana synintryck som avviker från gråskalan</trans>
+		<synt-example>han filmar hellre i svartvitt än i ~</synt-example>
+		<compound>färgfilm</compound>
+		<compound>färg-TV</compound>
+	</cycle>
+	<cycle id="färg_1_1_b">
+		<trans>ibl. spec. om hudens naturliga utseende</trans>
+		<synt-example>ansiktet förlorade ~en</synt-example>
+	</cycle>
+	<cycle id="färg_1_1_c">
+		<trans>ofta bildligt, med känslomässig el. symbolisk laddning</trans>
+		<synt-example>vredens röda ~</synt-example>
+		<synt-example>skildra förhållandena i mörka ~er</synt-example>
+		<synt-example>vemodets blåa ~</synt-example>
+	</cycle>
+	<cycle id="färg_1_1_d">
+		<trans>spec. i fråga om flagga el. likn., som symbol för nation etc.</trans>
+		<synt-example>en legoknekt som hade slagits under många länders ~er</synt-example>
+		<synt-example>på söndag skall laget försöka försvara de blågula ~erna</synt-example>
+	</cycle>
+	<cycle id="färg_1_1_e">
+		<trans>spec. bildligt om politisk inställning enl. en konventionell skala</trans>
+		<synt-example>grupper långt ut på högerkanten med svartblå ~</synt-example>
+		<synt-example>partiets röda ~ har bleknat</synt-example>
+		<synt-example>vilken ~ har tidningen?</synt-example>
+		<compound>partifärg</compound>
+	</cycle>
+	<cycle id="färg_1_1_f">
+		<trans>äv. överfört till hörselintryck</trans>
+		<compound>klangfärg</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="färg_1_2">
+		<definition>klibbigt, vanligen flytande, ämne, innehållande partiklar av viss kulör, avsett att strykas ut och torka till ett tunt skikt</definition>
+		<definition-ext>vid målning</definition-ext>
+		<synt-example>han bredde på för tjockt med ~</synt-example>
+		<synt-example>ljusbeständiga ~er</synt-example>
+		<compound>bottenfärg</compound>
+		<compound>målarfärg</compound>
+		<compound>oljefärg</compound>
+		<compound>rostskyddsfärg</compound>
+		<compound>färgburk</compound>
+		<compound>grundfärg</compound>
+		<compound>färgborttagningsmedel</compound>
+	<cycle id="färg_1_2_a">
+		<trans>spec. om målningsmaterial med pigment i mots. till pigmentfria</trans>
+		<synt-example>skall vi ta ~ eller fernissa till trädgårdsmöblerna?</synt-example>
+	</cycle>
+	<cycle id="färg_1_2_b">
+		<trans>äv. om fast ämne som ger kulör genom gnidning e.d.</trans>
+		<compound>färgkrita</compound>
+	</cycle>
+	<cycle id="färg_1_2_c">
+		<trans>äv. om ämne som måste lösas före användning</trans>
+		<compound>vattenfärg</compound>
+	</cycle>
+	<cycle id="färg_1_2_d">
+		<trans>äv. om ämne som ger kulör genom neddoppning, inblandning e.d.</trans>
+		<compound>textilfärg</compound>
+		<compound>karamellfärg</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="färg_1_3">
+		<definition>sammanfattning av olika egenskaper som ger (visst) speciellt intryck</definition>
+		<definition-ext>mest i fråga om var för sig relativt obestämda el. svårbeskrivna egenskaper</definition-ext>
+		<synt-example>frågan har fått politisk ~</synt-example>
+		<compound>tidsfärg</compound>
+		<compound>lokalfärg</compound>
+	<cycle id="färg_1_3_a">
+		<trans>ofta utvidgat, med värderande betydelse</trans>
+		<synt-example>jag var ung en gång för längesen, en flottare med ~</synt-example>
+		<synt-example>allsången satte ~ på tillställningen</synt-example>
+		<compound>färgstark</compound>
+	</cycle>
+	</lexeme>
+	<lexeme id="färg_1_4">
+		<definition>en av de fyra serier om tretton kort (från tvåan till esset) som en kortlek består av</definition>
+		<definition-ext>dvs ngn av spader, hjärter, ruter och klöver</definition-ext>
+		<synt-example>spela ut i partnerns bästa ~</synt-example>
+		<synt-example>syd kunde inte bekänna ~</synt-example>
+	</lexeme>
+</lemma-entry>
+</lexicon>

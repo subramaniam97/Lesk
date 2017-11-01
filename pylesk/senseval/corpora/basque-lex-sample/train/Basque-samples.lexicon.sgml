@@ -1,0 +1,2191 @@
+<!SGML "ISO 8879:1986"
+CHARSET
+BASESET  "ISO 646-1983//CHARSET
+          International Reference Version (IRV)//ESC 2/5 4/0"
+DESCSET  0       9     UNUSED
+         9       1     9
+         10      1     10
+         11      2     UNUSED
+         13      1     13
+         14     12     UNUSED
+         26      1     UNUSED
+         27      5     UNUSED
+         32     95     32
+        127      1     UNUSED
+CAPACITY
+SGMLREF
+TOTALCAP   10000000
+ENTCAP       500000
+ENTCHCAP     500000
+ELEMCAP      500000
+GRPCAP      1000000
+EXGRPCAP     500000
+EXNMCAP      500000
+ATTCAP       500000
+ATTCHCAP     500000
+AVGRPCAP     500000
+NOTCAP       500000
+NOTCHCAP     500000
+IDCAP        500000
+IDREFCAP     500000
+MAPCAP       500000
+LKSETCAP     500000
+LKNMCAP      500000
+SCOPE    DOCUMENT
+SYNTAX
+SHUNCHAR CONTROLS 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+                  16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+                  127 255
+BASESET  "ISO 646-1983//CHARSET
+          International Reference Version (IRV)//ESC 2/5 4/0"
+DESCSET   0     128     0
+FUNCTION RE     13
+         RS     10
+         SPACE  32
+         TAB    SEPCHAR 9
+     --  EOF    SEPCHAR 26 --
+NAMING   LCNMSTRT ""
+         UCNMSTRT ""
+         LCNMCHAR "-."
+         UCNMCHAR "-."
+         NAMECASE GENERAL YES
+                  ENTITY  NO
+DELIM    GENERAL SGMLREF
+         SHORTREF SGMLREF
+NAMES    SGMLREF
+QUANTITY SGMLREF
+         ENTLVL   32
+         NAMELEN  32
+         LITLEN  2048
+         GRPCNT  253
+         GRPGTCNT  180
+         TAGLVL   24
+FEATURES
+MINIMIZE DATATAG NO     OMITTAG  YES    RANK     NO     SHORTTAG YES
+LINK     SIMPLE  NO     IMPLICIT NO     EXPLICIT NO
+OTHER    CONCUR  NO     SUBDOC   NO     FORMAL   NO
+APPINFO NONE>
+
+<!DOCTYPE tei.2 SYSTEM 'tei2.dtd' [
+<!ENTITY % TEI.dictionaries 'INCLUDE' >
+]>
+<tei.2>
+  <teiheader>
+    <filedesc>
+      <titlestmt>
+	<title></title>
+      </titlestmt>
+      <publicationstmt>
+	<!-- one of (authority distributor publisher p) -->
+	<p>p</p>
+      </publicationstmt>
+      <sourcedesc>
+	<!-- one of (recordingstmt scriptstmt listbibl biblstruct biblfull bibl p) -->
+	<bibl>p</bibl>
+      </sourcedesc>
+    </filedesc>
+  </teiheader>
+  <text>
+    <body>
+
+
+
+<entry>
+   <form><orth>altxatu, altxa, altxatzen</orth></form>
+   <GramGrp><subc>da-du</subc><pos>ad.</pos></GramGrp>
+   <usg type=time>1545</usg>
+   <sense n='1'>
+      <def>Etzanda edo eserita dagoena zutitu.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>jaiki</ref></xr>
+      <eg><q>Altxa zaitez. Ohetik altxatu. Eskutik hartu eta altxatu zuen.</q></eg>
+      <sense n='n1'>
+         <def>Jaso, goratu.</def>
+         <eg><q>Eskuak, begiak, burua altxatu. Altzifrea altxatzen da arboletan gorena. Ogia eta ardoa altxatzean. Gogo-bihotzak indartu eta altxatzeko. Aingura altxatu. Prezioak altxatu.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <usg type=time>1571</usg>
+         <def>(Orea eta) harrotu.</def>
+         <xr type=syn><lbl>Ik.</lbl><ref>hartzi</ref></xr>
+         <eg><q>Ogia altxatu.</q></eg>
+         <xr type=syn><lbl>Ik.</lbl><ref>altxagarri</ref></xr>
+      </sense>
+      <sense n='n3'>
+         <GramGrp><subc>da</subc><pos>ad.</pos></GramGrp>
+         <usg type=time>1571</usg>
+         <eg><q>Norbaiten kontra, aurka... altxatu: agintea duenari uko egin, eraso; haren kontra borrokatzeko prestatu.</q></eg>
+         <xr type=syn><lbl>Ik.</lbl><ref>asaldatu 2</ref></xr>
+         <eg><q>Erregearen aurka altxatu ziren. Altxatuko dira jendeak jendeen kontra, erreinuak erreinuen kontra.</q></eg>
+      </sense>
+      <sense n='n4'>
+         <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+         <usg type=time>1651</usg>
+         <usg type=geo>Batez ere ipar.</usg>
+         <def>Eraiki.</def>
+         <eg><q>Lehenbiziko sendatze horren oroitzapentzat altxatu zuten harrizko oroigarri eder bat.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>1571</usg>
+      <def>Gorde, bildu.</def>
+      <eg><q>Hamabi saski pusketez beteak altxatu zituzten.</q></eg>
+      <sense n='n1'>
+         <usg type=geo>Ipar.</usg>
+         <def>Hartu, jaso.</def>
+         <eg><q>Altxa ezazu esku ohea eta joan zaitez. Ongarri duenak altxatuko du bihi. Norbait preso altxatu.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <def>Gorde, ezkutatu.</def>
+         <eg><q>Josek, haurra hartu eta Egiptora altxatu zuen. Kutxan altxatua zegoen koroa.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <usg type=time>1627</usg>
+         <def>Kendu, ebatsi.</def>
+         <eg><q>Maiteen nuena altxatu didate.</q></eg>
+      </sense>
+   </sense>
+   <sense n='3'>
+      <usg type=time>1733</usg>
+      <usg type=geo>Ipar.</usg>
+      <usg type=lang>fr.</usg>
+      <def>Hazi, hezi.</def>
+      <eg><q>Semeak ongi altxatu.</q></eg>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <form><orth>azaldu, azal edo azaldu, azaltzen</orth></form>
+   <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+   <usg type=time>*1745, 1747</usg>
+   <sense n='1'>
+      <def>Zerbaiti buruz hitz egin, hura ulertarazteko edo ezagutarazteko.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>argitu 3</ref></xr>
+      <eg><q>Asko dira kristau ikasbideak hitz gutxi horietan dakarrena aditzen ez dutenak; horregatik gauza beharra da hemen erakusten zaiguna behin eta berriz azaltzea. Hauxe azaldu nahi nuke txosten honetan. Horrelakorik nola gerta daitekeen ez nuke nik azaldu behar. Soldadu zaharra zuen aita, berak ederki azaltzen duen bezala. Nola egin zuen ihes azaldu zigun. Entzunda nago, zuk amets bat entzun orduko azaltzen duzula.</q></eg>
+   </sense>
+   <sense n='2'>
+      <GramGrp><subc>da-du</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>1808</usg>
+      <def>Agertu.</def>
+      <eg><q>Hor, dirudienez, delako morrontasuna ez da bekatu harro-harro eta lotsagabeki azaltzen baitute. Euskal esaldiari buruz aspaldi azaldu zituen iritzietan. Jaun mordoxka batek Euskaltzaindiari azaltzen dion irizpidea baita. Sartu zaizkigun kezkak eta katramilak artean azaldu gabe zeuden. Gai horretan inor esker gaiztoko azaldu bada ez gara gu izan. "Corriere della sera"-n azaldu da, oraindik orain, S. Madariagaren artikulu bat. Hutsak ugariegi azaltzen dira haren orrialdeetan.</q></eg>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <form><orth>baliatu, balia, baliatzen</orth></form>
+   <GramGrp><pos>ad.</pos></GramGrp>
+   <usg type=time>XV b.</usg>
+   <sense n='1'>
+      <GramGrp><subc>zaio</subc><pos>ad.</pos></GramGrp>
+      <usg type=geo>Batez ere ipar.</usg>
+      <def>Inori zerbait edo norbait baliagarri gertatu.</def>
+      <eg><q>Ez zaio baliatu laster egitea. Baina orain nor baliatuko zaigu? Zeure asmo makurretarako nor baliatuko zaizu? Zure izate zerutiarra lurtarroi balia dakigun. Jainkoa balia dakidala. Argi hori bekit beraz balia. Ezdeustako direla mundu honetako ondasunak, ez badira besteko baliatzen.</q></eg>
+      <sense n='n1'>
+         <GramGrp><subc>dio</subc><pos>ad.</pos></GramGrp>
+         <usg type=plev>G.g.er.</usg>
+         <def>Balio izan.</def>
+         <eg><q>Gezurra zen hau baina baliatu zion semeari, amagandik zekusan gurutze gogaikarritik ihes egiteko.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <usg type='ohar_gram.'>"-z".</usg>
+      <usg type=time>1643</usg>
+      <GramGrp><subc>da</subc><pos>ad.</pos></GramGrp>
+      <def>Zerbaiterako bide bezala zerbait edo norbait erabili.</def>
+      <eg><q>Liburu askoz baliatu dira idazlan hori prestatzeko. Norbaitez baliatu zerbait lortzeko. Zure bitartekotasunaz baliaturik. Adimenaz balia zaitez, ez indarraz. Ez zen bat ere bere gorputzaz balia ahal zitekeenik eskean ibiltzen. Inoren hitzaz baliatu behar badut. Nola baliatuko ote nintzen kutxa hartaz. Geure buruez ezin baliatuz aurkitzen garela. Eta euskaldunak erregeaz baliatu nahi foruei eusteko.</q></eg>
+      <sense n='n1'>
+         <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+         <usg type=time>1630</usg>
+         <usg type=geo>Batez ere ipar.</usg>
+         <def>Erabili.</def>
+         <eg><q>Bertsua bururatzeagatik edozein hitz mota baliatu nuela. Zoki-moko guztiak baliaturik, emazteak ari dira lugintzan. Ea duen denbora ongi baliatu.</q></eg>
+      </sense>
+   </sense>
+</entry>
+
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>ebaki, ebakitzen</orth></form>
+      <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>1545</usg>
+      <form type=variant><orth>ebagi</orth><usg type=time>1596</usg></form>
+      <def>Lanabes aho-zorrotz baten bidez zerbaiten jarraitasuna eten, zerbait bereizi edo zatitu.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>moztu</ref></xr>
+      <eg><q>Belarra ebakitzen ari zela. Zuhaitz betekorra ez du inork ebakitzen. Segaz ebakia. Halere ez zuen lore bat ebakiko eta beretzat hartuko. Puskatan ebaki. Besoa ebaki zion. Ganibeta erori zaio eta behatza ebaki du. Korapilo hau, nik ebaki gabe askatu dut. Hemendik moztu, hortik ebaki, hango urratua pasaratu eta hemen adabakia ipini. <usg type='esr_zah.'>Maiatzean belarra luze da eta sendo, igitaiaren hortzak ebaki leidi ondo.</usg></q></eg>
+    <sense n='n1'>
+       <eg><q>Ontziak ura ongi ebakitzen du. Ebaki, eta kartak banatzen hasi zen. Solas alferrak ebaki behar dituzu. Bidea ebaki.</q></eg>
+       <xr type =syn><lbl>Ik.</lbl><ref>1 bide</ref></xr>
+    </sense>
+    <sense n='n2'>
+       <usg type=time>*~1800, 1802</usg>
+       <usg type=plev>G. er.</usg>
+       <def>Erabaki.</def>
+       <eg><q>Auzia ebaki.</q></eg>
+    </sense>
+    <sense n='n3'>
+       <usg type=time>~1755</usg>
+       <def>Zauritu, hebaindu.</def>
+       <eg><q>Hezurretaraino azotez ebaki eta itxian zartu zituzten.</q></eg>
+    </sense>
+    <sense n='n4'>
+       <usg type=dom>Geom.</usg>
+       <def>Lerroek, gainaldeek edo gorputz gotorrek batzean elkargune lerro bat eratu.</def>
+    </sense>
+      <sense n='2'>
+         <usg type=time>1571</usg>
+         <def>Hizkuntza hotsak ahoaz gauzatu.</def>
+         <xr type =syn><lbl>Ik.</lbl><ref>ahoskatu, oguzi</ref></xr>
+         <eg><q>Lau edo bost urteko mutiltxo bat badator Gaztelatik Euskal Herrira, laster ikasiko du euskara, eta guk bezala ebakiko ditu hitzak. Hango azentu tankerak badu berezkorik; esate baterako, "gizonak" sing. eta "gizonak" pl., berdin ebakitzen dira: "gizónak". Esaldiak ongi ebakitzen ahalegintzeko.</q></eg>
+      </sense>
+   </hom>
+</entry>
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>edan, edaten</orth></form>
+      <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>*1562, 1571</usg>
+      <sense n='1'>
+         <def>Edozein isurkari irentsi.</def>
+         <eg><q>Baso bat ardo edan. Edateko on(a) den ura. Edateko ez ona. Ez dezala haurrak ardorik eta sagardorik edan, ez gauza lohiturik ere jan. Edan ezazu iturriko ura ezeren nahaste gabe. Ur hau edaten duena berriz ere egarrituko da; baina nik emandako uretik edaten duenak ez du egundaino egarririk izango. Belar horiekin eginikako saldatik hiru aldiz edatea aski bailuke eriak, sendatzeko. Izango dugu zer jan eta zer edan. Egarria kentzeko, asetzeko edan. Tanta, xorta bat edan. Kopatik hurrupaka edaten. Gauerdiaz gero ezer ere jan eta edan gabe egotea. Abereei edaten <hi rend=normal>(ipar. eta naf.</hi> edatera) eman.</q></eg>
+         <usg type='esamolde_azalpen'><hi rend=italic>Edaten indazu:</hi> edaten emaidazu.</usg>
+         <eg><q>Erregeri edaten eskaintzeko. Itsasoko ura zu bazina, agortzeraino edango nuke. Lore guztiek haginka edan zidaten odola.</q></eg>
+         <sense n='n1'>
+            <eg><q>Norbaiten osasunera edan. <usg type='esr_zah.'>Ugatzean edaten dena, zerraldoan esuro.</usg></q></eg>
+         </sense>
+         <sense n='n2'>
+            <eg><q>Aireko hezetasuna edaten duen lurra. Esnea xurgatzean euskara dut edan. Argi iturri horretan edan zituzten Elizako Gurasoek beren liburuetako ikaskizunak. Zure ahotik pozik Txomin dut edaten. Asetzen zara jan eta edanaz gure irabaziak.</q></eg>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <usg type='ohar_gram.'><hi rend=italic>Zer</hi> osagairik gabe.</usg> 
+         <def>Edari biziak hartu.</def>
+         <eg><q>Badakit edaten duela. Edanda dago. Asko edaten du eta kalte egiten dio. Ezagutza galtzeraino edan. Neurriz jatea eta edatea. Jateko eta edateko gurari larregia. Anitz jateaz eta anitz edateaz jaleago eta edaleago egiten baita.</q></eg>
+      </sense>
+      <re>
+         <form><orth>EDAN-SARRI</orth></form>
+         <GramGrp><pos>izond.</pos></GramGrp>
+         <usg type=time>1802</usg>
+         <def>Sarri edaten duena.</def>
+         <eg><q>Nekazari edan-sarri eta ardozaleegiak. Ardoaz edan-sarri izatea.</q></eg>
+      </re>
+   </hom>
+</entry>
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>ekarri, ekar, ekartzen</orth></form>
+      <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>XIV</usg>
+      <usg type='ohar_gram.'>Laguntzailerik gabe ere jokatzen da:<hi rend=italic> dakart, dakar; dakartza; nakar; dakarkio; nekarren, zekarren; zekartzan; nindekarren; zekarkion; bekar; bekartza; bekarkio.</hi></usg>
+      <sense n='1'>
+         <def>Mintzatzen ari dena aurkitzen den lekura zerbait edo norbait eraman.</def>
+         <eg><q>Bi alkandora ekarri ditut bat eranztea ahaztuta. Bi liburu besterik ez zituen ekarri. Ekarri dizut eskatu zenidana. Mundura ekarri. Ekar dezatela alkatea! Preso zekartena. <usg type='esr_zah.'>Urek ekarri, urek eraman.</usg></q></eg>
+         <sense n='n1'>
+            <eg><q>Parisko egunkariak ekarri digute haren hil-berria. Zer irain egin dizuet, zer zoritxar ekarri dizuet? Esanaren lekuko Jainkoa ekarri.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <eg><q>Zorigaitzak ekarri nau egoera tamalgarri honetara. Hitzak hizpidea ekarririk. Fede santura ekar itzatzu sinesgabeak.</q></eg>
+            <xr type =syn><lbl>Ik.</lbl><ref>erakarri</ref></xr>
+         </sense>
+         <sense n='n3'>
+            <eg><q>Ez bedi ekar estakurutzat orain arteko ohitura. Argudio horren kontra ekar daitezkeen bi arrazoi.</q></eg>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <def>Zerbait, adierazten den zerbaiten ondorio izan.</def>
+         <eg><q>Ondorioz ekarri. Hazi-beharrak ekarri dizkion hazi-minak. Ekaitzak ekarri dizkien kalteak. Indarkeriak zapalketa mota berriak berekin ekarri ohi dituela. Jokaera horrekin zeure buruari ekarri diozun kaltea gogoratuaz.</q></eg>
+      </sense>
+      <sense n='3'>
+         <def>(Fruitu) eman.</def>
+         <eg><q>Fruitu onak dakartzan zuhaitza. Horra nola agorra dirudien lurrak ekar dezaken bazka ona. Begira orain zure ereintzak ekarri duen uztari. Untxiak bi hilabete guztiz ekar ditzake umeak. Egunkariak dakartzan berriak.</q></eg>
+      </sense>
+      <sense n='4'>
+         <usg type=geo>Batez ere ipar.</usg>
+         <def>Gorde, begiratu.</def>
+         <eg><q>Handia da Jainkoari ekarri behar zaion ohorea. Zeren ez diozun ekarri obedientzia Jainkoaren manuari. Ez zitzaiokeen orduan euskaldun berri batek begiramen handirik ekar euskaldun jator bati.</q></eg>
+         <usg type='esamolde_azalpen'><hi rend=italic>Dolua ekarri:</hi> doluzko jantziak erabili.</usg> 
+         <eg><q>Ez egin negarrik, ez ekar dolurik.</q></eg>
+      </sense>
+      <re>
+         <form><orth>EKARRI ERAGIN</orth></form>
+         <usg type=time>1802</usg>
+         <form type=variant><orth>ekhar eragin</orth><usg type=time>*1715</usg></form>
+         <usg type=geo>Batez ere bizk.</usg>
+         <def>Ekarrarazi.</def>
+      </re>
+   </hom>
+</entry>
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>erre, erretzen</orth></form>
+      <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>XV h.</usg>
+      <form type=variant><orth>erra</orth><usg type=time>1545</usg></form>
+      <form type=variant><orth>erretzen</orth><usg type=time>1627</usg></form>
+      <form type=variant><orth>erratzen</orth><usg type=time>1545</usg></form>
+      <sense n='1'>
+         <def>Zerbait suaren bidez ahitu; suak edo berotasun gehiegiak zerbait erabat hondatu.</def>
+         <eg><q>Sasiak, liburuak erre. Etxea erre zitzaion. Sutan egon arren erretzen ez dena. Sorgina omen zelako erre zuten. Labe horrek ikatz gehiegi erretzen du. Erre usaina. Eguzkiak alorrak erre zituen.</q></eg>
+         <sense n='n1'>
+            <eg><q>Lixibak arropa erretzen du. Izotzak landareak erre. Mihia erretzen duen edari bizia. Asunak eskua erre dio.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <eg><q>Begi erreak. Pertsona erreak eta haserrekorrak.</q></eg>
+         </sense>
+         <sense n='n3'>
+            <eg><q>Barruak jaten inoiz baino erreago eta zitalago.</q></eg>
+         </sense>
+         <sense n='n4'>
+            <GramGrp><subc>da-du</subc><pos>ad.</pos></GramGrp>
+            <eg><q>Gezur horrek erre dit harrezkero bihotza. Zure amodioan erre nadin.</q></eg>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+         <def>Janariak prestatu, suaren eraginpean, zuzenean nahiz labean, ezarriz.</def>
+         <xr type=syn><lbl>Ik.</lbl><ref>gardostu</ref></xr>
+         <eg><q>Arkumea burruntzian erre. Labean erretzen da ogia. Ogi erre berri bero-beroak. Taloak nork erre? Gaztainak erre artean. Patatak erre edo egosi. Lukainka errea edo frijitua. Sagar erreak. Arrain erre puska bat. Azala kiskalia eta barrua erre gabea. <usg type='esr_zah.'>Indargabearen haserrean errea.</usg></q></eg>
+      </sense>
+      <sense n='3'>
+         <def>Tabakoaren edo antzeko gaien kea arnasarekin hartu.</def>
+         <eg><q>Zigarro bat erre. Pipa erretzen. Opioa erretzeagatik Asko erretzen du.</q></eg>
+      </sense>
+      <sense n='4'>
+         <usg type='ohar_gram.'>Era burutua izen gisa.</usg>
+         <eg><q>Errearentzat berriz ur freskoa da erremediorik onena.</q></eg>
+      </sense>
+      <re>
+         <form><orth>ERRE-OPARI</orth></form>
+         <xr type =form><lbl>Ik.</lbl><ref>erre-opari</ref></xr>
+      </re>
+   </hom>
+</entry>
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>etorri, etor, etortzen</orth></form>
+      <GramGrp><subc>da</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>1539</usg>
+      <usg type='ohar_gram.'>Laguntzailerik gabe ere jokatzen da: <hi rend=italic>nator, dator, datoz; nentorren, zetorren, zetozen; natorkio; datorkit, datorkio; zatozkio; datozkio, datozkie; betorkio; betozkie; nentorkion; zetorkidan, zetorkion; zentozkion; zetozkion, zetozkien.</hi></usg>
+      <sense n='1'>
+         <def>Hitz egiten duena dagoen tokira joan.</def>
+         <eg><q>Nigana etor zaitezen. Gure etxera etortzeko. Aitarekin dator. Bi emakume etorri zitzaizkion ikustera. Ea zertara etorri zaren. Bazkaltzera etorri zirenak. Urrundik etorri. Trenez etorri ziren. Goizeko trenean etorri ziren. Herrira etorri berrien artean. Baserritik etorri berria zela.</q></eg>
+         <sense n='n1'>
+            <eg><q>Orduak joan, orduak etorri, Josetxo ez zen agertzen. Baina urteak joan, urteak etorri, gauzak asko aldatu dira gure artean. Norbaiti zerbait burura etorri. Gaitz bat etor dakiola. Gaua etorri artean.</q></eg>
+            <xr type =syn><lbl>Ik.</lbl><ref>heldu 2</ref></xr>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <def>Norbaiten iritzi, ohitura edo bizimodua onartu edo haietara egokitu.</def>
+         <usg type='ohar_gram.'>Objektua <hi rend=italic>-(er)a</hi> deklinabide atzizkiaz.</usg>
+         <eg><q>Ez nator haren esanetara. Zuen kontu arinetara ni etorri?</q></eg>
+         <sense n='n1'>
+            <eg><q>Anitz haur, txiki direino, manukor, eme eta gozo dira, baina adinarekin etortzen dira mutiritzera.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <usg type='ohar_gram.'>"Norekin".</usg> 
+            <def>Elkar aditu.</def>
+            <xr type =syn><lbl>Ik.</lbl><ref>konpondu 2</ref></xr>
+            <eg><q>Gizon jakintsuekin hitz egiten ez dakit nik; zuekin bai, nekazariok, ondo etortzen naiz. Ez al dira elkarrekin ongi etortzen? Nekez kenduko zaizkie grina horiek, zeren beren izatearekin datozkienak diren.</q></eg>
+         </sense>
+      </sense>
+      <sense n='3'>
+         <usg type='ohar_gram.'>Karta jokoetan.</usg>
+         <eg><q>Zertatik dator? Ezpatatik dator, ez urretik.</q></eg>
+      </sense>
+      <re>
+         <form><orth>BAT ETORRI</orth></form>
+         <xr type =form><lbl>Ik.</lbl><ref>bat</ref></xr>
+      </re>
+      <re>
+         <form><orth>DATORREN</orth></form>
+         <GramGrp><pos>izlag.</pos></GramGrp>
+         <usg type=time>~1760</usg>
+         <def>Hurrengoa.</def>
+         <xr type =form><lbl>Ik.</lbl><ref><hi rend=normal>HELDU DEN</hi> heldu 2<hi rend=normal>-n</hi></ref></xr>
+         <eg><q>Datorren urtean. Datozen <hi rend=normal>(edo</hi> datorren<hi rend=normal>)</hi> hiru asteetan.</q></eg>
+      </re>
+      <re>
+         <form><orth>ETORRI BERRI</orth></form>
+         <GramGrp><pos>pred.</pos></GramGrp>
+         <usg type=time>1620</usg>
+         <eg><q>Zaragozatik etorri berria den kirolzale itxurako mutila.</q></eg>
+         <sense n='n1'>
+            <GramGrp><pos>izond.</pos></GramGrp>
+            <usg type=time>1931</usg>
+            <form type=variant><orth>etor-berri</orth><usg type=time>1855</usg></form>
+            <eg><q>Gotzain etorri berriak eta lehenagoko erakusleak elkar hartuta.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <eg><q>Etorri berrian pixka batean etzanda egon nintzen.</q></eg>
+         </sense>
+      </re>
+      <re>
+         <form><orth>JOAN-ETORRI</orth></form>
+         <xr type =form><lbl>Ik.</lbl><ref>joan-etorri</ref></xr>
+      </re>
+   </hom>
+</entry>
+
+
+
+
+<entry>
+   <form><orth>galdu, gal, galtzen</orth></form>
+   <GramGrp><subc>da-du</subc><pos>ad.</pos></GramGrp>
+   <usg type=time>XV ea.</usg>
+   <sense n='A'>
+      <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+      <def>Zerbaitez gabetua gertatu.</def>
+   <sense n='1'>
+      <usg type='ohar_sem.'>Berreskura edo bila daitekeen zerbaitez.</usg>
+      <xr type=ant><lbl>Ant.</lbl><ref>aurkitu</ref></xr>
+      <eg><q>Giltzak galdu ditu. Mila pezetakoa galdu dut eta ez dut inon aurkitzen. Galdu zitzaigun papera berriz atzematen dugunean. <usg type='esr_zah.'>Zakutik bihia gal edo zorrotik irina, da galtze berdina.</usg> Bizi zareino gogotik Jainkoa ez gal.</q></eg>
+   </sense>
+   <sense n='2'>
+      <usg type='ohar_sem.'>Ezin bila edo berez ezin berreskura daitekeen zerbaitez.</usg>
+      <eg><q>Kordea galdu. Loa galdurik. Ondasunak eta osasuna galdu. Ezkondu eta berehala galdu zuen senarra. Ez dezazula berehala itxaropena gal. Beldurra galtzen baduzu. Elkarri leialtasuna galdu dioten senar-emazteen etxean. Begi bat galdu. Besoa galdu. Bizia galtzeko arriskuan. Haur batek erabat gal dezakeela bere lehen hizkuntza, bestetan hazi dutelako gero. Haren heriotzarekin, nik ezagutu dudan hiztunik ederrena galdu dugu. Goizik galdu zuen aita; geroztik ez zuen ama baizik ikusten. Hogei kilo galdu zituen hiru hilabetetan. Haurdun dagoenak umea galdu. Inoiz izan ez diren Paradisu galduen bila. Seme-alaba gaizto eta lotsa galdukoak.</q></eg>
+      <sense n='n1'>
+         <def>Zerbaitez ez baliatu.</def>
+         <eg><q>Denbora galdu. Astirik galdu gabe. Indarrak alferrik galduz.</q></eg>
+      </sense>
+   </sense>
+   <sense n='3'>
+      <usg type=time>1596</usg>
+      <def>Zerbait ez lortu; garaitua izan.</def>
+      <xr type=ant><lbl>Ant.</lbl><ref>irabazi</ref></xr>
+      <eg><q>Apustua galdu zuen. Milaka pezeta galdu ditu jokoan. Ez dute fitsik ere galdu nahi indarkeriaren indarkeriaz sakeleratu dutenetik. Hiru eta huts galdu dute. <usg type='esr_zah.'>Non fida, han gal.</usg></q></eg>
+   </sense>
+  </sense>
+   <sense n='B'>
+      <GramGrp><subc>da</subc><pos>ad.</pos></GramGrp>
+      <sense n='1'>
+         <usg type=time>1545</usg>
+         <def>Bidetik at, hura ezin aurkituz, gertatu.</def>
+         <eg><q>Gauez oihanean galdu ginen. Galduak goazela ikusirik. Labirintuan galdua. Ez gaitezen gal amets bideetan barna. Ardi galduen gisan. Saioetan teoriak, eta teoria zuzenak, behar du izan gidari, sasi tartean galduko ez bagara. Zoko galduren batean baizik, diotenez, erabiltzen ez diren hitzak.</q></eg>
+      </sense>
+      <sense n='2'>
+         <GramGrp><subc>da-du</subc><pos>ad.</pos></GramGrp>
+         <def>(Zerbait edo norbait) guztiz hondatu, suntsitu, gaiztatu.</def>
+         <eg><q>Ez dela egundaino Jauna baitan fidatu denik galdu.</q></eg>
+         <eg><q>Gaizki hil eta betiko gal ez gaitezen. Kristautasuna hondatzeko, itotzeko, galtzeko zorian.</q><xr type =syn><lbl>Ik.</lbl><ref>galzori</ref></xr></eg>
+         <eg><q>Galdua naiz betiko. Ardoak gaitu galdu. Lagun hurkoaren izen ona galtzen duenak. Behartua zaude galdu diozun ohorea bihurtzera. Burua gehien galtzen zion gauza. Azeriak sei arkume galdu ditu bart bordan. Baratze guztiak galdu ditu ekaitzak. Beroaz haragia galdu egiten da. Emakume asko galdu ditu edertasunak, eta gizon asko handiusteak. Oi harrokeria, zenbat galdu dituzun! Zu galtzeko eta hiltzeko bideak asmatzen ari ziren. Gehiegi harrotu zen eta bere burua galdu zuen.</q></eg>
+       <sense n='n1'>
+         <usg type='ohar_gram.'>Era burutua izenondo gisa.</usg>
+         <eg><q>Gazte galdua izan zinelako.</q></eg>
+         <eg><q>Emakume galduekin.</q><xr type=syn><lbl>Ik.</lbl><ref>emagaldu</ref></xr></eg>
+         <eg><q>Mundu galdu honetan. Haren asmo galduei igerrita.</q></eg>
+      </sense>
+     </sense>
+      <sense n='3'>
+         <GramGrp><subc>da</subc><pos>ad.</pos></GramGrp>
+         <def>Desagertu, ezereztu.</def>
+         <eg><q>Aztarrenik gabe galdu diren hainbat agiri zahar. Gure arraza ez dadin gal. Begien bistatik zeharo galdu zen arte. Haren oroitzapena gal ez dadin. Batasuna eginik ere, euskara gal daiteke; batasunik gabe galdua dago aldez aurretik.</q></eg>
+      </sense>
+   </sense>
+   <re>
+      <form><orth>GALDUAN</orth></form>
+      <usg type=time>*1745, 1912</usg>
+      <sense n='a'>
+         <def>Galtzen.</def>
+         <eg><q>Norgehiagoka hauetan, bat gertatuko da irabazian eta bestea galduan. Galduan geldituko ez direlako segurantziak ematen zaizkie. Ez gara galduan irtengo irakurtzen badugu. Gerra galdu zutenak, galduan gerra egin zutenak dira.</q></eg>
+      </sense>
+      <sense n='b'>
+         <usg type='esamolde_azalpen'><hi rend=italic>Ia galduan, erdi galduan</hi>: galzorian.</usg>
+      </sense>
+   </re>
+         <note type=usage>Trena galdu <hi rend=normal>(esp.): h.</hi> trena huts egin.</note>
+</entry>
+
+
+
+<entry>
+   <form><orth>garbitu, garbi <hi rend=normal>edo</hi> garbitu, garbitzen</orth></form>
+   <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+   <usg type=time>1545</usg>
+   <sense n='1'>
+      <def>Zikintasuna, lohitasuna kendu.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>xahutu 1; ikuzi; araztu; txukundu</ref></xr>
+      <xr type =ant><lbl>Ant.</lbl><ref>zikindu</ref></xr>
+      <eg><q>Ontziak garbitu. Etxeko arropa zikina etxean garbitu. Etxea garbitzeko. Bere amak garbitu dio aurpegia. Bazkal aurrean eskuak garbitzen ditu. Hortzak garbitzekoa. Ur beroz garbitu. Garia garbitu. Eriei zauri zornatuak garbitu. Zerua garbitu du.</q></eg>
+      <sense n='n1'>
+         <eg><q>Euskara arroztzat jotzen den eragin guztietarik garbitu nahia. Kristoren odola, Adanen bekatuaren kutsutik garbitu gaituena.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <def>Bekatuak kendu.</def>
+         <eg><q>Bere arima garbitu ondoren.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <usg type=time>~1760</usg>
+         <usg type='esamolde_azalpen'><hi rend=italic>Bere burua garbitzeko</hi>: bere burua zuritzeko.</usg> 
+         <eg><q>Bere burua garbitzearren eta inork errurik ezar ez diezaion.</q></eg>
+      </sense>
+      <sense n='n4'>
+         <usg type=time>1666</usg>
+         <def>Eragozpenak kendu, konpondu; argitu.</def>
+         <eg><q>Nahiago dut auzi hau neronek garbitu. Bideak garbitu. Zor-hartzekoen kontua garbituz. Azterketan behar adina garbitu gabe gelditu den puntua.</q></eg>
+      </sense>
+      <sense n='n5'>
+         <usg type=time>1808</usg>
+         <def>Suntsitu; xahutu.</def>
+         <eg><q>Azken ekaitzak uzta guztia garbitu du. Zuen guztia garbitu zuen edanean.</q></eg>
+      </sense>
+      <sense n='n6'>
+         <usg type=time>1909</usg>
+         <def>Ezer gabe utzi.</def>
+         <eg><q>Ohoinek etxea garbitu diote.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <usg type=time>~1760</usg>
+      <usg type=reg>Beh.</usg>
+      <def>Hil.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>akabatu 2</ref></xr>
+      <eg><q>Espetxetik atera eta garbitu zituzten.</q></eg>
+   </sense>
+</entry>
+
+
+<entry>
+   <form><orth>gidatu, gida <hi rend=normal>edo</hi> gidatu, gidatzen</orth></form>
+   <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+   <usg type=time>1571</usg>
+   <form type=variant><orth>giadu</orth><usg type=time>1537</usg></form>
+   <sense n='1'>
+      <def>Bidea erakutsiz norbaiti lagun egin; bidea aurkitzen lagundu.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>bideratu</ref></xr>
+      <eg><q>Etor nirekin, gidatuko zaituztet. Ipar izarrak gidatzen ditu gauez itsasgizonak. Israeldarrak lur agindura gidatzeko. Jainkoak gida eta begira zaitzala Zerurako bidean. Ez gaitu intuizio-argiak gidatuko.</q></eg>
+   </sense>
+   <sense n='2'>
+      <def>Bizitzako eginbide eta egitekoetan jarraibidea erakutsi, edo hautatzen lagundu.</def>
+      <eg><q>Gazteak bizimodua hautatzen gidatu. Jainkoaren zerbitzuan Izpiritu Santuaz gida gaitezen.</q></eg>
+   </sense>
+   <sense n='3'>
+      <def>(Zerbait) norabide jakin batetik joanarazi.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>zuzendu 3</ref></xr>
+      <eg><q>Bere automobila gidatzen. Alboko atalek erdikoa gidatzen dute. Irratiz gidatutako hegazkina. Ikasleen ikerlanak gidatu.</q></eg>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>ikusi, ikus, ikusten</orth></form>
+      <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>1545</usg>
+      <form type=variant><orth>ekusi</orth><usg type=time>1545</usg></form>
+      <usg type='ohar_gram.'>Laguntzailerik gabe ere jokatzen da: <hi rend=italic>dakusat, dakusa; dakuskit, dakuski; nekusan, zekusan, genekusan; zekuskien; balekusa; balekuski; lekuske; lekusazke.</hi></usg>
+      <sense n='1'>
+         <def>Ikusmenaren bidez gauzen irudiak hartu; begien bidez somatu.</def>
+         <xr type=syn><lbl>Ik.</lbl><ref>begietsi</ref></xr>
+         <eg><q>Begiratu zuen hara, baina ez zuen ezer ikusi. Ez ikusi eta ez entzun. Norbait, zerbait ikusi. Mikel ikusi dut. Gaur ikusi zaitut lehendabiziko aldiz. Mikeli buruko zauria ikusi diot. Neskari belarri bat bakarrik ikusten zitzaion. Elkar ikusi zutenean. Ea noiz ikusten dugun elkar. Begi hutsez ikusten diren izarrak.</q></eg>
+         <eg><q>Han Jainkoa beti ikusi nahia, eta inoiz ere ez ikusi behar gogorra.</q><xr type=syn><lbl>Ik.</lbl><ref>ikusnahi</ref></xr></eg>
+         <eg><q>Bere begiez ikusia. Hurbildik ikusten. Ikus daitekeena (Ik. <hi rend=bold>ikusgai</hi>) eta ezin ikus daitekeena (Ik. <hi rend=bold>ikusezin</hi>. Agur, ikusi arte. <usg type='esr_zah.'>Ahuntzak garia ikusi, baina ez hesia.</usg></q></eg>
+         <sense n='n1'>
+            <def>Zerbaiten ikusle, lekuko izan.</def>
+            <eg><q>Film hau gogoz ikusi dugula aitortu behar. Estropadak ikusi. Hiria ikustera atera. Erortzen ikusi ditut. Ez nuen liburua ezkutatzen ikusi. Bere burua ispiluan ikusi zuenean. Ikusiko duzu zer erantzungo dizun. Geure buruak galdurik ikusi genituen. Hilik ikusi zituztenean. Euskadi aske ikusi arte. Azken urte hauetan gorabehera gaitzak ikusi dituzte gauzek. Auzi gogorragoak ere ikusi izan dira.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <eg><q><usg type='esamolde_azalpen'><hi rend=italic>(Norbaitek norbait edo zerbait) ezin du ikusi</hi>: gorroto handia dio.</usg></q><xr type = syn><lbl>Ik.</lbl><ref>ikusiezin</ref></xr></eg>
+            <eg><q>Ezin du begiz ikusi. Gure artean gauza bat dago izugarri itsusia, begietako bista ona eta inor ezin ikusia. Ezin dute elkar ikusi.</q></eg>
+            <usg type='esamolde_azalpen'><hi rend=italic>Bere garaiko euskal idazleetatik, ezin zuen inor ikusi</hi>: ez zituen batere gogoko.</usg> 
+            <eg><q>Ez zuten hobetze hori begi onez ikusi.</q></eg>
+         </sense>
+         <sense n='n3'>
+            <usg type=time>1545</usg>
+            <def>Pairatu.</def>
+            <eg><q>Kristau gaiztoetatik ikusi dituen txarkeria eta bidegabeak. Ederrak ikusi behar izan ditu han! Bizirik hainbeste ikusia zuena, hil ondoan ere bakerik ez.</q></eg>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <def>(Zerbaitez) ohartu, (zerbait) egiaztatu.</def>
+         <eg><q>Orain ikusten dut ez nintzela harekin ongi jokatu. Ez du ikusten egitekoaren zailtasuna. Ikusten (duzu)? Horrela argiago ikusiko ditugu orain bertan daramagun bidearen alde makurrak. Urrutirako betaurrekorik gabe edozeinek ikus zezakeena baizik ez nuen esan. Berehala ikusi ziren erabakiaren ondorio onak. <usg type='esr_zah.'>Ikusten ez duen begiak, gaitzik ez.</usg></q></eg>
+         <sense n='n1'>
+            <eg><q>Edozein hiztegitan ikus daitekeenez.</q></eg>
+         </sense>
+      </sense>
+      <sense n='3'>
+         <def>Zerbaiti arretaz begiratu; aztertu, gogoan hartu.</def>
+         <eg><q>Eskuizkribua ikusi eta zuzentzeko. Ikusi dut haren azken liburua, gaingiroki bederen. Ikus dezagun zer dioen txostenak. Zer esan duten ikusi ondoren. Gazteek ez dituzte ikusi nahi zaharrok izan genitzakeen alde onak. Denetatik bada Euskal Herrian, non-nahi bezala, bizkorrik eta ergelik; zein diren ugariago, han eta hemen, bakoitzak ikus beza. Lehenik ikus dezagun nola konpon daitekeen arazoa.</q></eg>
+         <sense n='n1'>
+            <eg><q>Txori asko ikasiaren esanak. Ezagun da zerbait ikusia dela munduan.</q></eg>
+         </sense>
+      </sense>
+      <sense n='4'>
+         <usg type=time>*1746, 1855</usg>
+         <usg type=plev>G. er.</usg>
+         <def>Ikustaldi bat egin, bisitatu.</def>
+         <xr type = syn><lbl>Ik.</lbl><ref>ikustatu 1</ref></xr>
+         <eg><q>Gaixo nentzan eta ikusi ninduzuen.</q></eg>
+      </sense>
+      <re>
+         <form><orth>EZ IKUSI(A)</orth><usg type=time>1617</usg></form>
+         <form><orth>EZ IKUSIARENA EGIN</orth><usg type=time>1910</usg></form>
+         <eg><q>Ikusiari ez ikusi egiten diozula. Ikastolei ez ikusia egiten zieten garaian.</q></eg>
+      </re>
+      <re>
+         <form><orth>IKUSIARENA EGIN</orth></form>
+         <usg type=time>1921</usg>
+         <eg><q>Ikusi ala ez ikusi, ikusiarena egin dute haietarik askok.</q></eg>
+      </re>
+      <re>
+         <form><orth>IKUSTEKO</orth></form>
+         <GramGrp><pos>izlag.</pos></GramGrp>
+         <usg type=time>1657</usg>
+         <def>Ikusgarria, miragarria.</def>
+         <eg><q>Izurrite gorria baitzen aberetan, ikustekoak ziren denak ikaretan. Munduko gauzarik ikustekoenak.</q></eg>
+         <sense n='n1'>
+            <usg type='ohar_gram.'>Izen gisa.</usg>
+            <eg><q>Ikusteko handi bat: Espiritu Santua jaitsi zen usoa zirudiela. Hura zen hura, ikustekoa! Jai handiak direnean han ikusten dira ikustekoak.</q></eg>
+          </sense>
+       </re>
+       <re>
+            <form><orth>IKUSTEKO IZAN</orth></form>
+            <usg type=time>1571</usg>
+            <def>Harremana izan.</def>
+            <usg type='ohar_gram.'>Batez ere baiezko ez diren esaldietan.</usg>
+            <xr type=syn><lbl>Ik.</lbl><ref>zerikusi; ikuskizun 1</ref></xr>
+            <eg><q>Ez dugula ikustekorik Indiako erresumarekin. Zer ikusteko dut nik zurekin? <hi rend=normal>Peru Abarka</hi>-rekin ikusteko gutxi duten eranskinak.</q></eg>
+      </re>
+   </hom>
+</entry>
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>iraun, irauten</orth></form>
+      <GramGrp><subc>du</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>1545</usg>
+      <usg type='ohar_gram.'>Laguntzailerik gabe ere jokatzen da: <hi rend=italic>diraut, dirau, diraute; nirauen, zirauen, genirauen, zirauten; banirau, balirau, baliraute; nirauke, lirauke, liraukete.</hi> Dena dela, atzizkiok, hirugarren pertsonako <hi rend=italic>nork</hi>-dunak izan ezik, arras gutxi erabiltzen dira.</usg>
+      <sense n='1'>
+         <def>Egoera berean jarraitu, egoera jakin bati eutsi.</def>
+         <xr type = syn><lbl>Ik.</lbl><ref>1 atxiki 2; mantendu 2</ref></xr>
+         <eg><q>Beti batean iraun. Bizirik irauten duen bitartean. Honelako bizitzarekin, nola iraun bide onean? Kargu horretan iraun zuen zenbait urtetan. Iraun ezazu hartu duzun erabakian. Ezetzean irauten dugu. Jatorrizko edertasunean zirauen bitartean. Zein zaila den bertutean irautea. Gizaldiz gizaldi bere hartan iraun duten gauza asko deuseztatzeko. Jaioterriari eskaini zizkion hartu zituen dohainak oro eta hari lotua iraun du azkenera arte. Sorterriari leial irautea. Eta jakintsu iraun zuen Salomonek azkeneraino? Bere izanean dirauela. Beti dagoen eta dirauen Jainkoa.</q></eg>
+         <sense n='n1'>
+            <usg type='ohar_sem.'>Hondatu, ahitu edo desagertu gabe.</usg>
+            <eg><q>Burdinak ere ez du beti irauten. Zure zorionak luzaroan iraun dezan. Ez da aski gure hizkuntzaren batasuna euskarak iraun dezan. Hango mintzairaren gehientasunak, ahultzen zihoalarik, iraun zuela oraindik.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <usg type='ohar_sem.'>Egoera txar edo nekagarri batean.</usg>
+            <xr type = syn><lbl>Ik.</lbl><ref>jasan; eraman</ref></xr>
+            <eg><q>Atsedenaldi hori gabe jendeak ezin dezake iraun. Emakumezkoak ez luke iraungo biziera latz hartan. Giro harekin ezin zitekeen atean luzaro iraun. Hauek ere ezin gehiago iraunez amore eman zuten. Lanean iraun zuen kemenak agortu arte.</q></eg>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <def>Adierazten den iraupena izan.</def>
+         <eg><q>Ordu eta erdi irauten duen emanaldia. Egun guztia iraun zuten sarraskiek eta hilkintzek. Goseteak iraun zuen denbora guztian. Ez dezala zure haserreak iraun eguzkia sartu arteino. Zortzi egunez iraun zion oinazeak. Beti iraun behar duen zoriona. Betiere iraungo duen bizitza. Munduak diraueino. <usg type='esr_zah.'>Jokorik hoberena gutxien dirauena.</usg></q></eg>
+      </sense>
+      <sense n='4'>
+         <usg type='ohar_gram.'>Era burutua izen gisa.</usg>
+         <usg type=time>1817</usg>
+         <def>Iraupena.</def>
+         <eg><q>Iraun luzeko gosetea. Emakume irmea, iraun handikoa.</q></eg>
+      </sense>
+   </hom>
+</entry>
+
+
+
+<entry>
+   <form><orth>jaio, jaiotzen</orth></form>
+   <usg type=time>~1660</usg>
+   <form type=variant><orth>iaiatzen</orth><usg type=time>1627</usg></form>
+   <form type=variant><orth>jajaiten</orth><usg type=time>1596</usg></form>
+   <GramGrp><subc>da</subc><pos>ad.</pos></GramGrp>
+   <usg type=time>*1562, 1571</usg>
+   <sense n='1'>
+      <def>Mundura etorri, amaren sabeletik irten.</def>
+      <xr type=syn><lbl>Ik.</lbl><ref>1 sortu 2</ref></xr>
+      <eg><q>1888an jaio zen, Gipuzkoako Orexan. Euskaldun jaio nintzen. Maria Birjinagandik jaio zela. Zure odoletik jaioko da munduaren salbatzailea. Zazpi mende Kristo jaio aurretik. Jatorrizko bekatua da guztiok jaiotzean dakarguna. Lehenbizi jaiotzeari darraizkion eskubideak. Haur jaio berria.</q></eg>
+      <eg><q>Berriz jaio.</q><xr type=syn><lbl>Ik.</lbl><ref>jaioberritu</ref></xr></eg>
+      <eg><q>Onerako jaioa bezala zen.</q><xr type=syn><lbl>Ik.</lbl><ref>iaio</ref></xr></eg>
+      <eg><q>Lapurtzen iaioa, hartako jaioa. Baserrian jaio, hazi eta hezitako ezjakin bat naizenez gero. Gurasorik gabe, mirariz jaioa balitz bezala. Ikasletarako jaio garenok. Txahala, bildotsa eta antxumea, jaiotzen direnean, egongo dira zazpi egunez bere amaren errapean.</q></eg>
+      <sense n='n1'>
+         <def>Arrautzatik irten.</def>
+         <eg><q>Urliak ez dizkio oilalokari ipini nahi arrutzak bakoiti baizik, zeren uste duen txito gutxi jaioko direla parez ipintzen bazaizkio.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <def>Landareez eta mintzatuz, sortu.</def>
+         <eg><q>Euskal baratzean jaio den lorea. Nahiz hanka bana hautsi, jaioko dira berriak.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <eg><q>Bestela, itsua badabil itsumutil, ongi jaioak gaude.</q></eg>
+      </sense>
+      <sense n='n4'>
+         <eg><q>Mundura jaio.</q></eg>
+         <usg type='esamolde_azalpen'><hi rend=italic>Zerura jaio</hi>: kristau egin.</usg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <def>Izaten hasi.</def>
+      <eg><q>Zortzi erreka jaiotzen dira han. Bihotzetik jaioa den liburu bikaina. Senide gazteago bat jaio zitzaion filosofiari: jakintza. Jaio gabe geldituko ote da musika eder hori? Egungo trakeskeriatik bakarrik jaioko da biharko edo etziko apaintasuna. Nor geure aldian eta tokian gertzatzen gara, nola ez dakigula; eta gurekin jaiotzen da gure denbora, gure sorterria bezala, beste edozein baino maiteago bihurtzen diguna.</q></eg>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>jantzi, jantz, janzten</orth></form>
+      <GramGrp><subc>da-du</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>*1562, 1596</usg>
+      <form type=variant><orth>iaunzi</orth><usg type=time>1571</usg></form>
+      <sense n='1'>
+         <def>Gorputza arropez estali; arropak jarri.</def>
+         <xr type=syn><lbl>Ik.</lbl><ref>beztitu</ref></xr>
+         <eg><q>Ohetik jaikitzean lotsarik gabe jantzi zara? Beltzez jantzi zen. Mingarri zitzaion zigortuen soinekoa jantzi beharra. Erantzirik soinean zeraman jantzi berri hura, jantzi zion pobreari. Berak janzten du bere semea.</q></eg>
+         <eg><q>Janzteko arroparik ez zeukala.</q><xr type=syn><lbl>Ik.</lbl><ref>janzteko</ref></xr></eg>
+         <eg><q>Dotore jantzia. Zalduna neskame jantzita. Oinetatik bururaino zuriz jantzia. Azken azkeneko soinekoz jantzirik. Ardi larruz jantzitako otso maltzurra. Ez dut inoren lumarik jantzi nahi.</q></eg> 
+         <sense n='n1'>
+            <eg><q>Santo Domingoren hirugarren Ordenako abitua jantzi zuenean. 1909an jantzi zen frantziskotar eta 1917an apaiztu.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <eg><q>Oinetakoak, txapela jantzi. Jantzi dituk abarkak?</q></eg>
+         </sense>
+         <sense n='n3'>
+            <eg><q>Jainkoaren Semea haragiz jantzi zenean.</q></eg>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <def>Zerbait, dagozkion arropez estali.</def>
+         <eg><q>Ohea jantzi. Eta gaua igarotzeko jantzi zion Bernardok ohe zuri ederra beraren gelan. Aldarea jantzi.</q></eg>
+         <sense n='n1'>
+            <eg><q>Etxea janzten duten altzariak.</q></eg>
+         </sense>
+      </sense>
+      <sense n='3'>
+         <usg type='ohar_sem.'>Estali, hornitu edo apaintzeko esanahiaz.</usg>
+         <eg><q>Lurra behar bezala zuhaitzez jantzia balego. Izotzak arbolak zilarrez jantzi zituen. Irudiz ongi jantzitako liburutxoa. Ondasunez ongi jantziak zeudelako. Zuhur hitzok, mamia euskal mami garbi ez bada ere, euskal azal ederrez jantziak agertzen zaizkigu. Egiazko zinemak ez du hitzaren beharrik; aski ditu zeinuak eta imintzioak, irudi soila, itxurazko edergarri berri horiek jantzi gabe. Haren idazlanak osotoro biltzeaz gainera, argibide ugariz jantzi ditu. Zentzuz jantzitako edozein gizonek uste duena. Ez gara gehiegi, ez gaude jakitez jantziegiak, hizkuntza larri dabilkigu. Jakintza gaietan ongi jantziriko gizona.</q></eg>
+      </sense>
+      <sense n='4'>
+         <usg type='ohar_gram.'>Era burutua izenonodo gisa.</usg> 
+         <def>Ikasia, kultura duena.</def>
+         <eg><q>Gure gazteak bestetan baino haziago, jantziago eta ikasiago agertzen zaizkigu. Erdara politago, jantziago, dotoreago iruditzen zaiolako. Apain, jantzi, landu, goitar den guztia erdarari begira erabiliko dugu.</q></eg>
+      </sense>
+   </hom>
+</entry>
+
+
+
+<entry>
+   <hom n='2'>
+      <form><orth>apal</orth></form>
+      <GramGrp><pos>izond.</pos></GramGrp>
+      <usg type=time>1063, ~1660</usg>
+      <sense n='1'>
+         <def>Garaitasun gabea, beherea.</def>
+         <eg><q>Zuhaitz apalak. Zumitzezko jarleku apalak. Begiak apal eduki. Belarriak apal-apal eginda.</q></eg>
+         <sense n='n1'>
+            <eg><q>Arratsalde apalean: arratsaldearen amaian. Uso apala: apal hegaldatzen dena.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <eg><q>Jatorri apalekoa. Asmo apalak. Haragiaren grina apalak.</q></eg>
+         </sense>
+         <sense n='n3'>
+            <usg type=time>*1746, 1853</usg>
+            <usg type=dom>Mus.</usg>
+            <def>Baxua.</def>
+            <eg><q>Apaleko ahotsa: ahots apala.</q></eg>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <usg type=time>1712</usg>
+         <def>Bere burua gutxiesten eta beheratzen duena.</def>
+         <xr type =syn><lbl>Ik.</lbl><ref>umil</ref></xr>
+         <eg><q>Gizon apala, ezerk harrotzen ez duena. Harro eta apal, eramankor eta suminbera, herrikoi eta landu..., zenbat eta zenbat horrelako etsaitasun ez zeramatzan barruan, guztiok bezala!</q></eg>
+         <sense n='n1'>
+            <eg><q>Bizitza gorde eta apala eraman ezazu. Nire uste apalean.</q></eg>
+         </sense>
+      </sense>
+      <sense n='3'>
+         <GramGrp><pos>adlag.</pos></GramGrp>
+         <usg type=time>1666</usg>
+         <usg type=geo>Batez ere ipar.</usg>
+         <def>Behera.</def>
+         <eg><q>Napoleon nola den apal erori.</q></eg>
+      </sense>
+   </hom>
+</entry>
+
+
+
+
+<entry>
+   <form><orth>arin</orth></form>
+   <GramGrp><pos>izond.</pos></GramGrp>
+   <usg type=time>1571</usg>
+   <sense n='1'>
+      <def>Pisu edo astuntasun gutxikoa, erraz jasotzen dena.</def>
+      <xr type =ant><lbl>Ant.</lbl><ref>astun</ref></xr>
+      <eg><q>Luma bat bezain arina. Airea baino arinagoa. Zama hain arina. Pisuagoak beherantz eta arinagoak gorantz doazelako. Pisatu zaitu, eta zure jakinduriak harrotu eta puztu zaituelako, pisuan arin aurkitu zaitu.</q></eg>
+      <sense n='n1'>
+         <eg><q>Jantzi arinak. Arinegi jantzia.<usg type='esr_zah.'>Hegaztirik ez da arinago andreen gona baino.</usg></q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <def>Larria ez dena.</def>
+      <eg><q>Bekatu, neke, oinaze arina. Janari arina.</q></eg>
+      <sense n='n1'>
+         <eg><q>Lo arina: astuna ez dena.</q></eg>
+      </sense>
+   </sense>
+   <sense n='3'>
+      <def>Erraz eta bizkor higitzen dena.</def>
+      <eg><q>Esku arinak ditu. Arinari eman (bizk.):ihes egin.</q></eg>
+      <sense n='n1'>
+         <GramGrp><pos>adlag.</pos></GramGrp>
+         <def>Laster.</def>
+         <eg><q>Arin ibili. Ezpainak arin higituz. Goizean, jaikitzen zaren bezain arin. Arinegi ahaztu.</q></eg>
+      </sense>
+   </sense>
+   <sense n='4'>
+      <def>Heldutasunik gabea.</def>
+      <eg><q>Neska buru-arina. Hankak arinak eta burua arinago.</q></eg>
+      <sense n='n1'>
+         <def>Behar den ardura gabe egina.</def>
+         <eg><q>Zin arina. Erakusketak bururik gabe egina dirudi, oso arin moldatua.</q></eg>
+      </sense>
+   </sense>
+   <re>
+      <form><orth>ARIN-ARIN</orth></form>
+      <GramGrp><pos>iz.</pos></GramGrp>
+      <usg type=time>*1842, 1925</usg>
+      <note type='cf.'>arin-aringa</note><usg type=time>1816</usg>
+      <def>Euskal fandango mota bati ematen zaion izena.</def>
+      <eg><q>Arin-arinak dantzatzen.</q></eg>
+   </re>
+   <re>
+      <form><orth>ARIN-ARINA</orth></form>
+      <GramGrp><subc>nola</subc><pos>adlag.</pos></GramGrp>
+      <usg type=time>1858</usg>
+      <usg type=geo>Ipar.</usg>
+      <def>Oso arin.</def>
+      <eg><q>Huts zitzala toki haiek arin-arina.</q></eg>
+   </re>
+   <re>
+      <form><orth>ARIN-ARINKA</orth></form>
+      <xr type =syn><lbl>Ik.</lbl><ref>arinka</ref></xr>
+   </re>
+</entry>
+
+
+
+
+<entry>
+   <form><orth>astun</orth></form>
+   <GramGrp><pos>izond.</pos></GramGrp>
+   <usg type=time>*1653, 1763</usg>
+   <sense n='1'>
+      <def>Pisu handikoa delako, eramaten, jasotzen, higitzen gaitza edo neketsua.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>pisu</ref></xr>
+      <xr type =ant><lbl>Ant.</lbl><ref>arin</ref></xr>
+      <eg><q>Gurutzeastun bat ezarri zioten soinean. Zama astuna. Basamortuko nekearen astuna. Hodei astunak.</q></eg>
+      <sense n='n1'>
+         <def>Ohikoa baino pisu gehiagokoa.</def>
+         <eg><q>Airea baino astunagoa.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <eg><q>Eguraldi astuna. Ibilera astuna. Burua astun, gorputza nagi gelditzen da edaten duena. Lo astuna: ezerk eragozten ez duena. Zerbait norbaiti astun egin: aldapa egin. Astun egiten zaio barautzea.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <usg type=time>1816</usg>
+      <def>Garrantzi handikoa, larria.</def>
+      <eg><q>Bekatu astuna. Beste arazo astun bat diruarena da. Gezur astunak asmatuz.</q></eg>
+   </sense>
+   <sense n='3'>
+      <def>Nekez egiten dena; gogaikarria.</def>
+      <eg><q>Zeregin astuna, hartu duena. Liburu astuna. Irakasle astuna. Bizia zu gabe oso zait astuna.</q></eg>
+      <sense n='n1'>
+         <def>Gauzak nekez ulertzen dituena.</def>
+         <eg><q>Gizonik sor eta astunenak ikas dezake hori.</q></eg>
+      </sense>
+   </sense>
+   <sense n='4'>
+      <usg type=time>1977</usg>
+      <eg><q>Industria astuna. Hidrogeno astuna: berezkoa baino atomo pisu handiagoa duena. Ur astuna: osagaitzat hidrogeno astuna duena.</q></eg>
+   </sense>
+   <sense n='5'>
+      <GramGrp><pos>adlag.</pos></GramGrp>
+      <def>Astuntasunez, astiro astuntasunagatik.</def>
+      <eg><q>Astun dabilen animalia.</q></eg>
+   </sense>
+   <sense n='6'>
+      <GramGrp><pos>iz.</pos></GramGrp>
+      <usg type=time>*1745, 1932</usg>
+      <usg type=reg>Goi.</usg>
+      <def>Astuntasuna.</def>
+      <eg><q>Astuna kendu.</q></eg>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <form><orth>automatiko</orth></form>
+   <GramGrp><pos>izond.</pos></GramGrp>
+   <usg type=time>*1973, 1968</usg>
+   <usg type=lang>nart.</usg>
+   <sense n='1'>
+      <def>Tresnez mintzatuz, berez, hots, giza laguntzarik gabe dabilena.</def>
+      <eg><q>Tresna automatikoa. Telefono automatikoa. Itzulpen automatikoa.</q></eg>
+   </sense>
+   <sense n='2'>
+      <def>Borondateak esku hartu gabe gertatzen dena.</def>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <form><orth>borrokalari</orth></form>
+   <GramGrp><pos>izond.</pos></GramGrp>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>1928</usg>
+   <form type=variant><orth>burrukalari</orth><usg type=time>1896</usg></form>
+   <form type=variant><orth>borrokari</orth><usg type=time>1330, *XVII ea., 1858</usg></form>
+   <form type=variant><orth>burrukari</orth><usg type=time>*1745, 1802</usg></form>
+   <form type=variant><orth>burrekari</orth><usg type=time>*1562</usg></form>
+   <sense n='1'>
+      <def>Borroka batean esku hartzen dutenetako bakoitza.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>gudulari</ref></xr>
+      <eg><q>Borrokalariak elkarrengandik banatzeko. Betiko borrokalariak direla izpiritua eta haragia.</q></eg>
+   </sense>
+   <sense n='2'>
+      <def>Borroka egiteko joera duena.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>borrokazale</ref></xr>
+      <eg><q>Gizon harro eta borrokalaria. Borrokalari bortitza. Oilar borrokalaria. Baroja borrokalaria zen eta borroka borrokaren eske dago beti.</q></eg>
+      <sense n='n1'>
+         <def>Liskartia.</def>
+         <eg><q>Gizon borrokalari, hondatzaile eta alferrekin burua bat egitea.</q></eg>
+      </sense>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <form><orth>gordin</orth></form>
+   <GramGrp><pos>izond.</pos></GramGrp>
+   <usg type=time>*1562, 1627</usg>
+   <sense n='1'>
+      <usg type=time>~1760</usg>
+      <usg type='ohar_sem.'>Janariez.</usg>
+      <def>Egosi edo erre ez dena.</def>
+      <eg><q>Tipula gordinak. Haragi zerrada ia gordina. Arkumeki hau jango duzue, ez gordina edo egosia, ezpada errea.</q></eg>
+    <sense n='n1'>
+      <usg type=time>1657</usg>
+      <usg type='ohar_sem.'>Fruituez, zaldarrez....</usg> 
+      <def>Heldu gabea.</def>
+      <eg><q>Udare gordinen kolorekoa. Ospel gordina. Zauri gordinak. <usg type='esr_zah.'>Gordinak jaten dituenak jan ditzake lirinak.</usg></q></eg>
+      <usg type='esamolde_azalpen'><hi rend=italic>Odol gordina</hi>: gatzatu gabea.</usg>
+    </sense>
+      <sense n='n2'>
+         <eg><q>Halako gordin antxa aurkitzen zaio liburuari, osoro heldu ez den fruituarena.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <usg type='ohar_sem.'>Gaiez.</usg> 
+         <def>Landu gabea.</def>
+         <eg><q>Artile gordina.</q></eg>
+      </sense>
+      <sense n='n4'>
+         <usg type='esamolde_azalpen'><hi rend=italic>(Salgai baten) pisu gordina</hi>: azal-estalkiak eta baliagarri ez direnak kendu baino lehenagoko pisua.</usg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <usg type=time>1627</usg>
+      <usg type='ohar_sem.'>Pertsonez.</usg> 
+      <def>Sasoi onekoa, zahartzaroaren seinalerik ez duena.</def>
+      <eg><q>Mutil gordina. Gizon gazte eta gordina. Europako herrietan zaharrenak izanik, gaztaro gordinean gaude oraindik. Oraindik gordina nago mendian ibiltzeko.</q></eg>
+      <sense n='n1'>
+         <eg><q>Adin gordinenean.</q></eg>
+      </sense>
+   </sense>
+   <sense n='3'>
+      <usg type=time>1627</usg>
+      <def>Gogorra, zakarra.</def>
+      <eg><q>Etsai gordinak. Neguko gau gordinetan. Borroka gordinean. Inoren negarrak arinduko ez duen oinaze gordin errukigabea. Nabarmenkeriarik gordinenak baztertu gabe.</q></eg>
+      <sense n='n1'>
+         <usg type=time>~1760</usg>
+         <def>Ontzat hartzen ez diren gai edo esapideak dituena.</def>
+         <eg><q>Hizkera gordin samarra darabil. Txalo handiak jo zaizkio, batez ere ipuinik gordinenak kontatu dituenean.</q></eg>
+      </sense>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <form><orth>hotz</orth></form>
+   <GramGrp><pos>izond.</pos></GramGrp>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>XV h.</usg>
+   <sense n='A'>
+      <GramGrp><pos>izond.</pos></GramGrp>
+      <sense n='1'>
+         <def>Giza gorputzarena baino tenperatura nabariki apalagoa duena, behar duen berotasuna ez duena.</def>
+         <xr type = syn><lbl>Ik.</lbl><ref>hozkirri</ref></xr>
+         <xr type = ant><lbl>Ant.</lbl><ref>bero</ref></xr>
+         <eg><q>Ur, haize hotza. Negu hotzean. Eguraldi hotza. Izotza baino hotzagoa. Harria bezain hotza eta gogorra. Janari hotzak. Izerdi hotza zerion gorputz guztitik. Espetxe ilun hotz honetan.</q></eg>
+      </sense>
+      <sense n='2'>
+         <def>Erraz pozten, berotzen edo hunkitzen ez dena.</def>
+         <eg><q>Emakume, gizon hotza. Bihotza Medelek biguna du, baina hotza. Gizon odol-hotza. Odol hotzean egin zuen.</q></eg>
+         <sense n='n1'>
+            <def>Karrik ez duena.</def>
+            <eg><q>Gogo hotzaz. Kristau hotzak. Bizitza hotz eta nagi bat badaramat.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <def>Bihotz hoztasuna adierazten duena.</def>
+            <eg><q>Begitarte hotza. Harrera, hartze hotza egin.</q></eg>
+         </sense>
+         <sense n='n3'>
+            <eg><q>Gerra hotza.</q></eg>
+         </sense>
+      </sense>
+      <sense n='3'>
+         <usg type='ohar_gram.'>Adizlagun gisa.</usg>
+         <xr type =syn><lbl>Ik.</lbl><ref>hotzik</ref></xr>
+         <eg><q>Ez hotz eta ez bero. Hastekoan entzuleak hotz; geroxeago, aldegin zuen hoztasunak; luzaro gabe malkoak ere ikusi nizkion bati baino gehiagori. Musikari bihotz giroak gogorazteko ahalmena kentzen badiogu, hotz eta eskas bihurtzen da. Helenak burua hotz eduki zuen. Buruz ederki ulertzen dut argudioa, baina lehen bezain hotz eta motz gelditzen naiz.</q></eg>
+      </sense>
+      </sense>
+      <sense n='B'>
+         <GramGrp><pos>iz.</pos></GramGrp>
+         <usg type=time>*1562, 1571.</usg>
+         <def>Bero gabezia; bero gabeziak eragiten duen sentipena.</def>
+         <eg><q>Neguko hotz gogorrarekin. Hotz denean berotu nahi izatea. Hotz egiten badu. Hotz handia ari zuela. Hotzak (hiltzen) nago. Esku eta oinak hotzak gogortuta.</q></eg>
+         <eg><q>Goseak argaldurik eta hotzak igarorik.</q><xr type =syn><lbl>Ik.</lbl><ref>hozmindu</ref></xr></eg>
+         <eg><q>Hotzak ikaraz dago.</q></eg>
+         <eg><q>Hotzez dardarka.</q><xr type =syn><lbl>Ik.</lbl><ref>hotzik</ref></xr></eg>
+         <eg><q>Hotza kentzeko edan. Larri, ikara eta hotz-izerditan. <usg type='esr_zah.'>Hotz larregia, zaharren hilgarria eta gazteen zahargarria.</usg></q></eg>
+   </sense>
+   <re>
+      <form><orth>HOTZ-HOTZEAN</orth></form>
+      <GramGrp><subc>nola</subc><pos>adlag.</pos></GramGrp>
+      <def>Bihotz berotasunik gabe.</def>
+      <eg><q>Borrokarako gogoa utzirik hotz-hotzean aztertzen badugu auzi hori. Hotz-hotzean hartutako erabakia.</q></eg>
+   </re>
+</entry>
+
+
+
+<entry>
+   <form><orth>natural</orth></form>
+   <GramGrp><pos>izond.</pos></GramGrp>
+   <usg type=time>1571</usg>
+   <form type=variant><orth>naturale</orth><usg type=time>1537</usg></form>
+   <sense n='1'>
+      <def>Izadiari dagokiona; izadiak (eta ez gizakiaren eskuak edota hezkuntzak) sortua.</def>
+   <eg><q>Lege naturala. Jakintza naturalak. Badugu argitasun natural bat arrazoiaren bidez kausi ahal daitezkeen gauzak bilatzeko.</q></eg>
+<eg><q>Portu naturalak.</q><xr type=ant><lbl>Ant.</lbl><ref>artifizial</ref></xr></eg>
+   <eg><q>Hizkuntza bizi eta naturaletan. Ba dira bi amodio: bata naturala, haragiarena, eta bestea librea, borondatearena. Janari naturalak.</q></eg>
+   </sense>
+   <sense n='2'>
+      <def>Berezkoa.</def>
+      <eg><q>Gorputzaren atal naturalak.</q></eg>
+      <sense n='n1'>
+         <def>Itxurakeriarik, alferrikako zailtasunik gabekoa.</def>
+         <eg><q>Kontabide errazagoa eta naturalagoa aukeratu du oraingoan. Ortografia naturala.</q></eg>
+      </sense>
+   </sense>
+</entry>
+
+
+
+
+<entry>
+   <form><orth>xehe</orth></form>
+   <GramGrp><pos>izond.</pos></GramGrp>
+   <usg type=time>1571</usg>
+   <form type=variant><orth>txe</orth><usg type=time>1656</usg></form>
+   <sense n='1'>
+      <usg type=geo>Ipar. edo goi.</usg>
+      <def>Tamaina, pisu, gorabehera, garrantzi txikikoa.</def>
+      <xr type = ant><ref>Ant. larri.</ref></xr>
+      <eg><q>Harri xeheak. Jesusek argituko du beste guztien artean, ilargi beteak nola izar xeheen gainean. Handi eta xehe, orotarik han bazen; gazteriak zeukan apezpikua inguraturik, zer gerta ere. Azienda xehea. Arrautzetatik ateratzen dira har xehe-xehe batzuk. Lurra legartsu, asko tokitan irina bezain xehe. Huts xeheak. Arlo baten saihets xeheenak alderen alde aztertu ohi zituen.</q></eg>
+      <eg><q>Ilar xehea.</q></eg>
+      <sense n='n1'>
+         <def>Xehea iz.; ipar.: diru xehea.</def>
+         <eg><q>Piarresek eman zion etxeko andreari hamar soseko xuri bat, eta andre horrek bihurtu zioenan xehea...</q></eg>
+      </sense>
+      <sense n='n2'>
+         <def>Pertsonez mintzatuz, laua, xaloa dena.</def>
+         <eg><q>La&ntilde;oa zelako eta xehea ezin gehiago, maite zuten orok.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <eg><q>Herri, jende xehea: goi mailakoa edo landua ez den herriaren alderdi edo zatia. Herri xehea, nekazariak eta, ez ziren abertzaleak. Herri xeheari azken hitza eman nahi diotenak. Urrikariago du jende xehea botere dutenak baino.</q></eg>
+      </sense>
+      <sense n='n4'>
+         <def>Adizlagun gisa.</def>
+         <eg><q>Ohore daukat xehe eta apal agertzea mundu guziaren begietan.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <def>Xehetasunez egina edo emana.</def>
+      <xr type = syn><lbl>Ik.</lbl><ref>zehatz.</ref></xr>
+      <eg><q>Erregela xehea. Azalpen aberatsa eta xehea, ehunka gertaera banan-banan erakusten dizkiguna, noiz, non, nola eta noren artean gertatu ziren zehatz aditzera ematen diguna.</q></eg>
+      <sense n='n1'>
+         <def>Adizlagun gisa.</def>
+         <eg><q>Kontuak xehe egin. Bizitzean egin 'tuen hutsak ditu kontatzen, xehe-xehe daramatza bat ez zaio ahanzten. Xehe so eginez.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <eg><q>Xehe-xehea</q></eg>
+         <def>ipar.: xehetasun handiz.</def>
+         <eg><q>Erran zion xehe-xehea zer behar zuen egin halako orduetan.</q></eg>
+      </sense>
+   </sense>
+   <sense n='3'>
+      <eg><q>Letra xehea: eskuarki erabiltzen den tamaina eta formakoa, larria ez dena.</q></eg>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <form><orth>zahar</orth></form>
+   <GramGrp><pos>izond.</pos></GramGrp>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>1571</usg>
+   <form type=variant><orth>zar</orth><usg type=time>1164, *1562, 1597</usg></form>
+   <sense n='1'>
+      <def>Pertsona eta izaki biziez mintzatuz, adin handia duena.</def>
+      <xr type=ant><lbl>Ant.</lbl><ref>gazte</ref></xr>
+      <xr type=syn><lbl>Ik.</lbl><ref>1 adintsu</ref></xr>
+      <eg><q>Agure zahar bat. Simeon apaiz zaharrak. Zer esango zukeen Etxepare zaharrak horrelakorik entzun balu? Ni ere zaharra naiz, ez ahatik euskara bezain zaharra. Zaharrago eta hitz-jarioago izaten omen gara. Zahar elbarrituak. Ahuntzik zahar eta bizartsuenak. Oilo zaharrak salda ona du egiten. <usg type='esr_zah.'>Hotz larregia, zaharren hilgarria eta gazteen zahargarria.</usg></q></eg>
+      <sense n='n1'>
+         <usg type='ohar_gram.'>Erkaketetan.</usg>
+         <def>Urte gehiago dituena.</def>
+         <eg><q>Zaharragoak dira, batez beste, gurasoak irakasleak baino. Ez baita jaio oraindik aldi berean zaharrago eta gazteago izan daitekeen mutilik.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <def>Aita edo.</def>
+         <eg><q>Donostiako euskal idazleen arraza bortitza: Baroja zaharra, Bilintx, Soroa, Altzaga eta beste hainbeste eta hainbesterena. Etxaide zaharra, Euskaltzainburu luzaroan izan genuena.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <eg><q>Ez zen seme zaharrena bigarrena baizik.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <GramGrp><pos>izond.</pos></GramGrp>
+      <def>Gauzez eta mintzatuz, aspaldi sortua, egina, gertatua; luzaz iraun duena edo erabilia izan dena.</def>
+      <xr type = ant><lbl>Ant.</lbl><ref>berri</ref></xr>
+      <eg><q>Antzinako ohitura eta lege zaharrak. Oihal zaharrari ez dagozkion adabakiak. Euskal libururik zaharrena. Leizarragarena baino zaharragoa den Etxepareren liburua. Hitz zaharrak. Zaraitzun bilduriko kanta zahar batean. Gure literatura zaharra. Esaera zaharrak zioen bezala. Zaharraren zaharrez ahaztuak. Hizkuntzaren haria beti da zahar eta berri, aspaldietarik datorrelako, zahar-berriz. Bide berriak bide zahar bihurtzen hasi zaizkigunez gero. Borondate berriak ez zuen indarrik aski borondate zaharra garaitzeko. Forma zaharrago eta berriagoen artean. Bizkaiera zaharrean. Itun zahar eta berria. Denbora, mende zaharretan. Asaben lokarri zaharra. Frantzia zaharra ezagutu zutenek. Ez direla euskaldun zahar eta betikoak bezain jatorki mintzatuko. Erdal olerki horiek zahar kutsua, zahar usaina dute oraingo irakurlearentzat.</q></eg>
+      <sense n='n1'>
+         <def>Lehenagokoa.</def>
+         <eg><q>Besteren diruaz duenak etxea berritzen, etxe zaharra eta berria ditu bahitzen.</q></eg>
+         <eg><q>Pazko zahar.</q><xr type =form><lbl>Ik.</lbl><ref>pazko</ref></xr></eg>
+      </sense>
+      <sense n='n2'>
+         <eg><q>Asaba zaharren baratzea. Aski da berdintzea idazle zahar bat berri batekin.</q></eg>
+      </sense>
+   </sense>
+</entry>
+
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>bide</orth></form>
+      <GramGrp><pos>iz.</pos></GramGrp>
+      <usg type=time>1090, XIV ea.</usg>
+      <sense n='1'>
+         <def>Bertatik ibiltzeko prestatua den lur zerrenda.</def>
+         <xr type=syn><lbl>Ik.</lbl><ref>estrata, harbide, kamoi</ref></xr>
+         <eg><q>Ahuntz bidea: ahuntzak ibiltzen direna.<xr type=form><lbl>Ik.</lbl><ref>abelbide, gurdibide, andabide, autobide; burdinbide, igarobide, zeharbide</ref></xr>Errege bidea.<xr type=syn><lbl>Ik.</lbl><ref>errepide</ref></xr>Asteasutik Larraulako bidea egin aurretik. Bideak ireki. Bide nagusia. Bide zabala, handia, meharra. Bide laua, zelaia. Bide zeharra.<xr type=syn><lbl>Ik.</lbl><ref>zehar</ref></xr>Bide zuzena, makurra, okerra. Bide ona, txarra, gaitza. Bide hegia (ipar.), bazterra. Bide bazterreko landa batean. Eskean etxez etxe, bide-bazterrean leher egin arte. Bide ertzean. Bideko lokatza, hautsa.</q></eg>
+         <sense n='n1'>
+            <def>Toki batetik beste batera joateko igaro behar diren tokien segida.</def>
+            <eg><q>Etxetik eskolarako bidean. Zeru(ra)ko bide meharra. Mila urte igarota, ura bere bidean. Amodioa dute bideko janari. Bide(ra)ko tresnak, prestamenak. Herri handi batean aurkitu zuen haur bat negarrez, etxerako bidea galdurik.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <eg><q>Norabaiteko bidea hartu, utzi. Bidea galdurik dabilena.<xr type=form><lbl>Ik.</lbl><ref>bidekatu</ref></xr>Norbaiti bidera irten. Marta bidera atera zitzaion lekuan. Bidea lotu (batez ere ipar.) eman, ekin: abiatu. Idi edo mando kargatuarekin jai osoan bideari ekitea debekatua dago. Mezarik gabe lotzen dira bideari. Bideari jarraitu. Bidean gelditu ziren bitartean. Itsuari bidea erakusteko. Bide ostatuetan. Bide-saltzaile bati erosia. Bakoitzak bide erdia eginik. Nik lehen bidea hartuko nuke arras ikasientzat ari bagina, baina ez da hori gertatzen; sinpletasunera joko nuke areago, edo bide erdira behintzat. Bideko nekeak ahuldurik.</q></eg>
+         </sense>
+         <sense n='n3'>
+            <def>Bi lekuren arteko bide tartea.</def>
+            <xr type =form><lbl>Ik.</lbl><ref>bidasti</ref></xr>
+            <eg><q>Hemendik hara bada bi orduren bidea. Ordu bi bidek ez nau ikaratuko. Zortzi lekoa bide dagoelarik batetik bestera. Bide puska bat urrunago. Berrehun lekoa bide egiteko. Lekoa eta beste bide neurriak. Bide seinaleak.</q></eg>
+         </sense>
+         <sense n='n4'>
+            <eg><q>Gaztelaniak ere egokitze hortara heltzeko bere bide berezia izan du. Salbatzeko bidean zarela (edo zaudela).Euskal literatura bide berrietatik abiarazteko. Gaurko eleberrigintzan bide berriak urratzeko. Hain larri eta galtzeko bidean aurkitu ziranean. Hirugarren bidea.</q></eg>
+         </sense>
+         <sense n='n5'>
+            <eg><q>Euren asmo zuzen eta bide onekoak.</q></eg>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <usg type=time>1545</usg>
+         <def>Helburu bat iristeko balio duen zera; ezer lortzeko era edo moldea.</def>
+         <xr type =syn><lbl>Ik.</lbl><ref>neurri</ref></xr>
+         <eg><q>Helburuak eta bideak. Batasuna burutzeko bide bakarra. Gizakiak eta giza lanak neurtzeko eta sailkatzeko bide asko daude.</q></eg>
+         <sense n='n1'>
+            <xr type =syn><lbl>Ik.</lbl><ref>bizibide, irabazpide, ikasbide</ref></xr>
+         </sense>
+      </sense>
+      <sense n='3'>
+         <usg type=time>1635</usg>
+         <def>Aukera, abagunea.</def>
+         <eg><q>Bekaturako bide eta peril hurkoa. Horrelako mokadu goxoak jateko bidea izan eta beti aitzakia aitzakiaren gainean duzue.</q></eg>
+      </sense>
+      <sense n='4'>
+         <usg type=time>~1760</usg>
+         <def>Zergatikoa.</def>
+         <eg><q>Jendea hartaratzen denean moda bezala izaten da, eta berriketarako bide bat. Jakobek Labani zerbait esateko biderik asko bazuen, saldukeria bilau hura egin ziolako.</q></eg>
+      </sense>
+      <sense n='5'>
+         <eg><q>Bide! (*XIX b.; bire 1894): igarotzen uzteko eskatzeko erabiltzen den hitza. Tranbia, tranbia! Bide, bide!, estropozorik egin gabe.</q></eg>
+      </sense>
+      <re>
+         <form><orth>BEHAR BIDEAN</orth></form>
+         <usg type=time>XVII ea.</usg>
+         <usg type=geo>Ipar.</usg>
+         <def>Beharrean.</def>
+         <usg type='ohar_gram.'>Aditzaren era burutuaren ondoan.</usg>
+         <eg><q>Zeruko faboreek erakarri behar bidean juduak apalago izatera, ez ziren harroago baizik agertu.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDEA EBAKI</orth></form>
+         <usg type=time>1664</usg>
+         <sense n='a'>
+            <usg type=plev>Zah.</usg>
+            <def>Igarotzea eragotzi.</def>
+            <eg><q>Ardiei bidea ebakitzeko. Haren asmo makurren bidea ebakitzeko.</q></eg>
+         </sense>
+         <sense n='b'>
+            <usg type=time>1935</usg>
+            <def>Bidea ireki.</def>
+            <eg><q>Erromatarrek Euskal Herrian ebaki zituzten bideak.</q></eg>
+         </sense>
+      </re>
+      <re>
+         <form><orth>BIDE(A) EMAN</orth></form>
+         <usg type=time>1545</usg>
+         <usg type='ohar_gram.'>"-t(z)eko"; "-(e)rako".</usg>
+         <eg><q>Eta beste askori gaitzerako bide emanik. Gaizki hitz egiteko bidea emanik. Mundu herri guztiak ere, baldin zerorrek biderik ematen ez badiozu ezin egotz zaitzake infernura.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDEA HAUTSARAZI</orth></form>
+         <usg type=time>1867</usg>
+         <eg><q>Haize zirimola batek bidea hautsarazten dio eta galarazten. Ez zela inor hari bidea hautsaraziko zionik.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDEA HAUTSI</orth></form>
+         <usg type=time>1664</usg>
+         <usg type=plev>G.er.</usg>
+         <sense n='a'>
+            <def>Bidetik saihestu, bidea galdu.</def>
+            <eg><q>Arerioarekin berba ez egiteagatik bidea haustea, aurpegi ez ematea. Handik bazihoazten gobernariaren etxera libertate galdez; jendarmeek bidea hautsi die.</q></eg>
+         </sense>
+         <sense n='b'>
+            <usg type=time>1696</usg>
+            <usg type=geo>Ipar.</usg>
+            <def>Bidea ebaki, igarotzea eragotzi.</def>
+         </sense>
+      </re>
+      <re>
+         <form><orth>BIDEA JAKIN</orth></form>
+         <usg type=time>1630</usg>
+         <def>Toki jakin batera joaten zale izan.</def>
+         <eg><q>Ostatura badaki ongi bidea.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDEAK EGIN</orth></form>
+         <usg type=time>1855</usg>
+         <def>Asko ibili.</def>
+      </re>
+      <re>
+         <form><orth>BIDEA(K) IREKI</orth></form>
+         <usg type=time>1664</usg>
+         <eg><q>Zuri bideak irekitzeagatik Antoniren gurasoekin hitz egin dugu. Bihotzeko bideak irekitzen zein ere nahi den zorakeriari.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDEA(K) ITXI</orth></form>
+         <usg type=time>~1660</usg>
+         <eg><q>Bidea ixten zuen aingeruari. Geurok Txirritarenean edo geldituak gaituzu, baina ez genioke inori biderik itxi nahi.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDEA(K) URRATU</orth></form>
+         <usg type=time>1808</usg>
+         <sense n='a'>
+            <usg type=plev>Zah.; G.er.</usg>
+            <def>Bidea utzi.</def>
+         </sense>
+         <sense n='b'>
+            <usg type=time>1930</usg>
+            <def>Bidea(k) ireki.</def>
+            <eg><q>Materiazko estalki gogorrean barrena, biziak badaki bide urratzen.</q></eg>
+         </sense>
+      </re>
+      <re>
+         <form><orth>BIDEAN (1596), BIDETAN (~1760; ipar.)</orth></form>
+         <sense n='a'>
+            <usg type=plev>Zah.; G.er.</usg>
+            <def>Beharrean.</def>
+            <usg type='ohar_gram.'>Aditzaren era burutuaren ondoan.</usg>
+         </sense>
+         <sense n='b'>
+            <usg type=time>1643</usg>
+            <usg type='ohar_gram.'>"-t(z)eko".</usg>
+            <xr type =syn><lbl>Ik.</lbl><ref>zori</ref></xr>
+            <eg><q>Burdin negozio batean hasten da lagun batekin eta laster du bere burua zeharo aberasteko bidean. Tentazioan erortzeko bidean ikusten zaitut.</q></eg>
+         </sense>
+      </re>
+      <re>
+         <form><orth>BIDE-AURREKO</orth></form>
+         <usg type=time>~1805</usg>
+         <def>Aitzindaria, bide egiten duena.</def>
+         <eg><q>Jesukristoren bide-aurrekoa.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDE BATEZ</orth></form>
+         <GramGrp><pos>adlag.</pos></GramGrp>
+         <usg type=time>1643</usg>
+         <sense n='a'>
+            <def>Batera.</def>
+            <eg><q>Bide batez egiten ditu bi mandatu.</q></eg>
+         </sense>
+         <sense n='b'>
+            <def>Bidenabar.</def>
+            <eg><q>Bide batez esana. Bide batez bestea ere bidaltzeko.</q></eg>
+         </sense>
+      </re>
+      <re>
+         <form><orth>BIDE BERAZ</orth></form>
+         <GramGrp><pos>adlag.</pos></GramGrp>
+         <usg type=time>1630</usg>
+         <usg type=geo>Ipar.</usg>
+         <def>Bide batez.</def>
+      </re>
+      <re>
+         <form><orth>BIDE-BERRI</orth></form>
+         <GramGrp><pos>iz.</pos></GramGrp>
+         <usg type=time>~1890</usg>
+         <def>Errepidea.</def>
+      </re>
+      <re>
+         <form><orth>BIDE BEZALA</orth></form>
+         <GramGrp><pos>adlag.</pos></GramGrp>
+         <usg type=time>1571</usg>
+         <usg type=geo>Ipar.</usg>
+         <usg type=plev>Zah.</usg>
+         <def>Behar bezala.</def>
+      </re>
+      <re>
+         <form><orth>BIDE-BURU</orth></form>
+         <usg type=time>1855</usg>
+         <usg type=geo>Batez ere ipar.</usg>
+         <def>Bidegurutzea.</def>
+      </re>
+      <re>
+         <form><orth>BIDE EGIN</orth></form>
+         <usg type=time>1571</usg>
+         <form type=variant><orth>bidegin</orth><usg type=time>*1745, 1880</usg></form>
+         <sense n='a'>
+            <def>Bidez ibili.</def>
+            <eg><q>Emeki-emeki denak joaten, bide du egiten. Oin gorrien gainean bide egiten zuten arrotzek bide hau hartzen zuten. Italiarantz bidegitea erabaki zuen. Ur guztiek itsasora bide egiten dute. Hoinbeste bide egin zuen gezurrak, non Inaziori zuhur iruditu baitzitzaion gezurtia isilaraztea.Inurriek bide egiten dute haren zango lurreztatuetan. Handik hona, urak bide egin du. Afrikarantz bide egiten zuen ontzi bat.</q></eg>
+            <xr type =syn><lbl>Ik.</lbl><ref>bidaiatu</ref></xr>
+            <sense n='n1'>
+               <eg><q>Gaitzak laster bide egin zuen.</q></eg>
+            </sense>
+         </sense>
+         <sense n='b'>
+            <usg type=time>1664</usg>
+            <def>Bidea ireki, ebaki.</def>
+            <eg><q>Egiak eta urak egiten du bide. Baina hodeiek bide egin behar diote eguzkiari.</q></eg>
+         </sense>
+      </re>
+      <re>
+         <form><orth>BIDE EGINARAZI</orth></form>
+         <usg type=time>1858</usg>
+         <def>Bide egitera behartu.</def>
+         <eg><q>Esku batean lantza zuen, bestean makila bat, jendeei bide eginarazteko.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDE-ERAKUSLE</orth></form>
+         <usg type=time>~1765</usg>
+         <def>Gidaria.</def>
+         <eg><q>Bide-erakusle batekin joan arren.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDE ERDI</orth></form>
+         <GramGrp><pos>adlag.</pos></GramGrp>
+         <usg type=time>1900</usg>
+         <usg type=geo>Ipar.</usg>
+         <def>Bide erdian.</def>
+         <eg><q>Bide erdi ez gelditzekotan.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDE-HANDI</orth></form>
+         <GramGrp><pos>iz.</pos></GramGrp>
+         <usg type=time>~1620</usg>
+         <def>Errepidea.</def>
+      </re>
+      <re>
+         <form><orth>BIDE IZAN</orth></form>
+         <GramGrp><subc>da</subc><pos>ad.</pos></GramGrp>
+         <usg type=time>1545</usg>
+         <def>Bidezko izan.</def>
+         <usg type='ohar_gram.'>Laguntzailearen nor osagaia hirugarren pertsonan.</usg>
+         <eg><q>Bide dena emango zaizue. Gizonak ezin eman dezaizuke bide zaizun guztia.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDE JUNTA</orth></form>
+         <usg type=time>1859</usg>
+         <usg type=geo>Ipar.</usg>
+         <def>Bidegurutzea.</def>
+      </re>
+      <re>
+         <form><orth>BIDE LAN</orth></form>
+         <usg type=time>1887</usg>
+         <def>Bideak egiteko eta konpontzeko lana.</def>
+      </re>
+      <re>
+         <form><orth>(Zerbait) BIDE ONETIK, TXARRETIK (joan...)</orth></form>
+         <def>Ondorio on edo txarretarantz (abiatu...), era onean, txarrean (ari...).</def>
+         <eg><q>(Hori lortzeko) bide onetik abiatuak ikusten zaituztet. Beldur izatekoa da hizkuntzak ez ote duen, bide horretatik doala, zerbait irabazten duen bitartean, zerbait ere galduko.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDE XENDRA</orth></form>
+         <usg type=time>1867</usg>
+         <usg type=geo>Ipar edo naf.</usg>
+         <def>Bidexenda, bidezidorra.</def>
+      </re>
+      <re>
+         <form><orth>BIDEZ</orth></form>
+         <sense n='a'>
+            <usg type=time>1617</usg>
+            <usg type='ohar_gram.'>"-(r)en".</usg>
+            <def>-ren bitartez.</def>
+            <eg><q>Zelatarien bidez etsaien asmoen berri jakin.</q></eg>
+            <sense n='n1'>
+               <usg type='ohar_gram.'>Izen mugagabeari zuzenean loturik.</usg>
+               <eg><q>Dekretu bidez ezarria. Bai zuzenean eta bai zehar bidez. Irrati bidez emana.</q></eg>
+            </sense>
+         </sense>
+         <sense n='b'>
+            <usg type=time>1657</usg>
+            <usg type='ohar_gram.'>"ibili, joan...".</usg>
+            <eg><q>Hainbeste soineko bitxidunez, astegun buru-zurian bidez zabiltzala. Bidez ibiltzea, nahiz oinez, nahiz zaldiz, nahiz gurdiz. Hartu duen zerurako bidez ibiliko bada. Itzain bat bidez doa, gurdia idiei lotuz.</q></eg>
+         </sense>
+         <sense n='c'>
+            <usg type=time>1761</usg>
+            <def>Bidenabar.</def>
+         </sense>
+         <sense n='d'>
+            <usg type=time>~1805</usg>
+            <def>Arrazoiz.</def>
+            <eg><q>Apaizen bat ikusten baduzu lizunkeriatan dabilela, harritzen zara, eta bidez. Bidez eta legez. Bidez ala bidegabe, hori ez dakit.</q></eg>
+            <sense n='n1'>
+               <eg><q>Utzi dira ohitura horiek, bide handiz.</q></eg>
+            </sense>
+         </sense>
+      </re>
+      <re>
+         <form><orth>BIDE-ZABAL</orth></form>
+         <usg type=time>~1660</usg>
+         <def>Errepidea.</def>
+      </re>
+      <re>
+         <form><orth>BIDEZ BIDE</orth></form>
+         <usg type=time>1627</usg>
+         <def>Bideetan barrena.</def>
+         <eg><q>Zarautza bidez bide zihoazela. Gehienetan bidez bide ibiltzen ziren. Bidez bide zihoan asto bat. Herriz herri eta bidez bide.</q></eg>
+      </re>
+      <re>
+         <form><orth>BIDE-ZIDOR</orth></form>
+         <xr type =form><lbl>Ik.</lbl><ref>bidezidor</ref></xr>
+      </re>
+      <re>
+         <form><orth>BIDE ZORRO</orth></form>
+         <usg type=time>1803</usg>
+         <def>Zakutoa.</def>
+      </re>
+      <re>
+         <form><orth>DELA (ZELA, DIRELA...) BIDE</orth></form>
+         <usg type=time>~1660</usg>
+         <eg><q>Dela eta, dela medio, bitartez.</q></eg>
+         <eg><q>Gizonaren eta emakumearen elkartzea dela bide, hirugarren bat sortzen baita. Sail horretan buruzagitza emana dauka, bere 'Pascual Duarte' dela bide, batez ere.</q></eg>
+      </re>
+   </hom>
+</entry>
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>egun</orth></form>
+      <GramGrp><pos>iz.</pos></GramGrp>
+      <usg type=time>XIV</usg>
+      <sense n='1'>
+         <def>Lurrak bere ardatzari buruz bira osoa egiten ematen duen denbora; 24 orduko denbora bitartea, gauerditik gauerdira.</def>
+         <eg><q>Egunak 24 ordu ditu eta urteak 365 egun. Astronomia eguna. <xr type=form><lbl>Ik.</lbl><ref>astronomia</ref></xr> Hilaren hamaseigarren egunean. Hurrengo egunean. Duela <hi rend=normal>(edo</hi> orain dela) zortzi egun. Badu dagoeneko lau egun hila dela. Handik hamar egun baino lehen. Epea lau egun barru betetzen zaidala. Hiru egunen buruan hil zen. 100 egunen barkamena. Egunak bete zirenean. Hamabost eguneko bitartea. <xr type=form><lbl>Ik.</lbl><ref>hamabostaldi</ref></xr> Egun hartan jaio zirenak. Baserritik atera zen egun berean. Garoa etxeratzeko egunak aurrera zihoazen. Jarri zitzaion egun batean <hi rend=normal>(ipar.</hi> egun batez) etxeko andrea begira. Egun larriak izan ziren guraso zaharrentzat. Mendekoste eguna. San Tomas eguna. Erramu eguna. Eskola egun guztietan. Aberri eguna. Emakume langilearen eguna. Etorria duk ene mendekuaren eguna. Ezkontzako egunean eman zenuen hitza. Eguneko eginbidea. Eguneko ogia.</q></eg>
+         <usg type='esamolde_azalpen'><hi rend=italic>Egunak joan, egunak etorri:</hi> denboraren iragaitza adierazteko esapidea.</usg> 
+         <eg><q>Egunak joan, egunak etorri, ez zen semea agertzen. Egunez egun.</q></eg>
+         <sense n='n1'>
+            <usg type=time>1545</usg>
+            <GramGrp><number>Pl.</number></GramGrp>
+            <def>Norbaiten bizitza.</def>
+            <eg><q>Dabiden egunak aurrera zihoazen. Nire geroztikako egunak ilundu zituen ekaitza.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <xr type =form><lbl>Ik.</lbl><ref>jaiegun, astegun, lanegun...</ref></xr>
+         </sense>
+         <sense n='n3'>
+            <usg type=time>1571</usg>
+            <GramGrp><number>Pl.</number></GramGrp>
+            <def>Garaia.</def>
+            <eg><q>Bonaparteren egunetan. O, egunak, o, ekanduak! Egunak bete zirenean, Agar-ek Abraham-i seme bat eman zion.</q></eg>
+         </sense>
+         <sense n='n4'>
+            <usg type=time>1842</usg>
+            <usg type=reg>Beh.</usg>
+            <def>Urtebetetzea.</def>
+            <eg><q>On Antonio Arzak jaunari bere egunean.</q></eg>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <def>Eguzkiak argitzen duen denbora.</def>
+         <xr type =ant><lbl>Ant.</lbl><ref>gau</ref></xr>
+         <eg><q>Eguna argitu zuenean <hi rend=normal>(edo</hi> zenean. Eguna zabaldu orduko. Eguna baino lehen jaikitzen zen. Berrogei egun eta berrogei gau. Udako egun luzeetan. Egun eguzkitsua, argia. Egun goibela. Egunaz <hi rend=normal>(heg. gaur batez ere</hi> egunez) lan egin. Etenda baitzegoen, egun osoan ibili eta ibili egin ondoren. <xr type =form><lbl>Ik.</lbl><ref>eguarte</ref></xr>. Egunazko lanak. Eguna zabaldu zen ene baitan.</q></eg>
+         <sense n='n1'>
+            <eg><q>-Egun on!  -Baita zuri ere. Egun onak eman.</q></eg>
+         </sense>
+      </sense>
+      <re>
+         <form><orth>EGUN-ARGI</orth></form>
+         <usg type=time>1665</usg>
+         <def>Eguzkiak barreiatzen duen argia.</def>
+         <xr type =form><lbl>Ik.</lbl><ref>eguargi</ref></xr>
+         <eg><q>Egun-argiak begietan jo zuenean. Zeukan baino egun-argi gehiago behar zuen, ihesi zebiltzanak, gauaren babesean gorde gabe, atzitzeko. Gauez egiten diren tratuak egun-argitan ikusi. Egun-argiz heldu nahi dute etxera. Egun-argiz eta jendaurrean. Egun-argiak urratzen duen amets itxura.</q></eg>
+      </re>
+      <re>
+         <form><orth>EGUN BATETIK BESTERA</orth></form>
+         <usg type=time>1868</usg>
+         <sense n='a'>
+            <def>Egunetik egunera.</def>
+            <eg><q>Gehituz zihoan egun batetik bestera Frantziskoren seme taldea. Egun batetik bestera doblaturik.</q></eg>
+         </sense>
+         <sense n='b'>
+            <usg type=time>~1880</usg>
+            <def>Berehala, egunetik biharrera.</def>
+            <eg><q>Mundu zabalean gertatzen dena egun batetik bestera jakiten dugu. Egun batetik bestera osatuko zinela uste nuen. Orain kolpean aldatu zaigu egun batetik bestera.</q></eg>
+         </sense>
+      </re>
+      <re>
+         <form><orth>EGUNEAN BAINO EGUNEAN ...-AGO</orth></form>
+         <usg type=time>1800</usg>
+         <usg type=geo>Batez ere bizk.</usg>
+         <def>Egunetik egunera ..-ago.</def>
+         <eg><q>Egunean baino egunean erosoago. Egunean baino egunean gogo gehiagoz.</q></eg>
+      </re>
+      <re>
+         <form><orth>EGUNEAN-EGUNEAN</orth></form>
+         <usg type=time>1656</usg>
+         <note type='cf.'>egunean eguneangoa <hi rend=normal>1596</hi></note>
+         <usg type=geo>Bizk.</usg>
+         <def>Egunero.</def>
+         <eg><q>Egunean-egunean barau egiten dutela.</q></eg>
+      </re>
+      <re>
+         <form><orth>EGUNEAN EGUNEKO</orth></form>
+         <GramGrp><pos>izlag.</pos></GramGrp>
+         <usg type=time>1643</usg>
+         <def>Egunerokoa.</def>
+         <eg><q>Egunean eguneko ogia eskatuz. Egunean eguneko premiei aurre egiteko.</q></eg>
+      </re>
+      <re>
+         <form><orth>EGUN ETA GAU</orth></form>
+         <usg type=time>1571</usg>
+         <def>Gau eta egun.</def>
+      </re>
+      <re>
+         <form><orth>EGUNETIK EGUNERA</orth></form>
+         <usg type=time>1571</usg>
+         <def>Denbora aurrera doan eran.</def>
+         <eg><q>Kontuak okertuz zihoazen egunetik egunera. Galerak, egunetik egunera eta astetik astera, gailen agertzen zirela irabazien aldean. Egunetik egunera gogorrago.</q></eg>
+      </re>
+      <re>
+         <form><orth>EGUNEZ ETA GAUEZ</orth></form>
+         <def>Beti.</def>
+         <eg><q>Egunez eta gauez zerbitzatzen zuela. Hemeretzi urtez, egunez eta gauez.</q></eg>
+      </re>
+      <re>
+         <form><orth>EGUN OROZ</orth></form>
+         <usg type=time>1571</usg>
+         <usg type=geo>Ipar.</usg>
+         <def>Egunero.</def>
+         <sense n='n1'>
+            <eg><q>Egun orozko otoitz laburrak.</q></eg>
+         </sense>
+      </re>
+      <re>
+         <form><orth>EGUN SARI</orth></form>
+         <xr type =form><lbl>Ik.</lbl><ref>egunsari</ref></xr>
+      </re>
+      <re>
+         <form><orth>EGUN TXINTA</orth></form>
+         <xr type =form><lbl>Ik.</lbl><ref>2 txinta</ref></xr>
+      </re>
+      <re>
+         <form><orth>LEHENGO EGUN BATEAN</orth></form>
+         <usg type=time>1802</usg>
+         <def>Lehengo egunean.</def>
+      </re>
+      <re>
+         <form><orth>LEHENGO EGUNEAN</orth></form>
+         <usg type=time>1842</usg>
+         <def>Aurreko egun batean.</def>
+         <eg><q>Lehengo egunean ikusi nuen.</q></eg>
+      </re>
+      <re>
+         <form><orth>GAU ETA EGUN</orth></form>
+         <xr type =form><lbl>Ik.</lbl><ref>gau</ref></xr>
+      </re>
+         <note type=usage>-Egun on!  -Berdin: <hi rend=normal>h.</hi>  -Baita zuri ere.</note>
+   </hom>
+</entry>
+
+
+
+
+<entry>
+   <form><orth>eliza</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>*XII, 1545</usg>
+   <sense n='1'>
+      <usg type='ohar_orto.'>E larriz.</usg> 
+      <def>Jesukristoren erlijioari jarraitzen zaizkion sinestunen bilkura; kristautasunaren barnean bereizten diren bilkuretako bakoitza.</def>
+      <eg><q>Jesukristok bere Eliza maite duen bezala. Apostoluen Eliza.</q></eg>
+      <eg><q>Elizako Aitak <hi rend=normal>(edo</hi> Gurasoak<hi rend=normal>)</hi>.</q><xr type =form><lbl>Ik.</lbl><ref>guraso</ref></xr></eg>
+      <eg><q>Agustin, Elizako dotore saindu handi hura. Greziako Eliza ortodoxoa. Eliza Katolikoa.</q></eg>
+      <sense n='n1'>
+         <def>Eliza Katolikoa.</def>
+         <eg><q>Eliza Ama Santuaren aginduak, sakramentuak. Aita Santua Elizaren buru ageria. Elizaren dogmak, dotrina.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <def>Herri bateko katolikoen bilkura.</def>
+         <eg><q>Euskal Herriko Eliza.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <def>Elizgizonen multzoa; Eliza erakundetzat hartua.</def>
+         <eg><q>Elizaz ezkondu gabe bizi zelako. Baserri hori, herriz Mendatakoa, elizaz Arratzukoa da.</q></eg>
+      </sense>
+      <sense n='n4'>
+         <eg><q>Ez du gure lanbidea inongo elizak eskumikatu, ez inongo legek debekatu.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <def>Elizkizunetarako bereziki prestatzen den eraikuntza.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>basilika; katedral; kapera</ref></xr>
+      <eg><q>Elizara joan. Eliza batean ehortzi zuten, aldare aitzinean. Herriko eliza. Eliza nagusia. Hiru habearteko eliza.</q></eg>
+      <sense n='n1'>
+         <eg><q>Turkoak beren elizetan jaiera handiagoarekin zeudela.</q></eg>
+      </sense>
+   </sense>
+   <re>
+      <form><orth>ELIZA BESTA</orth></form>
+      <usg type=time>1875</usg>
+      <usg type=geo>Ipar.</usg>
+      <def>Herriko zaindariaren eguna.</def>
+      <eg><q>Hona orain non ditugun udako eliza besta urteko alegerenak.</q></eg>
+   </re>
+   <re>
+      <form><orth>ELIZA GIZON</orth></form>
+      <usg type=time>1617</usg>
+      <usg type=geo>Batez ere ipar.</usg>
+      <def>Elizgizona.</def>
+   </re>
+   <re>
+      <form><orth>ELIZA-TXORI</orth></form>
+      <usg type=time>1934</usg>
+      <form type=variant><orth>eliza xoria</orth><usg type=time>1635</usg></form>
+      <form type=variant><orth>eliztxori</orth><usg type=time>1897</usg></form>
+      <usg type=geo>Batez ere ipar.</usg>
+      <def>Txolarrea.</def>
+   </re>
+</entry>
+
+
+
+
+<entry>
+   <form><orth>enplegu</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>1660</usg>
+   <sense n='1'>
+      <usg type=plev>Zah.</usg>
+      <def>Egitekoa.</def>
+      <eg><q>Enplegu handi hau apaiz soilena da.</q></eg>
+      <sense n='n1'>
+         <def>Erabilera.</def>
+         <eg><q>Euskarak egiten du akabantza hauen enplegua.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <def>Enplegatu edo soldatako baten ogibidea.</def>
+      <usg type='esamolde_azalpen'><hi rend=italic>Enplegu bila:</hi> lan bila.</usg>
+      <sense n='n1'>
+         <usg type=time>1977</usg>
+         <usg type=dom>Ekon.</usg>
+         <usg type=lang>erd.</usg>
+         <def>Ekonomia sistema batean, egiatan gertatzen eta ordaintzen den giza lanaren batura.</def>
+         <eg><q>Enplegu beteko egoera. Enplegu eskaintzaren beherakadaren ondorioz.</q></eg>
+      </sense>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <form><orth>gai</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>1643</usg>
+   <sense n='1'>
+      <def>Gauzak osatzen dituzten materia motetako bakoitza.</def>
+      <eg><q>Gantza gai koipetsua da. Erretxina gai organikoa da.</q></eg>
+      <sense n='n1'>
+         <usg type='esamolde_azalpen'><hi rend=italic>Gai bakuna</hi> (kim.): osagaietan ezin bereiz daitekeen gaia.</usg>
+         <eg><q>Bromoa gai bakuna da.</q></eg>
+         <usg type='esamolde_azalpen'><hi rend=italic>Gai elkartua</hi>: zenbait gai bakunen konbinazioz eratua.</usg>
+      </sense>
+      <sense n='n2'>
+         <def>Zerbait egiteko edo osatzeko behar diren gauzetako bakoitza.</def>
+         <xr type =syn><lbl>Ik.</lbl><ref>ekai 2</ref></xr>
+         <usg type='esamolde_azalpen'><hi rend=italic>Soineko baten gaia</hi>: soinekoa egiteko behar den ekaia.</usg> 
+         <eg><q>Nire hiztegi handi horretarako gaiak biltzen. Lehen gaiak.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <eg><q>Negar egiteko gai asko baduzu.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <def>Jarduten edo gogoeta egiten den zera; elkarrizketa, hitzaldi, idazlan, arazo... baten mamia.</def>
+      <eg><q>Hitzaldiaren gaia. Txostenean ukitzen diren gaiak. Baserria gaitzat harturik hiru bertso bota zituen. Bertsolari txapelketako gai jartzailea. Argudio baten gaia.</q></eg> 
+      <eg><q>Eztabaidaren gaiak.</q></eg><note type='cf.'>eztabaidagai</note>
+      <eg><q>Polemika gai gogaikarria. Gai bera erabili du bere liburu guztietan. Eleberriaren gai nagusia. Sinfonia baten gaiak. Politika gaietan aditua. Euskal gaiak darabiltzan olerkia. Neurtitz gai hutsa ote zen bada Oihenartek beti ahotan daukan maitasun hori?</q></eg>
+      <eg><q>Gaika antolaturiko aurkibidea.</q><xr type=syn><lbl>Ik.</lbl><ref>ikasgai, irakurgai</ref></xr></eg>
+   </sense>
+   <sense n='3'>
+      <usg type='ohar_gram.'>Izen baten eskuinean.</usg>
+      <usg type='esamolde_azalpen'><hi rend=italic>Ikasle-gaia</hi>: ikasle izango dena, izateko bidean dena.</usg>
+      <xr type=syn><lbl>Ik.</lbl><ref>legegai</ref></xr>
+   </sense>
+   <sense n='4'>
+      <usg type=time>~1760</usg>
+      <usg type=plev>Zah.</usg>
+      <def>Gaitasuna.</def>
+      <eg><q>Itxuren arabera badu gai laneko.</q></eg>
+   </sense>
+   <sense n='5'>
+      <usg type=time>*1905, 1935</usg>
+      <usg type=geo>Batez ere gip.</usg>
+      <usg type='esamolde_azalpen'><hi rend=italic>Alaba zaharrena gai dugu</hi>: ezkongai dugu.</usg> 
+      <eg><q>Gai dagoenaren indarra.</q></eg>
+   </sense>
+   <re>
+      <form><orth>GAI EGIN, BIHURTU, BILAKATU...</orth></form>
+      <def>Adierazten dena zertzeko baldintzen, ahalmenen edo nolakotasunen jabe egin, bihurtu, bilakatu...</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>2 gaitu 1</ref></xr>
+      <eg><q>Susta ezazu ene bihotza eta gai egizu zure ahoko hitzak entzuteko. Gai bihur gaitezen zerua iristeko. Gaiago bihurtu.</q></eg>
+   </re>
+   <re>
+      <form><orth>GAI EGON</orth></form>
+      <usg type=time>1803</usg>
+      <def>Prest egon.</def>
+      <eg><q>Txondorra gai dagoenean, gainerakoa egingo dugu.</q></eg>
+   </re>
+   <re>
+      <form><orth>GAI IZAN</orth></form>
+      <GramGrp><subc>da</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>1617</usg>
+      <sense n='a'>
+         <def>Adierazten dena zertzeko baldintzen, ahalmenen edo nolakotasunen jabe izan, hartarako egokia edo duina izan.</def>
+         <xr type =syn><lbl>Ik.</lbl><ref>GAUZA IZAN</ref></xr>
+         <eg><q>Zerbaitetako gai izan. Entzule--irakurleak gaitzeko gai direnak. Gerrarako gai zirenen artean. Haren hitz bakoitza gai da bihotza erdiratzeko. Hau gabe ez gara gai pentsamentu on bat ere egiteko. Ez naizela jendarteko gai. Ezin uka berez gai denik euskara horretarako eta gehiagorako. Baina ez nintzen gai izan begi-zorrotz egoteko. Ez dela zure faltaz edo zu hartako ez gai izanez. Bestetarako gai ez naizenez gero.</q></eg>
+         <sense n='n1'>
+            <eg><q>Halaber, gaztaroko obra onak, zahartzarokoak baino gaiago eta baliotsuago dira. Zeren anitz baita ni baino honetako gaiagorik eta antzatsuagorik. Bekataria ere bekatu egin berrian da gaienik bekatutik ilkitzeko.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <eg><q>Bizitzaren zatirik hoberena eta gaiena.</q></eg>
+         </sense>
+      </sense>
+      <sense n='b'>
+         <usg type=geo>Ipar.</usg>
+         <def>Merezi.</def>
+         <usg type='esamolde_azalpen'><hi rend=italic>Gai diren izarian sariztatuko dituelako uste zinezkoa</hi>: merezi duten neurrian.</usg>
+         <sense n='n1'>
+            <usg type='esamolde_azalpen'><hi rend=italic>Zerbaiten gai izan (norbait)</hi>: zerbait merezi.</usg>
+         </sense>
+      </sense>
+   </re>
+</entry>
+
+
+
+<entry>
+   <form><orth>herri</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>1545</usg>
+   <sense n='1'>
+      <def>Lagunartean eta lurralde jakin batean bizi diren, eta elkarrekin hainbat ohitura eta erakunde dituzten gizakien multzoa.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>aberri</ref></xr>
+      <eg><q>Euskal Herriak, herri den aldetik, ez du aldaketa hori bereganatu. Ez da erraz herri bati mende luzeek eman dioten muina eta pentsabidea aldatzea. Herri handi baten buru egingo zaitut. Gizonak eta herriak. Ideia eta adigai horiek Europako herri landu guztienak dira, ez batenak edo besterenak. Afrika-Asietako herri askatu berri eta askatasun bidean direnek. Frantses Herria laster halere goratuko da lehen bezala. Herri baten ohiturak, hizkuntza, literatura. Herrien Europaren alde. Europako herrien batasuna. Bere buruen jabe izateko herrien eskubidea. Erregeren eta herriaren zerbitzari leiala. Bere hizkuntza eta herria hain maite dituelarik. Gurea bezalako bazter herri bateko jendeak Europa arbuiatzea. <usg type='esr_zah.'>Herrik bere lege, etxek bere aztura.</usg></q></eg>
+      <sense n='n1'>
+         <eg><q>Kristau herria. Noiz egin dio Jainkoak bere herriari mesede handiagorik?</q></eg>
+      </sense>
+      <sense n='n2'>
+         <usg type=gram>Mug.</usg>
+         <def>Herria, aberriaren gorputz bezala hartua.</def>
+         <eg><q>Aginpidea herriagan datzala. Herriaren enparantza.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <def>Herriaren gehiengoa (goi klaseei edo talde landuei aurrez aurre).</def>
+         <xr type = syn><lbl>Ik.</lbl><ref>herrikoi 2</ref></xr>
+         <eg><q>Herriarentzat idatzi. Herri xehearen ustean. Herriaren ahotik jasoa. Herriko semea. Herriak ez du barkatuko. Ez da aitzakia txarra izaten edozertarako ezin mintza daitekeen herri isil hori.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <usg type='ohar_gram.'>Hitz elkarketaren lehen osagai gisa.</usg> 
+      <def>Herriari dagokiona; askotan, goi mailakoa edo landua ez den herri alderdiari dagokiona.</def>
+      <xr type = syn><lbl>Ik.</lbl><ref>herrikoi; herritar 3</ref></xr>
+      <eg><q>Herri gobernu gaietan. Herri demokrazia. Herri batasuna. Herri jakintza. Herri kantak. Herri literatura. Herri hizkuntza.</q></eg>
+    <sense n='n1'>
+      <def>Herri erakundeei dagokiona; herritarren multzoarena edo multzoarentzat dena.</def>
+      <eg><q>Azkeneko hitza herriak izango du, herri agintarien bitartez. Herri agintaritza. Herri arazoak eta Eliza. Herri karguak. Herriaren onari begiratu behar dio herri gizonak.</q></eg>
+       <eg><q>Herri iritzia.</q><xr type =form><lbl>Ik.</lbl><ref>1 iritzi</ref></xr></eg>
+    <eg><q>Herri ondasuna. Herri garraioa. Herri lanak. Herri eskolak eta eskola pribatuak.</q></eg>
+    <usg type='esamolde_azalpen'><hi rend=italic>herri gerra</hi> (cf. <hi rend=italic>erriguda</hi> 1922): herri edo estatu bereko herritarren artekoa, gerra zibila.</usg>
+    </sense>
+   </sense>
+   <sense n='3'>
+      <def>Herri jakin bat bizi den lurraldea.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>herrialde</ref></xr>
+      <eg><q>Mairu herrian. Gales herrian eta Eskozian. Bizkaian, Gipuzkoa, Araba herrian eta beste anitz lekutan. Ezagut ditzagun gure herriko lurraldeak. Bi hizkuntza dituzten herrietan. Gure herrian izan den filosoforik bikainena. Frantzia ederra basatien herri bat izan balitz bezala. Itsuen herrian okerra errege. Herriko eta atzerriko haize berrien eraginaz. Herri eta erbeste, euskaldun jokatu.</q></eg>
+     <eg><q><usg type='esr_zah.'>Guazen beste herrira, han ere zakurrak dira.</usg></q><xr type =syn><lbl>Ik.</lbl><ref>atzerri</ref></xr></eg>
+    <sense n='n1'>
+      <def>Beste ezaugarriren batek mugatzen duen herrialde edo lurraldea.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>baserri; dukerri</ref></xr>
+      <note type='cf.'>Beterri; Goierri; Irui&ntilde;erri</note>
+      <eg><q>Ikas dezagun mundu honetan herri arrotz batean bezala igarotzen. Negar herri honetan. Hegoaldeko herri beroetan. Jaun honek egin zinduen bere antzera eta berarekin batean Zeruan bizitzeko, eta prestatu zizun Zeruko herri zoragarria.</q></eg>
+     </sense>
+      <sense n='n2'>
+         <usg type=plev>G. er.</usg>
+         <def>Eskualdea.</def>
+         <eg><q>Aire herrietan entzun ezak ihortziria.</q></eg>
+      </sense>
+   </sense>
+   <sense n='4'>
+      <def>Hiri txikia, auzoak baino garrantzi handiagoa duen etxe edo bizilekuen multzoa; herri hizkeran, hiria.</def>
+      <xr type = syn><lbl>Ik.</lbl><ref>herrixka</ref></xr>
+      <eg><q>Itsasaldeko edozein hiri edo herritan. Herri txikietako zalduntxoak. Lapurdiko herri xume batean. Baztango herri nagusia. Galileako Kanaa herrian. Euskal herri askotan ere gertatzen dena. Herri bereko beste ostatu batean. Herri ondoko mahastietan. Herri aldera jaitsi zirenean. Herriz herri, etxez etxe eta atez ate. Zortziretan, herriko plazan. Herriko eskolara hasi nintzenean. Herriko alkate jaunak. Herriko jaietan. Lehengo herri bide zaharretatik, errepiderik artean ez zen eta.</q></eg>
+      <sense n='n1'>
+         <def>Herri jakin bat dagozkion auzo eta lurraldeekin.</def>
+         <eg><q>Orozko herri handixkoa da bere bailarekin. Herri honetako mendietan.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <def>Hiri edo herri bateko biztanleen multzoa.</def>
+         <eg><q>Arrasateko herri, apaiz eta agintariak. Oiartzungo herriak Aita Mendibururi eskainia.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <def>Delako hiri edo herria erakundetzat hartua.</def>
+         <xr type = syn><lbl>Ik.</lbl><ref>1 zibil 1</ref></xr>
+         <eg><q>Herriko agintariak. Baserri hori, herriz Mendatakoa, elizaz Arratzukoa da.</q></eg>
+         <usg type='esamolde_azalpen'><hi rend=italic>Herri basoak</hi>: herriarenak, udalarenak direnak, auzo basoak.</usg> 
+         <eg><q>Oi&ntilde;atiko legeak zorrotz debekatzen zuen bere herri baso horietan etxeak jasotzea. Herri lurretan.</q></eg>
+      </sense>
+   </sense>
+   <sense n='5'>
+      <def>Herrikidea.</def>
+      <eg><q>Zu eta ni herri gara. Kaixo, herri!</q></eg>
+   </sense>
+   <re>
+      <form><orth>HERRIKO ETXE</orth></form>
+      <usg type=geo>Batez ere Ipar.</usg>
+      <def>Udaletxea.</def>
+      <eg><q>Herriko etxeko balkoian. Herriko etxean idazkari zelako.</q></eg>
+   </re>
+   <re>
+      <form><orth>HERRIKO MUTIL</orth><usg type=time>1890</usg></form>
+      <form><orth>HERRI MUTIL</orth><usg type=time>1955</usg></form>
+      <usg type=geo>Ipar.</usg>
+      <def>Amabia, udaleko enplegatua.</def>
+      <xr type = syn><lbl>Ik.</lbl><ref>herrizain</ref></xr>
+      <eg><q>Herri mutila, atabala jorik.</q></eg>
+   </re>
+   <re>
+      <form><orth>HERRI MIN</orth></form>
+      <xr type =form><lbl>Ik.</lbl><ref>herrimin</ref></xr>
+   </re>
+</entry>
+
+
+<entry>
+   <form><orth>ibilbide</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>1627</usg>
+   <sense n='1'>
+      <def>Bidea, zerbait egitean ibiltzen den bidea.</def>
+      <sense n='n1'>
+         <def>Ibiltokia.</def>
+         <eg><q>Iru&ntilde;eko ibilbide zabal batean.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <usg type=time>1627</usg>
+      <def>Ibilera; jokabidea.</def>
+   </sense>
+   <sense n='3'>
+      <usg type=time>1874</usg>
+      <def><hi rend=italic>Berezk.</hi> Zerbaitek, higitzean, egiten edo gauzatzen duen bidea.</def>
+      <eg><q>Zeruko izarren ibilbideari begira dagoena. Lemazainak ontziaren ibilbidea zuzendu zuen.</q></eg>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <form><orth>kanal</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>*XVII ea., 1665</usg>
+   <form type=variant><orth>kanale</orth><usg type=time>1823</usg></form>
+   <form type=variant><orth>kanale-</orth><usg type=time>1627</usg></form>
+   <sense n='1'>
+      <usg type=plev>G. g. er.</usg>
+      <def>Ubidea.</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>erreten 1</ref></xr>
+   </sense>
+   <sense n='2'>
+      <def>Irrati maiztasun banda, <hi rend=italic>berezk.</hi> telebista seinalearekiko.</def>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>kantu</orth></form>
+      <GramGrp><pos>iz.</pos></GramGrp>
+      <usg type=time>1545</usg>
+      <sense n='1'>
+         <usg type=geo>Gaur batez ere Ipar. edo Beh.</usg>
+         <def>Kanta, abestia.</def>
+         <eg><q>Bernat Etxepareren kantua.</q></eg>
+      </sense>
+      <sense n='2'>
+         <def>Kantatzea; kantatzen duenak igortzen dituen hotsak.</def>
+         <eg><q>Zintzurra urratu beharrean ekingo diote kantuari. Kantu gozoa, eztia. Hizkera, doinua eta kantuaren arteko egokiera bilatzen. Kantu lana. Ordukotz ari nintzen herrira hurbiltzen; kantu errepika bat hor dut nik aditzen. Kantua eta fedea ditut aitarenak.</q></eg>
+         <sense n='n1'>
+            <eg><q>Anaiekin eginez lan, otoitz 'ta kantu. Dantzan ari dira, soinu eta kantu.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <usg type='esamolde_azalpen'><hi rend=italic>Kantuan hasi, ari</hi>: kantatzen hasi, ari.</usg> 
+            <usg type='esamolde_azalpen'><hi rend=italic>Kantu errepik(et)an</hi>: kantatzen.</usg>
+         </sense>
+      </sense>
+      <sense n='3'>
+         <def>Ahozko musikaren era bereziak.</def>
+         <eg><q>Gregoriar kantua.</q><xr type = syn><lbl>Ik.</lbl><ref>gregoriar</ref></xr></eg>
+         <eg><q>Abesbatz kantua.</q></eg>
+      </sense>
+      <sense n='4'>
+         <def>Txoriek kantatzean egiten dituzten hotsen saila.</def>
+         <eg><q>Urretxindorraren kantua. Oilar kantua. Sarats ondoko ur kantu bat da zuon argia.</q></eg>
+      </sense>
+      <re>
+         <form><orth>KANTUZ</orth></form>
+         <GramGrp><pos>adlag.</pos></GramGrp>
+         <usg type=geo>Batez ere Ipar.</usg>
+         <def>Kantatzen.</def>
+         <eg><q>Kantuz doa. Ni ez nauzu ibiltzen kantuz dirua biltzen. Kantuz hasten da alegera. Txoria zeinen eder kantuz oihanean!</q></eg>
+      </re>
+   </hom>
+</entry>
+
+
+
+<entry>
+   <form><orth>kapitain</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>1571</usg>
+   <form type=variant><orth>kapitai</orth><usg type=time>*1562, 1785</usg></form>
+   <form type=variant><orth>kapitan</orth><usg type=time>XV b.</usg></form>
+   <sense n='1'>
+      <def>Gudari-buruzagia; <hi rend=italic>berezk.</hi> konpainia baten edo artilleria bateria baten buruzagi den ofiziala.</def>
+      <eg><q>Antzinateko kapitain handiak. Alexandro handia baino kapitain ausartagoa. Kornelio zeritzan erromatar kapitain bat. Duvoisin kapitaina.</q></eg>
+   </sense>
+   <sense n='2'>
+      <def>Saleroste itsasontzi baten burua.</def>
+      <eg><q>Ontziak San Migel zuen izena, eta ontzi kapitainak Eduard de Gama.</q></eg>
+   </sense>
+   <sense n='3'>
+      <def>Kirol talde baten burua.</def>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <form><orth>koroa</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>1571</usg>
+   <sense n='1'>
+      <def>Eraztun formako apaingarria, buruan ezartzen dena, abarrez, lorez... egina edota metalezkoa, <hi rend=italic>berezk.</hi> agintaritzaren ezaugarri dena.</def>
+      <xr type = syn><lbl>Ik.</lbl><ref>burestun; buruntza</ref></xr>
+      <eg><q>Alkatearen zumezko koroa. Urre eta diamantezko koroa. Elorrizko, arantzazko koroa. Erregeren koroa. Koroa irabazi nahi duenak.</q></eg>
+      <sense n='n1'>
+         <eg><q>Martiritzaren koroa. Loriazko koroa erdiets dezadan Zeruko erresuman.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <def>Erregetza.</def>
+         <eg><q>Espainikao Koroa. Ingeles koroaren mendean.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <def>Zirkulu formako gauzakia.</def>
+      <eg><q>Zerraldo gaineko lorezko koroa.</q></eg>
+   </sense>
+</entry>
+
+
+
+
+<entry>
+   <form><orth>lantegi</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>*1745, 1759</usg>
+   <sense n='1'>
+      <def>Eskuzko lanen bat egiten den tokia.</def>
+      <eg><q>Zurgin lantegi bat. Osaba bere lantegian espartingintzan ari da. Lantegiko nagusia. Txillidaren lantegian bertan. Fabrikako lantegia eta bulegoak. "Izarra" irar lantegian argitara emana.</q></eg>
+      <sense n='n1'>
+         <eg><q>Etnologiako lantegia.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <eg><q>Euskal Herria dela euskal kultura gaiak lantzeko lantegirik egokiena.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <usg type=plev>G. er.</usg>
+      <def>Fabrika.</def>
+      <eg><q>Hegazti lantegi batean.</q></eg>
+   </sense>
+   <sense n='3'>
+      <usg type=geo>Gip.</usg>
+      <usg type=reg>Batez ere beh.</usg>
+      <def>Lana, egitekoa; lanbidea.</def>
+      <eg><q>Oriokoak lana galanki aurten dirade eginak, lantegi txarrak ekartzen ditu elkar ikusi ezinak. Lantegi txarra baso mutilarena.</q></eg>
+   </sense>
+</entry>
+
+
+
+<entry>
+   <hom n='1'>
+      <form><orth>masa</orth></form>
+      <GramGrp><pos>iz.</pos></GramGrp>
+      <usg type=time>1961</usg>
+      <sense n='1'>
+         <def>Osotasun bat, <hi rend=italic>berezk.</hi> tamaina handikoa, eratzen duten gauzen edo zatikien multzoa; gai gotor baten edo isurkari baten kopuru aski handia, bere hartan (ez bere forman edo nolakotasunean) hartua.</def>
+         <eg><q>Ur masa handi bat.</q></eg>
+         <sense n='n1'>
+            <eg><q>"Ura"-rekin edo, oro har, masa izen batekin ezin daiteke "oso" hitza erabil.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <def>Pertsona multzo handia, jendea.</def>
+            <eg><q>Langile masak. Masa komunikabideak.</q></eg>
+         </sense>
+      </sense>
+      <sense n='2'>
+         <usg type=dom>Fis.</usg>
+         <def>Gorputz batek daukan materia kopurua; gorputz bati ezartzen zaion indarraren eta horri dagokion lastertasun aldatzearen arteko erlazioa, beti bat irauten duena.</def>
+         <eg><q>Gorputz baten masaren eta pisuaren arteko erlazioa. Masa-banakoak.</q></eg>
+         <usg type='esamolde_azalpen'><hi rend=italic>Atomo masa</hi>: atomo gramo baten masa.</usg>
+      </sense>
+   </hom>
+</entry>
+
+
+
+<entry>
+   <form><orth>tentsio</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>1977</usg>
+   <usg >erd</usg>
+   <sense n='1'>
+      <def>Tenka.</def>
+   </sense>
+   <sense n='2'>
+      <usg type=dom>Fis.</usg>
+      <def>Voltajea, tenka.</def>
+   </sense>
+</entry>
+
+
+
+
+<entry>
+   <form><orth>ur</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>*XII, 1562.</usg>
+   <def>-r bakuna.</def>
+   <sense n='1'>
+      <def>Isurkari koloregabe, usaingabe eta zaporegabea, ibaiak, aintzirak eta itsasoak betetzen dituena, hidrogeno eta oxigeno atomoz osatua H2O.</def>
+      <eg><q>Pitxer bat ur. Ur eta ogi hutseko baraua. Ur hartatik edan zuen. Ur hotza, freskoa, epela, beroa. Ur irakinean ez du euliak pausatzen. Ur garbiaren pare. Ur gardena bezain garbi. Ur arreak. Ur gazia eta geza. Ur huts-hutsak edateko balio ez duen bezala. Ur tanta, ur sorta bat. Ur jarioa. Itsasoko ura. Iturriko ura. Edateko urak nonahi badira Azkainen. Vichyko ura edaten. Zestoako urak hartzera. Metal ura.</q></eg>
+      <def>atera.</def>
+      <eg><q>busti, garbitu, sartu. Uretara urera</q></eg>
+      <sense n='n1'>
+         <eg><q>Urak hartu</q></eg>
+         <def>ehunez egindako zerbait, garbitzean edo: tamaina txikitu.</def>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <def>Ibai, aintzira edo itsasokoaz mintzatuz.</def>
+      <eg><q>Urak bide egin: denbora luzea pasatu. Baina geroztik hona urak bide egin du. Itsasaldi handi edo ur biziak. Ur geldia eta lasterra. Ur-jauziak. Aintzirak eta beste ur geldiak. Ur eremu handia. Gure aitari urak eraman zion etxea. Ur zozoa.</q></eg>
+   </sense>
+   <sense n='3'>
+      <def>Zukua.</def>
+      <eg><q>Limoi ura. Ur anitz duen udarea.</q></eg>
+      <sense n='n1'>
+         <def>Egoskina.</def>
+         <eg><q>Iltze belar ura.</q></eg>
+      </sense>
+      <sense n='n2'>
+         <eg><q>Aurtiki ezazu tripakien ura eta ezar baso bat ardo.</q></eg>
+         <form><orth>a</orth></form>
+         <GramGrp><pos>iz.</pos></GramGrp>
+         <usg type=time>1664.</usg>
+         <def>Ur sakona, ur-bazterrekoa ez dena.</def>
+         <eg><q>Bola&ntilde;os deitu ur handia behar zuten iragan. Bere burua aurtikitzen du zubi batetik ur handira eta han itotzen da.</q></eg>
+      </sense>
+   </sense>
+   <re>
+      <form><orth>UR-LASTER</orth></form>
+      <GramGrp><pos>iz.</pos></GramGrp>
+      <usg type=time>1571</usg>
+      <def>Higitzen den ur masa.</def>
+      <xr type = syn><lbl>Ik.</lbl><ref>laster C.3.</ref></xr>
+      <eg><q>Ur-lasterraren erdian goaz, ez gaude ia ertzetik begira. Bizitza honen ur-lasterraren ezin geldia.</q></eg>
+   </re>
+</entry>
+
+
+
+    </body>
+  </text>
+</tei.2>

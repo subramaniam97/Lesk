@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO8859-1" ?>
+
+<!--
+This is the DTD file for the training data of the SENSEVAL2 Japanese
+task, monolingual dictionary-based task
+ -->
+
+<!-- a corpus is divided up by articles -->
+
+<!ELEMENT corpus (article+)>
+<!ATTLIST corpus lang CDATA #REQUIRED>
+
+<!--
+`article' tag marks up a newspaper article.
+
+`artid' and `udc' attributes indicate the article ID and UDC code
+associated with the newspaper article, respectively. 
+ -->
+
+<!ELEMENT article (mor+)>
+<!ATTLIST article id CDATA #REQUIRED>
+<!ATTLIST article udc CDATA #IMPLIED>
+
+<!--
+`mor' tag marks up a morpheme.
+
+`pos', `bfm' and `sense' attribute indicates a part-of-speech code,
+base form and word sense of a morpheme, respectively. See
+`pos-code.tbl' for details of part-of-speech code.
+
+`sense' attribute consists of a word sense ID and a mark, which is
+either `*' or `?'. The mark `*' means that the annotator is certain of
+the sense ID, while '?' indicates uncertainty.
+ -->
+
+<!ELEMENT mor (#PCDATA)>
+<!ATTLIST mor pos CDATA #IMPLIED>
+<!ATTLIST mor bfm CDATA #IMPLIED>
+<!ATTLIST mor sense CDATA #IMPLIED>

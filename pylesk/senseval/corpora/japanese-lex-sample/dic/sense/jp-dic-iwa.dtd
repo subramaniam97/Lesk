@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO8859-1" ?>
+
+<!--
+This is the DTD file for the Japanese dictionary, Iwanami Kokugo
+Jiten, which is the sense inventory of the SENSEVAL2 Japanese task,
+monolingual dictionary-based task.
+ -->
+
+<!-- a corpus is divided up by Midashi entries -->
+
+<!ELEMENT corpus (entry+)>
+<!ATTLIST corpus lang CDATA #REQUIRED>
+
+<!--
+`entry' tag marks the sense set for a given head word in the
+dictionary. The attributes are the following.
+
+  `id'		Head word ID
+  `fukugou_id'	Compound word ID  (*1)
+  `mds'		Head word
+  `knz'		Head word in kanji
+  `pos'		Part of speech
+
+(*1) In the Iwanami Kokugo Jiten, some sense descriptions are of
+compound words involving the head word. For example, the sense set for
+head word ``Ichiban (the first)'' includes compound words
+``Ichiban-Dori (the first crow of the cock)'' and ``Ichiban-Nori (the
+first person to arrive)''. `fukugou_id' represents the ID of these
+compound words.
+ -->
+
+<!ELEMENT entry (sense+)>
+<!ATTLIST entry id CDATA #REQUIRED>
+<!ATTLIST entry fukugou_id CDATA #REQUIRED>
+<!ATTLIST entry mds CDATA #IMPLIED>
+<!ATTLIST entry knz CDATA #IMPLIED>
+<!ATTLIST entry pos CDATA #IMPLIED>
+
+<!--
+`sense' tag marks each sense of a given head word.
+
+In sense descriptions in Iwanami Kokugo Jiten, the following text tags
+are used. Note that `<' and `>' are represented by `&lt;' and `&gt;',
+respectively, in xml files.
+
+    <ALP>	Latin character
+    <EX>	Example sentence made up of head word only
+    <EX0>	Example sentence made up of head word only
+    <GHK>	Head word in kanji for a particular sense
+    <GHS>	Head word in kanji for a particular sense
+    <IT>	Italic font
+    <KNZ>	Head word in kanji
+    <POS>	Part of speech
+    <RB>	Ruby (furigana)
+    <REF>	Source of example sentence
+    <SUB>	Subscript
+    <SUP>	Superscript
+ -->
+
+<!ELEMENT sense (#PCDATA | mor)*>
+<!ATTLIST sense id CDATA #REQUIRED>
+
+<!--
+`mor' tag marks up a morpheme.
+
+`pos', `rd' and `bfm' attribute indicates a part-of-speech code,
+reading (pronounciation) and base form of a morpheme,
+respectively. See `pos-code.tbl' for details of part-of-speech code.
+
+`rsl' and `rsn' attribute are used in `mor' tag when a sense
+description refers another sense description. `rsl' indicates the
+level (depth in word sense hierarchy) of the refered sense
+description, while `rsn' indicates the word sense number of refered
+sense description.
+ -->
+
+<!ELEMENT mor (#PCDATA | ruby)*>
+<!ATTLIST mor pos CDATA #IMPLIED>
+<!ATTLIST mor rd CDATA #IMPLIED>
+<!ATTLIST mor bfm CDATA #IMPLIED>
+<!ATTLIST mor rsl CDATA #IMPLIED>
+<!ATTLIST mor rsn CDATA #IMPLIED>
+
+<!--
+`ruby' tag marks up a reading represented by a ruby (small font) in a
+sense description.
+
+`rd' attribute indicates a reading (pronounciation) itself.
+ -->
+
+<!ELEMENT ruby (#PCDATA)>
+<!ATTLIST ruby rd CDATA #REQUIRED>

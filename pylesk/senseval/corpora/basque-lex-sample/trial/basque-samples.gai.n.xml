@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE corpus SYSTEM "lexical-sample.dtd">
+
+<corpus lang="basque">
+
+<lexelt item="gai">
+
+<instance id="gai.IZE.0" docsrc="1999-02-13.politika10.txt" topic="politika" sentsrc="16" positsrc="1">
+<answer instance="gai.IZE.0" senseid=" "/>
+<context>
+
+PPk bakea lortzeko ETAk behin betiko indarkeria utzi behar duela dioen proposamena aurkeztu zuen.
+HBk, aldiz, Euskal Herriko eskubide demokratikoak onartu behar direla dioena proposatu zuen.
+Hiru <head>gaien</head> lotura ikusita batera eztabaidatzea erabaki zen.
+Hala ere, eztabaida hasi aurretik Jose Maria Fernandez Ezker Batuko bozeramaleak eztabaida aurrera eramatea "komenigarria ez" zela aipatu zuen "gaur egun bizi dugun tentsio egoera areagotzeko balioko duelako bakarrik".
+EAJ, HB, EA, PSE-EE eta ICV alderdiak prest azaldu ziren beraien prosamenak atzera botatzeko gainontzeko alderdiek horrela egitea erabakitzen bazuten.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.1" docsrc="2000-05-24.gizartea4.txt" topic="gizartea" sentsrc="11" positsrc="10">
+<answer instance="gai.IZE.1" senseid=" "/>
+<context>
+
+Baita profesio honetan dihardutenei birziklatzeko aukera eskaintzea ere.
+Era berean, ikastaroa zabalik dago ezagutzaren beste esparruetatik etorri eta informazioaren gizarteak komunikazioaren alorrean eskatzen dituen ezagutza berriak eskuratu nahi dituzten profesional guztientzat ere.
+Ikastaroaren hainbat ezaugarri aipatu zituen zuzendariak; esate baterako, <head>gai</head> eskaintza oparoa, interaktibitatea, material osagarrien ugaritasuna eta edukiaren hedapena denbora errealean.
+Ikastaroa bost unibertsitatetako irakasleek emango dute: EHU, Madrilgo Konplutense , Pompeu Fabra, Cardenal Herrera eta Santiagoko unibertsitateetakoek.
+Hamaika modulutan banatua dago ikastaroa, eta 30 gai jorratuko dituzte, besteak beste, publizitatea, gai juridikoak, informazio digitaleko iturriak, oinarrizko kontzeptuak eta deontologia eta kazetaritza Interneten.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.2" docsrc="1999-08-10.mundua8.txt" topic="mundua" sentsrc="11" positsrc="17">
+<answer instance="gai.IZE.2" senseid=" "/>
+<context>
+
+Siriak Baraki atzera egitea leporatu dio.
+Ildo bertsutik, Wyeko Hitzarmenean sinatutakoa ez betetzeaz akusatu du Siriak Israelgo lehen ministroa.
+Damaskoko prentsa ofizialaren arabera, Barak emandako hitza jaten ari da, eta hauteskunde kanpainan agindutako zenbait <head>gaitan</head> atzera egiten.
+Israelgo tropek Libanoko ipar eta hegoan 1.000 kilometro koadroko eremua menpean hartuta dute 1978tik.
+Akordioan  tropak handik erretiratzea sinatu zen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.3" docsrc="1999-02-20.ekonomia2.txt" topic="ekonomia" sentsrc="12" positsrc="34">
+<answer instance="gai.IZE.3" senseid=" "/>
+<context>
+
+Hala ere, lan astearen inguruko neurketak gehiago findu nahi dituzte LHKkoek, eta beste hainbat azterketa egitea erabaki dute.
+Besteak beste, lanpostuaren presentziaren orduak zenbat diren neurtu nahi dute, azterketa horrek emango dituen emaitzak Europako Batasunekoekin alderatzeko.
+Gisa horretako kontuetan aritu ziren atzoko bilkuran sindikatuetako eta enpresarien elkarteetako ordezkariak. " Lan astearen inguruko benetako negoziazioei ez diegu heldu oraindik ", azpimarratu du Ricardo Aranak, CCOOko ordezkariak, eta <head>gai</head> horrek luzera joko duela gaineratu du.
+Erantzunaren zain.
+Lan Harremenen Kontseilua lanean hasi zenean, sindikatuek enplegua sustatzeko hainbat eskaera egin zituzten, besteak beste, 35 orduko lan astea. "Gure proposamenak ez du oraindik erantzunnik jaso", azpimarratu du Joxemi Unanuek, ELAko idezkariak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.4" docsrc="2000-02-15.iritzia2.txt" topic="iritzia" sentsrc="1" positsrc="3">
+<answer instance="gai.IZE.4" senseid=" "/>
+<context>
+
+Jose Vicente Huarte Filologoa "Euskal etxea oso mundu berezia da"  Etxeko lexikoa Nafarroako euskalkietan tesia burutu du filologo eslabarrak.
+Zergatik aukeratu duzu <head>gai</head> hori tesirako?
+Aita hargina zen, eta Rosa Castañerren etxeko lexikoaren ikerketa-liburu bat oso interesgarria iruditu zitzaidanez, antzeko zerbait egitea pentsatu nuen.
+Zer aztertu duzu zehazki tesian?
+
+</context>
+</instance>
+
+<instance id="gai.IZE.5" docsrc="1999-06-02.gizartea8.txt" topic="gizartea" sentsrc="2" positsrc="21">
+<answer instance="gai.IZE.5" senseid=" "/>
+<context>
+
+Gai transgenikoen inguruko luzamendua babestea erabaki du Eusko Jaurlaritzak Gaur bertan emango diete jarrera horren berri EHNE eta Enbako ordezkariei.
+Jone Larrañaga / Donostia.
+EHNE sindikatuak bultzatuta hainbat taldek orain hilabete eskatutakoa aintzat hartu du Eusko Jaurlaritzak, eta transgenikoen ekoizpenak dituen arriskuak aztertu artean <head>gaiari</head> buruzko luzamendua babestuko du.
+Nekazaritza sailburua gaur bilduko da nekazari sindikatuekin erabakiaren berri emateko.
+GAI transgenikoek kontsumitzaileen osasunean eta ingurugiroan izango duten benetako eragina zein izango den oraingoz ezin jakin dela eta, dozenatik gora talde ekologista, sindikatu eta kontsumitzaile elkartek gaiari buruzko ezein erabaki hartu aurretik bost urteko luzamendua onar zezan proposatu zioten Jaurlaritzari, EHNE sindikatuaren ekimenez.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.6" docsrc="1999-06-02.gizartea8.txt" topic="gizartea" sentsrc="4" positsrc="0">
+<answer instance="gai.IZE.6" senseid=" "/>
+<context>
+
+EHNE sindikatuak bultzatuta hainbat taldek orain hilabete eskatutakoa aintzat hartu du Eusko Jaurlaritzak, eta transgenikoen ekoizpenak dituen arriskuak aztertu artean gaiari buruzko luzamendua babestuko du.
+Nekazaritza sailburua gaur bilduko da nekazari sindikatuekin erabakiaren berri emateko.
+<head>GAI</head> transgenikoek kontsumitzaileen osasunean eta ingurugiroan izango duten benetako eragina zein izango den oraingoz ezin jakin dela eta, dozenatik gora talde ekologista, sindikatu eta kontsumitzaile elkartek gaiari buruzko ezein erabaki hartu aurretik bost urteko luzamendua onar zezan proposatu zioten Jaurlaritzari, EHNE sindikatuaren ekimenez.
+Joan den maiatzaren 4an egin zioten eskaria agintariei, Jaurlaritzak transgenikoen gaia aztertzeko osatu zuen instituzio arteko batzordeak lehen bilera egin zuen egunean, hain justu.
+Bilera hartan Ingurugiro, Osasun, Nekazaritza, Hezkuntza eta Kontsumo sailetako arduradunek erabaki zuten batzorde konpetentzial iraunkor bat sortzea eta bertan aztertzea, besteak beste, luzamenduari buruzkoak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.7" docsrc="1999-06-02.gizartea8.txt" topic="gizartea" sentsrc="5" positsrc="11">
+<answer instance="gai.IZE.7" senseid=" "/>
+<context>
+
+Nekazaritza sailburua gaur bilduko da nekazari sindikatuekin erabakiaren berri emateko.
+GAI transgenikoek kontsumitzaileen osasunean eta ingurugiroan izango duten benetako eragina zein izango den oraingoz ezin jakin dela eta, dozenatik gora talde ekologista, sindikatu eta kontsumitzaile elkartek gaiari buruzko ezein erabaki hartu aurretik bost urteko luzamendua onar zezan proposatu zioten Jaurlaritzari, EHNE sindikatuaren ekimenez.
+Joan den maiatzaren 4an egin zioten eskaria agintariei, Jaurlaritzak transgenikoen <head>gaia</head> aztertzeko osatu zuen instituzio arteko batzordeak lehen bilera egin zuen egunean, hain justu.
+Bilera hartan Ingurugiro, Osasun, Nekazaritza, Hezkuntza eta Kontsumo sailetako arduradunek erabaki zuten batzorde konpetentzial iraunkor bat sortzea eta bertan aztertzea, besteak beste, luzamenduari buruzkoak.
+Nekazaritza sailetik atzo jakinarazi zutenez, bai batzorde horretan eta baita Diputazioekin egin dituzten bilereretan ere argi geratu da "gai transgenikoei buruz gaur egunean dauden duda zientifikoak argitu arte" ezin dela gai transgenikoei buruzko erabakirik hartu, eta beraz, "luzamendua berehalakoan onartu behar" dela erabaki dute.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.8" docsrc="1999-06-02.gizartea8.txt" topic="gizartea" sentsrc="7" positsrc="20">
+<answer instance="gai.IZE.8" senseid=" "/>
+<context>
+
+Joan den maiatzaren 4an egin zioten eskaria agintariei, Jaurlaritzak transgenikoen gaia aztertzeko osatu zuen instituzio arteko batzordeak lehen bilera egin zuen egunean, hain justu.
+Bilera hartan Ingurugiro, Osasun, Nekazaritza, Hezkuntza eta Kontsumo sailetako arduradunek erabaki zuten batzorde konpetentzial iraunkor bat sortzea eta bertan aztertzea, besteak beste, luzamenduari buruzkoak.
+Nekazaritza sailetik atzo jakinarazi zutenez, bai batzorde horretan eta baita Diputazioekin egin dituzten bilereretan ere argi geratu da " <head>gai</head> transgenikoei buruz gaur egunean dauden duda zientifikoak argitu arte " ezin dela gai transgenikoei buruzko erabakirik hartu, eta beraz, " luzamendua berehalakoan onartu behar " dela erabaki dute.
+Horren berri gaur bertan emango die Iñaki Gerenabarrena Nekazaritza sailburuak Enba eta ENHE sindikatuetako ordezkariei.
+Jarrera zuhurtziazkoa.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.9" docsrc="1999-06-02.gizartea8.txt" topic="gizartea" sentsrc="7" positsrc="33">
+<answer instance="gai.IZE.9" senseid=" "/>
+<context>
+
+Joan den maiatzaren 4an egin zioten eskaria agintariei, Jaurlaritzak transgenikoen gaia aztertzeko osatu zuen instituzio arteko batzordeak lehen bilera egin zuen egunean, hain justu.
+Bilera hartan Ingurugiro, Osasun, Nekazaritza, Hezkuntza eta Kontsumo sailetako arduradunek erabaki zuten batzorde konpetentzial iraunkor bat sortzea eta bertan aztertzea, besteak beste, luzamenduari buruzkoak.
+Nekazaritza sailetik atzo jakinarazi zutenez, bai batzorde horretan eta baita Diputazioekin egin dituzten bilereretan ere argi geratu da " gai transgenikoei buruz gaur egunean dauden duda zientifikoak argitu arte " ezin dela <head>gai</head> transgenikoei buruzko erabakirik hartu, eta beraz, " luzamendua berehalakoan onartu behar " dela erabaki dute.
+Horren berri gaur bertan emango die Iñaki Gerenabarrena Nekazaritza sailburuak Enba eta ENHE sindikatuetako ordezkariei.
+Jarrera zuhurtziazkoa.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.10" docsrc="1999-06-02.gizartea8.txt" topic="gizartea" sentsrc="10" positsrc="2">
+<answer instance="gai.IZE.10" senseid=" "/>
+<context>
+
+Horren berri gaur bertan emango die Iñaki Gerenabarrena Nekazaritza sailburuak Enba eta ENHE sindikatuetako ordezkariei.
+Jarrera zuhurtziazkoa.
+Euskal erakundeek <head>gai</head> transgenikoei buruz duten jarrera " zuhurtziazkoa " da, iturri berberen arabera.
+Jakin nahi dute, txosten zientifiko sakonen bitartez, giza osasunean transgenikoki eraldatutako produktuek zein ondorio izango duten.
+Jaso nahi dira, baita ere, bertako ekosisteman hazi transgenikoetan oinarritutako nekazaritza sistemek zein eragin izan dezaketen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.11" docsrc="2000-08-19.politika5.txt" topic="politika" sentsrc="1" positsrc="24">
+<answer instance="gai.IZE.11" senseid=" "/>
+<context>
+
+EAJk bestelako bidea hartu behar duela esan du Emilio Gebarak. "Gaurko buruzagiak ez badira hori egiteko gai, beste batzuei utzi behar diete lekua"  Agentziak / Bilbo.
+Emilio Gebara Arabako diputatu nagusi ohiak atzo esan zuenez, EAJk beharrezkoa du guztiz bestelako bidea hartzea, " eta gaurko buruzagiak ez badira <head>gai</head> hori egiteko, lekua beste batzuei utzi behar diete ".
+Markinako EA eta EAJk hartutako erabakia -Patxi Rementeriaren hil-kapera udaletxeko batzar aretoan jartzea onartzea- kritikatu zuen jeltzaleak.
+Gebararen ustez, Markinan gertatutakoa beste bide bat hartu beharra garbi uzten duen beste froga bat da: "EAJn gai izango al gara herritar gehienei erantzuteko gutxiengo batek bere gogoa egitera behartzen gaituenean?
+
+</context>
+</instance>
+
+<instance id="gai.IZE.12" docsrc="1999-11-06.politika13.txt" topic="politika" sentsrc="6" positsrc="6">
+<answer instance="gai.IZE.12" senseid=" "/>
+<context>
+
+"Gure aldetik, afera hurbiletik segituko dugu GALeko kide hau ez dazten trikimailu baten bitartez eta isilpean aska, iraganean ikusi ahal izan dugun bezala", ohartarazi du Oroit eta Salak.
+Gisa berean, heldu den abenduaren 11 eta 12an eginen duten bigarren forumaren berri eman du Oroit eta Salak.
+Demokrazia eta Estatu Arrazoia izanen da <head>gaia</head>.
+Gilles Perrault idazlea, Jose Luis Galan abokatua eta Jean Luc Einaudi historialaria izanen dira gonbidatuen artean. "Egungo egoera politikoan, gatazkari irtenbide demokratikoa atzemateko, sekulan baino beharrezkoagoa da egia eta justizia aldarrikatzea", adierazi dute elkarteko ordezkariek.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.13" docsrc="1999-08-19.politika2.txt" topic="politika" sentsrc="4" positsrc="1">
+<answer instance="gai.IZE.13" senseid=" "/>
+<context>
+
+Bost bandera altxatuko dituzte bihar Bilboko balkoian; hala berretsi zuen alkateak atzo.
+Javier Atutxak Lander Etxebarria EHko zinegotziari erantzun eta BBBren babes osoa eskaini zion Iñaki Azkunaren jardunari.
+Banderen <head>gaia</head> udal koalizioa eratzeko eztabaidetako askotan agertu da, eta duela gutxi arte jeltzaleak prest zeuden banderak ez jartzeko.
+Azkunak, ostera, "legea bete" eta bost mastetan beste horrenbeste bandera eskegiko dituela iragarri du.
+BIZKAI BURU BATZARRAK "babestu eta lagundu egiten ditu Bilboko alkate Iñaki Azkuna Aste Nagusian azaltzen ari den jarrera eta adierazpen guztiekin" adierazi zuen Javier Atutxak atzo.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.14" docsrc="2000-02-10.iritzia4.txt" topic="iritzia" sentsrc="8" positsrc="17">
+<answer instance="gai.IZE.14" senseid=" "/>
+<context>
+
+Gai hauen guztien aurrean, bai iritzia ematen duten adituek, bai telebistako kate ezberdinetako programetan agertzen diren biktimek, heziketa kontua dela esaten bukatu dute; gazteei zuzenduriko heziketa hobe baten premian aurkitzen garela batetik, eta gurasoek gazte horiek hezitzeko behar duten formazioaz, bestetik.
+Ez al dira formazio ekitaldi gehiegi, aipatu arazo guztiak aurrezaintzeko eta behin arazootan murgilduz gero, aurre egiten jakiteko?
+Ez nuke nahi inork pentsa dezan harriak jotzen nauen arte gainontzekoei gertatzen zaienaz edo gainontzekoak arduratzen dituzten <head>gaiez</head> arduratzen ez naizenik.
+Baina momentu honetan gehiago kezkatzen nauena zera da: arazo kolektibo gisa aurkezten zaizkigun tankera honetako gaiek kolektibo horrengan izan dezaketen eragin ezezkorra.
+Hau da, gero eta ume gutxiago munduratzeko erabakia hartzen ari garen une honetan, umeei buruz jasotzen dugun informazio gehiena ezezkorra baldin bada, beldurrak eta beldurra aurrezaintzeko beharrak erabaki behar ez ote duen gure ondorengoa, alegia.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.15" docsrc="2000-07-15.politika3.txt" topic="politika" sentsrc="8" positsrc="11">
+<answer instance="gai.IZE.15" senseid=" "/>
+<context>
+
+Horrek dozena bat udaletan izan dezake eragina; esaterako, Zumarraga, Beasain, Ordizia eta Arrasaten. "EH eta HBrentzat, hilketa, xantaia eta mehatxuak "aitzakiak" besterik ez badira, EAJrentzat giza eskubideen bortxaketa argia dira, eta ezin dira bateratu ekintza politikoarekin, ezta udal arloan ere", dio GBBk oharrean.
+Erabakia Gipuzkoako hainbat alkate eta zinegotzirekin bildu eta EHk Ordiziako atentatu saioaren ondoren izaniko jarrera aztertu ostean hartu duela adierazi du GBBk. "Ordizian EHk aukera aparta galdu zuen enpresariaren familiari elkartasuna adierazteko, baina, beste behin ere, talde politiko horretako zuzendaritzak "isiltasunaren legea" ezarri zuen, euren zinegotziei izugarrizko lotsa pasaraziz, ezin izan baitzuten gaitzetsi atentatu krudela".
+EAJk gogoratu du Orion udal arloan eragina duten " maila txikiagoko <head>gaiengatik</head> " apurtu zuela EHk gobernu ituna.
+EHri zuzendu zaio GBB. "Mezu garbia igorri nahi diogu, nahas ez dadin, EAJk inoiz ez baitu onartuko estrategia politiko-militarra inolako ideiarik defenditzeko, ideia oso zuzena eta zilegizkoa bada ere".
+Hala, EHri "umiltasuna" eskatu zion, "bide horretatik jarraitzen badu, Gipuzkoako gizartean elkarguneak topatu beharrean, bakardade osoan aurkiko da, eta etorkizunean aurkeztu nahiko dituzten proiektu politikoen zirriborroaren inguruan gizartearen interes eza baino ez dute izango".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.16" docsrc="1999-06-26.politika7.txt" topic="politika" sentsrc="2" positsrc="4">
+<answer instance="gai.IZE.16" senseid=" "/>
+<context>
+
+Jean Claude Iriart Garapen Kontseiluko lehendakaria "Ezin dugu Estatua eta Eskualdearen arteko negoziaketa plangintza huts egin"  n Lurralde Eskemak bi urte bete ditu, eta Iparraldearen etorkizunari buruzko 96 proposamenen aplikazioa aztertu du Garapen Kontseiluak.
+n Akitania eta Estatuaren artean negoziatuko den Kontratu-Plangintzan ezarriak dituzte itxaropenak.
+n Larunbateko biltzar nagusian <head>gai</head> nagusietariko bat izanen da.
+Garapen Kontseiluaren lan nagusia 1997ko martxoan onartu zen Lurralde Eskema obratzera zuzendu da.
+Egun, bi urte geroago, zertan da egitura?
+
+</context>
+</instance>
+
+<instance id="gai.IZE.17" docsrc="1999-06-26.politika7.txt" topic="politika" sentsrc="67" positsrc="1">
+<answer instance="gai.IZE.17" senseid=" "/>
+<context>
+
+Orain artekoaren segida zaintzeaz gain, lan ildo berriak ere landu ditu Garapen Kontseiluak.
+Larunbatean emanen duzue horien berri ezta?
+Zazpi <head>gai</head> hautatu ditugu eta biltzar nagusian lanen aitzinamenduari buruzko puntua eginen dugu.
+Pirinioen zeharkatzea, lanbide sarrerak, euskara eta euskal irakaskuntza, industria, laborantza, ura eta hirien garapena dira gaiak.
+Hauen inguruan zazpi lantalde muntatuak izan dira eta bakoitza Garapen Kontseiluko kideak, hautetsiak eta gizarteko eragile interesatu orori ireki da.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.18" docsrc="1999-06-26.politika7.txt" topic="politika" sentsrc="68" positsrc="20">
+<answer instance="gai.IZE.18" senseid=" "/>
+<context>
+
+Larunbatean emanen duzue horien berri ezta?
+Zazpi gai hautatu ditugu eta biltzar nagusian lanen aitzinamenduari buruzko puntua eginen dugu.
+Pirinioen zeharkatzea, lanbide sarrerak, euskara eta euskal irakaskuntza, industria, laborantza, ura eta hirien garapena dira <head>gaiak</head>.
+Hauen inguruan zazpi lantalde muntatuak izan dira eta bakoitza Garapen Kontseiluko kideak, hautetsiak eta gizarteko eragile interesatu orori ireki da.
+Zazpi gai horiek egin ahala, fite bururatzeko xedea dugu, urrirako proposamen konkretu batzuk egiteko.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.19" docsrc="1999-06-26.politika7.txt" topic="politika" sentsrc="74" positsrc="5">
+<answer instance="gai.IZE.19" senseid=" "/>
+<context>
+
+Betiko mugarekin, guretzat proposamena izanen da eta gero hautetsiek eman beharko diote segida.
+Joan den larunbatean Ipar Euskal Herriko Udalen Biltzarrak Garapen Kontseiluari Ipar Euskal Herriak zein instituzio mota behar lukeen aztertzeko eskaera egin zion.
+Orain arte ez duzue instituzioen <head>gaia</head> aztertu, Hautetsien Kontseilutik ez zelako hala galdegin.
+Udalen Biltzarrak zein erantzun ukanen du?
+Garapen Kontseiluari egindako eskaera horren berri prentsa bidez jakin dut, oraino ez dugulako Biltzarrarenganik galde formalik ukan.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.20" docsrc="2000-03-30.kultura4.txt" topic="kultura" sentsrc="23" positsrc="9">
+<answer instance="gai.IZE.20" senseid=" "/>
+<context>
+
+Ez da izan behar aspergarri.
+Idazleak gustura eta atseginez idatzi behar du, norbera ez bada dibertitzen nekez dibertituko baita irakurlea", erran zuen.
+Hori dela eta, gustura idazteko aukera ematen dioten <head>gaiak</head> aukeratzen ditu idazleak, bere ideiak plazaratzeko istorioak osatzeko orduan, atzo nabarmendu zuenez.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.21" docsrc="2000-02-23.iritzia7.txt" topic="iritzia" sentsrc="23" positsrc="1">
+<answer instance="gai.IZE.21" senseid=" "/>
+<context>
+
+Debaldean zen orain esaten dena hamaikak hamaiketan errepikatu izana, hots, diputazioak udalen gainean eraikitako egiturak direla, eta beraz ez daukatela zerikusirik Espainiar Estatuko egiturekin.
+Jakintsu batzuk erabakita zeukaten hori sistemarekin kolaboratzea zela eta kitto, ez zegoen zer eztabaida.
+Presoen <head>gaian</head> ere antzeko bat gertatzen da.
+Esanak esan arren, eta gaia zoritxarrez nahikoa gertutik dazagudala daukat eritzi, oraindik ez naiz gauza izan ulertzeko, zergatik presoek bete behar duten agindu moralik zorrotzena ez duten betetzen: edozein modutan espetxeetatik ihes egitea, esate baterako, Francoren Mugimendu Nazionalaren Hatsarreei muin eginez, edota guztiz damututa daudela mila bider segurtatuz eta izenpetuz.
+Ezin dut burutik zentzazioa kendu, legepertsona zorrotz bezain zoli batzuk osterantzekoa erabakita daukatelako dela, eta presoen sufrimenduak eta sakrifizioak zalantzarik gabe errenta askotxo ekarriko diola Euskal Herriaren askatasunaren aldeko burrukari, baina zenbat ordainduta?
+
+</context>
+</instance>
+
+<instance id="gai.IZE.22" docsrc="1999-01-27.politika5.txt" topic="politika" sentsrc="3" positsrc="9">
+<answer instance="gai.IZE.22" senseid=" "/>
+<context>
+
+Asier Iturriagaetxebarria / Bilbo.
+EAJ eta EA Euskal Udalerrien Biltzarrean sartuko diren arren, PSE-EEk oraingoz ez du hautsiko aipatu alderdiekin udaletan aginterako duen akordioa.
+Izan ere, herenegun Batzorde Eragileak egin zuen bileran <head>gai</head> hori ez zela jorratu adierazi zuen atzo Jesus Egigurenek.
+Beraz, aurrera jarraituko dute akordioarekin.
+PSE-EE-K EAJrekin eta EArekin batera jarraituko du udaletan agintzeko duen akordioan.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.23" docsrc="1999-01-27.politika5.txt" topic="politika" sentsrc="6" positsrc="10">
+<answer instance="gai.IZE.23" senseid=" "/>
+<context>
+
+Beraz, aurrera jarraituko dute akordioarekin.
+PSE-EE-K EAJrekin eta EArekin batera jarraituko du udaletan agintzeko duen akordioan.
+Jesus Egiguren Kanpo Harremanetarako eta Erakundeetarako idazkariak azaldu zuenez, <head>gai</head> hori ez zen aztertu herenegun PSE-EEko Batzorde Eragileak egin zuen bileran. " Ez gara oraindik arlo horietan sartu, udal bakoitzean hartu beharreko ekimenetan ", adierazi zuen atzo.
+EAJk eta EAk Euskal Udalerrien Biltzarrean parte hartzea erabaki arren -"ordezkaritza demokratikoa errespetzen ez duen erakunde bat" da PSE-EErentzat-, PSE-EEk eutsi egingo die aipatu alderdiekin dituen udal akordioei.
+Bestalde, hurrengo udal hauteskundeek Udalerrien Biltzarrari buruz herritarrek duten iritzia jakiteko balioko dutela esan zuen Egigurenek. "Kontuan harturik Udalerrien Biltzarra hauteskundeen ostean jarriko dela martxan, herritarrak botoaren bidez adieraziko du horren alde dagoen edo ez".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.24" docsrc="1999-01-27.politika5.txt" topic="politika" sentsrc="9" positsrc="7">
+<answer instance="gai.IZE.24" senseid=" "/>
+<context>
+
+EAJk eta EAk Euskal Udalerrien Biltzarrean parte hartzea erabaki arren -"ordezkaritza demokratikoa errespetzen ez duen erakunde bat" da PSE-EErentzat-, PSE-EEk eutsi egingo die aipatu alderdiekin dituen udal akordioei.
+Bestalde, hurrengo udal hauteskundeek Udalerrien Biltzarrari buruz herritarrek duten iritzia jakiteko balioko dutela esan zuen Egigurenek. "Kontuan harturik Udalerrien Biltzarra hauteskundeen ostean jarriko dela martxan, herritarrak botoaren bidez adieraziko du horren alde dagoen edo ez".
+Era berean, Juan Jose Ibarretxe lehendakariari <head>gaiari</head> buruz duen iritzia emateko eskatu zion PSE-EEk. " Ez badu hala egiten, pentsatu beharko da Euskal Herriko politika bide batetik doala eta lehendakariak eta Gobernuak ez dutela eraginik ".
+140 udalerritan aurkeztuko da.
+Hurrengo udal hauteskundeak "oso garrantzitsuak" izango dira PSE-EEren aburuz, eta horregatik "ondo" prestatuko dituztela azpimarratu zuen Rodolfo Ares Sailen Koordinaziorako idazkariak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.25" docsrc="1999-05-14.europa2.txt" topic="europa" sentsrc="19" positsrc="28">
+<answer instance="gai.IZE.25" senseid=" "/>
+<context>
+
+Militarren komunikazio egoitzak ere jo zituzten hegazkinek Kosovska, Novi Sad, Stara Pazova, Milosevo eta Orlaten.
+Hegazkin aliatuek, jada, Jugoslaviako Armadaren ehundik gora hegazkin suntsitu dituela adierazi zuten NATOko iturriek.
+Hondatuta Jugoslaviako aire indarraren%40. Hondatuta geratu da, halaber, Jugoslaviako aire indarraren %40. Walter Jertz Aliantzako bozeramaile militarraren arabera, hegazkin aliatuek txikitu egin dituzte <head>gai</head> militarren %25, eta munizioa produzitzeko gaitasuna bi herenetan urritu zaio Jugoslaviari.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.26" docsrc="2000-04-15.iritzia6.txt" topic="iritzia" sentsrc="2" positsrc="16">
+<answer instance="gai.IZE.26" senseid=" "/>
+<context>
+
+Kutxek dirua irabazi behar al dute?
+Isidro Esnaola.
+( EHko Gipuzkoako batzarkidea ) Aldiro-aldiro aurrezki-kutxen gaiak gaurkotasuna hartzen du eta, erraztasun berberarekin, <head>gai</head> honekiko interesa galtzen da.
+Oraingo honetan kutxetan hauteskunde prozesua burutu da, eta prozesu horren ondoren, Vital Kutxan gertatu denarekin, berriz ere hedabideetan kutxen gaia aztertzeko beharra agertu da.
+Kutxak entitate finantzario bereziak dira.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.27" docsrc="2000-04-15.iritzia6.txt" topic="iritzia" sentsrc="3" positsrc="22">
+<answer instance="gai.IZE.27" senseid=" "/>
+<context>
+
+Isidro Esnaola.
+(EHko Gipuzkoako batzarkidea) Aldiro-aldiro aurrezki-kutxen gaiak gaurkotasuna hartzen du eta, erraztasun berberarekin, gai honekiko interesa galtzen da.
+Oraingo honetan kutxetan hauteskunde prozesua burutu da, eta prozesu horren ondoren, Vital Kutxan gertatu denarekin, berriz ere hedabideetan kutxen <head>gaia</head> aztertzeko beharra agertu da.
+Kutxak entitate finantzario bereziak dira.
+Euren estatutuen arabera, irabazi asmorik gabeko entitate finantzarioak dira.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.28" docsrc="1999-05-30.politika9.txt" topic="politika" sentsrc="0" positsrc="17">
+<answer instance="gai.IZE.28" senseid=" "/>
+<context>
+
+" Etxera itzultzeko ametsa euskal gizarteari esker " beteko dela esan dute errefuxiatuek Mayorren eskaintza gizarteak presoen <head>gaia</head> ahantz dezan egin maniobra bat dela diote.
+APS / Baiona.
+Euskal Errefuxiatuen Kolektiboak erantzun gogorra eman zion atzo Espainiako Gobernuak kargurik gabeko errefuxiatuak itzul daitezen egin eskaintzari.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.29" docsrc="1999-03-17.kultura18.txt" topic="kultura" sentsrc="17" positsrc="10">
+<answer instance="gai.IZE.29" senseid=" "/>
+<context>
+
+Gustu-gustura gorrotatu ere.
+Film basa eta burlatia.
+Ikuskizunaren leienda bezain berdaderoak diren bi lelo, eta, <head>gai</head> horien bitartez, Alexek eta Jorgek inorekin errukirik ez duen film bat burutu dute.
+Film basa eta burlatia.
+Film matxinoa, duela hamarkada batzuk Espainian bizitutako mila izugarrikeria artistiko-politiko-etiko-estetikori emandako zaplasteko ikaragarria.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.30" docsrc="1999-07-02.kultura11.txt" topic="kultura" sentsrc="3" positsrc="16">
+<answer instance="gai.IZE.30" senseid=" "/>
+<context>
+
+Jon Eskisabel / Donostia.
+TXOMIN TXUEKA getariarraren argazkiak eta Andoni Egaña zarauztarraren bertsoak elkartu dira Sare artetik begira erakusketan.
+Hegaluzearen arrantzako ontzi batean Txuekak ateratako zuri-beltzeko irudiak izan dira, kasu honetan, Egañaren bertsoetarako <head>gai</head> jartzaile.
+Txueka Getariako Kaximirona Berria ontzian abiatu zen 1997an Irlandako itsas uretara, eta hogeita bost egunetan arrantzaleen bizimodu gogorraren aurpegi guztiak islatu zituen. "Lan honetatik gizakia da interesatzen zaidana.
+Bizimodu latza dute arrantzaleek, familiarengandik urrun egun asko pasatzen dituzte, harreman pertsonalak zailak izaten dira, bakoitzak bere istorioak ditu buruan eta eztabaidak sortzen dira", azaldu zuen Txuekak atzo.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.31" docsrc="2000-10-07.iritzia17.txt" topic="iritzia" sentsrc="6" positsrc="25">
+<answer instance="gai.IZE.31" senseid=" "/>
+<context>
+
+Pentsakera politiko eta sozial konkretu bat praktikan jartzerakoan bizirauteko aukerarik gabe gelditzen ari zarenean, zenbait lan onartu behar dituzu.
+Beste askatasuna ordaintzeko modu bat da.
+Hala ere, argitzeko kontu bat : nik ez dut prentsa arrosako eztabaidetan parte hartzen - parte hartu izan dudan gutxietan -, baizik eta <head>gaiaren</head> inguruko irakurketa kritiko bat egiten agortzen dut nire txanda, ironikoki.
+Finean, politika modu bat egiteko, politika hura bera ukatzen duen zoruan bizi behar duzu.
+Ia ezinezkoa da borrokatzen duzun gizarte-esparru eta politikoan bizitzea.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.32" docsrc="2000-04-29.kultura6.txt" topic="kultura" sentsrc="8" positsrc="8">
+<answer instance="gai.IZE.32" senseid=" "/>
+<context>
+
+GAURTIK maiatzaren 1era bitartean Euskal Herriko 65 artisuen lanak izango dira ikusgai eta salgai, Errenterian.
+Zeramika, egurra, burdina, ehuna, beira eta beste hainbat materialez egindako eskulanak bilduko dira bertan.
+Horrez gainera, bisitariak aukera izango du hainbat <head>gai</head> nola lantzen diren ikusteko, hantxe ariko baitira artisauak lanean.
+Euskal Herriko probintzia guztietatik etorritakoak daude.
+Ereintza elkarteak antolatu duen azokara hurbilduko direnen berri eman zuen Josu Eizagirrek, elkarte horretako presidenteak. "15.000 bisitari inguru espero ditugu, nahiz eta eguraldiak baldintzatuko duen kopurua", esan zuen atzo.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.33" docsrc="2000-10-22.kultura2.txt" topic="kultura" sentsrc="29" positsrc="1">
+<answer instance="gai.IZE.33" senseid=" "/>
+<context>
+
+Europan azeriak betetzen du maltzurraren papera.
+Gabonen, aldiz, apoarmatuak.
+Baina <head>gai</head> bertsuak dira afrikar ipuinetan ere?
+Herri guztietan ipuina gai beraren inguruan osatzen da: beldurra, herioa, maltzurkeria… Pertsonaiak eta apainketak dira aldatzen.
+Gure ipuin askok arbasoenganako eta hilenganako errespetua dute oinarritzat.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.34" docsrc="2000-10-22.kultura2.txt" topic="kultura" sentsrc="30" positsrc="3">
+<answer instance="gai.IZE.34" senseid=" "/>
+<context>
+
+Gabonen, aldiz, apoarmatuak.
+Baina gai bertsuak dira afrikar ipuinetan ere?
+Herri guztietan ipuina <head>gai</head> beraren inguruan osatzen da : beldurra, herioa, maltzurkeria Pertsonaiak eta apainketak dira aldatzen.
+Gure ipuin askok arbasoenganako eta hilenganako errespetua dute oinarritzat.
+Europan, ez dakit.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.35" docsrc="2000-10-22.kultura2.txt" topic="kultura" sentsrc="56" positsrc="10">
+<answer instance="gai.IZE.35" senseid=" "/>
+<context>
+
+Gainera, hainbat tonu erabil ditzaket, animaliak erabiliz pertsonaia gisa.
+Haurrak arras sentikorrak dira ahots aldaketei buruz.
+Helduei kontatzeak bertze aukera batzuk eskaintzen ditu; hots, <head>gai</head> sakonagoak jorratzea.
+Ohartu ote zara Europan leku batetik bertzerako ipuinen artean desberdintasunik ba ote den?
+Ni anitz ibiltzen naiz herri batetik bertzera ipuinak kontatzen, baina jaialdietan eta araberako ekitaldietan.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.36" docsrc="2000-03-19.gizartea3.txt" topic="gizartea" sentsrc="5" positsrc="12">
+<answer instance="gai.IZE.36" senseid=" "/>
+<context>
+
+Zuzenbide Estatua "hutsik" gelditu dela berresteaz gain, EHko hautetsiak mobilizazioaren alde azaldu ziren, eta nabarmendu nahi izan zituzten ekonomikoki zein segurtasun arloan proiektuak dituen "gabeziak".
+Horrela, Pablo Muñoz parlamentarioak esan zuen Nafarroako Ubidearen ura aprobetxatuko luketenek Gobernuak esan baino diru gehiago ordaindu beharko dutela azkenean.
+Itoizko urtegiko ura Nafarroarentzat ez dela izango eta azken epaiak lurralde honek <head>gai</head> honetan duen subiranotasunik eza agerian uzten duela esan zuten atzo EHko hautetsiek, urtegiaren lanen aurrean egin zuten kontzentrazioan.
+Shanti Kiroga bozeramaileak aipatu zuenez, Auzitegi Konstituzionalaren epaiak "edukiz hustu" du zuzenbide estatua, eta gobernuek, orain legeak "nahi bezala" aldatu ditzatekeela nabarmendu zuen. "Garbi dago Nafarroatik igarotzen den uraren gainean Nafarroak ezin duela erabaki, baizik eta Nafarroakoa ez den auzitegi batek, Nafarroan Estatuak duen interesak defenditzen dituenak hain zuzen ere".
+Kiroga mobilizazioa egitearen alde mintzatu zen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.37" docsrc="1999-06-24.politika11.txt" topic="politika" sentsrc="0" positsrc="8">
+<answer instance="gai.IZE.37" senseid=" "/>
+<context>
+
+Ramiro Kardona EAko Bizkaiko Batzorde Eragilekoa " Presoen <head>gaia</head> funtsezkoa izanik, alderdiek gehiago inplikatu behar dute " " Presoen auzia bake prozesuaren oinarria dela uste dut.
+Presoen kaleratzea ekarriko duen behin betiko irtenbidea iritsi bitartean, espetxeetako sofrimendua txikitzea eta egoera hobetzea lortu behar dugu.
+Horretarako egiten diren deialdiei babesa eman behar zaie.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.38" docsrc="1999-06-24.politika11.txt" topic="politika" sentsrc="3" positsrc="6">
+<answer instance="gai.IZE.38" senseid=" "/>
+<context>
+
+Presoen kaleratzea ekarriko duen behin betiko irtenbidea iritsi bitartean, espetxeetako sofrimendua txikitzea eta egoera hobetzea lortu behar dugu.
+Horretarako egiten diren deialdiei babesa eman behar zaie.
+Alderdi politikoek ulertu behar dute presoen <head>gaia</head> funtsezkoa izanik gehiago iplikatu behar dutela, inplikazioa militanteengana zabalduz.
+Nire ustez, sentsibilitatea areagotu da, baina alderdi abertzaleen artean dugun harremana aprobetxatu eta gure arteko kontaktuetan presoen auzia funtsezko gai bihurtzea lortu behar dugu".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.39" docsrc="1999-06-24.politika11.txt" topic="politika" sentsrc="4" positsrc="21">
+<answer instance="gai.IZE.39" senseid=" "/>
+<context>
+
+Horretarako egiten diren deialdiei babesa eman behar zaie.
+Alderdi politikoek ulertu behar dute presoen gaia funtsezkoa izanik gehiago iplikatu behar dutela, inplikazioa militanteengana zabalduz.
+Nire ustez, sentsibilitatea areagotu da, baina alderdi abertzaleen artean dugun harremana aprobetxatu eta gure arteko kontaktuetan presoen auzia funtsezko <head>gai</head> bihurtzea lortu behar dugu ".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.40" docsrc="1999-10-01.mundua4.txt" topic="mundua" sentsrc="3" positsrc="5">
+<answer instance="gai.IZE.40" senseid=" "/>
+<context>
+
+1981eko apirila  100 langile inguruk jasan zuten erradioaktibitatea Tsurugako erreaktorean.
+1991ko otsaila  Mihamako erreaktoreak erradiazioa isuri zuen itsasora eta atmosferara.
+1995eko abendua Menjuko erreaktore esperimentalak <head>gai</head> toxikoak askatu zituen.
+1997ko martxoa  35 langilek jasan zuten erradiazioa Tsurugako erreaktorean.
+1997ko abuztua  Altzairuzko 2.000 upelek hondakin erradioaktiboa isuri zuten Tokaimuran.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.41" docsrc="1999-01-08.mundua1.txt" topic="mundua" sentsrc="6" positsrc="12">
+<answer instance="gai.IZE.41" senseid=" "/>
+<context>
+
+KOLONBIAKO Gobernuak eta FARC Indar Armatu Iraultzaile Kolonbiarrak bilera historikoa egin zuten atzo, herrialdearen hegoaldeko San Vicente del Caguan herrian.
+Bileraren ondoren bi aldeek komunikatu bateratua irakurri zuten, eta "asmo sendoa" azaldu "adiskidetze bideak bilatzeko".
+Elkarrizketa mahaia finkatu zuten, lehenbailehen, bake prozesuko negoziaketen agenda eta <head>gaiak</head> zehazteko.
+Bilera historikoa herriko plazan egin zen.
+Tarima baten gainean bi aulki jarri ziren, bat Andres Pastrana lehendakariarentzat, eta Manuel Marulanda Tirofijo FARCeko buruarentzat bestea.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.42" docsrc="1999-01-08.mundua1.txt" topic="mundua" sentsrc="22" positsrc="11">
+<answer instance="gai.IZE.42" senseid=" "/>
+<context>
+
+Tirofijo han ez egoteak ez du eragotzi behar  elkarrizketa mahaia eratzea, gerrillariak adierazi zuenez. "Gaur etorri gara historiarekin hitzordua egitera".
+Adiskidetzearen ibilbidea bilatzeko gerturatu zen lehendakaria herrira, eta kolonbiar guztiei gobitea egin zien bakea bila dezaten. "Bakearen ilusioa benetakoa izango dela espero dut, eta aukera historiko honek betirako hasiko duela bakearen ibilbidea".
+Argi esan zuen agenda irekiarekin hurbildu zela elkarrizketa mahaira, " <head>gaiak</head> baztertu edo indarrez behartzeko asmorik gabe ".
+Nazioarteko gobernu eta erakunde ez gubernamental ugarik pozik begiratu zioten hasitako bake prozesuari.
+FARCek eskertu egin zuen nazioartearen "laguntza".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.43" docsrc="1999-08-05.iritzia13.txt" topic="iritzia" sentsrc="3" positsrc="15">
+<answer instance="gai.IZE.43" senseid=" "/>
+<context>
+
+Balkanetako  egonkortasunaren alde.
+Editoriala.
+Sarajevon aurreko ostiralean egindako gailurrean batez ere ekonomiaren berreraikuntzaz jardun zuten, hau da, <head>gai</head> erabakigarri batez, baina egonkortasunak, oraingoz, eskakizun militarra ere izaten jarraitzen du.
+Ezin da arrakastarik izan Balkanetan ez bada betearazten Daytongo bake plana, eta horrek gerrako kriminal nagusiak atxilotzea eta iheslariak aberriratzea eskatzen du.
+Ildo beretik, oraindik ere egia da ezin dela egonkortasunik izan Balkanetan Slobodan Milosevicek agintean jarraitu bitartean.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.44" docsrc="1999-02-13.iritzia20.txt" topic="iritzia" sentsrc="4" positsrc="24">
+<answer instance="gai.IZE.44" senseid=" "/>
+<context>
+
+Zein baino.
+zein.
+Jakin behar lukete udalek, udaletako hautetsiek, oraindainokoan beren eginkizunetan Konstituzioak edo Estatutuak eragotzi edo galarazten dien euren arteko harreman motaren bat asmatzeko <head>gai</head> izan ez badira, irudimen urria edo legeria aski ona dutela, edo errealitate ezberdin bati erantzuteko premiarik ez dagoela.
+Gaurdanik aurrera asmatzen badute, berriz, nekez sinetsiko diegu, helburua eginkizuna burutzea baino legeria auzitan jartzea dela pentsatu gabe.
+Udaletan oinarritutako erakunde nazional berri bat sortu omen joan den asteburuan.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.45" docsrc="2000-01-04.gizartea8.txt" topic="gizartea" sentsrc="33" positsrc="23">
+<answer instance="gai.IZE.45" senseid=" "/>
+<context>
+
+Sarbidea lortu eta gero, helburua super-erabiltzaile izatea da.
+Horretarako sistemari begiradatxo bat eman behar zaio, konfigurazioan okerren bat dagoen edo ez ikusteko.
+Bide horretatik zer eginik ez balu, hacker-ek sistema jakinak arakatzeko dauden exploit izeneko programak erabili beharko dituzte; alegia, erroreak aurkitzeko <head>gai</head> diren programak.
+Sistema eragilearen bertsioa zaharra bada eta neurririk hartu ez bada, super-erabiltzaile izatera irits daiteke.
+Hacker-a super-erabiltzaile izatera iristen denean, gailurrean dago.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.46" docsrc="2000-01-04.gizartea8.txt" topic="gizartea" sentsrc="37" positsrc="21">
+<answer instance="gai.IZE.46" senseid=" "/>
+<context>
+
+Hacker-a super-erabiltzaile izatera iristen denean, gailurrean dago.
+Baliteke besteen gainetik da- goela pentsatzea eta, beharbada, administrazaileari mezua utziko dio, hurrengo egunean ikus dezan eta bere sistemak segurtasun-arazoak dituela jakin dezan.
+Auzia ez da horrekin amaitzen, administratzaile guztiek ez baitute umorez hartzen; batzuk ez dira hacker-en eta cracker-en artean bereizteko <head>gai</head> izaten, eta baliteke kontraerasoa gertatzea.
+Orduan, hacker-ek utzitako arrastoak ezabatu behar izaten dituzte.
+Sistema guztiek badute beren erregistroa (log), zerbitzarian gertatzen diren eragiketa guztiak gordetzen dituena: nork egiten duen konexioa, nondik, zer ordutan, zein programa erabili dituen eta abar.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.47" docsrc="2000-01-04.gizartea8.txt" topic="gizartea" sentsrc="47" positsrc="16">
+<answer instance="gai.IZE.47" senseid=" "/>
+<context>
+
+Ogibide bilakatu dena.
+Gaur egun segurtasun-sistema ugari dago, baina sistema horiei aurre egiteko teknikak ere ugari dira.
+Hacker-ek guztiak ezagutzen dituzte eta, ondo baino hobeto erakutsi dutenez, edozein sistemari aurre egiteko <head>gai</head> dira.
+Goi mailako profanatzaile bihurtu dira, eta horregatik mirespena eta ikara batera sortzen dituzte gehienetan.
+Hala eta guztiz ere, hacker-en abantailarik handiena ordenagailuetako erabiltzaileek segurtasunarekiko duten axolagabekeria da.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.48" docsrc="1999-04-13.ekonomia1.txt" topic="ekonomia" sentsrc="9" positsrc="11">
+<answer instance="gai.IZE.48" senseid=" "/>
+<context>
+
+Atzo Manuel Pimentel Espainiako Enplegu ministroa egon zen Gasteizen.
+Juan Jose Ibarretxe lehendakariarekin bildu zen lehenik Pimentel, eta gero Sabin Intxaurraga Lan sailburuarekin.
+Bilerok, ordea, ez zuten emaitzarik izan, ez transferentzien <head>gaiari</head> lotutako etekinik bederen, eta arazoa, beraz, ez aurrera ez atzera dago.
+Diru kutxa bakarra hautsiko delako.
+"Positiboa da transferentziak euskal gobernuari ahalik eta epe laburrenean egitea", adierazi zuen Pimentelek, baina Gizarte Segurantzaren kuoten gainean Madril eta Gasteiz ados jartzerik ez dutela lortu gaineratu zuen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.49" docsrc="1999-04-13.ekonomia1.txt" topic="ekonomia" sentsrc="17" positsrc="13">
+<answer instance="gai.IZE.49" senseid=" "/>
+<context>
+
+EAEko gobernuarekin horixe bera egin nahiko lukeela esan zuen atzo Espainiako Lan ministroak Gasteizen, Eusko Jaurlaritzaren ordezkariekin egindako bilerak amaituta.
+"Lan Ministerioak ahalegin guztiak egingo ditu, desadostasunen gainetik, Eusko Jaurlaritzak enplegu politikak gara ditzan".
+Izan ere, Espainiako ministroak gaineratu zuenez, " ez du zentzu handirik <head>gai</head> beraren inguruan bi administrazio aritzeak ".
+Horregatik, aurki Sabin Intxaurraga Eusko Jaurlaritzako Lan sailburua bilera batera deituko du Pimentel ministroak, gai hori jorratu eta transferentzien arazoari irtenbideren bat ematen saiatzeko.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.50" docsrc="1999-04-13.ekonomia1.txt" topic="ekonomia" sentsrc="18" positsrc="16">
+<answer instance="gai.IZE.50" senseid=" "/>
+<context>
+
+"Lan Ministerioak ahalegin guztiak egingo ditu, desadostasunen gainetik, Eusko Jaurlaritzak enplegu politikak gara ditzan".
+Izan ere, Espainiako ministroak gaineratu zuenez, "ez du zentzu handirik gai beraren inguruan bi administrazio aritzeak".
+Horregatik, aurki Sabin Intxaurraga Eusko Jaurlaritzako Lan sailburua bilera batera deituko du Pimentel ministroak, <head>gai</head> hori jorratu eta transferentzien arazoari irtenbideren bat ematen saiatzeko.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.51" docsrc="2000-02-01.politika14.txt" topic="politika" sentsrc="12" positsrc="13">
+<answer instance="gai.IZE.51" senseid=" "/>
+<context>
+
+Gisa berean, urriaren 30ean egin zen Garapen Kontseiluaren bilkuran, Ipar Euskal Herriko Udalen Biltzarrari babes oro kentzen saiatu zen, "legitimaziorik ez" zuela azaldurik.
+Bilkura hartan halaber, Euskal Departamenduaren kontrako jarrera argia agertu zuen  suprefet izandakoak.
+Ildo beretik, mugaz gaineko harremanen aitzinaratzeaz zuen aurreiritzia salatu izan dute berarekin <head>gai</head> horretaz aritu izan diren Ipar Euskal Herriko eragile sozial eta politikoek.
+Jean Michel Drevet suprefet berriak, berriz, 1977 urtean hasi zuen bere karrera politikoa, Frantziako Defentsa Ministerioan.
+Lurralde Antolakuntzako DATAR egituran ibilia da,  eta horregatik, Ipar Euskal Herriko lurralde eskema- ren aplikazioan izan leza- ke bere esperientziak eraginik.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.52" docsrc="2000-06-13.kirola10.txt" topic="kirola" sentsrc="24" positsrc="4">
+<answer instance="gai.IZE.52" senseid=" "/>
+<context>
+
+Azken laurdenaren atarian, ostera, 79-66 hurreratu zen Lakers.
+Hondarrean Indiana larritu egin zen.
+Lakersek uneoro partidua irabazteko <head>gai</head> zela erakutsi zuen.
+Indianak arnasa hartu zuen Besten bi hirukorekin (89-81).
+O'Nealek 89-85ekoa ipini zuen markagailuan, eta Harperren hirukoak 94-91koa.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.53" docsrc="2000-04-30.azkena1.txt" topic="azkena" sentsrc="29" positsrc="7">
+<answer instance="gai.IZE.53" senseid=" "/>
+<context>
+
+16 urte dauzkagunok eta berrogeiak pasatu dituztenek ere, guztiok batera, maila hori hobetzen saiatu behar dugu.
+Baina adituek diote orain dugun txapelduna ez dela nolanahikoa.
+Besteak beste, 16 urte izanagatik ere <head>gai</head> guztien inguruan informazio andana kontrolatzen duzula nabarmendu dute.
+Bertsotan aritzen denak oso pareko gaia tokatzen ez bada ere beste bide batetik, hitz joko batekin edo eta azpijoko batekin, bere ezagutzarik eza tapatzen saiatu behar du.
+Batzuetan asmatzen da, eta beste batzuetan ez.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.54" docsrc="2000-04-30.azkena1.txt" topic="azkena" sentsrc="30" positsrc="5">
+<answer instance="gai.IZE.54" senseid=" "/>
+<context>
+
+Baina adituek diote orain dugun txapelduna ez dela nolanahikoa.
+Besteak beste, 16 urte izanagatik ere gai guztien inguruan informazio andana kontrolatzen duzula nabarmendu dute.
+Bertsotan aritzen denak oso pareko <head>gaia</head> tokatzen ez bada ere beste bide batetik, hitz joko batekin edo eta azpijoko batekin, bere ezagutzarik eza tapatzen saiatu behar du.
+Batzuetan asmatzen da, eta beste batzuetan ez.
+Txapela buruan munduan ibili beharko duzu orain.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.55" docsrc="2000-02-17.gizartea3.txt" topic="gizartea" sentsrc="2" positsrc="19">
+<answer instance="gai.IZE.55" senseid=" "/>
+<context>
+
+EH: "Herritarren partaidetza sendotuko genuke euskal justizia eredu propioarekin" Endika Garaik Abokatu Euskaldunek antolaturiko azken hitzaldia eman zuen.
+Kristina Martin / Bilbo.
+Euskal justizia eredu propioaren ezaugarri nagusiak plazaratu zituen Endika Garai EHko ba - tzarkideak atzo, Abokatu Euskaldunen Sindikatuak <head>gai</head> horretaz eztabaidatzeko antolatutako foroan.
+Herritarren parte-hartzea sendotu, Espainiako eta Frantziako sistemen menpekotasuna gainditu eta euskararen nagusitasuna bermatzea izan ziren proposamenaren ardatzak.
+ENDIKA Garai EHko Bizkaiko Batzarreko kide eta abokatuak euskal justizia propioak zelako ezaugarriak izan beharko lituzkeen azaldu zuen atzo Bizkaiko Abokatuen Bazkuneko egoitzan.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.56" docsrc="2000-02-17.gizartea3.txt" topic="gizartea" sentsrc="16" positsrc="33">
+<answer instance="gai.IZE.56" senseid=" "/>
+<context>
+
+Horretaz gain, Garaik gaur egun Euskal Herria Espainiako zein Frantziako justizien menpe egon behar izatea ez dela hemengo biztanleentzako batere mesedegarria nabarmendu zuen. "Espainiako epaileek ez dute Euskal Herriko gizartea ezagutzen, eta askok, gainera, euskararen kontrako jarrera dute", adierazi zuen.
+Hori dela eta, Frantziako eta Espainiako justizia sistemei muzin egitea proposatu zuen EHko batzarkideak. "Desobedientziara eta laguntzarik ez ematera jo beharko genuke; hala, gure sistema propioa gauzatzeko aurrerapausoak emango genituzke", zehaztu zuen.
+Otegi : " Gero eta euskaldun gehiagoren aldarrikapena da " Otegik, bestalde, Endika Garairen proposamena zehaztu zuen. " Orain arte Espainiako eta Frantziako estatuek jarri dituzte Euskal Herrian eztabaidaguneak eta <head>gai</head> ordena.
+Azken urte honetan, ostera, gero eta euskaldun gehiagok aldarrikatzen dugu gure etorkizuna erabakitzeko eskubidea", gogorazi zuen.
+Ildo horretan, Endika Garaik esan zuenez, "EAJk, esaterako, justiziaren dezentralizazioa proposatzen du datozen hauteskundeotarako programan".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.57" docsrc="1999-01-30.kultura5.txt" topic="kultura" sentsrc="1" positsrc="5">
+<answer instance="gai.IZE.57" senseid=" "/>
+<context>
+
+Maiatz Literatur aldizkaria.
+Literatura aldizkari mamitsua : Hainbat <head>gai</head> dituzte hizpide Maiatz aldizkariaren azken alean idazten duten idazleek.
+Ez da erraza hemen guztiak aipatzea, baina nabarmendu beharrekoak dira Edouard Glissant idazle martinikarrari egindako elkarrizketa, Emilio Lopez Adanek Euskara garbia izenburupean idatzitako artikulua, literatur latinoamerikarraren bideetara Luzien Etxezaharretak egindako bidaia eta Eñaut Etxamendik gogora ekarritako Garaziko haur-kondairak.
+Bada, haatik, askoz gehiago ere, beste behin, dotore aurkezturik.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.58" docsrc="1999-10-26.politika24.txt" topic="politika" sentsrc="4" positsrc="19">
+<answer instance="gai.IZE.58" senseid=" "/>
+<context>
+
+ETA-REN prentsa oharrean herritarrek libreki erabakitzen dutena errespetatu beharra aipatzen da, eta Joseba Egibarren iritziz, ETAk lehen azaldutako ideia hori berrestea baikorra da.
+Agiriak Gobernuaren diskurtsoari erantzuten diola uste du Egibarrek. "Bi aldeek hitz egiteko prestutasunez azaldu nahi dute iritzi publikoaren aurrean", azaldu zuen.
+Gobernuak ETAren erreferentea behar du Egibarrek dioenez, " bakea presoen truke eskemari eusteko, eta eduki politikoa duten <head>gaiak</head> ekiditeko.
+Prozesuak gorputz hartzea beharrezkoa dela iritzi dio, bestela "hondatzen" joango da.
+Iñaki Anasagastiren ustez ETAk ez du su-etena apurtuko.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.59" docsrc="2000-08-19.mundua1.txt" topic="mundua" sentsrc="4" positsrc="11">
+<answer instance="gai.IZE.59" senseid=" "/>
+<context>
+
+LAURENT KABILA Kongoko Errepublika Demokratikoko presidentearen Gobernuak ordezkari estatubatuarrei "beraien estatutu diplomatikoarekin bat ez zetozen ekintzak egitea" egotzi die.
+Kanporaketa astelehenean Lusakan egin zen goi bileraren porrotaren ostean gertatu da.
+Bertan gatazka kongoarra aztertzen ari ziren, eta Kabilari leporatu zaio <head>gai</head> horren inguruan akordiorik lortu ez izana.
+KOREA.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.60" docsrc="1999-09-18.politika19.txt" topic="politika" sentsrc="3" positsrc="4">
+<answer instance="gai.IZE.60" senseid=" "/>
+<context>
+
+IÑAKI ANASAGASTI EAJko diputatuak espetxe politikari buruz galdetuko dio Jose Maria Aznarri. "Gu ez gara nazkatuko.
+Aste honetan erantzuten ez badu, hurrengoan galdetuko diogu", adierazi zuen.
+Izan ere, Anasagastik <head>gai</head> beraren inguruko galdera aurkeztu zuen Kongresuan; baina galdera atzera bota zuen, erantzuna ez zuela Aznarrek emango jakitean.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.61" docsrc="1999-03-10.jakina4.txt" topic="jakina" sentsrc="3" positsrc="8">
+<answer instance="gai.IZE.61" senseid=" "/>
+<context>
+
+Deustuko Unibertsitatean  Antropologiari buruzko jardunaldiaren barruan, Kulturaniztasuna Europako hiriburuetan izenburupean, mahai-ingurua izango da martxoaren 10ean.
+Goizeko 09:30etan hasiko da eztabaida.
+Arratsaldeko 15:00etan, berriz, Dibertsitatea kudeatzeko politikak <head>gaia</head> izango dute hizpide beste mahai-inguru batean.
+Arratsaldeko 17:30etan, saioen ondorioak eta iradokizunak aurkeztuko dituzte.
+Martxoaren 12an, berriz, hiru hitzaldi izango dira: 09:30etan, Ereduak, esperientziak eta politikak; 10:15etan, Kulturaniztasuna, herritarrak eta joko politikoa; eta 11:30etan, Etnizidiotik haruntzago.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.62" docsrc="1999-06-03.iritzia9.txt" topic="iritzia" sentsrc="13" positsrc="4">
+<answer instance="gai.IZE.62" senseid=" "/>
+<context>
+
+Errepublikan eta gerran Nafarroa osoa altxatu omen zen espainiarzaletasunaren alde.
+Dena gezurra.
+Zergatik saiatu ote dira <head>gai</head> horiek ezkutatzen?
+Uste dut benetako proiektu bat egon dela.
+Amnesia historikoa: nabarrismoa eta la gran patrie izena du erakusketaren azken atalak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.63" docsrc="1999-03-02.kultura6.txt" topic="kultura" sentsrc="57" positsrc="1">
+<answer instance="gai.IZE.63" senseid=" "/>
+<context>
+
+eta sanoak gutxi (bis).
+Hamarreko ttikiko neurrian ere Lopez izan zen gehien nabarmendu zirenetako bat, baita Legarreta ere.
+Kartzelako <head>gaian</head>, 13 urteko mutil edo neska koskorrari handitzean zer izan nahi ez duen galdegin zion Mikel Tabernak.
+Bertso politekin erantzun zion Estitxu Fernandezek, bertsolari ez lukeela izan nahi erranez, eta  Legarretak, guraso txarra ez lukeela izan nahi adieraziz, ale politak eskaini zituzten.
+Hiru kanporaketak amaitu ostean, beraz, finalerdiak osaturik gelditu dira.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.64" docsrc="1999-03-14.kirola17.txt" topic="kirola" sentsrc="4" positsrc="16">
+<answer instance="gai.IZE.64" senseid=" "/>
+<context>
+
+GAUR JOKATUKO da Leonen Espainiako Kros Txapelketa, eta euskal atletek ez dute posibilitate handirik zerbait garrantzitsua egiteko.
+Diego Garcia azkoitiarra izango da euskal atleten artean aurrean egoteko aukera gehien duena, baina, azkeneko egunotan katarroarekin egotez gain, bere prestakuntza Azpeitia-Azkoitia  maratoi erdira eta Londresko maratoira bideratua darama.
+Kamel Ziani eta Antonio Merino ere Leonen izango dira, baina ez dirudi onenen erritmoa jarraitzeko <head>gai</head> izango direnik.
+Martin Fizek, berriz, ez du irtengo gaur Espainiako Txapelketan, atsedena behar duelako lehengo igandean Japonian maratoia korritu (eta irabazi) ostean.
+Txapelketa irabazteko faborito nagusiak beste batzuk dira: azkenengo bi txapelketak irabazi dituen Julio Rey, Abel Anton eta Isaak Viciosa batetik, eta modalitate honetan espezialistak diren Enrique Molina eta Jose Manuel Garcia bestetik.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.65" docsrc="1999-03-06.gizartea5.txt" topic="gizartea" sentsrc="0" positsrc="13">
+<answer instance="gai.IZE.65" senseid=" "/>
+<context>
+
+Artikuluak, banan-banan Ondorengoak dira aurtengo Osasun Gidan prestatu ditugun artikulu guztiak, <head>gai</head> eta tituluekin azalduta.
+Artikuluek luzera ezberdina dute, orri batetik bostera bitartean.
+1. Prebentzioa: "Zainbide, haurrak babesteko" 2. Osakidetza: "Estrategiak 2003. urterako" 3. Medikuntza ikasketak: "Bederatzi urteko itzala" 4. Euskara eta osasun arloa: "Euskaldunak gaixotzen direnekoa" 5. Haur jaio berrien identifikazioa: "Baina noren antza du gure umeak?
+
+</context>
+</instance>
+
+<instance id="gai.IZE.66" docsrc="1999-09-08.gizartea3.txt" topic="gizartea" sentsrc="4" positsrc="5">
+<answer instance="gai.IZE.66" senseid=" "/>
+<context>
+
+Munduko bertze tokiekin alderatuta, Euskal Herria hondakinen tratamenduan eta birziklajean herrialde nahiko aurreratua dela azpimarratu zuen Masaru Tanaka Japoniako ingurugiro arduradunak atzo Rewas 99 jardunaldien barrenean.
+Hondakinen birziklatze eta erabilpenean etxean nahiz eskolan eskaintzen den hezkuntzak duen garrantzia nabarmendu zuen Tanakak, eta Japonian bide hori hautatu dutela gaineratu zuen.
+Kontsumitzaileek, enpresariek eta administrazioak <head>gai</head> honetan " orpoz orpo " aritu behar dutela gehitu zuen agintari japoniarrak.
+Hondakinen kudeaketan, tratamenduan eta birziklajean "egiteko anitz" dagoela nabarmendu zuen Masaru Tanakak, Japoniako ingurugiro arduradunak. "Herrialde aurreratuenetan kilo bat zabor sortzen da eguneko eta pertsonako etxeetan, eta zortzi industrietan", jakinarazi zuen.
+EEBBetan, aldiz, kopuru horiek bikoiztu egiten dira.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.67" docsrc="2000-01-02.iritzia18.txt" topic="iritzia" sentsrc="5" positsrc="18">
+<answer instance="gai.IZE.67" senseid=" "/>
+<context>
+
+2000. urtea aukeratu nuen pertsonajetzat, eta Mattinekiko elkarlanak egindako aukera, zuzena ala okerra, burutzera behartzen nau.
+Gaur goizez hiru egunkari miatzeak ez dit gainera lana erraztu.
+Batean eta bestean datoz2000. urteari buruzko zutabe, iritzi, editorial eta gainerako, eta lehen orriko <head>gaia</head> da hiruretan.
+Euskaldunon Egunkarian ere, lehen berria da 2000 efektuarena. "Lasai egoteko da agintarien mezua.
+Hala ere, norberak neurri batzuk hartzea ez litzateke txarra izango, ezustekorik gerta ez dadin", irakurri dut makarrartetik harriduraz.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.68" docsrc="2000-01-02.iritzia18.txt" topic="iritzia" sentsrc="15" positsrc="7">
+<answer instance="gai.IZE.68" senseid=" "/>
+<context>
+
+Kezkatu egin nau euskal kulturaren egungo joerak.
+Zenbat zerrendagile dauzkagu eta zenbat sortzaile?
+Aste berean dozena bat sinonimo-hiztegi desberdin kaleratzeko <head>gai</head> ginateke ideia bakar bat ekoizteko gauza ez bagara ere.
+Eta Administrazioa poz-eztitan, berdinak ez baitu izutzen, desberdinak baino.
+Dena zerrenda, kopia, fotokopia, revival eta remake den garaiotan ulertzen dut zenbaiten ezinegona.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.69" docsrc="2000-02-10.iritzia14.txt" topic="iritzia" sentsrc="11" positsrc="33">
+<answer instance="gai.IZE.69" senseid=" "/>
+<context>
+
+Sagukumea!".
+Lanen deskribapenak aldizkarian letra txikiz idatzitako hamasei orrialde hartzen ditu, eta zatirik falta ez bazaio ere, azalekoegia da.
+Agian erabaki beharko lukete adituen hitzaldi guztiak argitara ematea, bai eta haiei egindako galderak eta jasotako erantzunak ere, ahaleginak zer-nolako garrantzia izan zuen azaltzeko, eta argi uzteko talde politiko bakoitza <head>gai</head> zabal horretako zein alderditan zegoen interesatuta.
+Katedradun, magistratu, sindikatuetako kide, mota guztietako agintari polizial, segurtasun-enpresetako arduradun eta abarrekin hitz egin eta eztabaidatu da gai ugariri buruz: legeak, eskumenen lurralde banaketa, azterketa historikoa, eredu konparatuak, ikasketa programak, karrera profesionalaren eredua, polizia eta funtsezko eskubideak, polizia judiziala eta prozesu penalaren edo instrukzio kriminalaren eredua, segurtasun pribatua, tokiko poliziak, Europako esparrua eta hirugarren pilarea, atzerritartasuna...
+Ezin bazter dezaket gaietako bat aukeratu eta aztertutakoaren garrantzia eta ondorioetan hartzen den erabakia aurrez aurre jartzeko tentazioa.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.70" docsrc="2000-02-10.iritzia14.txt" topic="iritzia" sentsrc="12" positsrc="21">
+<answer instance="gai.IZE.70" senseid=" "/>
+<context>
+
+Lanen deskribapenak aldizkarian letra txikiz idatzitako hamasei orrialde hartzen ditu, eta zatirik falta ez bazaio ere, azalekoegia da.
+Agian erabaki beharko lukete adituen hitzaldi guztiak argitara ematea, bai eta haiei egindako galderak eta jasotako erantzunak ere, ahaleginak zer-nolako garrantzia izan zuen azaltzeko, eta argi uzteko talde politiko bakoitza gai zabal horretako zein alderditan zegoen interesatuta.
+Katedradun, magistratu, sindikatuetako kide, mota guztietako agintari polizial, segurtasun-enpresetako arduradun eta abarrekin hitz egin eta eztabaidatu da <head>gai</head> ugariri buruz : legeak, eskumenen lurralde banaketa, azterketa historikoa, eredu konparatuak, ikasketa programak, karrera profesionalaren eredua, polizia eta funtsezko eskubideak, polizia judiziala eta prozesu penalaren edo instrukzio kriminalaren eredua, segurtasun pribatua, tokiko poliziak, Europako esparrua eta hirugarren pilarea, atzerritartasuna....
+Ezin bazter dezaket gaietako bat aukeratu eta aztertutakoaren garrantzia eta ondorioetan hartzen den erabakia aurrez aurre jartzeko tentazioa.
+Ikus dezagun: - Segurtasun sistema publikoa.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.71" docsrc="2000-02-10.iritzia14.txt" topic="iritzia" sentsrc="13" positsrc="3">
+<answer instance="gai.IZE.71" senseid=" "/>
+<context>
+
+Agian erabaki beharko lukete adituen hitzaldi guztiak argitara ematea, bai eta haiei egindako galderak eta jasotako erantzunak ere, ahaleginak zer-nolako garrantzia izan zuen azaltzeko, eta argi uzteko talde politiko bakoitza gai zabal horretako zein alderditan zegoen interesatuta.
+Katedradun, magistratu, sindikatuetako kide, mota guztietako agintari polizial, segurtasun-enpresetako arduradun eta abarrekin hitz egin eta eztabaidatu da gai ugariri buruz: legeak, eskumenen lurralde banaketa, azterketa historikoa, eredu konparatuak, ikasketa programak, karrera profesionalaren eredua, polizia eta funtsezko eskubideak, polizia judiziala eta prozesu penalaren edo instrukzio kriminalaren eredua, segurtasun pribatua, tokiko poliziak, Europako esparrua eta hirugarren pilarea, atzerritartasuna...
+Ezin bazter dezaket <head>gaietako</head> bat aukeratu eta aztertutakoaren garrantzia eta ondorioetan hartzen den erabakia aurrez aurre jartzeko tentazioa.
+Ikus dezagun: - Segurtasun sistema publikoa.
+Konstituzioan hiru mailatan dago antolatuta: udalak, autonomiak eta estatua.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.72" docsrc="2000-01-20.politika7.txt" topic="politika" sentsrc="3" positsrc="21">
+<answer instance="gai.IZE.72" senseid=" "/>
+<context>
+
+Joseba Arruti / Bilbo.
+Jarrai erakundeak hilaren 27an presoen eskubideen alde egingo den greba orokorrarekin bat egiteko deia egin zion atzo euskal gazteriari.
+Talde horretako ordezkariek adierazi zutenez, ez da harritzekoa EAJ, EA eta IUk deialdiarekin bat ez egitea, " presoen <head>gaian</head> duten erantzukizuna ezkutatu dutelako behin eta berriro eta ez dutelako urratsik egin gizartea gai honetan mugitu ez den bitartean ".
+IGOR ORTEGA eta Olatz Dañobeitia Jarrai gazte erakundeko kideek atzo adierazi zutenez, "presoak Euskal Herrira ditzaten borroka horretan jadanik ziklo bat agortu da, eta garaia da urrats berriak egiteko".
+Haien esanetan, "ez gara ari preso politikoen eskubideez bakarrik hitz egiten, baita herri oso baten duintasuna defendatzeaz ere".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.73" docsrc="2000-01-20.politika7.txt" topic="politika" sentsrc="3" positsrc="35">
+<answer instance="gai.IZE.73" senseid=" "/>
+<context>
+
+Joseba Arruti / Bilbo.
+Jarrai erakundeak hilaren 27an presoen eskubideen alde egingo den greba orokorrarekin bat egiteko deia egin zion atzo euskal gazteriari.
+Talde horretako ordezkariek adierazi zutenez, ez da harritzekoa EAJ, EA eta IUk deialdiarekin bat ez egitea, " presoen gaian duten erantzukizuna ezkutatu dutelako behin eta berriro eta ez dutelako urratsik egin gizartea <head>gai</head> honetan mugitu ez den bitartean ".
+IGOR ORTEGA eta Olatz Dañobeitia Jarrai gazte erakundeko kideek atzo adierazi zutenez, "presoak Euskal Herrira ditzaten borroka horretan jadanik ziklo bat agortu da, eta garaia da urrats berriak egiteko".
+Haien esanetan, "ez gara ari preso politikoen eskubideez bakarrik hitz egiten, baita herri oso baten duintasuna defendatzeaz ere".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.74" docsrc="2000-07-20.ekonomia9.txt" topic="ekonomia" sentsrc="3" positsrc="8">
+<answer instance="gai.IZE.74" senseid=" "/>
+<context>
+
+Gotzon Garateren 3.849. atsotitzak, "emakumea eta astoa biak temosu" jotzen ditu.
+Politikoki zuzenagoa bederen izango litzateke burtsako indizea eta astoa parekatzea.
+Biak ala biak ez aurrera ez atzera egoteko <head>gai</head> direlako, batik bat.
+Indizeen joera laua da, Uribitarteko pasealekuaren parekoa.
+Atzo IFO datua ezagutu zen: IFO indizeak Alemaniako enpresarien aurreikuspenak neurtzen ditu.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.75" docsrc="1999-11-13.politika4.txt" topic="politika" sentsrc="13" positsrc="13">
+<answer instance="gai.IZE.75" senseid=" "/>
+<context>
+
+Euskadunen hitza ukatzen du", gehitu zuen Panpi Dirassarrek, gisa berean eledun denak.
+Ildo horretatik, presoen Euskal Herriratzearen alde agertu diren Jean Grenet, Nicole Pery eta Didier Borotrari "hitzetatik ekintzetara" pasatzeko eskaera egin zieten ABko ordezkariek, bertzeak bertze Gobernua eta dagozkien legebiltzarretan eskuartzeko.
+Gisa berean, Michele Alliot-Marie, Michel Intxauspe eta Alain Lamassourek " presoen <head>gaiaz</head> atxiki duten isiltasuna hausteko garaia " dela erran zuten, " gose grebaren ondorioen erantzule zuzenak " izanen direla argudiaturik.
+"Euskal Departamenduaren ezetza Chevenementek Mayor Orejarekin agertzean  edo presoen kanporatzeekin ageri den gisara Parisek Madrilen aginduak segitzen ditu.
+Bada garaia bere baitarik mugitzen has dadin", adierazi zuen  Xabi Larraldek Abertzaleen Batasunako kideak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.76" docsrc="1999-09-07.politika4.txt" topic="politika" sentsrc="8" positsrc="18">
+<answer instance="gai.IZE.76" senseid=" "/>
+<context>
+
+Bertan prefetak kargua hartu eta biharamunean egin adierazpenei erreferentzia egiten die gazte erakundeak, Euskal Departamenduari buruz iritzi oro jasotzeko prest agertu baitzen Viau. "Ahalik eta informazio zabalena bildu nahi dut, Gobernuari departamenduaren gaiari buruzko biztanleen benetako iritzia emateko".
+Gisa horretan eragile politiko eta sozialekin eta hala galdegiten duten elkarteekin ere biltzeko prest agertu zen.
+" Euskal Departamenduaren alde urriaren 9an eginen den manifestaldiaren antolatzaileetarik garenez, Ipar Euskal Herriko gazteria ukitzen duen <head>gai</head> horri buruz dugun iritziaren berri jakinaraztea interesgarri iruditzen zaigu.
+Gisa berean, garrantzitsutzat dakusagu Ipar Euskal Herriko gazteek egunerokoan dituzten zailtasunei buruz mintzatzea; hots, baserri aldeen desertifikazioa, unibertsitate osoaren eskasia, euskararen desagerpena eta lan baldintza prekarioen arazoa", agertu du Gazteriak taldeak.
+Gisa berean, egoera politiko berriaz ere elekatu nahi du gazte mugimenduak Estatua eta Gobernuaren ordezkari zuzena denarekin. "Sinatzaile garen Lizarra-Garaziko akordioari esker bereziki egun aldatzen ari den Euskal Herriko koiuntura politiko orokorraz aritu nahi genuke zurekin", jakinarazi diote.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.77" docsrc="1999-06-17.kirola4.txt" topic="kirola" sentsrc="3" positsrc="7">
+<answer instance="gai.IZE.77" senseid=" "/>
+<context>
+
+Ivan Santamaria / Gasteiz.
+LIGA AMAIERA guztietan bezala, besterentzako ordainak hizpide bihurtu dira promozioa edo igoera helburu duten taldeen artean.
+Jose Manuel Esnal Manek gogor kritikatu zuen <head>gai</head> horri buruz azken egunetan egondako adierazpenak; bereziki Vila-real aldetik entzun direnak kritikatu zituen Alaveseko entrenatzaileak. " Egiten ari diren adierazpenak ez ditut gustuko, eta espero dut jokoaren garbitasuna babesteko dauden erakundeek horiek kontuan hartu eta dagokoena zigortuko dutela ", esan zuen Manek.
+Min handia egin diote Alavesekoari Villarrealeko entrenatzaile Paquitok esandakoek: bere taldeak promozioa saihesteko aukerarik ez badu, lasaitu egingo dela, alegia. "Araudi bat dago, eta bete behar da", adierazi zuen Manek, "ez bada betetzen, jendeak ez du futbolean sinestuko, eta iruzurra dagoela pentsatuko du, arrazoi osoarekin".
+Aferaren inguruan klubek duten jarrera ere salatu zuen Balmasedakoak: "Klubek badute araudia aldatzeko aukera, eta ez dute egiten.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.78" docsrc="2000-09-03.politika7.txt" topic="politika" sentsrc="18" positsrc="16">
+<answer instance="gai.IZE.78" senseid=" "/>
+<context>
+
+"Egia da bortizkeria egoera jasangaitza dela Espainian, baina horrek ez du zerikusirik Euskal Departamenduarekin.
+Egoeraz baliatzen dira Euskal Departamenduaren kontra aritzeko", salatu zuen alderdiko buruen jokamoldea gaitzetsirik.
+Kurutxet Pirinio Atlantikoetako RPR hautetsien ordezkaritza biltzen duen Departamenduko Komitekoa da, eta " alderdiaren baitan <head>gaiari</head> buruz inolako eztabaidarik " ez dela izan segurtatu zuen.
+Michel Intxauspe Euskal Departamenduaren alde dagoen RPRko diputatuak ostiralean berean galdegin bezala, "RPRko Departamenduko Komitea lehenbailehen bil dadin" galdegin zuen.
+"Berehala erabaki horren azalpenak eman ditzaten nahi dut.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.79" docsrc="2000-05-06.kultura10.txt" topic="kultura" sentsrc="14" positsrc="26">
+<answer instance="gai.IZE.79" senseid=" "/>
+<context>
+
+Hubert de Givenchyren ustez, joskintzaren arkitektoa zen Balenziaga.
+Estilo bat ez ezik, teknika bat ere asmatu zuen, ideien gainetik ideia horiek gauzatzeko eraikuntza lanari ematen baitzion lehentasuna, etxe bat eraikitzen ariko balitz bezala.
+Coco Chanelek, goi mailako joskintzaren beste izen mitikoak, zera esan zuen : " Balenziaga da soineko bat diseinatzeko, mozteko, muntatzeko eta josteko <head>gai</head> den diseinatzaile bakarra ".
+Arrakastak ez zuen Balenziagaren izaera diskretua eta pribatua aldarazi.
+Jostunaren grina zeraman odolean, baina ez zuen gustuko hura inguratzen zuen parafernalia: galak, festak...
+
+</context>
+</instance>
+
+<instance id="gai.IZE.80" docsrc="1999-03-07.iritzia2.txt" topic="iritzia" sentsrc="13" positsrc="4">
+<answer instance="gai.IZE.80" senseid=" "/>
+<context>
+
+Iparraldeko lagun batzuen hitzak irakurri ditut egunkari honetan, azpimarratzen dutenak ez dela hori gure azken jomuga, gu horrek abertzaleak adierazten dituelarik naski.
+Nire aldetik erran nahi dut: kontuz!
+Ez gaitezen kritikoegiak izan <head>gai</head> horrekin, bi arrazoinengatik.
+Lehena da goiko helburua beste bat dela abertzale guziontzat.
+Horren lekuko lehena ni naiz, ezen nik nuen euskal departamendu baten xedea txertarazi Enbata-ren egitarauan, Itsasuko Aberri-Egun sonatu hari buruz, 1962ko abendu ondarrean, Kordelieren karrikako egoitzan egin zen bilkura batean.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.81" docsrc="1999-06-19.gizartea6.txt" topic="gizartea" sentsrc="3" positsrc="1">
+<answer instance="gai.IZE.81" senseid=" "/>
+<context>
+
+Lutxi Fourcade / Baiona.
+Baionako Polo Beyriseko gaztetxeak hies gaitzari buruzko hirugarren informazio eguna antolatuko du heldu den ekainaren 24an.
+Aurten <head>gai</head> zabalagoak ikertuko ditu, hala nola hepatitisa edo jarrera arriskugarriak.
+Prebentzioa sendotzeko behar gorria azpimarratuko dute osasun arloko profesionalek.
+OSASUN PROFESIONAL ugari bilduko dituzte Polo-Beyris gaztetxeko antolatzaileek datorren ekainaren 24an.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.82" docsrc="2000-04-28.gizartea17.txt" topic="gizartea" sentsrc="4" positsrc="10">
+<answer instance="gai.IZE.82" senseid=" "/>
+<context>
+
+Europako Batasuneko (EB) iturriek atzo zabaldutako datuen arabera, EBko biztanleen hamarretik zortzik ez daukate transgenikoen eta bioteknologiaren inguruko informaziorik.
+Gai horien inguruan erabaki politikoak hartu aurretik eta teknologia berriak gizarteari nola zabaldu erabakitzeko, hainbat zientzialarirekin bildu da egunotan Philippe Busquin Europako Ikerketa komisarioa.
+AZKEN HILABETEETAN bioteknologia, giza genoma eta produktu transgenikoen inguruko <head>gaiek</head> komunikabideetan oihartzun handia izan badute ere, EBko biztanleen hamarretik batek du soilik horren inguruko " informazio nahikoa ", Europako Batzordeak egindako galdeketako emaitzetatik ondorioztatu dutenez.
+Horren arabera, gehiengo nabarmen batek informaziorik ez duela uste du.
+Era berean, galdeketa horren arabera betiere, holandarrak dira gai horien inguruan informazio gehien dutenak, alemaniarren eta frantziarren aurretik.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.83" docsrc="2000-04-28.gizartea17.txt" topic="gizartea" sentsrc="6" positsrc="10">
+<answer instance="gai.IZE.83" senseid=" "/>
+<context>
+
+AZKEN HILABETEETAN bioteknologia, giza genoma eta produktu transgenikoen inguruko gaiek komunikabideetan oihartzun handia izan badute ere, EBko biztanleen hamarretik batek du soilik horren inguruko "informazio nahikoa", Europako Batzordeak egindako galdeketako emaitzetatik ondorioztatu dutenez.
+Horren arabera, gehiengo nabarmen batek informaziorik ez duela uste du.
+Era berean, galdeketa horren arabera betiere, holandarrak dira <head>gai</head> horien inguruan informazio gehien dutenak, alemaniarren eta frantziarren aurretik.
+Azken bi herrialde horietan alderdi politiko ekologistek indar handiagoa dutenez, ardura eta informazioa batera ez doazela ondorioztatu du Europako Batasunak.
+Oro har, gizartearen ezjakintasunari aurre egiteko eta gai horien inguruan erabaki politikoak hartu aurretik, Philippe Busquin Europako Ikerketa komisarioak hainbat bilera egin ditu egunotan Bruselan hamar zientzialarirekin. "Ezin dugu inolako erabakirik hartu adituekin kontsultatu gabe eta eztabaida publikoak egin gabe", adierazi zuen Busquinek.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.84" docsrc="1999-11-03.gizartea6.txt" topic="gizartea" sentsrc="10" positsrc="22">
+<answer instance="gai.IZE.84" senseid=" "/>
+<context>
+
+Hirugarren auzipetuari, berriz -Luis Miguel S.V gizasemea- urtebeteko espetxe zigorra ezarri dio legez kanpo armak edukitzeagatik, eta sei hilabetekoa beste bi auzipetuen delitua estaltzen saiatzeagatik.
+Halaber, lehen bi auzipetuek hildako bitxisaltzailearen senitarteko hurbilei 47 milioiko kalte-ordaina eman beharko dietela erabaki du epaileak (1,88 milio libera).
+Jose Luis Barraganek, hala ere, biak kaudimengabeak direla aitortu du epaian, eta, hala izanik, dirutza hori ordaintzeko <head>gai</head> ez direla izango erabaki du.
+Defentsaren eskaera  bete da.
+Gipuzkoako Entzutegiko epai honek auzipetuen defentsaren eskaera bete du; izan ere, hilketagatik, legez kanpo armak edukitzeagatik eta lapurretan saiatzeagatik jar daitezkeen zigorrik txikienak jartzeko eskatu zuten abokatu defendatzaileek, eta halaxe gertatu da.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.85" docsrc="1999-04-21.politika2.txt" topic="politika" sentsrc="8" positsrc="5">
+<answer instance="gai.IZE.85" senseid=" "/>
+<context>
+
+Ostera, azpimarratu zuen tresna berriak behar direla zabaldu den eszenatokian: "Eszenatoki berrian gaude, eta eszenatoki horretan tresna berriak behar ditugu, inor kanpoan utzi gabe, aurrebaldintzarik gabe, inori bere ideiak kanpoan uzteko eskatu gabe, euskal gizartearen borondatea denok errespetatuz".
+Gaineratu zuenez, "ezinbestekoa da guztiok mahai baten inguruan esertzea".
+Atzo arratsaldean Madrilen izandako bileran <head>gai</head> zerrenda luzea izan zuten Ibarretxek eta Aznarrek.
+17:30etan hasi eta 19:00ak jota amaitu zuten mintzaldia.
+Bileraren ostean, Ibarretxek esan zuen ez zuela berehalako baloraziorik egingo, baina hainbat aipamen egin zituen batzarraren inguruan.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.86" docsrc="2000-07-16.kultura3.txt" topic="kultura" sentsrc="5" positsrc="5">
+<answer instance="gai.IZE.86" senseid=" "/>
+<context>
+
+n  "Los Paraisos Desiertos" grabatu duen azken lanaren promozioa egiten ari da Ismael Serrano kantautorea.
+n Egin dituen diskoen artean urbanoena dela onartzen du, baina betiko konpromisoari eusten diola uste du.
+n Beste autore batzuek kanturako <head>gaiak</head> aldatu dituztela dio Serranok, baina berak konpromiso sozialari bizkarra emandako diskorik ez duela egundo grabatuko.
+"Historia bukatu dela diotenen aurkako borrokari kantatzen diot" Los Paraisos Desiertos da atera duzun diskoaren izenburua.
+Zergatik?
+
+</context>
+</instance>
+
+<instance id="gai.IZE.87" docsrc="2000-07-16.kultura3.txt" topic="kultura" sentsrc="33" positsrc="2">
+<answer instance="gai.IZE.87" senseid=" "/>
+<context>
+
+Beharrezkoa dela sentitzen dut.
+Nik okupen borrokari kantatzen diot, bizitzeko alternatiba desberdina eskaintzen dutelako, Latinoamerikakoari, emakumeenari… Historia bukatu dela diotenei aurre egiten dieten pertsonen borroka horiei kantatzen diet, nagusitzen ari den pentsamendu bakarra patatekin jan behar dela diotenei aurre egiten dietenei.
+Autore batzuetan <head>gaien</head> aldaketa handia izan da azken urteetan Badirudi zenbait unetan autore batzuk errealitatetik aldendu egiten direla.
+Nik uste dut hori gertatzen dela barrura gehiegi begiratzen dutelako.
+Nire irudiko, funtsezkoa da kanpora begiratzen jakitea, zure inguruan gertatzen denaz jabetzea.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.88" docsrc="1999-12-17.iritzia2.txt" topic="iritzia" sentsrc="1" positsrc="3">
+<answer instance="gai.IZE.88" senseid=" "/>
+<context>
+
+Sonsoles Cortazar EAEko Down Sindromea Fundazioko gerentea "Down sindromea dutenen % 80 lan munduan integra daitezke" "Down sindromea dutenen % 80  lan munduan integra daitezke" Lan munduan down sindromedunen integrazioa bultzatzeko kanpaina  hasi dute.
+Down sidromedunak lanerako <head>gai</head> direla erakutsi nahi duzue?
+Hala da, bai.
+Gizartea horretaz kontzientziatu nahi dugu.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.89" docsrc="2000-04-21.politika12.txt" topic="politika" sentsrc="6" positsrc="50">
+<answer instance="gai.IZE.89" senseid=" "/>
+<context>
+
+EAren iritziz, ez dago nazio abstrakturik, hiritar guztien askatasunean eta ongizatean oinarrituta eraikitako nazioa baizik, eta halaxe aldarrikatzen dugu gaur, gure Aberri Egunean, gure Nazioaren egunean.
+4. Gernikako Arbolari Iparragirrek egin zion kantaren izpirituari jarraituta, eman da zabal zazu munduan frutua leloarekin bat egiten dugula aldarrikatzen dugu; honela, Euskal Herriko gazteen belaunaldi berrien lehentasuna hemengo zein mundu  osoko gizarte-justizia lortzea eta guztiontzako ongizatearen, ezagutzaren, informazioaren eta kulturaren gizartea lortzea izan dadin.
+5. - Guk bezala pentsatzen ez dutenen ideiak errespetatuta - abertzaletasunaren aurkako horrenbeste kanpaina errukigabe, bidegabe eta latzen aurrean eskatzen dugun errespetua -, gure Herriko abertzale guztiei dei egin nahi diegu, bakoitzak duen erantzukizuna aintzat hartuta eta eguneroko lanaren bitartez, guztion artean lankidetza behar bezala bideratzeko <head>gai</head> izan gaitezen, gure herriak behar duen eta aldarrikatzen duen askatasunean, oparotasunean eta bakean oinarritutako etorkizuna eraiki ahal izateko.
+2000. urteko Aberri Egun honetan Eusko Alkartasunako gizon-emakumeek gure Herriarekin ditugun konpromisoak aldarrikatu nahi ditugu, hau da, gure Herria bakealdiko eta negoziazioko egoera baterantz bideratuko duten baldintzak sortzeko konpromisoa; guztiok elkarrekin bizitzeko esparru juridiko-politikoa berri bat eraikitzeko konpromisoa, gizarte aske, zuzen eta solidarioago baterantz eramango gaituzten ongizate eta aurrerapeneko helburuak sakontzeko konpromisoa; mundu osoko gainerako herriekin batera lan egiteko konpromisoa, eta Euskal Herrian etorkizunean biziko diren belaunaldiek etorkizun baketsua izan dezaten guztion arteko ahalegina bultzatzeko konpromisoa aldarrikatu nahi dugu.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.90" docsrc="1999-12-05.iritzia1.txt" topic="iritzia" sentsrc="7" positsrc="7">
+<answer instance="gai.IZE.90" senseid=" "/>
+<context>
+
+Zein helburu du erakusketa honek?
+Erakusketa hau azken hamasei urtetan egindako Natur Zientzietako Tailerren barruan kokatzen da.
+Erakusketok gehienbat ikasleei bideratuak daude, hainbat <head>gai</head> - fosilak, itsas maskorrak,... - irakasteko antolatuta daude.
+Inolako loturarik du Natur Zientzietako Museoarekin?
+Ez, ez du inolako zerikusirik.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.91" docsrc="1999-12-05.iritzia1.txt" topic="iritzia" sentsrc="11" positsrc="3">
+<answer instance="gai.IZE.91" senseid=" "/>
+<context>
+
+Ez, ez du inolako zerikusirik.
+Dagoeneko, tailer hauekin hasi ginenean museoa oraindik antolatzeke zegoen.
+Erakusketa honen antolatzaileak <head>gai</head> honetan zaletuak gara, besterik ez.
+Gertatzen dena da gasteiztarrok ez dugula gogokoegi museoetara joatea.
+Ez da inolaz ere kritika bat museoari, baina jasotzen duten jendearen kopurua ikusita, argi gelditzen da ez dutela jendea erakartzen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.92" docsrc="1999-01-15.europa12.txt" topic="europa" sentsrc="2" positsrc="4">
+<answer instance="gai.IZE.92" senseid=" "/>
+<context>
+
+Frantzian nuklearra indartsu dabil.
+A.Sokarros / Baiona.
+Frantzia salbuespena da nuklearraren <head>gaian</head>.
+Frantziako argindar ekoizpenaren % 78,2 nuklearrak eragindakoa da, 20 zentral eta euren 59 erreaktoreei esker.
+Estatu Batuen atzetik, Frantzia da energia nuklearra gehienik garatu duen estatua, eta teknologia esportatu ere egin du, hala nola Txinarat.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.93" docsrc="2000-04-27.europa1.txt" topic="europa" sentsrc="16" positsrc="6">
+<answer instance="gai.IZE.93" senseid=" "/>
+<context>
+
+Gauza ziur bakarra da Abel Matutesek ez duela Atzerri Ministerioan jarraituko, bere borondatez politika utziko baitu negozioetara itzultzeko.
+Pentsatzekoa da Rodrigo Ratok karraituko duela Ekonomia ministro eta lehendakariorde izaten eta Jaime Mayor Oreja Barne ministro izango dela aurrerantzean ere.
+Mayorrek berak onartu zuen atzo goizean <head>gaiari</head> buruzko elkarrizketarik ez zuela izan Aznarrekin.
+Aipatu izan denez, Francisco Alvarez Cascosek ez du  lehendakariordetzan jarraituko, baina litekeena da ministerio bat egokitzea, Sustapena esaterako.
+Josep Pique Industria ministroak ere ziur aski leku garrantzitsua izango du exekutibo berrian, Mariano Raxoi Hezkuntza ministroak bezalaxe.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.94" docsrc="1999-03-24.gizartea2.txt" topic="gizartea" sentsrc="21" positsrc="17">
+<answer instance="gai.IZE.94" senseid=" "/>
+<context>
+
+Iturri fidagarrien arabera, Juan Cruz Alliren taldeak gobernuari erantzun politikoak eskatzearen alde egingo luke, baina ez dago garbi horrekin noraino iritsi nahi duten.
+Esan bezala, gaur hasiko dira eztabaidak, proposamen guztiak kontuan hartu ondoren.
+Batzordeko iturriek uste dute saioak hiru bat egun iraungo duela, datorren hilaren hasieran eztabaidatu behar delako <head>gaia</head> Nafarroako Parlamentuko bilkura nagusiaren aurrean.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.95" docsrc="1999-07-27.politika16.txt" topic="politika" sentsrc="10" positsrc="4">
+<answer instance="gai.IZE.95" senseid=" "/>
+<context>
+
+Beraz,  Euskal Herria bere osotasunean hartuta egun gazteen egoera zein den eta, prozesu politikoan kokaturik, aurrera begira zein lan ildo hartu behar diren eztabaidatuko dute.
+Euskal gazteen errealitatea askotarikoa izanik, herrialde guztietatik Berara joandako gazteek ideiak, ekimenak, arazoak eta ikuspuntuak bilduko dituzte.
+Lan talde horiek guztiek <head>gai</head> beraren inguruan eztabaidatuko dute : " Euskal Herria askatasunaren bidean abiatu da, prozesuak ez du atzerabiderik, eta biharko zutoinak ezarri behar dira, oinarri sendoak; horretan gazteen iritzia ezinbestekoa da, gizartearen ereduen gainean hitz egiteko, eta gu ere etorkizunaren gainean proposamenak egiten hasteko ", adierazi du Igor Suberbiola Jarraiko kideak.
+Beste bi ikastaro ere izango dira: alde batetik, egungo gazteen komunikazio sareak aztertuko dira, eta, bestetik, irakaskuntza.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.96" docsrc="1999-09-21.kultura9.txt" topic="kultura" sentsrc="8" positsrc="16">
+<answer instance="gai.IZE.96" senseid=" "/>
+<context>
+
+Deustuko Matxintxu AEK euskaltegiak biurtero antolatu ohi du lehiaketa, lankide izan zuenaren omenez.
+Kalitatea helburu, 1993an ezarritako baldintzei eutsiko zaie aurten ere.
+Horrela, partaideek bertso sorta bakoitzeko gehienez sei bertso idatziko dituzte, gehienez sei puntukoak eta <head>gai</head> librean.
+Aurtengo ekitaldia aurkezteaz gain, iazko lehiaketako bertso sorta onenak liburuxkan bilduak kaleratu zituzten atzo antolatzaileek.
+Xabier Ugalde, AEKko ordezkaria, Jose Antonio Azpitarte, Matxintxu AEK esukaltegiko kidea, eta Iñaki Aurrekoetxea, iazko irabazlea, izan ziren aurkezpenean, Bilboko Zazpi kaleetako Kalderapeko kulturgunean.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.97" docsrc="2000-01-07.iritzia17.txt" topic="iritzia" sentsrc="14" positsrc="13">
+<answer instance="gai.IZE.97" senseid=" "/>
+<context>
+
+Duela zortzi bat urte institutu horretan geundenok BAI (Bakearen Aldeko Iniziatiba) izeneko talde bat ezagutu genuen.
+Gesto Por la Pazen akolitoak ziren haiek lazo urdina jantzi eta txirrina jo ondoren ikastetxeko atera joateko deialdia egiten zuten, 5 minutuko isilaldiaz ETAren biolentzia salatzeko.
+Klasera lazo urdinarekin azaltzen zitzaizkigun haiek ere eskolarekin zerikusi zuzenik ez omen duen <head>gaia</head> zuten aitzakiatzat eta klaseak 5 minututan laburtzeko ez ziguten baimenik eskatzen.
+Garai hartako klaustroak begiak ixten zituen batzuen aldarrikapenen aurrean besteonak eragozten saiatzen zen bitartean eta, beraz, gaur orduan bezala, ekintzaren arrazoia da epaitzen dena, ez elkarbizitza delako hori.
+Aitziber Sarobe  (Gazte horietako baten arreba) ZARAUTZ (GIPUZKOA)
+
+</context>
+</instance>
+
+<instance id="gai.IZE.98" docsrc="2000-03-04.kultura5.txt" topic="kultura" sentsrc="11" positsrc="18">
+<answer instance="gai.IZE.98" senseid=" "/>
+<context>
+
+Koadroaren espazioan bat egiten duten iruditxoak eta ikonoak neuk aukeratzen ditut, bai aintzinako artetik, Erdi Arokotik edota neure irudimenetik hartuta", azaldu zuen atzo.
+Akelarre izena jarri dio Tamayok serieari, "ustez naturalak diren espazioak jai giroan betetzen dituzten iruditxoek bizi dituztelako".
+Koadro batean baino gehiagotan margotzen ari den margolariaren irudia agertzen da. " Beno, sarritan agertzen den <head>gaia</head> da pintura pinturaren barrukoa, eta atsegin dut.
+Margolari guztietan sentitzen naiz islatua, baina ez dira autoerretratoak.
+Ingurune naturalean artista bere lanarekin harremanetan agertu nahi izan dut", azpimarratu zuen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.99" docsrc="2000-03-04.kultura5.txt" topic="kultura" sentsrc="17" positsrc="2">
+<answer instance="gai.IZE.99" senseid=" "/>
+<context>
+
+Tamayoren koadroak atseginak dira begiratzeko.
+Horretan saiatzen dela aitortu zigun berak. "Margo atsegina eta kolorez zein formaz dibertimendu plastikoa izan dadin saiatzen naiz".
+Hala ere <head>gaiak</head> sarritan gazi-gozoak direla deritzo.
+Kolore biziko koadroak dira bilbotarrarenak.
+Bere hitzetan, "erakusketa honetan kolore biziak dira nagusi, batez ere berdea, hemengo berdea.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.100" docsrc="1999-05-28.politika27.txt" topic="politika" sentsrc="15" positsrc="20">
+<answer instance="gai.IZE.100" senseid=" "/>
+<context>
+
+Lan munduari dagokionez, inbertsio egileak erakarri behar dituztela erran zuen.
+Gazteei buruz, lanpostuen sortzeaz gain, kirol eskaintzaren zabaltzea proposatu zuen.
+Euskal departamenduari dagokionez, ez dela kontra bainan ez dela bere proiektua adierazi zuen. " Gogoeta sakona merezi duen <head>gaia</head> " dela gaineratu zuen.
+Berak nahiago du Angeluren alde lan egin eta dezentralizatzea hiriguneen arteko harremanen garapenaren bidez bultzatu.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.101" docsrc="1999-12-31.iritzia19.txt" topic="iritzia" sentsrc="22" positsrc="8">
+<answer instance="gai.IZE.101" senseid=" "/>
+<context>
+
+Hori lortuz gero, Espainiak zein Frantziak, euskal borondate politikoa onartu eta errespetatu beharko dute.
+Euren konstituzioak aldatu gura ez izatea ez da gure arazo nagusia, hainbestetan entzuten dugun legez.
+Txoria hegaz egiteko prest dagoenean inor ez da <head>gai</head> izango geldiarazteko.
+Prestatu gaitezen, ba, hegaldirako.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.102" docsrc="2000-07-28.politika14.txt" topic="politika" sentsrc="5" positsrc="2">
+<answer instance="gai.IZE.102" senseid=" "/>
+<context>
+
+Frutosen aburuz, "gustatuko litzaiguke EAJk jada Lizarrako akordioa utzi izana, baina, dena dela, EAJk akordio demokratiko horretan parte hartu behar du terrorismoa bakartzeko".
+IUko kideak esan zuenez, poliziaren borrokak "ekimen politiko horren laguntza" izan behar du, eta horri heltzeko eskatu zion PPren gobernuari.
+EAEko hauteskundeen <head>gaiari</head> dagokionez ere Zapaterorekin bat etorri zen, eta ez aurreratzearen alde agertu zen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.103" docsrc="2000-04-18.iritzia1.txt" topic="iritzia" sentsrc="2" positsrc="12">
+<answer instance="gai.IZE.103" senseid=" "/>
+<context>
+
+Krisi politikoa Italian.
+Italiako lehen ministro Massimo D'Alemak dimisioa aurkeztu zuen atzo, igandeko eskualde hauteskundeetan zentro-ezkerrak izandako porrotaren ondoren.
+Izan ere, bozak eskualdeetakoak izan diren arren, kanpainan politika nazionaleko <head>gaiak</head> nagusitu dira.
+Gainera, gobernuburuak eta Il cavaliere-k test modura hartu dituzte bozak: D'Alemak herritarrek bere orain arteko lana onesten zuten edo ez frogatzeko; Forza Italiako buruzagiak hauteskunde orokorrak aurrerarazteko.
+Ciampi lehendakariak Legebiltzarrean konfiantza mozioa aurkezteko eskatu dio D'Alemari.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.104" docsrc="2000-04-11.gizartea5.txt" topic="gizartea" sentsrc="20" positsrc="7">
+<answer instance="gai.IZE.104" senseid=" "/>
+<context>
+
+Gazteek hiru hizkuntza ezagutzea "hobe" dela zehaztu zuen. "Denek badakizue zein hizkuntzaz ari naizen." Europako Batasunaren eraikuntzan "ez dezakegu bereizirik segi", adierazi zuen Vicente Etayo Iruñeko kultura zinegotziak.
+Lan talde batzuk abiatu dira proiektu batzuen aitzina eramateko.
+Talde bat hiru hilabetetarik behin bilduko da <head>gai</head> ekonomiko baten aztertzeko.
+Hirigintza sailean elgarren esperientzien trukatzea eta elgar laguntzea aurrikusten dute, ur zikinen tratamenduaz eta kirol zelaiez batez ere.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.105" docsrc="1999-02-20.ekonomia1.txt" topic="ekonomia" sentsrc="13" positsrc="6">
+<answer instance="gai.IZE.105" senseid=" "/>
+<context>
+
+Juanjo Rodriguez LABeko Lan Osasuneko arduradunak uste duenez, "arazo nagusia da segurtasun neurriak izanda ere ez direla betetzen", eta, halaber, erakunde publikoei egotzi zien arauak ez betearaztea. "Administrazioak enpresak kontrolatu eta lanetan neurriak betetzen ari direla ikuskatu behar du, baina ez du egiten.
+Justiziak, bestalde, istripuak gertatzen direnean, erantzukizuna bilatu beharko luke, eta ez du egiten", gehitu zuen.
+ELAren arabera, bestalde, " <head>gai</head> horren inguruko plangintza betearazten saiatzea baino ezin dugu egin, halako egoerak ez baitira konpontzen egun batetik bestera.
+Oraingoan hiru hildako egon dira, baina urtean beste hainbat egoten dira".
+Alfonso Peraita CCOOko ordezkariak jakinarazi zigunez, grebaren bidez erakundeen arreta jaso nahi dute.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.106" docsrc="2000-05-23.iritzia11.txt" topic="iritzia" sentsrc="10" positsrc="11">
+<answer instance="gai.IZE.106" senseid=" "/>
+<context>
+
+Egoerarik zailenean eta baldintzarik kaxkarrenean bizi diren euskaldunek, presoek alegia, egin behar izan dute beste urrats bat.
+Presoen eskubideekiko errespetoa eta Herri honen Hitza eta Erabakiaren defentsan inor baino gehiago ematen ari dira gizon eta emakume abertzale espetxeratuak.
+Euskal preso Politikoen Kolektiboak luzaturiko Greba Orokorraren proposamenak, ez du <head>gaiak</head> eta garaiak eskatzen duen mailako atxekimendurik jaso.
+Ez omen dago baldintza nahikorik!
+Baina baldintzak sortu ez al dira ba egin behar?
+
+</context>
+</instance>
+
+<instance id="gai.IZE.107" docsrc="1999-11-28.kirola32.txt" topic="kirola" sentsrc="7" positsrc="7">
+<answer instance="gai.IZE.107" senseid=" "/>
+<context>
+
+Garaipena lortzea ez da erraza izango, beraz, gaurkoan.
+Orain sei urte, Martin Fizek lortu zuen garaipena; 1994an, berriz, Kiprotichek gasteiztarrari aurre hartu zion, eta ordutik afrikarrak izan dira garaile.
+Aurten ere ez dirudi inor horiek gainditzeko <head>gai</head> izango denik.
+Lehen mailako atletekin batera, 3.500 korrikalari ariko dira gaur lasterketa herrikoian.
+Ibilbidea 14,7 kilometrotakoa da, eta Portugalete, Sestao eta Barakaldoko herrietatik igaroko dira Bilboko Gran Viako helmugara heldu baino lehen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.108" docsrc="2000-06-13.gizartea19.txt" topic="gizartea" sentsrc="13" positsrc="6">
+<answer instance="gai.IZE.108" senseid=" "/>
+<context>
+
+Quebeceko aditu biek mintegira gogotsu etorri direla esan zuten atzo. "Ez gara gure herria eredu moduan aurkeztera etorri", esan zuen Henri Dorion adituak. "Jakina, gure esperientziaren berri emango dugu, baina ideiak trukatzea da gure helburua", gaineratu zuen. "Izan ere, guk bezalaxe zuek ere garrantzi handia ematen diozue toponimiari".
+Hizkuntza Politikarako sailburuorde Xabier Aizpuruak azaldu zuenez, Euskal Autonomia Erkidegoan urteotan lan handia egin da toponimiaren alorrean. "Baina oraindik asko dago egiteko", esan zuen, eta gogora ekarri zituen hainbat egitasmo hurbileko.
+Erakunde publikoek, oro har, <head>gai</head> horren inguruan geroz eta kezka handiagoa dutela esan zuen. " Administrazioen kezka eta ardura geroz eta handiagoa da ".
+Hala, mintegian esku hartuko duten pertsona asko herri administrazioetako kide direla nabarmendu zuen Xabier Aizpuruak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.109" docsrc="2000-03-30.politika4.txt" topic="politika" sentsrc="26" positsrc="4">
+<answer instance="gai.IZE.109" senseid=" "/>
+<context>
+
+Horrela gehiengoa izango dugulako".
+Otegik esan zuen EHk ez duela egungo markoa mespretxatzen, baina prozesu berria garatzeko Gasteizek ezin duela "zentralitate politikoa" izan (Ibarretxe lehendakariak Madrilera eramandako proposamena aipatu zuen).
+Hala, sujetu politikoaren <head>gai</head> aipatu zuen.
+Euskal herritar sentitzen diren guztiei beren eskubideak garatzeko aukera eman behar zaiela esan zuen Otegik, "baita Pitillasen edo Miarritzen zazpi badira ere", batzar nazional bat osatzeko EHk egin zuen hauteskunde proposamena gogoan hartuta.
+"Ibarretxek esparru jakin bat dauka, baina EAJk bezalaxe lurraldetasunaz hitz egiten du.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.110" docsrc="2000-04-23.iritzia13.txt" topic="iritzia" sentsrc="4" positsrc="1">
+<answer instance="gai.IZE.110" senseid=" "/>
+<context>
+
+Ametsek berak kazetaritza ikasteko asmoa omen du, eta pentsatzekoa da irribarre ttiki bat aterako zitzaiola laster lankide izango dituen horiek jarritako titularrak irakurtzean.
+Amets izena, neska zein mutilei jar dakiekeen izen horietako bat da, eta ondo dago hala izatea, zaila baita zehaztea salabardoz harrapa ezin daitezkeen ametsen jeneroa eta materia.
+Kartzelako <head>gaia</head> erabakigarria izan zela zioten egunkarietako kronikek.
+Izango ez zen ba.
+Gure herrian gehienetan hala izaten da.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.111" docsrc="1999-02-05.gizartea5.txt" topic="gizartea" sentsrc="8" positsrc="3">
+<answer instance="gai.IZE.111" senseid=" "/>
+<context>
+
+Aurten, Usarragak ziurtatu du iaz baino %2 gehiago zenbatzen ari direla.
+Jose Mari Aldanondo Gipuzkoako Diputazioko Ingurugiro zuzendariak dioenez, pagausoa espezie migratzailea da, eta gertatzen zaionaren gainean administrazio askok dute ardura.
+Haren ustez, <head>gai</head> honetan " dimentsio guztiak galduta " daude. " Hemen oso kontrolatua da ehiza mota hau, eta ez da beste lekuetan bezain txikitzailea.
+Frantzian metodo guztiak erabiltzen dituzte.
+Extremaduran izugarrizko triskantzak egiten dira neguan, eta denak hona begira daude.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.112" docsrc="1999-10-22.iritzia5.txt" topic="iritzia" sentsrc="7" positsrc="6">
+<answer instance="gai.IZE.112" senseid=" "/>
+<context>
+
+Kontzientziaziorako kanpaina bat ere egitera goaz datorren azaroaren bukaeran.
+Eta egunero lanean ari dira bertoko tekniko guztiak.
+Osasun eta lan segurtasuna denoi dagokigun <head>gaia</head> da, eta zentzu horretan beharrezko deritzogu langileek, enpresariek eta Administrazioak berak lan segurtasunaren inguruan kontzientziazio lana egiteari, pertsonak beste edozein kontzepturen gainetik egon behar duelako.
+Osasuna eta lan segurtasuna inbertsiotzat hartu behar dira, eta ez gastutzat iraganean bezala.
+Segurtasun neurriak eta planak onartuta eta aplikatuta dituzten enpresak lehiakorrago eta konpetitiboagoak izango dira.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.113" docsrc="2000-02-13.mundua2.txt" topic="mundua" sentsrc="3" positsrc="18">
+<answer instance="gai.IZE.113" senseid=" "/>
+<context>
+
+Iragan astelehenean Djibutiko Gobernuak eta FRUD gerrillako buruek Parisen sinatutako bake akordioak agerian utzi du berriro ere, Frantziak Afrikako kolonia ohietan duen eragin handia.
+Izan ere, metropoli ohiaren bitartekaritzak baretu du Issas eta Afars etnien arteko gerra zibila.
+Hala ere, Frantziako Gobernuak isil eta gordean ibiltzen du Afrikarekiko politika; ez da komunikabideetan ibiltzen den <head>gai</head> handi horietako bat.
+Aitzitik, kontu handiz eta diskrezioz hartu beharreko gaia da Parisentzat.
+60.eko hamarkadan  eman zien independentzia Frantziak menpeko koloniei, eta harrezkero, betebehar morala da estatu berriekin elkarlanean aritzea.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.114" docsrc="2000-02-13.mundua2.txt" topic="mundua" sentsrc="7" positsrc="15">
+<answer instance="gai.IZE.114" senseid=" "/>
+<context>
+
+60.eko hamarkadan  eman zien independentzia Frantziak menpeko koloniei, eta harrezkero, betebehar morala da estatu berriekin elkarlanean aritzea.
+Menpeko loturak luzatzeko modu bat da, Frantziaren posizio ekonomikoa eta estrategikoa betirako bermatuko duen "egonkortasuna" ziurtatzeko.
+Parisek finantza laguntza ematen die bere " babestuei ", baina ezdu informazio argirik ematen <head>gai</head> horren inguruan.
+Laguntza horri esker, Afrikako herrialde frankofono gehienek hil amaierara lasai  iristeko modua izan dute azken hamarkadetan, eta  herritarrak ez dira matxinatu agintari ustel eta tiranikoen kontra.
+Djibutiko basea.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.115" docsrc="2000-02-13.mundua2.txt" topic="mundua" sentsrc="11" positsrc="3">
+<answer instance="gai.IZE.115" senseid=" "/>
+<context>
+
+Djibutiko basea.
+"Elkarlaguntzaren" azken helburua da herrialde osoen dekadentzia kudeatzea, enpresa handi batzuen presentzia babestuz -Elf edo Bouygues, esate baterako-.
+Multinazionalentzako lehen - <head>gaiak</head>, petrolioa, zura, kakaoa, kakahuetea, kafea, minerale estragikoak Frantziak esportazioen bidez lortzen dituen irabazien %90 dira.
+Botere ekonomiko eta estrategikoa sendotzeko "elkarlaguntza" militarraren bide gatazkatsua hautatu du Parisek.
+Garai bateko potentzia militar guztien artean, Frantzia da Afrikan base militarrak mantentzea lortu duen bakarra.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.116" docsrc="2000-03-12.kultura5.txt" topic="kultura" sentsrc="3" positsrc="16">
+<answer instance="gai.IZE.116" senseid=" "/>
+<context>
+
+CEDRO erakundeak banaturiko diruarekin, egileen promozioa eta heziketa bultzatzen da.
+Fotokopia da ziur aski  kultur pirateria mota zabalduena, eta zalantzarik gabe normaltasun handienaz egiten dena.
+Hain erraza da, hain ohituta gaude liburu batetik fotokopiak egitera eta horren informazio gutxi dugu <head>gaiaz</head>, ezen ez baitugu planteatu ere egiten legez kanpokoa izan daitekeenik.
+Liburuen fotokopien gaineko eskubideek apenas daramatzaten hamabi urte legez babesturik Espainian, eta oraindik are urte gutxiago igaro dira idazle eta argitaldariak legez dagozkien eskubide horiek kobratzen hasi zirenetik.
+CEDRO erakundeak kudeatzen ditu Espainian Jabego Intelektualaren Legearen barruan babesturiko eskubide erreprografikoak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.117" docsrc="2000-01-05.kirola19.txt" topic="kirola" sentsrc="4" positsrc="9">
+<answer instance="gai.IZE.117" senseid=" "/>
+<context>
+
+Entrenamenduetara itzuli garenean futbolariak oso solte daudela ikusi dut, eta freskotasun handirekin sasoiaren aldetik.
+Orain, arlo mentala falta da.
+Hala ere, espero dut jokalariak txapelketaren tentsioari eusteko <head>gai</head> izatea, jokalari esperientziadunak ditugulako.
+Zer egin behar du Alavesek Numanciari irabazteko?
+Bereziki interesatzen zait neure jokalariak oso kontzentraturik zelairatzea.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.118" docsrc="2000-08-19.politika14.txt" topic="politika" sentsrc="8" positsrc="17">
+<answer instance="gai.IZE.118" senseid=" "/>
+<context>
+
+Helegitea herrian Patxi Rementeriari egin nahi dioten omenaldirako azpiegitura  -megafonia eta abar- uztearen aurkakoa ere bada.
+Goizean aurkeztutako helegite hori aztertzea arratsaldean bertan onartu zuen EAEko Auzitegi Nagusiak, eta, hala, Markinako Udalak hartutako erabakia behin behinean bertan behera uztea erabaki du.
+Astelehenean aldeak aurkeztu beharko dira EAEko Auzitegi Nagusian euren iritzia azaltzeko, eta, ondoren, Auzitegiak <head>gaiari</head> buruzko azken erabakia hartu beharko du.
+Astelehenean Administrazioarekiko auzien gelan egingo den saioan Estatuko abokatua eta Markinako Udala egongo dira.
+Erabaki horren berri ofizialik ez zegoen atzo, agentziek zabaldu zuten berria Barne Ministerioak esanda.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.119" docsrc="2000-03-02.gizartea7.txt" topic="gizartea" sentsrc="2" positsrc="22">
+<answer instance="gai.IZE.119" senseid=" "/>
+<context>
+
+Bost urte eta gero, lanean hasteko prest Hil honen bukaeran deituko du Gipuzkoako Aldundiak Aiako Harriko Parke Naturalaren Patronatuko lehenengo bilerara.
+Parkearen erabilera eta kudeaketa planaren proposamen bat aurkeztuko die Aldundiak patronatuko kideei.
+Duela aste gutxi bilera egin zuten Oiartzun, Errenteria, Irun, Donostia eta Hernaniko udaletako ordezkariak, Aiako Harriko Parke Naturalaren <head>gaia</head> aztertzeko.
+Izan ere, Eusko Jaurlaritzak parke natural izendatu zuenetik bost urte igaro arren, Aldundiak ez du patronatua martxan jarri oraindik.
+Bileran adostu zuten Gipuzkoako Foru Aldundiko Nekazaritza eta Ingurugiro Sailari gutun bat bidaltzea, patronatua osatu eta lanean jar dezan eskatzeko.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.120" docsrc="2000-07-13.iritzia15.txt" topic="iritzia" sentsrc="9" positsrc="63">
+<answer instance="gai.IZE.120" senseid=" "/>
+<context>
+
+Kasu batzuetan alde horiek gutxitu egin dira, baina beste batzuetan oraindik ere leize handi bat dira.
+Berdin dio.
+Bide bakarra dago jakiteko leizea inoiz gainditzea izango ote den, eta hori, hain zuzen ere, Bill Clinton, Ehud Barak eta Jasser Arafat biltzea da; lehendabizikoa, alde guztientzat fidagarria delako; bigarrena, badakielako zer eman beharko duen Israelek bake segurua izateko; eta hirugarrena, baduelako maila eta, azkenetan den honetan, interesa bere herriarengatik hainbat <head>gai</head> zailetan amore emateko.
+Palestinarrak uzkur egon dira, harik eta ziurtatu dieten arte nahi duten guztia lortuko dutela, eta ez dituztela harrapatuko Clinton eta Baraken artean prestatutako jukutria batean.
+Barak-ek hertsiki eskatu du gailurra egiteko, eta argudiatu du kontzesio handiak egin ditzan dagoen bide bakarra behin betiko hitzarmen bat lortzea dela.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.121" docsrc="2000-07-29.gizartea9.txt" topic="gizartea" sentsrc="5" positsrc="8">
+<answer instance="gai.IZE.121" senseid=" "/>
+<context>
+
+Zergatik aukeratu zenuten Medikuntza Fisikoa?
+Uste dugulako espezialitate hau oso gutxi hedatua dela osasun alorrean, berez erabilera oso zabala duen arren.
+Gainera, ikasleek hiru urte jarraian eskatu digute <head>gai</head> honetaz ikastaroren bat antolatzea, eta aurten eskakizun honi erantzuna eman ahal izan diogu.
+Zer espezialitate daude Medikuntza Fisikoaren barruan?
+Hainbat daude.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.122" docsrc="2000-07-29.gizartea9.txt" topic="gizartea" sentsrc="18" positsrc="5">
+<answer instance="gai.IZE.122" senseid=" "/>
+<context>
+
+Bai.
+Baina profesional ondo hezituak oso beharrezkoak dira.
+Gizartea ere hezitu behar da <head>gai</head> hauetan, eta arautu behar dira.
+Arrisku izugarria baita espezialitate hauetan ezagupenik gabe aritzea.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.123" docsrc="1999-07-20.kultura6.txt" topic="kultura" sentsrc="49" positsrc="0">
+<answer instance="gai.IZE.123" senseid=" "/>
+<context>
+
+Txapelketa parte  hartzaileen ahotik.
+Lau bertsolarietatik hiruk irailean hasiko den Gipuzkoako Bertsolari Txapelketan parte hartuko dute, Beñat Lizaso ez bertze hirurek (honek adina nahikorik ez duelako).
+<head>Gai</head> hori izan zuten kopletarako gaia.
+Orduko giroa eta erakutsiko duten irudia bertzelakoa izanen da ziurrenik, talde lanean jardungo dutelako batetik, txapelketak berak seriotasun, kontzentrazio eta itxura handiagoa eskatuko dielako bigarrenik, eta presioa zein begiak zorrotzagoak izanen direlako, hirugarrenik.
+Paper txukuna egin dezakete hiru gazte horiek, Azpeitia ordezkatuko duten hiru taldeen bidez.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.124" docsrc="1999-07-20.kultura6.txt" topic="kultura" sentsrc="49" positsrc="5">
+<answer instance="gai.IZE.124" senseid=" "/>
+<context>
+
+Txapelketa parte  hartzaileen ahotik.
+Lau bertsolarietatik hiruk irailean hasiko den Gipuzkoako Bertsolari Txapelketan parte hartuko dute, Beñat Lizaso ez bertze hirurek (honek adina nahikorik ez duelako).
+Gai hori izan zuten kopletarako <head>gaia</head>.
+Orduko giroa eta erakutsiko duten irudia bertzelakoa izanen da ziurrenik, talde lanean jardungo dutelako batetik, txapelketak berak seriotasun, kontzentrazio eta itxura handiagoa eskatuko dielako bigarrenik, eta presioa zein begiak zorrotzagoak izanen direlako, hirugarrenik.
+Paper txukuna egin dezakete hiru gazte horiek, Azpeitia ordezkatuko duten hiru taldeen bidez.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.125" docsrc="1999-04-10.kultura32.txt" topic="kultura" sentsrc="3" positsrc="3">
+<answer instance="gai.IZE.125" senseid=" "/>
+<context>
+
+Absurdua, ironia, umore gaiztoa eta egunerokotasuna lantzen dituen idazle bikainaz maitemindu nintzen.
+eta aipu bat...
+" Batzuek idazteko <head>gai</head> ez diren poesia bizi dute.
+Beste batzuek, bizitzera ausartzen ez diren poesia idazten dute".
+Oscar Wilde.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.126" docsrc="1999-02-27.gizartea5.txt" topic="gizartea" sentsrc="7" positsrc="12">
+<answer instance="gai.IZE.126" senseid=" "/>
+<context>
+
+JESUS MARI AIZPURUA eta Jose Javier Grazenea egileek, Miren Gabantxo Eusko Jaurlaritzako Justizia Saileko Droga Gaietarako idazkariak eta Unai Ugalde EHUko Kimika Fakultateko dekano ohiak aurkeztu zuten liburua.
+Miren Gabantxok liburua goraipatu zuen, batetik drogari buruz delako, eta bestetik euskaraz delako.
+Ildo horretatik, gogoratu zuen orain arte euskaraz ez dela ezer egin <head>gai</head> horri buruz.
+Jesus Mari Aizpuruak azaldu zuenez, lan egiten duten sailean duela lau urte erabaki zuten material didaktikoa sortzea.
+Ildo horretan, gazteekiko sintonia bilatuz, drogaren gaia aztertzea deliberatu zuten.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.127" docsrc="1999-12-17.kultura12.txt" topic="kultura" sentsrc="2" positsrc="4">
+<answer instance="gai.IZE.127" senseid=" "/>
+<context>
+
+Juan Luis Zabala  Felipe Arrese Beitia olerki sariduna  "Horretara eseri gabe osatu dut liburua"  JUAN LUIS ZABALAK Hautsia natza poema bildumarekin eskuratu du Felipe Arrese Beitia olerki saria.
+EGUNKARIAko lankideak azaldu duenez, "surrealismoaren eta abangoardiaren zordun da" lan irabazlea.
+Hautsia natza liburuko poemak <head>gai</head> edo ardatz baten inguruan jorratu al dituzu?
+Zazpi atal daude, eta nolabait gaien arabera antolatuta daude olerkiak.
+Dena den, gai horien atzean dagoen jarrera edo gogoa antzekoa da, haustura edo munduarekin bat ez etortze bat.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.128" docsrc="1999-12-17.kultura12.txt" topic="kultura" sentsrc="3" positsrc="6">
+<answer instance="gai.IZE.128" senseid=" "/>
+<context>
+
+EGUNKARIAko lankideak azaldu duenez, "surrealismoaren eta abangoardiaren zordun da" lan irabazlea.
+Hautsia natza liburuko poemak gai edo ardatz baten inguruan jorratu al dituzu?
+Zazpi atal daude, eta nolabait <head>gaien</head> arabera antolatuta daude olerkiak.
+Dena den, gai horien atzean dagoen jarrera edo gogoa antzekoa da, haustura edo munduarekin bat ez etortze bat.
+Poemak batzen dituena gehiago da gogoa edo giroa, gaiak hainbat baitira.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.129" docsrc="1999-12-17.kultura12.txt" topic="kultura" sentsrc="4" positsrc="3">
+<answer instance="gai.IZE.129" senseid=" "/>
+<context>
+
+Hautsia natza liburuko poemak gai edo ardatz baten inguruan jorratu al dituzu?
+Zazpi atal daude, eta nolabait gaien arabera antolatuta daude olerkiak.
+Dena den, <head>gai</head> horien atzean dagoen jarrera edo gogoa antzekoa da, haustura edo munduarekin bat ez etortze bat.
+Poemak batzen dituena gehiago da gogoa edo giroa, gaiak hainbat baitira.
+Atal bat artea, literatura edota zinemari eskainia dago; beste batean heriotza da gai nagusia, aurrerakuntza teknologikoak sortzen dituen hausturak ere agertzen dira beste batean...
+
+</context>
+</instance>
+
+<instance id="gai.IZE.130" docsrc="1999-12-17.kultura12.txt" topic="kultura" sentsrc="5" positsrc="9">
+<answer instance="gai.IZE.130" senseid=" "/>
+<context>
+
+Zazpi atal daude, eta nolabait gaien arabera antolatuta daude olerkiak.
+Dena den, gai horien atzean dagoen jarrera edo gogoa antzekoa da, haustura edo munduarekin bat ez etortze bat.
+Poemak batzen dituena gehiago da gogoa edo giroa, <head>gaiak</head> hainbat baitira.
+Atal bat artea, literatura edota zinemari eskainia dago; beste batean heriotza da gai nagusia, aurrerakuntza teknologikoak sortzen dituen hausturak ere agertzen dira beste batean...
+Lehen olerki liburua duzu.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.131" docsrc="1999-12-17.kultura12.txt" topic="kultura" sentsrc="6" positsrc="14">
+<answer instance="gai.IZE.131" senseid=" "/>
+<context>
+
+Dena den, gai horien atzean dagoen jarrera edo gogoa antzekoa da, haustura edo munduarekin bat ez etortze bat.
+Poemak batzen dituena gehiago da gogoa edo giroa, gaiak hainbat baitira.
+Atal bat artea, literatura edota zinemari eskainia dago; beste batean heriotza da <head>gai</head> nagusia, aurrerakuntza teknologikoak sortzen dituen hausturak ere agertzen dira beste batean....
+Lehen olerki liburua duzu.
+Nola mamitu duzu?
+
+</context>
+</instance>
+
+<instance id="gai.IZE.132" docsrc="1999-03-30.gizartea11.txt" topic="gizartea" sentsrc="5" positsrc="15">
+<answer instance="gai.IZE.132" senseid=" "/>
+<context>
+
+DONOSTIAKO Euskararen Udal Patronatuak Karlos Santamaria Ikerketa  Sariaren V.
+ekitaldian parte hartzeko deia egin du berriz ere.
+Sari horren helburua da zientzia, teknologia, gizarte zientziak, unibertsitatea eta ikerketa alorreko <head>gaiak</head> lantzea.
+Lan guztiek euskaraz izan behar dute, eta 1.250.000 pezetako beka eskuratzeko aukera izango dute haiek aurkezten dituztenek (50.000 libera).
+Eskabideak eta proiektuak aurkezteko epea  maiatzaren 14ra arte egongo da irekita.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.133" docsrc="1999-06-26.iritzia19.txt" topic="iritzia" sentsrc="3" positsrc="67">
+<answer instance="gai.IZE.133" senseid=" "/>
+<context>
+
+Carmelo Barrio.
+(PPko EAEko idazkari nagusia) Bizikidetza helburu.
+Udal eta foru hauteskundeen ondoren sortutako egoera politikoak, dudarik gabe, eta alde batera utzita indar politiko bakoitzak ordezkarien kopurua handitu edo gutxitu egin duen, argi utzi du gure gizartearen pluraltasun bereizgarria, eta, orobat, agerian utzi ditu euskal herritarren ikuspegi desberdinak; hortaz, beste urrats bat izan da akordioen, itunen eta elkar ulertzearen kulturari ateak irekitzeko eskakizunean, gure artean <head>gai</head> hori oraindik ere gainditu gabea baitugu.
+Aurrerantzean izango ditugun erakundeei begira, bizikidetzan sakontzearen alde egin beharko dugu.
+EAEn gobernu nazionalista dugu, eta udaletan gobernu sozialistak, erradikalak, nazionalistak eta popularrak izango ditugu.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.134" docsrc="1999-10-19.gizartea8.txt" topic="gizartea" sentsrc="4" positsrc="8">
+<answer instance="gai.IZE.134" senseid=" "/>
+<context>
+
+Lau hilabete edo 120.000 pezetako isuna, 20 urtez utzita egondako etxe bat lau hilabetez okupatzeagatik.
+Horixe eskatu zuen atzo fiskalak Iruñean, okupen aurka Euskal Herrian egiten den lehen epaiketan.
+Hiru gazteen abokatuak absoluzioa eskatu zuen, eta <head>gai</head> hauek epaitzea ekartzen duen kodearen artikulua ezabatzea, " soilik okupak kriminalizatea bilatzen duelako ".
+LAU ziren atzo Iruñeko penaleko auzitegiaren aulkian eseri ziren akusatuak, 1998an Sanduzelaiko Etorbidea 7ko etxaldea okupatzeagatik.
+Haietarik hiruk -Jose Antonio Martinez, Nerea Zorokiain eta Laura Ibarra- epailearen aurrean deklaratu zuten iazko uriaren 11ean sartu zirela aipatu etxean, hautsirik zegoen leihotik.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.135" docsrc="1999-05-05.mundua1.txt" topic="mundua" sentsrc="14" positsrc="3">
+<answer instance="gai.IZE.135" senseid=" "/>
+<context>
+
+Ahmed Kurea Palestinako Legebiltzarreko lehendakariak, esate baterako, independentziarako eguna atzeratu baino ez dutela egin adierazi zuen atzo, eta litekeena dela datorren ekainean, PAEko Batzorde Zentrala berriro biltzen denean, erabaki hori hartzea.
+Antzera mintzatu zen Jasser Arafat lehendakaria Aljerian, hango lehendakari Abdelaziz Bouteflikarekin bildu ostean.
+Arafatek esan zuen <head>gai</head> horri buruzko erabakia hartu gabe dagoela eta ekainean eztabaidatuko dutela.
+Nazioarteko komunitateak palestinarren  independentzia ondo ikusten duela nabarmendu zuen Arafatek.
+Areago, estatu palestinarrik gabe ez dela bakerik izango adierazi zuen Taieb Abdel Rahmanek, Arafaten gobernuko (PANekoa) idazkariak. "Estatu palestinarra sortzeko eguna hurbiltzen ari da, Israelek nahi izan edo ez", azpimarratu zuen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.136" docsrc="2000-07-01.udagiroa4.txt" topic="udagiroa" sentsrc="8" positsrc="8">
+<answer instance="gai.IZE.136" senseid=" "/>
+<context>
+
+Lau urtez ideiarekin.
+Altza herriko webgune hau sortzeko ideia duela lau urte hasi zuten Altza Historia Mintegiko kideek, teknologia berriek informazio eta komunikazioaren munduan proiektu berriak sortzeko zuten garrantziaz konturatuta.
+1996. urtean Internet euskarrian posta elektronikoa erabiliz, <head>gai</head> berdinak lantzen zituzten beste talde batzuekin harremanetan jartzea lortu zuten.
+Honekin batera, argazkien digitalizazioan sartu ziren buru-belarri, eta Altzako argazki zaharrei beste sostengu bat eman zieten.
+Egindako lanaren ondorioz, Casares Kultur Etxean dagoen Bertako Bildumak eskainitako datu eta dokumentuak digitalizatu eta 2.000 dokumentu bildu dituzte.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.137" docsrc="2000-05-19.politika12.txt" topic="politika" sentsrc="4" positsrc="26">
+<answer instance="gai.IZE.137" senseid=" "/>
+<context>
+
+Erredakzioa/ Donostia.
+POLIZIA operazioak Ertzaintza "iraganeko parametro negargarrietan" ari dela erakusten du, EHren ustez.
+EHk dio atxiloketak " neurtutako pultsu politiko bati " dagozkiola, egungo markoa kudeatu nahi duen bati. " Horren ondorioz, Ertzaintza prozesuan aurrerakuntzak eskaintzeko <head>gai</head> ez diren sektore guztien esku beltza bezala ageri da, iraganeko eszenatokiak berregokituz eta errealitate politikoa itxuragabetuz ", dio EHk.
+Halaber, EHk dio sektore horiek "Madrilen sal ditzaketen titulu arrakastatsuak" lortu nahian ari direla. "Prozesu demokratikoaren defentsa ez da begi onez ikusten Madrilen; atxiloketek, aldiz, nazionalista espainiarrak lasaitzeko balio dute".
+Horrelako gertaerak desagertu beharra dagoela azpimarratu du EHk.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.138" docsrc="2000-07-12.europa1.txt" topic="europa" sentsrc="10" positsrc="8">
+<answer instance="gai.IZE.138" senseid=" "/>
+<context>
+
+"Negoziazioak biolentziaren kondenarik gabe abiatu dira" Zergatik desagertu da bortizkeria gaitzesteko  aurrebaldintza, gobernuarekilako negoziazioak abiatu aitzin?
+Lionel Jospinek Lurralde Asanblean adierazi zuen bortizkeria gaitzesten ez genueno elkarrizketarik ez zela hasiko.
+Gure aldetik ez genuela aurrebaldintzarik ezartzen - presoen <head>gaian</head>, adibidez - erantzun genion.
+Bertze alderdi batzuek ere elkarrizketak abiatu behar zirela zioten.
+Azken atentatuen ondotik, bortizkeriaren kontrako manifestazio handi bat antolatu nahi zuten.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.139" docsrc="2000-07-12.europa1.txt" topic="europa" sentsrc="57" positsrc="1">
+<answer instance="gai.IZE.139" senseid=" "/>
+<context>
+
+Jospin kinka txarrean ezartzeko saioa baizik ez zen.
+Prozesuaren bukaeran pausatuko dugu arazoa.
+Presoen <head>gaia</head> biziki sinplea da.
+Edo negoziazioek egoeraren desblokeatzea eragiten dute eta orduan presoen arazoa konponbidean jarriko da.
+Eta nola konponduko dela uste duzu?
+
+</context>
+</instance>
+
+<instance id="gai.IZE.140" docsrc="2000-07-12.europa1.txt" topic="europa" sentsrc="62" positsrc="5">
+<answer instance="gai.IZE.140" senseid=" "/>
+<context>
+
+Urratsez urrats konponduko da.
+Oraino epaituak ez direnak laster epaitzea, baldintzapean aska daitezkeenak berehala askatzea eta berantago gaineratekoen amnistia ematea lirateke urratsak, jakinez Erignac-en hilketaren ingurukoekin sortuko direla trabarik handienak.
+Negoziazioek porrot egiten badute, <head>gaia</head> ez da aipatuko; Gobernuak, gisa guziz, ez baitu galdera entzun nahiko.
+Zer gertatuko da, zuen iritziz, negoziazioetan hutsegiten baduzue?
+Arazoa oraino bertze zenbait urtez luzatuko da, eta negoziazioek berantago jarraituko dute.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.141" docsrc="1999-11-07.mundua1.txt" topic="mundua" sentsrc="19" positsrc="14">
+<answer instance="gai.IZE.141" senseid=" "/>
+<context>
+
+Hark, emaitzak jakin ondoren, adierazi zuen errespetatu egingo duela Australiako Konstituzioa.
+John Howard lehen ministroa pozik azaldu zen.
+Berak iragarri zituen emaitzak atzo gauean, eta esan zuen badela garaia " eguneroko <head>gaiei</head> " heltzeko.
+Australiako historiako pasarte bat amaitua dela gaineratu zuen.
+Errepublikaren alde sutsu egin zuen Australiako Mugimendu Errepublikanoko buru Malcom Turnbull, ordea, etsita azaldu zen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.142" docsrc="1999-12-07.politika7.txt" topic="politika" sentsrc="5" positsrc="0">
+<answer instance="gai.IZE.142" senseid=" "/>
+<context>
+
+Ikasle Abertzaleek balorazio positiboa egin zuten, eta Konstituzioarekiko desobedientziaren bideak beste urrats bat egin zuela adierazi.
+BI MILA ikasle eta irakasle inguru elkartu ziren atzo Hego Euskal Herriko maila ertaineko 22 ikastetxe eta 24 herritako plaza eta pilotalekuetan eskolak eman eta hartzeko. "Espainiako Konstituzioari eta Espainiako hezkuntzari uko egitea" zuten helburu guztiek, eta "desobedientziaren" bidea jarraituz egutegi ofizialetan gorriz ageri den jai eguna ikasgelan pasatu zuten.
+<head>Gai</head> ugari jorratu zituzten, normalean Hego Euskal Herriko ikastetxeetan ematen ez diren ikasgaiak gehienak; besteak beste, euskararen egoera, konstituzioa eta hezkuntza, ikastolak eta desobedientzia, euskal filosofia, sozioekonomia, emakumea Euskal Herriko historian, euskal selekzioak, Euskal Herriko historia, Nafarroaren konkista, droga-menpekotasuna, presoen gaia, Lizarra-Garaziko akordioa....
+Gainera, maila ertaineko ikasle eta irakasleez gain, unibertsitateko irakasle, bertsolari, kirolari eta politikariek ere parte hartu zuten atzoko Herri Eskoletan.
+Ikasle Abertzaleek eguna "arrakastatsua" izan zela adierazi zioten Egunkariari. "Urrats garrantzitsu bezain erabakigarria egin da, desobedientzia eta autogestio praktikak martxan jarriz", adierazi zuten, bestalde, prentsa ohar baten bidez.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.143" docsrc="1999-12-07.politika7.txt" topic="politika" sentsrc="5" positsrc="53">
+<answer instance="gai.IZE.143" senseid=" "/>
+<context>
+
+Ikasle Abertzaleek balorazio positiboa egin zuten, eta Konstituzioarekiko desobedientziaren bideak beste urrats bat egin zuela adierazi.
+BI MILA ikasle eta irakasle inguru elkartu ziren atzo Hego Euskal Herriko maila ertaineko 22 ikastetxe eta 24 herritako plaza eta pilotalekuetan eskolak eman eta hartzeko. "Espainiako Konstituzioari eta Espainiako hezkuntzari uko egitea" zuten helburu guztiek, eta "desobedientziaren" bidea jarraituz egutegi ofizialetan gorriz ageri den jai eguna ikasgelan pasatu zuten.
+Gai ugari jorratu zituzten, normalean Hego Euskal Herriko ikastetxeetan ematen ez diren ikasgaiak gehienak; besteak beste, euskararen egoera, konstituzioa eta hezkuntza, ikastolak eta desobedientzia, euskal filosofia, sozioekonomia, emakumea Euskal Herriko historian, euskal selekzioak, Euskal Herriko historia, Nafarroaren konkista, droga-menpekotasuna, presoen <head>gaia</head>, Lizarra-Garaziko akordioa....
+Gainera, maila ertaineko ikasle eta irakasleez gain, unibertsitateko irakasle, bertsolari, kirolari eta politikariek ere parte hartu zuten atzoko Herri Eskoletan.
+Ikasle Abertzaleek eguna "arrakastatsua" izan zela adierazi zioten Egunkariari. "Urrats garrantzitsu bezain erabakigarria egin da, desobedientzia eta autogestio praktikak martxan jarriz", adierazi zuten, bestalde, prentsa ohar baten bidez.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.144" docsrc="1999-10-01.gizartea20.txt" topic="gizartea" sentsrc="13" positsrc="7">
+<answer instance="gai.IZE.144" senseid=" "/>
+<context>
+
+Oso modu berritzailea da energia lortzeko, eta horrek azterketa ugari egitea eragin du, lastoak kloroa eta potasioa izan dezan saihesteko.
+Plantaren potentzia 25 MWkoa izango da, eta 200 kilowatio orduko produkzioa izango du.
+Nafarroako herritarren %6,5en energia kontsumoa betetzeko <head>gai</head> izango da, arduradunek diotenez.
+Zangotzako planta hornitzeko, urtean 150.000 tona lasto behar izanen dira.
+Plantak 70.000 metro kuboko eremua izanen du, eta haietatik 45.000 biltegiak okupatuko ditu.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.145" docsrc="1999-02-25.kirola17.txt" topic="kirola" sentsrc="3" positsrc="15">
+<answer instance="gai.IZE.145" senseid=" "/>
+<context>
+
+Egutegi bateratua bi urtean behingo Mundiala baino lehen.
+UEFA eta FIFAko agintariek atzo egindako bileran erabaki zuten bi urtean behingo Mundialaz eztabaidatu aurretik ezinbestekoa dela egutegi bateratu bat lortzea.
+Joseph Blatter eta Lenart Johansson, FIFA eta UEFAko presidenteak, erabat ados azaldu ziren <head>gai</head> honen inguruan : " Ezin dugu Mundiala bi urtean behin jokatu, egutegi bateratu bat lortzen ez badugu ".
+Blatterrek esan du 2009 arte ezingo dela bi urtean behingo Mundiala lortu.
+Laziok Owen fitxatzeko lehen aukera izango du.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.146" docsrc="2000-04-07.gizartea16.txt" topic="gizartea" sentsrc="12" positsrc="21">
+<answer instance="gai.IZE.146" senseid=" "/>
+<context>
+
+Eroskik euskararen aldeko jaiei eskainitako laguntzak etengabekoak izan dira orain arte".
+Bestalde, aurten ospatuko diren euskararen aldeko  jaietan parte hartzen duten lagun guztien artean Eroskik Port Aventurara joateko 45 bidaia jarriko ditu.
+Azkenik, Ikastolen Federazioak Eroskiri ospakizun hauetan karpa jar dezan gonbita egin zion " elkarlanean jarraitzeko eta kontsumoa edo euroa bezalako <head>gaiak</head> lantzeko ".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.147" docsrc="1999-04-16.ekonomia10.txt" topic="ekonomia" sentsrc="5" positsrc="20">
+<answer instance="gai.IZE.147" senseid=" "/>
+<context>
+
+Ildo horretan, Confebaskek sindikatuei leporatutako arduragabekeria errefusatu zuen ELA-LABek.
+Sindikatuek, beraz, gogorazi zutenez, "35 orduko lan astearen ezarpenerako negoziazioek 15 hilabete irauten dutela jada, eta denbora tarte horretan ez dugu patronalaren proposamenik jaso".
+UGT, ELA eta LAB ados daude grebaren aldarrikapenekin, baina UGTk Nafarroan ez du grebara deituko. " Nafarroan <head>gai</head> horren inguruan lortutakoa EAEn ere erdietsiz gero, ez genuke greba deituko ".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.148" docsrc="2000-05-26.mundua3.txt" topic="mundua" sentsrc="21" positsrc="4">
+<answer instance="gai.IZE.148" senseid=" "/>
+<context>
+
+Errefuxiatuen egoera, kezka iturri.
+Eritreak bere posizioetatik gibelera egiteko erabakia hartu arren, zalantza anitz daude argitzeko oraindik.
+Kezka handien eragin duen <head>gaia</head> errefuxiatuena da.
+500.000tik goiti dira etxetik alde egin behar izan dutenak gerra orain bi urte hasi zenetik.
+Horietatik erdiek azken bi asteetan utzi behar izan dute bere etxea.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.149" docsrc="1999-03-24.europa6.txt" topic="europa" sentsrc="4" positsrc="1">
+<answer instance="gai.IZE.149" senseid=" "/>
+<context>
+
+JEVGENI PRIMAKOV Errusiako lehen ministroak EEBBetara joatekoa zen atzo, baina zihoan hegazkinak Andrewseko basean lurra hartu baino bi ordu eta erdi lehenago erabaki zuen atzera egitea.
+Horren arrazoia zen Ipar Atlantikoko Tratatuaren Erakundearen (NATO) Atlantikoko Kontseilua bildu zela Bruselan serbiarrei erasotzea aztertzeko, eta Errusiako Gobernuak ez du begi onez ikusten erasoa.
+EEBBetan <head>gai</head> ugari aztertu behar zituen Primakovek Bill Clinton lehendakariarekin eta Al Gore lehendakariordearekin : Kosovo, Errusiaren garrantzia munduan, eta, batez ere, diru-laguntza jasotzea.
+Errusiaren egoera ekonomikoa oso kaskarra da.
+Moskuren helburua da Nazioarteko Diru Fondotik (FMI) 4.300 milioi dolarreko laguntza lortzea, nazioarteko erakundeari zor diona ordaintzearren berriro itzultzeko.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.150" docsrc="1999-02-16.kultura3.txt" topic="kultura" sentsrc="17" positsrc="3">
+<answer instance="gai.IZE.150" senseid=" "/>
+<context>
+
+Hau da, koadroak egiten dituzu argazki kutsuarekin, baina ez duzu ez pinturarik ez argazki-makinarik erabiltzen.
+Bai, hori da, kar-kar...
+Sei urte daramatzat <head>gai</head> hori lantzen, argiaren inguruko ikerketa egiten.
+Naturak present jarraitzen du zure obran?
+Bai, baina ez hain agerian.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.151" docsrc="2000-04-05.gizartea5.txt" topic="gizartea" sentsrc="8" positsrc="17">
+<answer instance="gai.IZE.151" senseid=" "/>
+<context>
+
+Horretarako, orain urte batzuk egindako diagnosiaren berri eman zuen. "Itzulpengintza euskaldunen eskubideak urratzeko erabiltzen zen behin eta berriro", azaldu zuen, "eta magistratu eta epaile gehienek ez zuten euskara ikasteko asmorik".
+Hala, errealitate gordin horrek bultzatuta, orain hiruzpalau urte EHEk kanpaina bat abian jarri zuela ekarri zuen gogora: "Epaiketak eteten hasi ginen".
+Ekintza horiek fruitu anitz ekarri zituztela azaldu zuen. " Hedabideetan, batetik, indarra hartu zuen <head>gai</head> horrek ", esan zuen. " Bestetik, Justizia Administrazioa euskalduntzeko aurreneko lorpenak egin ziren ".
+Epaiketa etete horiek zigorra ekarri dutela ere gogoratu zuen, ordea: "14 euskaltzalek 200 kartzela egun egin beharko dituzte denen artean", salatu zuen.
+Halaber, beste hainbat euskaltzalek Justizia Administrazio euskalduna eskatzeagatik isunak ordaindu beharko dituztela esan zuen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.152" docsrc="1999-02-13.politika3.txt" topic="politika" sentsrc="7" positsrc="1">
+<answer instance="gai.IZE.152" senseid=" "/>
+<context>
+
+Eta erabaki horrek lehen eztabaida politikoa ekarri zuen.
+EAJk, EAk eta EHk legez besteko proposamena aurkeztu zuten Entzutegi Nazionalaren erabaki a gaitzesteko, eta IUk bat egin ez bazuen ere, proposamenean agertutakoarekin bat datorrela jakinarazi zuen.
+Abertzaleek <head>gaia</head> aprobetxatu zuten legebiltzarkideen eta hautesleen eskubideak aldarrikatzeko, Entzutegiak urratu egin dituela uste baitute.
+Rafael Larreina (EA), Arnaldo Otegi (EH) eta Iñigo Urkullu (EAJ) eskubide horien alde agertu ziren.
+Esan zuten ez zirela ari Urrutikoetxearen eta Etxeberriaren edo EHren eskubideak soilik defendatzen, "guztionak" baizik.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.153" docsrc="1999-02-13.politika3.txt" topic="politika" sentsrc="20" positsrc="23">
+<answer instance="gai.IZE.153" senseid=" "/>
+<context>
+
+Onartutako ebazpenaren arabera, Juan Maria Atutxa Legebiltzarreko presidenteak bi legebiltzarkide presoen sumarioa Euskal Herriko Auzitegi Nagusira eramateko eskatu beharko du, Auzitegi horrek epai ditzan.
+Hori ez zen Buesaren eta Leopoldo Barredaren (PP) gustukoa izan.
+PPkoak, izan ere, esan zuen legealdia " gaizki " hasi dela, biolentziaren biktimen arazoez ari beharrean " EHk ezarritako " <head>gai</head> zerrendarekin ekin diolako lau urteko ibilbideari.
+Barredak, gainera, Entzutegiak hartutako erabakia aldeztu zuen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.154" docsrc="1999-06-19.ekonomia6.txt" topic="ekonomia" sentsrc="12" positsrc="13">
+<answer instance="gai.IZE.154" senseid=" "/>
+<context>
+
+Izan ere, "negoziazioei ekin die, datorren urterako kontratazioak izoztuta utzi eta gero".
+Legea edo negoziazioa.
+EAJkoek aurka bozkatu zuten, Joseba Arregi alderdi horretako ordezkariak azaldu zuenez, <head>gai</head> hori eztabaidatzeko gune egokia enpresarien eta langileen artekoa delako, eta " 35 orduko lan astea legez ezartzea ez delako egokia ".
+EAko legebiltzarkideen ustez ere negoziazioen bidea da jorratu beharrekoa 35 orduko lan astea jartze aldera.
+EHko Kepa Gordejuelak azaldu zuenez, lan aste laburra jartzearen alde "lan egin behar da", eta ekimen horretan "Jaurlaritzak gidaritza hartu behar du".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.155" docsrc="1999-06-19.ekonomia6.txt" topic="ekonomia" sentsrc="15" positsrc="4">
+<answer instance="gai.IZE.155" senseid=" "/>
+<context>
+
+EAko legebiltzarkideen ustez ere negoziazioen bidea da jorratu beharrekoa 35 orduko lan astea jartze aldera.
+EHko Kepa Gordejuelak azaldu zuenez, lan aste laburra jartzearen alde "lan egin behar da", eta ekimen horretan "Jaurlaritzak gidaritza hartu behar du".
+Hala ere, " <head>gai</head> horrekin ezin dugu testimonialismo politikorik egin ".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.156" docsrc="1999-10-14.politika3.txt" topic="politika" sentsrc="18" positsrc="19">
+<answer instance="gai.IZE.156" senseid=" "/>
+<context>
+
+Etxebizitzei dagokienez ere, zenbait jendek etxebizitzen zain jarraitzen duela esan zuen, "nahiz akordioak adostuta egon EAJrekin ere".
+Horren erantzule Pilar Zubiarrain egin zuen; "alkateen gainetik dena mugitzen du EAJren baimenaz, ezer konpontzeko borondaterik gabe".
+Azkenik, Belauntzako alkate Imanol Olanok ere aipatu zuen Zubiarrain, Belauntzako Lagun Artea taldeak Zubiarrainen aholkularitzarekin udaleko zenbait <head>gai</head> epaitegira eraman dituela esanez.
+Adibide gisa esan zuen Belauntzako idazkariaren kontra kereila kriminala aurkeztu dutela ez delako funtzionario espainiarra.
+Azkenik, Aierbek EAJri dei egin zion benetan gertatzen dena publikoki azaltzeko herritarrei.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.157" docsrc="1999-09-08.iritzia10.txt" topic="iritzia" sentsrc="3" positsrc="5">
+<answer instance="gai.IZE.157" senseid=" "/>
+<context>
+
+Barka nazala Itxaro Borda seikideak atzoko Seiko Urre-an zegokion tartean gizonezkooi egiten zigun enplazamenduaren aurka ETAren inguruko oharpenetaz gaurkoan ez baitut jardungo.
+Jendarte tradizionalen eginkizunen ohiko banaketa errespetatuko dudan ere ez dakit, Itxaro, baina niri gorputzak Laura Oruez eta eskoletan irakasleek ikasleak jipoitzeko balizko eskubideaz hitzegitea eskatzen dit aste honetan, biak iruditzen baitzaizkit eskandalagarriak.
+Itxuran oso desberdinak ematen duten <head>gaiak</head>, baina sakonean bortizkeriarekin, eta agian giza basakeriarekin, basakeriarik beldugarrienarekin alegia, zerikusi handia dutenak, eta agian gizon eta emakumeen arteko temaz ere bai, Itxarok nahi zuen bezala.
+Laura Oruenari buruz ezer gutxi dakigu, samina eta atsekabeaz aparte.
+Zer, nor eta nola jakiteko denbora bat pasa beharko omen du, baina baietz heriotza horren atzean gizonezkoren bat egon.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.158" docsrc="1999-04-11.politika5.txt" topic="politika" sentsrc="35" positsrc="14">
+<answer instance="gai.IZE.158" senseid=" "/>
+<context>
+
+Bi- de luzea izango da, baina, eta eraso asko jasan beharko dugu, baina gaurkoa bezalako manifestazioak edota grebak oso lagungarriak izango dira prozesu nazionala erakitzeko.
+Horretaz gain, ordea, erakundeetan ere beste ekimenak ezinbestekoak dira: Lizarra-Garazikoa bezalako topaguneak bilatu eta abar.
+Espainiako Gobernuaren jarrerari dagokionez, ez zait ardura, guk euskal abertzaleak elkarlanean jarduteko <head>gai</head> garela erakusten badugu, gobernuak gure indarraren arabera jokatu beharko du ".
+Estibaliz Cantero  Gazte Abertzaleak.
+"Hau da euskal gizartearen  apostua, eta orain Espainiako alderdien apostuaren zain gaude"  "Manifestazio hori beharrezkoa zen, denok nahi genuena da, euskal herritarren gehiengoaren iritzia eta asmoak islatzen dituelako.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.159" docsrc="1999-04-11.kultura1.txt" topic="kultura" sentsrc="16" positsrc="4">
+<answer instance="gai.IZE.159" senseid=" "/>
+<context>
+
+Hainbat aditu, hainbat ikuspuntu.
+Solasaldi hauek bihar eta etzi izango dira Baionako fakultateko anfiteatro berrian.
+Unibertsitateko irakasle andana batek <head>gaiaren</head> hainbat ikuspegi jorratuko ditu.
+Jean-Baptiste Orpustan UPRESA 5478ko zuzendariak Axularren aroko euskal literaturan liburuetan eskaintzak egiteko moldea aipatuko du.
+Beñat Oiharzabalek, CNRSeko ikerketa zuzendariak, berriz, Axularren garaiko liburuen aitzin-solasak eta irakurleari zuzendu mezuak jorratuko ditu.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.160" docsrc="2000-03-13.kirola25.txt" topic="kirola" sentsrc="6" positsrc="13">
+<answer instance="gai.IZE.160" senseid=" "/>
+<context>
+
+NAHI baino larritasun handiagoarekin, baina Portlandek atzo zazpigarren garaipena jarraian lortu zuen Iruñean Granollers taldearen aurka.
+Kanpotarrek ondo eutsi zieten iruindarrei, baina azken hamar minutuetan kataluniarrek huts egin zuten, eta Portlandek hori aprobetxatuz alde handia ireki zuen 6-0eko partzial bat osatuz.
+Lehen zatian berdinketak izan ziren nagusi, eta inor ez zen besteari nagusitzeko <head>gai</head> izan.
+Granollersen defentsak ez zien iruindarrei alderik irekitzen uzten, eta berdinketa ugari jaso ziren markagailuan.
+Baina atsedenaldiaren ondoren Zupo Ekisoainek Buligan atera zuen Norkilten ordez, eta gutxiagatik bazen ere Portland izan zen hortik aurrera aurretik joan zena.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.161" docsrc="2000-07-27.politika5.txt" topic="politika" sentsrc="22" positsrc="18">
+<answer instance="gai.IZE.161" senseid=" "/>
+<context>
+
+Dena dela, Urretxun behintzat, alkateak lehen zuzentzen zituzten batzordeetan jarraitzen utziko die EHko zinegotziei, baina ez dute erabaki ahalmenik izango.
+Zumarragan kamerarik ez.
+Zumarragako udaletxean ez zuten osoko bilkurara ez telebista ez argazki kamerarik sartzen utzi, eta eztabaida sortu zen <head>gai</head> horren inguruan.
+Udaltzainek ukatu zieten sarrera, eta EHk horri buruz galdetu zion alkateari.
+Izan ere, kamerek ez dute inoiz arazorik izan Zumarragako osoko bilkuretan sartzeko, eta EHk atzo zergatik ez zitzaien sartzen utzi galdetu zuen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.162" docsrc="2000-07-11.politika13.txt" topic="politika" sentsrc="6" positsrc="14">
+<answer instance="gai.IZE.162" senseid=" "/>
+<context>
+
+EAko idazkari nagusiaren aburuz, "EAk bere jarrera erabaki eta argi azaldu du, eta horren arabera jokatu du".
+Gorka Knörrek politika orokorra eta udal politika ez direla nahastu behar berretsi zuen. "Udaletan apurteketa orokorraren planteamenduak ez du jarrera hurbiltzeko balio, aitzitik, kontrakorako balio du", azaldu du EAko buruak.
+Halaber, azpimarratu zuen, EAk jada frogatu duela akordioak apurtu behar direnean apurtzeko <head>gai</head> dela, " gainera, bonbarik egotea itxaron gabe, Atarrabian edo Lekeition bezala ", azaldu zuen.
+Ildo horretan, Juan Mari Juaristiri ez ezik, Nicolas Redondori ere erantzun zion Knörrek. "Gure alderdiaren politika ez du ETAk ezarriko, baina ezta PPk edo PSE-EEk ere, instituzioen aurkako etengabeko gerran baitaude".
+Halaber, Redondoren hitzak "tamalgarriak" direla esan zuen, eta PP eta PSOEren artean inolako alderik ez dela gaineratu zuen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.163" docsrc="1999-11-02.kultura5.txt" topic="kultura" sentsrc="9" positsrc="26">
+<answer instance="gai.IZE.163" senseid=" "/>
+<context>
+
+Beren sinpletasunak, lotsagabekeriak adikzioa sortzen dute".
+Pelikulen emanaldiez gain, terrorezko zinema mexikarrarekin loturiko bestelako agerpenik ere izan da.
+Rogelio Agrasanchezek film mexikarren kartelez osaturiko erakusketa atondu du Donostiako Udal Liburutegian, eta Manuel Valencia berriz, 2000 maniacos izeneko fanzinea kaleratzeaz arduratu da, <head>gai</head> berbera zutabetzat harturik.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.164" docsrc="1999-12-09.kultura1.txt" topic="kultura" sentsrc="24" positsrc="34">
+<answer instance="gai.IZE.164" senseid=" "/>
+<context>
+
+Nire ustetan, jaialdiko antolatzaileek erabaki behar lukete, aurkezturiko lanek amateurren mailan edo profesionalenean egon behar luketen".
+Zinemagile tolosar horrek 5-6 urte daramatza zinema eta bideoaren munduan, eta Lekeition aurkezturiko lana, Garbikunde, 10 bideo-lanetako proiektu baten lehen alea du. "Egitasmoak 10 Manamenduak du izenburutzat, eta erlijio gaiak ikutzen di- tut batez ere, mo- du kritiko ba- tean".
+Urkolak, sormenezko lanak ditu gustukoen, " askatasun handiagoz lan egitea ahalbidetzen baitute ", eta euskarazko bideo-lanek nahiz film laburrek maila ona dutela uste du : " Halere, euskarazko ekoizpenak sarritan <head>gai</head> jakinetara mugatzen dira.
+Gehixeago arriskatu behar lukete".
+Amateur mailan eta sormenezkoen arloan Josetxo Lijoks sa- ritua izan zen, eta horrek ere genero horrek dituen abantailen berri eman zion EGUNKARIAri: "Gauzak beste modu batera kontatzeko be- ta eskaintzen du genero honek.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.165" docsrc="1999-12-09.kultura1.txt" topic="kultura" sentsrc="30" positsrc="19">
+<answer instance="gai.IZE.165" senseid=" "/>
+<context>
+
+Lijok 4-5 urte daramatza zinema eta bideoaren munduan murgildurik.
+Egun, asteartero bildu ohi da Donostiako Larrotxene elkartean eta La Torca Bideo Talde handik aterearekin egin ohi du lan.
+Pago artean talde horrek euskaraz egin duen bigarren lana da. " Euskaraz edota beste hizkuntza batean egin, <head>gaiaren</head> arabera aukeratzen dugu.
+Azken bi kasuetan, euskara iruditu zaigu istorioa azaltzeko tresnarik egokiena, eta hala egin dugu".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.166" docsrc="2000-09-07.kirola15.txt" topic="kirola" sentsrc="12" positsrc="6">
+<answer instance="gai.IZE.166" senseid=" "/>
+<context>
+
+Ez beste inon.
+Itxaropenerako argi printza bat sartu zen atzo nonbait Ordiziako frontoian.
+Ea datozen partiduetan erabateko argia ikusteko <head>gai</head> den.
+Atzo, galdu egin zuen Oscar Lasa ikusgarri batekin Titin III.a eta Elkororen kontra (22-19), baina eman dezakeenaren neurria erakutsi zuen.
+Goi mailako jokoa eskaini zuten atzo Ordizian kantxaratu ziren lau pilotariek.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.167" docsrc="2000-01-02.politika6.txt" topic="politika" sentsrc="12" positsrc="22">
+<answer instance="gai.IZE.167" senseid=" "/>
+<context>
+
+Buruzagi jeltzaleak alde egindakoan, HBko Mahai Nazionaleko kideen ordezkaritza zabal bat azaldu zen.
+Han ziren, besteak beste, Arnaldo Otegi, Karmelo Landa eta Joseba Permach.
+Gose grebalariekin bildutakoan Otegik esan zuenez, " munduan ez dago beste herririk Gabon Zahar egunean ia mila lagun gose greban jartzeko <head>gai</head> denik ".
+Arzalluzen bisitari "detailea" iritzi zion, "baina presoen gaiak detaileak baino gehiago exijitzen du".
+Idarraga, Basurtun.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.168" docsrc="2000-01-09.kultura1.txt" topic="kultura" sentsrc="9" positsrc="9">
+<answer instance="gai.IZE.168" senseid=" "/>
+<context>
+
+Joana Albret elkartearen esana da, Maite Lopetegik, Pruden Gartziak eta Imanol Trebiñok emana.
+Haiek urrunago doaz, eta "harrigarritzat" hartu dute EAEn hogei urtetan gobernatu duen alderdi jeltzaleak proiektu honi lehenago heldu ez izana, "batez ere kontuan hartuta Estatutua onartzean artxibo, biblioteka eta jabetza estatalik ez zuten beste ondarearen gaineko konpetentziak bere gain hartu zituela".
+Joana Albretekoen arabera, " erabateko misterioa " da <head>gaia</head> geldirik egon izanaren zioa.
+Nolanahi ere, politikagintzarekin zerikusi zuzena zuten kontuek gogor jokatu dutela dirudi.
+Beharbada, Xabier Mendiguren Kontseilukoak dioen bezala, Liburutegiaren esanahiaren ardatzetako bat "naziotasunaren ezinbesteko erreferentzia" delako.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.169" docsrc="2000-04-08.iritzia11.txt" topic="iritzia" sentsrc="28" positsrc="49">
+<answer instance="gai.IZE.169" senseid=" "/>
+<context>
+
+asmo tzar zernahi badabila munduan eta gure elhek ez dituzte geldiaraziko.
+Euskaldunak beren euskaldungoan behar ditugu lehenbailehen finkatu eta gogortu".
+Euskal Herriak jasan berri zuen 36eko odolustearen ondotik eta nazional-katolizismoaren ideologia sartua zelarik bazter anitzetan, euskaldungoaren finkatzeaz eta gogortzeaz, nola arduratzen ginen Euskalerrizale gazte zenbait, Sabino Arana, Engrazio Aranzadi eta Piarres Laffiten ildotik, uzten diot zehaztera Pasaiako Pako Sudupe adiskideari, Jakin-en orrialdeetan egin <head>gai</head> duen bezala, eta aitzinetik eskerrak bihurtzen dizkiot, ez baitira anitza, XX mendeari buruz erdaraz nahiz euskaraz idazten duten historialariak, Iparraldeko berriei interesatzen zaizkienak.
+Alta bada, gure ustez, Hegoaldean edo Iparraldean iragan eta iragaiten diren eskuineko ala ezkerreko haize on edo gaitz mota guztiek izan ohi dute beren eragina, goiz edo berant, bestaldean.
+Ikas ordu genuke denek, engoitik!
+
+</context>
+</instance>
+
+<instance id="gai.IZE.170" docsrc="2000-06-06.politika1.txt" topic="politika" sentsrc="8" positsrc="18">
+<answer instance="gai.IZE.170" senseid=" "/>
+<context>
+
+Urkulluren arabera, EHk ez ditu hartutako konpromisoak bete, eta horrek akordioak berriz aztertzera bultzatzen ditu: "EHri konpromiso bat exijitzen zitzaion, eta gaur ikusi dugu non gelditu diren konpromiso horiek".
+EHk hartutako konpromisoek "oinarri politikoa" zutela azaldu zuen.
+EAko Rafael Larreinak argiago hitz egin zuen, eta iragarri zuen atzo bertan zela biltzekoa alderdiko Batzorde Eragilea <head>gaia</head> aztertzeko. " Agerian geratu da jada ezinezkoa dela korporazioko kide baten hilketa gaitzesten ez dutenekin elkarlanean aritzea ", adierazi zuen.
+Larreinaren arabera, EAk kasuz kasu aztertuko ditu EHrekiko akordioak: "Guretzako ezinbestekoa da elkarlanerako akordioak ditugun udaletan indarkeriaz aldentzeko konpromiso argi bat egotea, eta bide politiko eta demokratikoen aldeko apustua egitea".
+Ildo horretan, EAko Antolaketa idazkariak Atarrabiako Udaleko kasua ekarri zuen gogora.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.171" docsrc="2000-03-09.mundua4.txt" topic="mundua" sentsrc="2" positsrc="10">
+<answer instance="gai.IZE.171" senseid=" "/>
+<context>
+
+Jerusalemeko aferari heltzeko beldur.
+OSLOKO hitzarmenen arabera, datorren irailaren 13rako hitzartu behar dute israeldarrek eta palestinarrek behin betiko akordioa, zeinak, besteak beste, estatu palestinar independentearen mugak -fisikoak zein politikoak- finkatuko dituen eta Jerusalemen burujabetzari buruzko arazoa konponduko duen.
+Hain zuzen ere, Jerusalemi buruzko afera hori da negoziazioetako <head>gai</head> sentiberenetako bat.
+Alde batek zein besteak oso jarrera tinkoa dauka arazo horri buruz: estatu juduaren hiriburua Jerusalem batua dela aldarrikatzen dute israeldarrek eta ez dutela amore emango.
+Palestinarrek, berriz, hiriaren zati arabiarra nahi dute beren estatuaren hiriburu -hainbat leku sakratu dituzte han-, eta haiek ere ez dutela etsiko esaten dute.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.172" docsrc="1999-11-17.iritzia7.txt" topic="iritzia" sentsrc="2" positsrc="13">
+<answer instance="gai.IZE.172" senseid=" "/>
+<context>
+
+"Unibertsitatea eta Enpresa" topikoa gainditu nahian  Iñaki Goirizelaia.
+(EHUko Enpresa Harremanetarako errektoreordea) Unibertsitateari eta enpresari buruz hitz egin dezagun, publikoaren aurrean beti ondo geratzen da eta".
+Esaldi honek ez du jaberik, baina zenbat eta zenbat biderrez entzun dugu <head>gai</head> honi buruzko adierazpenik?
+Badirudi honetaz hitz egitea beti ondo datorrela, eta unibertsitateko kideen eta politikoen adierazpenetan beti agertzen da honi buruzko zerbait.
+Nire ustez bada garaia topiko hori gainditzeko.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.173" docsrc="2000-03-28.ekonomia4.txt" topic="ekonomia" sentsrc="28" positsrc="5">
+<answer instance="gai.IZE.173" senseid=" "/>
+<context>
+
+Argi txiki bat ikusten dugu.
+Lizarra-Garaziren itunaren aldeko apustuarekin jarraitzen al duzue?
+Azaroan egin genuen hirugarren kongresuan <head>gaia</head> aztertu genuen.
+Lizarra-Garaziren bideari jarraitzea erabaki zen, ikusten genuelako konponbide bat iristeko behar handia dugula eta gure sektorean ahaleginak egin behar ditugula.
+Kongresuan hartutako erabakiak berretsi genituen igandeko batzarrean.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.174" docsrc="1999-09-26.politika2.txt" topic="politika" sentsrc="2" positsrc="2">
+<answer instance="gai.IZE.174" senseid=" "/>
+<context>
+
+"Foroak erabakiko du"  "Bilera positiboa izan da aurrekoan baino jende gehiago bildu garelako, eta borondateak batuko dituen organo baten inguruan adostasuna lortu baita.
+Hortaz, orain lan egiteko unea da.
+Bestalde, <head>gai</head> honetan zeregin gehiagorik ez dela pentsa badaiteke ere, gogoratu behar dugu herri honek trebezia handia agertu duela beti bideak asmatu eta helburuak lortzerakoan.
+Orain, beharbada, ekintza txiki batzuk besterik ez dira erabaki, baina etorriko dira garrantzi gehiagokoak.
+Foroak berak, hain zuzen, deliberatu beharko du egin beharreko horien gainean".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.175" docsrc="1999-03-14.politika38.txt" topic="politika" sentsrc="0" positsrc="2">
+<answer instance="gai.IZE.175" senseid=" "/>
+<context>
+
+" Nafarroako <head>gaiak</head> Nafarroatik jorratuko ditugu " " Nafarroan koalizioa osatuz erantzuna eman nahi diogu Foru Erkidegoaren egoera politiko eta sozial bereziari.
+Koalizioaren eduki guzti-guztiak Nafarroan pentsaturikoak dira.
+Horren erakusle aipa daiteke Nafarroako kanpaina bestetik bereizita egonen dela, Nafarroa den modukoa delako.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.176" docsrc="1999-03-14.politika38.txt" topic="politika" sentsrc="3" positsrc="1">
+<answer instance="gai.IZE.176" senseid=" "/>
+<context>
+
+Koalizioaren eduki guzti-guztiak Nafarroan pentsaturikoak dira.
+Horren erakusle aipa daiteke Nafarroako kanpaina bestetik bereizita egonen dela, Nafarroa den modukoa delako.
+Nafarroako <head>gaiak</head> Nafarroatik jorratuko ditugu.
+Hauteskundeen ondotik, gure helburu nagusietako bat UPNren alternatiba izanen den gobernua osatzea izanen da.
+Gure idurikoz, posible izanen da"
+
+</context>
+</instance>
+
+<instance id="gai.IZE.177" docsrc="1999-11-25.kultura2.txt" topic="kultura" sentsrc="14" positsrc="8">
+<answer instance="gai.IZE.177" senseid=" "/>
+<context>
+
+Zalantzarik gabe, Mikhail Barixnikov eta Mark Morris koreografoek sorturiko taldea kasu bakarra da munduan.
+Taldearen espiritua ez da batere ohikoa; areago, dantza konpainien betiko arauen kontrakoa dela esan daiteke.
+Dantzari trebatuak eta aldaberak dira guztiak, eta <head>gai</head> dira egungo koreografoek sortzen duten zernahi obra interpretatzeko.
+Ostiral eta larunbatean arratsaldeko 20:00etan Donostiako Kursaalera joaten denak izango du horretaz jabetzeko aukera.
+Ikuskizun berriak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.178" docsrc="1999-10-09.kultura1.txt" topic="kultura" sentsrc="9" positsrc="27">
+<answer instance="gai.IZE.178" senseid=" "/>
+<context>
+
+Caballero Bonaldek Oteiza Madrilen ezagutu zuen 1952an.
+Eskultorearen estudioan biltzen ziren astero astero biak, Manuel Viola, Pablo Serrano eta Antono Saura pintoreekin, besteak beste. "Garaiko artista antifrankista asko igaro zen Oteizaren estudiotik", gogoratu zuen atzo poeta andaluziarrak.
+Eta bilera horietan ernarazi zen El Paso deitu abangoardiako arte taldea. " Asko ikasi nuen Oteizagandik, garai hartan Espainian inon eta inork buruan ez zituen <head>gai</head> eta kontzeptu artistiko eta estetikoak agertzen zituelako ".
+50eko hamarkada interesgarria da oso Oteiza hobeto ezagutzeko.
+Garai hartan, Sao Pauloko biurtekoa irabazi berritan, erabaki baitzuen eskulturarik gehiago ez egitea eta bere indarrak poesiari ematea.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.179" docsrc="1999-01-21.iritzia2.txt" topic="iritzia" sentsrc="2" positsrc="0">
+<answer instance="gai.IZE.179" senseid=" "/>
+<context>
+
+NUP eta euskara: ez ur, ez ardo.
+Nafarroako Justizia Auzitegi Nagusiak erabaki du Nafarroako Gobernuak unibertsitate autonomiaren aurka egin zuela 1995ean NUPeko estatutuetako zenbait artikulutan -euskara, unibertsitatearen izena, estatus ekonomikoa...- aldaketak sartu zituenean.
+<head>Gaiak</head> garrantzi sinboliko handia du, euskararen gaian bederen, erakusten duelako UPNko gobernuak beti izan dituen aurreiritzi eta mesfidantzak hizkuntza zaharra irakaskuntzan, eskubide guztiekin, sartzeko.
+Hain zuzen NUPen barruan euskararen estatusa zehazteko balio beharko lukeen plangintzak -plangintzarik ezak batez ere- kezka handia sortu du euskaldunei ikasketak euskaraz eskaintzeko eskatzen dutenen artean.
+Aurreko errektorearekin egina zegoen plangintza baztertu ondoren, egungo errektore taldeak erabaki zuen ezer baino lehen inkesta egin behar zela eskaeraren berri jakiteko.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.180" docsrc="2000-05-02.gizartea7.txt" topic="gizartea" sentsrc="39" positsrc="7">
+<answer instance="gai.IZE.180" senseid=" "/>
+<context>
+
+Diotenez, aztertutako erradiazioaren datuetan ikusten da unibertsoaren hedapena geometria ia laua duela.
+Baina horrek ondorio bitxia dauka.
+Modu horretan barreiatuta, materia ez da <head>gai</head> izango hedatzen gelditzeko eta jatorrizko puntuean berriz trinkotu eta kolapsatzeko.
+Mugarik gabeko hedapena da.
+Einsteinek idatzi zuenaren aurkako teoria dugu hau, baina ez dugu horregatik bertan behera utzi behar harek esandakoa.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.181" docsrc="1999-02-04.europa2.txt" topic="europa" sentsrc="9" positsrc="2">
+<answer instance="gai.IZE.181" senseid=" "/>
+<context>
+
+Esaldiak balio zuen Oskar Lafontainentzat ere, SPDko presidente eta Ogasun ministro garrantzitsuarentzat.
+Ehun egun hauetan, nolanahi ere, kontraesan ugaritan aritu da gobernua, eta koordinazio eskasa antzeman da sarritan.
+Energia nuklearraren <head>gaian</head> oso agerian geratu da ideologiaren eta errealitate juridiko eta politikoaren artean dagoen tartea.
+Koalizioa boterera heldu zen eta 2000.urterako zentral nuklearrak eraitsiko zituela iragarri zuen.
+Orain, dagoeneko ez dago datarik itxierarako,   industria nuklearreko ordezkariekin negoziazioak hastearen bezperan Schroederrek esan zuelako bere gobernuak denbora gehiago behar zuela gaiari buruz eztabaidatzeko.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.182" docsrc="1999-02-04.europa2.txt" topic="europa" sentsrc="11" positsrc="23">
+<answer instance="gai.IZE.182" senseid=" "/>
+<context>
+
+Energia nuklearraren gaian oso agerian geratu da ideologiaren eta errealitate juridiko eta politikoaren artean dagoen tartea.
+Koalizioa boterera heldu zen eta 2000.urterako zentral nuklearrak eraitsiko zituela iragarri zuen.
+Orain, dagoeneko ez dago datarik itxierarako, industria nuklearreko ordezkariekin negoziazioak hastearen bezperan Schroederrek esan zuelako bere gobernuak denbora gehiago behar zuela <head>gaiari</head> buruz eztabaidatzeko.
+Bat-batean, Justizia Ministerioak aurkitu du itxieren lege proiektuan zenbait hutsune juridiko zeudela eta haien ondorioz kalteordain itzelak ordaindu beharko litzaizkiela industria nuklearrei.
+Kantzilerraren ustegabeko erabakiak barregarri utzi zuen bere gobernu bazkidea, eta haserre bizia eragin zuen berdeen artean.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.183" docsrc="2000-01-30.gizartea8.txt" topic="gizartea" sentsrc="5" positsrc="10">
+<answer instance="gai.IZE.183" senseid=" "/>
+<context>
+
+junior operazioa amaitutzat eman du Guardia Zibilak ustezko 49 errudun atxilotu ondoren, Efe agentziak atzo jakinarazi zuenez.
+1997. urtearen amaieran ekin zion Poliziak droga trafikoaren aurkako operazio horri, eta pasa den urte amaiera bitartean honako hau atzeman du: 17.000 kilo haxix, 687 kilo kokaina, 14.000 litro alkohol eta 15.000 alkohol zerga- zigilu.
+Gipuzkoan hasi zen ikerketa,J.S.L. enpresariak droga eta bestelako <head>gaien</head> trafikoan zerikusia zuela jakitean.
+Aurrerago jakin zuten Espainiako eta Galiziako hainbat lekutan  harremanak zituela, eta bahiketa saio baten ondoren -1998an- atxilotu zituen ustezko lehen errudunak.
+Bahitzaileetako batek Irungo enpresariarekin harremanak zituen, Poliziaren arabera.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.184" docsrc="2000-01-21.gizartea7.txt" topic="gizartea" sentsrc="18" positsrc="6">
+<answer instance="gai.IZE.184" senseid=" "/>
+<context>
+
+Hala ere, Dominique Voynetek azaldu du Frantziak Europako Batzordean proposamen hori egingo duela , era horretan autoek gutxiago kutsatuko baitute.
+Ez dirudi proposamen hori EBko gainerako kide guztiek gogotsu hartuko dutenik, ordea.
+Europako Batzordean atzo gogora ekarri zuten <head>gai</head> hori ez dagoela landu beharreko kontuen zerrendan.
+Greenpeace erakunde ekologistak ere ez du iritzi baikorrik Jospinek plazaratu neurriei buruz. "Oraintsu ekaitz handiak  jazo dira eta argi geratzen ari da gizakiaren jardunaren ondorioz klima nahasten ari dela; hala ere, Gobernuak ez du hartu behar diren erabakiak hartzeko borondaterik azaldu", salatu dute.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.185" docsrc="1999-10-15.kirola45.txt" topic="kirola" sentsrc="11" positsrc="3">
+<answer instance="gai.IZE.185" senseid=" "/>
+<context>
+
+Partidu gehienak bertan jokatzen ditu, eta txapelketa honetan bere benetako maila hartu duela esan liteke.
+Urtebete inguru ibili da, iaz lesionatu zenetik, bere maila hartu ezinda, baina azken hilabeteotan bere betiko maila berreskuratu du.
+Edonori aurre egiteko <head>gai</head> da.
+Aurrelarien artean?
+Biak dira pilotari agresiboak, biak dira pilotari ausartak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.186" docsrc="1999-12-12.gizartea17.txt" topic="gizartea" sentsrc="9" positsrc="20">
+<answer instance="gai.IZE.186" senseid=" "/>
+<context>
+
+Hala ere, argitu nahi izan zuen beharrezko aldaketak egingo dituztela, baina LOGSE aldatu barik.
+Irakasgaiak gutxitu.
+Irakasleek eskatu diote Gobernuari irakasgaiak murritz ditzan, eta indar ditzan hizkuntza, matematika, gizarte zientziak eta natur zientzietako <head>gaiak</head>.
+Irakasleek dibertsifikazioaren beharra azaldu dute, egungo sistemak "ahalmen handiena" du- ten ikasleak desmotibatzen baititu.
+Diezek hu- manitateak aldatzeko premia ere  badagoela adierazi zuen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.187" docsrc="1999-03-31.politika15.txt" topic="politika" sentsrc="3" positsrc="7">
+<answer instance="gai.IZE.187" senseid=" "/>
+<context>
+
+EUSKAL HERRIAREN subiranotasuna lortzeko bidean euskal sindikalismoak egin dezaken ekarpenik zehatzena lan harremanetarako markoa garatzeko beharrezkoak diren bitartekoak eskaintzea dela eta, proposamen konkretu bat zabaldu zuten atzo sindikatuek.
+ELAko Jose Elorrietak esan zuenez, "lan harremanen markoa da gutxienekoetako bat prozesu politikoaren aldaketa baloratzeko".
+Elorrietak gaineratu zuen atzo bildutako zazpi sindikatuak <head>gai</head> sentitzen direla lan harremanen eredu horrek zer izan behar luken adierazteko gutxieneko puntuak zehazteko, bai lege aldetik, bai eskumen aldetik ere.
+Sindikatuek agirian diotenez, "euskal sindikalismoak nazio eraikuntzako prozesuari egin diezaioekeen ekarpen zehatzena Euskal Herria lan harremanetarako eta babes sozialerako markotzat hartzea bada, marko hori garatzeko beharrezkoak diren bitartekoak eskaintzea da euskal sindikalismoarentzat onargarri izango den edozein konponbideren gutxieneko edukia".
+Indarrean dagoen marko juridiko-politikoaren erabateko urritasuna egiaztatzeko, azken bi hamarkadetako esperientzia izan dutela aipatu zuten sindikatuek, eta denbora horretan garapen horrek behar dituen eskuduntza edukiak zehazteko balio izan diela.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.188" docsrc="2000-03-31.politika17.txt" topic="politika" sentsrc="6" positsrc="2">
+<answer instance="gai.IZE.188" senseid=" "/>
+<context>
+
+UPNk ez du Nafarroako Parlamentuan gehiengorik, baina, Kirogak esan zuenez, "hitzarmenarekin, PSNren botoekin eskuinak gehiengo absolutua lortu du".
+EHko kideen arabera UPNren esanetan jarri da PSN, "eta oposizioa egiteko duen eskubidea baztertu du; ez du oposizioa egiten eta ez digu besteei egiten uzten ere".
+Barrenaren esanetan <head>gai</head> guztiak erabat loturik ekartzen dituzte bi alderdiek Parlamentura, besteei ezertarako aukerarik utzi gabe.
+Egoera hautesleentzako "iruzurra" dela esan zuen Barrenak, "ezkerreko hautes programarekin lortu baitituzte botoak".
+EHko kideek esan zutenez UPNk proposaturiko politika guztiek aurrera eginen dute PSNri esker, "eta horrela ez ditu sekula gai aurrerakoiak landuko". "Ustelkeriaren legealdia izan zenetik 10 urte pasa dira eta PSNk oraindik ez du iragan horrekin apurtu".
+
+</context>
+</instance>
+
+<instance id="gai.IZE.189" docsrc="2000-03-31.politika17.txt" topic="politika" sentsrc="8" positsrc="20">
+<answer instance="gai.IZE.189" senseid=" "/>
+<context>
+
+Barrenaren esanetan gai guztiak erabat loturik ekartzen dituzte bi alderdiek Parlamentura, besteei ezertarako aukerarik utzi gabe.
+Egoera hautesleentzako "iruzurra" dela esan zuen Barrenak, "ezkerreko hautes programarekin lortu baitituzte botoak".
+EHko kideek esan zutenez UPNk proposaturiko politika guztiek aurrera eginen dute PSNri esker, " eta horrela ez ditu sekula <head>gai</head> aurrerakoiak landuko ". " Ustelkeriaren legealdia izan zenetik 10 urte pasa dira eta PSNk oraindik ez du iragan horrekin apurtu ".
+Horrela, Nafarroan oposizio erreferente garrantzitsuena EH izan beharko dela esan zuten Kirogak eta Barrenak, eta euskal ezker nazionala eratzeko konpromisoa hartu beharko dutela ere.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.190" docsrc="1999-09-08.politika18.txt" topic="politika" sentsrc="6" positsrc="12">
+<answer instance="gai.IZE.190" senseid=" "/>
+<context>
+
+Adierazpenok astearteroko Gobernu Kontseiluaren ondorengo prentsaurrekoan egin zituen Imazek, Barne ministroak hitz egin aurretik.
+Alderdien arteko adostasuna aldarrikatu zuen Imazek, Madrilgo Kongresuak birritan egindako eskaeraren haritik.
+Gainera, dei egin zion Jose Maria Aznarren gobernuari ez dezan presoen <head>gaia</head> " interesen " arabera erabil.
+"Gobernuak ezin du presoen gaia erabili xake partida bat izango balitz bezala, eta alderdiak ezin dira lekuko mutuak izan"", adierazi zuen.
+Jaurlaritzaren arabera espetxe politika ezin daiteke egin daten eta edozein interesaren arabera.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.191" docsrc="1999-09-08.politika18.txt" topic="politika" sentsrc="7" positsrc="5">
+<answer instance="gai.IZE.191" senseid=" "/>
+<context>
+
+Alderdien arteko adostasuna aldarrikatu zuen Imazek, Madrilgo Kongresuak birritan egindako eskaeraren haritik.
+Gainera, dei egin zion Jose Maria Aznarren gobernuari ez dezan presoen gaia "interesen" arabera erabil.
+" Gobernuak ezin du presoen <head>gaia</head> erabili xake partida bat izango balitz bezala, eta alderdiak ezin dira lekuko mutuak izan " ", adierazi zuen.
+Jaurlaritzaren arabera espetxe politika ezin daiteke egin daten eta edozein interesaren arabera.
+Imazek gogoratu zuen Kongresuak hala eskatu ziola Gobernuari, eta honek aintzat hartu behar duela haren agindua.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.192" docsrc="1999-06-08.gizartea1.txt" topic="gizartea" sentsrc="15" positsrc="1">
+<answer instance="gai.IZE.192" senseid=" "/>
+<context>
+
+Jatorri belgiarra duten produktuen kontrola amaitua duela adierazi zuen atzo Eusko Jaurlaritzako Osasun Sailak.
+200.000 kilo inguru elikagai geldiarazi ditu Jaurlaritzak: besteak beste, 128.000 kilo xolomo eta txerri paleta, 17.000 kilo bainila likore, 8.000 kilo txokolate, 5.700 kilo saltsa eta 4.700 pastel errekisatu dituzte.
+Erretiratutako <head>gaien</head> artean ez dago oilaskorik ez arrautzik; deribatuak dira guztiak.
+Jaurlaritzak Madrilgo Osasun agintariei bidali die produktuen zerrenda eta Madrilek Bruselara bidaliko du, Bruselan zehaztu dezaten zein produktu egon daitezkeen dioxinak kutsatuta.
+Behin hori zehaztuta, kutsatuta egon daitezkeen produktu guztiak erretzea aginduko du Jaurlaritzak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.193" docsrc="1999-09-28.ekonomia1.txt" topic="ekonomia" sentsrc="18" positsrc="6">
+<answer instance="gai.IZE.193" senseid=" "/>
+<context>
+
+Atzo, goizeko hasiera-ekitaldiaren ostean, lanean segurtasun eta osasun baldintza txarrak izateagatik lan merkatutik kanpo geratzeak sortzen dituen arazoak izan ziren aztergai.
+Horrez gain, Eurostat EBko Estatistika Bulegoko ordezkari batek laneko istripuei buruzko azken datuen berri eman zuen.
+Gaur, aldiz, prebentzioaren inguruko <head>gaiek</head> izango dute lehentasuna goiz parteko saioan.
+Prebentzioaren bitartez langileen enpleabilitatea nola atxiki eta handitu daitekeen eztabaidatuko dute kontinenteko adituek.
+Arratsaldean, ostera, lantokiaren berrintegrazioaren eta berrantolaketaren bidetik langileen enpleabilitatea hobetzeko dauden aukeren berri emango da.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.194" docsrc="2000-10-06.kultura10.txt" topic="kultura" sentsrc="10" positsrc="30">
+<answer instance="gai.IZE.194" senseid=" "/>
+<context>
+
+Atxagaren hitzak gogoratuz hasi zuen hitzaldia Olasagarrek, eta Asteasuko idazleak ez bezala, poesiak etorkizunik duela zalantzan jarri zuen idazle arbizuarrak: "Toxikatuta dagoen gizarte honetan, arteak, oro har, zer leku du?".
+Berak erantzunik ez duela argitu zuen Olasagarrek, eta berari poemak inporta zaizkiola gaineratu zuen.
+Ordu betez, hainbat egileren obrak - Pessoa, Tere Irastortza, Jon Alonso, Gabriel Ferrater... - ekarri zituen gogora, gaika sailkatuta, poema edo poeta bakoitzak <head>gai</head> berari aurre egiteko dituen moduak agerian utziz.
+Poesia, jolasteko tresna.
+Amodioa aipatu zuen lehendabizi, eta amodioz idazteko Atxagaren inozentzia puntua jo zuen egokitzat.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.195" docsrc="2000-03-16.politika11.txt" topic="politika" sentsrc="17" positsrc="8">
+<answer instance="gai.IZE.195" senseid=" "/>
+<context>
+
+ta sistemaren balizko erreformaren inguruan hitz egin zuen atzo ere.
+Atzo UPNk Madrilen eginikoa "fartsa, pantomima eta sainetea" zela erran zuen Tabernak.
+IUren ustez, UPNk ziria sartu die hiritarrei <head>gai</head> honekin.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.196" docsrc="1999-12-15.politika4.txt" topic="politika" sentsrc="2" positsrc="2">
+<answer instance="gai.IZE.196" senseid=" "/>
+<context>
+
+Bayo, aulki gurpildunean Erietxetik eraman eta aulki gurpildun batean sartu zuten guardia zibil ohia atzo epaigelara.
+Epaiketako lehenengo egunean gertatutakoaren ondoren, atzo ikusmin eta kezka berezia sumatzen zen epaitegian, Felipe Bayo guardia zibil ohiaren inguruan zer gertatuko ote zen.
+Epaiketara joateko <head>gai</head> izango zen edo ez, ez zegoen oso argi.
+Goizeko 10:15 inguruan anbulantzia Entzutegi Nazionalera heldu zenean hasi ziren gauzak argitzen.
+Hala ere, guardia zibil ohiak zer-nolako tankera izango zuen jakiteak ikusmin handia sortu zuen, eta, inor gutxik espero zuen arren, komunikabideetako langilerik gehienok, eta baita epaiketara zihoazen auzipetu eta Lasa eta Zabalaren senideek ere, guztion aurretik pasatzen ikusteko aukera izan genuen.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.197" docsrc="1999-12-15.politika4.txt" topic="politika" sentsrc="26" positsrc="11">
+<answer instance="gai.IZE.197" senseid=" "/>
+<context>
+
+Saioa amaitu zenean, be- rriz jende artetik eraman zuten guardia zibil ohia.
+Or- duan oinaze aurpegirik ez, neke itxura sumatzen zi- tzaion.
+Atzokoa ikusita, hari deklaratzeko txanda heltzen zaionerako bere kabuz joateko <head>gai</head> izango ote den zalantza geratzen da.
+Epaileak esandakoaren arabera, Galindoren ondotik Angel Vaque- rok deklaratuko du, eta haren ostean Enrique Doradok eta Felipe Bayok.
+Azkenekoak Rafael Vera eta Jorge Argote izango dira.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.198" docsrc="1999-09-10.politika27.txt" topic="politika" sentsrc="12" positsrc="18">
+<answer instance="gai.IZE.198" senseid=" "/>
+<context>
+
+5- Euskal preso politikoon eskubideen alde egunero-egunero lanean diharduten euskal herritar orori gure eskerrik sentikorrenak luzatu nahi dizkiegu; eta bide batez dei egiten diogu euskal gizarteari oro har, eta bereziki alderdi politiko, sindikatu eta bestelako eragile sozialei euskal preso politikoen eskubideak defendatzeko ekimenak biderkatu ditzatela.
+6- Oroitarazi nahi dugu Euskal Preso Politikoen Kolektiboko partaideok, 1996ko otsailaz geroztik gure eskubideen aldeko etenik gabeko borrokan murgilduta jarraitzen dugula, unean uneko protesta eta borroka moldeak erabiliz.
+7 - Gogorarazi nahi diogu Espainiako Gobernuari Euskal Preso Politikoen Kolektiboak bere mintzakidetza aspaldi izendatua duela presoen inguruko <head>gaiak</head> konpontzeko.
+Edozein elkarrizketarako mintzakide guztiak espetxe berean biltzea dela gure lehen eskakizuna.
+Bide batez, salatu gura ditugu gure mintzakideek alderdi politiko, sindikatu eta bestelako instituzioekin harremanak eduki ditzaten Yustek eta Mayor Orejak ipintzen dituzten oztopo eta debekuak.
+
+</context>
+</instance>
+
+<instance id="gai.IZE.199" docsrc="2000-07-21.gizartea20.txt" topic="gizartea" sentsrc="2" positsrc="5">
+<answer instance="gai.IZE.199" senseid=" "/>
+<context>
+
+Azpiegitura alorreko elkarlan hitzarmena sinatu dute Aragoik eta Euskal Autonomia Erkidegoak.
+ARAGOI eta Euskal Autonomia Erkidegoko gobernuetako Herri Lan sailburuek, Javier Velascok eta Alvaro Amannek, azpiegituraren alorreko elkarlan hitzarmena sinatu zuten atzo.
+Horrela, garraioarekin zerikusia duten <head>gaiak</head> aztertuko dituzte bi administrazioek.
+Bi gobernuetako ordezkariek Ebro ardatza sendotzeko helburua agertu zuten, bai errepidez eta baita trenbidez ere.
+
+</context>
+</instance>
+
+</lexelt>
+</corpus>

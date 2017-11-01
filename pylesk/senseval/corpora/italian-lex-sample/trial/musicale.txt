@@ -1,0 +1,53 @@
+<WORD_MEANING ID="a@45013@" PART_OF_SPEECH="a">
+  <VARIANTS>
+    <LITERAL LEMMA="musicale" SENSE="1" DEFINITION="relativo alla musica" STATUS="mari corpus pert."> </LITERAL>
+   </VARIANTS>
+  <INTERNAL_LINKS>
+    <RELATION R_TYPE="xpos_near_synonym" ID="IR116135">
+      <TARGET_CONCEPT ID="n@18456@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="musicalità" SENSE="1"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="pertains_to" ID="IR116136">
+      <TARGET_CONCEPT ID="n@10528@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="musica" SENSE="1"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+   </INTERNAL_LINKS>
+  <EQ_LINKS>
+    <EQ_RELATION R_TYPE="eq_synonym" ID="ER066332">
+      <TARGET_ILI ID="ILI024277" PART_OF_SPEECH="a" WORDNET_OFFSET="02078509"> </TARGET_ILI>
+     </EQ_RELATION>
+   </EQ_LINKS>
+ </WORD_MEANING>
+
+<WORD_MEANING ID="a@44400@" PART_OF_SPEECH="a">
+  <VARIANTS>
+    <LITERAL LEMMA="armonioso" SENSE="1" DEFINITION="armonioso, musicale (suono)"> </LITERAL>
+    <LITERAL LEMMA="armonico" SENSE="1"> </LITERAL>
+    <LITERAL LEMMA="melodioso" SENSE="1"> </LITERAL>
+    <LITERAL LEMMA="musicale" SENSE="2"> </LITERAL>
+   </VARIANTS>
+  <INTERNAL_LINKS>
+    <RELATION R_TYPE="xpos_fuzzynym" ID="IR115689">
+      <TARGET_CONCEPT ID="n@12481@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="aria" SENSE="3"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="xpos_fuzzynym" ID="IR115690">
+      <TARGET_CONCEPT ID="n@19146@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="armonia" SENSE="4"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+       <RELATION R_TYPE="derivation" ID="IR115692">
+      <TARGET_CONCEPT ID="r@44737@" PART_OF_SPEECH="r">
+        <LITERAL LEMMA="armonicamente" SENSE="1"> </LITERAL>
+       </TARGET_CONCEPT>
+      </RELATION>
+   </INTERNAL_LINKS>
+  <EQ_LINKS>
+    <EQ_RELATION R_TYPE="eq_synonym" ID="ER066021">
+      <TARGET_ILI ID="ILI024038" PART_OF_SPEECH="a" WORDNET_OFFSET="00887069"> </TARGET_ILI>
+     </EQ_RELATION>
+   </EQ_LINKS>
+ </WORD_MEANING>

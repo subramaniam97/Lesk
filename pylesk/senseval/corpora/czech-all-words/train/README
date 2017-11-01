@@ -1,0 +1,21 @@
+LEXICON Format
+--------------
+The format of data in lexicon could be described by following pseudo-regular expression.
+
+<form>given_word_form<lemma>lemma_1(<lemma>lemma[1..N])*
+
+Relevant senses of every possible word form can be retrieved by the simple look-up of the line with given form in lexicon.
+
+SENSE Map
+---------
+Sense map between given senseid and referenced lemma in the lexicon (sense) is the identity. There is needed no transformation.
+
+senseid = lemma
+
+Enjoy the task
+Ondrej
+
+
+
+Ondrej Cikhart, IFAL, Charles University in Prague
+cikhart@ufal.mff.cuni.cz

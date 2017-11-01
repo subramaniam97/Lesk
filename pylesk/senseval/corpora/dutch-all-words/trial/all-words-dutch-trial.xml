@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE corpus SYSTEM 
+	  "/home/antalb/projects/senseval01/all-words.dtd">
+<corpus lang="du">
+<text id="P2WOESTE">
+
+<head id="P2WOESTE.t0">als</a>
+Willem
+<head id="P2WOESTE.t1">op</a>
+<head id="P2WOESTE.t2">een</a>
+avond
+zeeroversliedjes
+<head id="P2WOESTE.t3">zit</a>
+<head id="P2WOESTE.t4">te</a>
+<head id="P2WOESTE.t5">spelen</a>
+<head id="P2WOESTE.t6">op</a>
+<head id="P2WOESTE.t7">zijn</a>
+<head id="P2WOESTE.t8">oude</a>
+harmonika
+,
+<head id="P2WOESTE.t9">hoort</a>
+hij
+<head id="P2WOESTE.t10">een</a>
+raar
+<head id="P2WOESTE.t11">geluid</a>
+boven
+<head id="P2WOESTE.t12">zijn</a>
+<head id="P2WOESTE.t13">hoofd</a>
+.
+
+</text>
+
+<answer head="P2WOESTE.t0" senseid="als_tijd">
+<answer head="P2WOESTE.t1" senseid="op_tijd">
+<answer head="P2WOESTE.t2" senseid="een_lidwoord">
+<answer head="P2WOESTE.t3" senseid="zitten_hww">
+<answer head="P2WOESTE.t4" senseid="te_adv">
+<answer head="P2WOESTE.t5" senseid="spelen_piano">
+<answer head="P2WOESTE.t6" senseid="op_">
+<answer head="P2WOESTE.t7" senseid="zijn_bez.vnw">
+<answer head="P2WOESTE.t8" senseid="oud_nieuw">
+<answer head="P2WOESTE.t9" senseid="horen_luisteren">
+<answer head="P2WOESTE.t10" senseid="een_lidwoord">
+<answer head="P2WOESTE.t11" senseid="geluid_N">
+<answer head="P2WOESTE.t12" senseid="zijn_bez.vnw">
+<answer head="P2WOESTE.t13" senseid="hoofd_lichaamsdeel">
+
+</corpus>
+

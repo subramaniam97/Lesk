@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE corpus [
+
+<!-- LEXICAL SAMPLE - FILE: 1/2	        -->
+<!-- DATA FORMAT - **SWEDISH** -	-->
+<!--
+The lexical sample tasks senseval is a word sense disambiguation task
+for particular (preselected) lexical items.
+
+Answers to a lexical sample task may be provided as a table of 
+INSTANCEID, SENSEID pairs, where INSTANCEID refers to the value
+of each "id" attribute of each "instance" element in documents 
+conforming to this dtd.  Additionally, answers may be embedded 
+in this document in order to distribute "gold standard" corpora or 
+to facilitate software processing of all the relevant data.
+-->
+
+<!-- a corpus is divided up by lexical item and is associated
+     with a language (should maybe use isoXXX character set encodings)
+-->
+
+<!ELEMENT		corpus (lexelt+)>
+<!ATTLIST		corpus lang CDATA #REQUIRED>
+
+<!ELEMENT		lexelt (instance+)>
+
+<!ATTLIST		lexelt item CDATA #REQUIRED>
+
+<!--  
+Instances must denote exactly one head element, which may have satellites in the case of 
+(discontinuous) multi word expressions.  Answers will be associated with the instances 
+by the instances 'id' attribute.
+-->
+
+<!ELEMENT		instance (answer*, context)>
+<!ATTLIST		instance
+          		id  ID #REQUIRED>
+
+<!-- an answer has an explicit reference to the associated instance
+     it must specify the instance by referring to it's id 
+-->
+
+<!ELEMENT		answer EMPTY>
+<!ATTLIST		answer 
+         		instance IDREF #REQUIRED  
+         		senseid  CDATA #IMPLIED>
+
+<!ELEMENT		context (#PCDATA | head | sat)*>
+<!ELEMENT		head (#PCDATA)>
+<!ATTLIST		head 
+   			sats IDREFS #IMPLIED>
+
+<!ELEMENT		sat (#PCDATA)>
+<!ATTLIST		sat 
+          		id ID #REQUIRED>
+]>
+
+<!-- SAMPLE TRIAL CORPUS FOR **SWEDISH** WORDS -->
+
+<corpus lang="swe">
+	<lexelt item="rimma">
+		<instance id="rimma.0000">
+			<answer instance="rimma.0000" senseid="rimma_1_1"/>
+			<context><head>rimma</head> på julklappspaketen  
+			</context>
+		</instance>
+
+		<instance id="rimma.0001">
+			<answer instance="rimma.0001" senseid="rimma_1_1_b"/>
+			<context>kan du <head>rimma</head> på "själv"?
+			</context>
+		</instance>
+<!-- ......More Here...... -->
+		<instance id="rimma.0023">
+			<answer instance="rimma.0023" senseid="rimma_1_2"/>
+			<context>första raden <head>rimmar</head> med sista
+			</context>
+		</instance>
+<!-- ......More Here...... -->
+	</lexelt>
+
+	<lexelt item="valuta">
+
+		<instance id="valuta.0000">
+			<answer instance="valuta.0000" senseid="valuta_1_1"/>
+			<context>det var förbjudet att föra ut landets <head>valuta</head>
+			</context>
+		</instance>
+
+		<instance id="valuta.0001">
+			<answer instance="valuta.0001" senseid="valuta_1_1"/>
+			<context>köpa och sälja utländska <head>valutor</head>
+			</context>
+		</instance>
+
+		<instance id="valuta.0002">
+			<answer instance="valuta.0002" senseid="valuta_1_2"/>
+			<context>ta för dig av smörgårdsbordet så att du får <head>valuta</head> för pengarna
+			</context>
+		</instance>
+<!-- ......More Here...... -->
+	</lexelt>
+</corpus>

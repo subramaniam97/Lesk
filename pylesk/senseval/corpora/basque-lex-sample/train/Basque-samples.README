@@ -1,0 +1,46 @@
+
+BASQUE LEXICAL SAMPLES TASK
+
+List of files:
+
+    Basque-samples.README         this file
+
+    Basque-samples.lexicon.sgml   lexicon in TEI format (see below note 1 on lexicon)
+    Basque-samples.senses         hierarchy of senses
+    Basque-samples.sense-list     flat list of word senses and multiword terms in lexicon
+
+    Basque-samples.training.xml   training data
+    Basque-samples.evaluation.xml evaluation data
+    Basque-samples.key            evaluation answers
+    Basque-samples.baseline-MFS   MFS baseline
+
+All files follow Senseval standards except:
+    - Basque-samples.lexicon (TEI conformant SGML file)
+    - Basque-samples.sense-list (see note 1)
+
+Description:
+
+The Basque task consists of lexical samples for 40 words. There are
+aprox. 75+15*senses+6*multiword_terms samples per word. The samples would
+comprise 5 sentences centered in the target word, taken from a newspaper
+corpus, and, if there is interest, the whole documents will be available via
+internet. The lexicon used is the reference dictionary Euskal Hiztegia, in
+TEI-sgml format. The senses are hierarchically organized, and the
+definition, synonyms and examples are provided for each sense, among other
+lexicographical data. Due to the complex structure of the dictionary, a flat
+list of word senses and multiword terms is also provided.
+
+Important notes:
+
+0) The part of speech of target words is mentioned in lexelt itself:
+   .ADI for verbs
+   .ADJ for adjectives
+   .IZE for nouns
+
+1) The word senses are also provided in a flat file
+   (Basque-samples.sense-list) with the following format:
+   lexelt senseid
+
+2) There are no training examples for all senses and multiword senses
+
+

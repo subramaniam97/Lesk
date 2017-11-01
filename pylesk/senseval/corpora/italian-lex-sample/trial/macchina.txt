@@ -1,0 +1,290 @@
+<WORD_MEANING ID="n@23562@" PART_OF_SPEECH="n">
+  <VARIANTS>
+    <LITERAL LEMMA="macchina" SENSE="1" DEFINITION="qualsiasi oggetto atto a trasformare una data forma di energia in energia di forma diversa, per svolgere date funzioni o per alimentare altre macchine" STATUS="new"> </LITERAL>
+   </VARIANTS>
+  <INTERNAL_LINKS>
+    <RELATION R_TYPE="has_hyperonym" ID="IR052912">
+      <TARGET_CONCEPT ID="n@23720@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="congegno" SENSE="2"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_hyponym" ID="IR052913">
+      <TARGET_CONCEPT ID="n@11861@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="veicolo" SENSE="1"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_hyponym" ID="IR052914">
+      <TARGET_CONCEPT ID="n@16501@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="motore" SENSE="1"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_holo_part" ID="IR053081">
+      <TARGET_CONCEPT ID="n@10137@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="cantiere" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_holo_part" ID="IR053082">
+      <TARGET_CONCEPT ID="n@24053@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="macchinario" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_mero_part" ID="IR053083">
+      <TARGET_CONCEPT ID="n@10578@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="carrello" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_mero_part" ID="IR053084">
+      <TARGET_CONCEPT ID="n@19355@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="suola" SENSE="2"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_mero_part" ID="IR053085">
+      <TARGET_CONCEPT ID="n@23714@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="pedaliera" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_mero_part" ID="IR053086">
+      <TARGET_CONCEPT ID="n@23715@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="pezzo di ricambio" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_mero_part" ID="IR053087">
+      <TARGET_CONCEPT ID="n@23716@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="ponticello" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_mero_part" ID="IR053088">
+      <TARGET_CONCEPT ID="n@23718@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="totalizzatore" SENSE="2"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_mero_part" ID="IR053089">
+      <TARGET_CONCEPT ID="n@24513@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="guardamano" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_mero_part" ID="IR053090">
+      <TARGET_CONCEPT ID="n@29834@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="aletta" SENSE="1"> </LITERAL>
+       </TARGET_CONCEPT>
+      <FEATURES REVERSED="T"> </FEATURES>
+     </RELATION>
+    <RELATION R_TYPE="role" ID="IR053091">
+      <TARGET_CONCEPT ID="v@1423@" PART_OF_SPEECH="v">
+        <LITERAL LEMMA="lavorare" SENSE="3"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+      </INTERNAL_LINKS>
+  <EQ_LINKS>
+    <EQ_RELATION R_TYPE="eq_near_synonym" ID="ER018454">
+      <TARGET_ILI ID="ILI008995" PART_OF_SPEECH="n" WORDNET_OFFSET="02473560"> </TARGET_ILI>
+     </EQ_RELATION>
+    <EQ_RELATION R_TYPE="eq_near_synonym" ID="ER018455">
+      <TARGET_ILI ID="ILI008996" PART_OF_SPEECH="n" WORDNET_OFFSET="02743730"> </TARGET_ILI>
+     </EQ_RELATION>
+   </EQ_LINKS>
+ </WORD_MEANING>
+ 
+ 
+ 
+ <WORD_MEANING ID="n@24523@" PART_OF_SPEECH="n">
+   <VARIANTS>
+     <LITERAL LEMMA="macchina" SENSE="2" STATUS="new"> </LITERAL>
+     <LITERAL LEMMA="automobile" SENSE="1" DEFINITION="autoveicolo adibito al trasporto di un numero limitato di persone su strada ." STATUS="Fra-corpus"> </LITERAL>
+     <LITERAL LEMMA="autovettura" SENSE="1" STATUS="j corpus 2"> </LITERAL>
+     <LITERAL LEMMA="auto" SENSE="1" DEFINITION="autoveicolo adibito al trasporto di un numero limitato di persone su strada" STATUS="Fra-corpus"> </LITERAL>
+    </VARIANTS>
+   <INTERNAL_LINKS>
+     <RELATION R_TYPE="xpos_fuzzynym" ID="IR055598">
+       <TARGET_CONCEPT ID="a@44044@" PART_OF_SPEECH="a">
+         <LITERAL LEMMA="automobilistico" SENSE="1"> </LITERAL>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_hyperonym" ID="IR055599">
+       <TARGET_CONCEPT ID="n@16491@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="autoveicolo" SENSE="1"> </LITERAL>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_hyponym" ID="IR055600">
+       <TARGET_CONCEPT ID="n@24525@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="autocivetta" SENSE="1"> </LITERAL>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_hyponym" ID="IR055601">
+       <TARGET_CONCEPT ID="n@24526@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="autoradio" SENSE="1"> </LITERAL>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_holonym" ID="IR055617">
+       <TARGET_CONCEPT ID="n@31177@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="autoparco" SENSE="2"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+       <RELATION R_TYPE="has_mero_part" ID="IR055619">
+       <TARGET_CONCEPT ID="n@9685@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="targa" SENSE="2"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055620">
+       <TARGET_CONCEPT ID="n@9986@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="portabagagli" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055621">
+       <TARGET_CONCEPT ID="n@10567@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="albero" SENSE="2"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055622">
+       <TARGET_CONCEPT ID="n@11029@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="sedile" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055623">
+       <TARGET_CONCEPT ID="n@11358@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="scocca" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055624">
+       <TARGET_CONCEPT ID="n@16501@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="motore" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055625">
+       <TARGET_CONCEPT ID="n@16804@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="finestrino" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055626">
+       <TARGET_CONCEPT ID="n@16828@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="lunotto" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055627">
+       <TARGET_CONCEPT ID="n@16849@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="parabrezza" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055628">
+       <TARGET_CONCEPT ID="n@16862@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="portiera" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055629">
+       <TARGET_CONCEPT ID="n@16887@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="specchietto" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055630">
+       <TARGET_CONCEPT ID="n@16964@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="cappotta" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055631">
+       <TARGET_CONCEPT ID="n@23727@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="cambio" SENSE="2"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055632">
+       <TARGET_CONCEPT ID="n@23795@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="paraurti" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055633">
+       <TARGET_CONCEPT ID="n@23899@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="fanale" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055634">
+       <TARGET_CONCEPT ID="n@24052@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="sterzo" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055635">
+       <TARGET_CONCEPT ID="n@24535@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="carrozzeria" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055636">
+       <TARGET_CONCEPT ID="n@28370@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="marmitta" SENSE="2"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_mero_part" ID="IR055637">
+       <TARGET_CONCEPT ID="n@33713@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="longherone" SENSE="1"> </LITERAL>
+        </TARGET_CONCEPT>
+       <FEATURES REVERSED="T"> </FEATURES>
+      </RELATION>
+     <RELATION R_TYPE="role_patient" ID="IR055638">
+       <TARGET_CONCEPT ID="v@867@" PART_OF_SPEECH="v">
+         <LITERAL LEMMA="decappottare" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="involved_location" ID="IR055639">
+       <TARGET_CONCEPT ID="n@31933@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="autodromo" SENSE="1"> </LITERAL>
+	<FEATURES REVERSED="T"> </FEATURES>
+        </TARGET_CONCEPT>
+      </RELATION>
+    </INTERNAL_LINKS>
+   <EQ_LINKS>
+     <EQ_RELATION R_TYPE="eq_synonym" ID="ER019527">
+       <TARGET_ILI ID="ILI002435" PART_OF_SPEECH="n" WORDNET_OFFSET="02242147"> </TARGET_ILI>
+      </EQ_RELATION>
+     <EQ_RELATION R_TYPE="eq_generalization" ID="ER019528">
+       <TARGET_ILI ID="ILI002436" PART_OF_SPEECH="n" ADD_ON_ID="56"> </TARGET_ILI>
+      </EQ_RELATION>
+    </EQ_LINKS>
+ </WORD_MEANING>
+ 
+ 
+ 
+ <WORD_MEANING ID="n@28720@" PART_OF_SPEECH="n">
+   <VARIANTS>
+     <LITERAL LEMMA="macchina" SENSE="3" DEFINITION="complesso di più parti" EXAMPLES="&#34;la macchina elettorale&#34;"> </LITERAL>
+    </VARIANTS>
+   <INTERNAL_LINKS>
+     <RELATION R_TYPE="has_hyperonym" ID="IR065313">
+       <TARGET_CONCEPT ID="n@25121@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="complesso" SENSE="1"> </LITERAL>
+        </TARGET_CONCEPT>
+      </RELATION>
+    </INTERNAL_LINKS>
+   <EQ_LINKS>
+     <EQ_RELATION R_TYPE="eq_synonym" ID="ER024692">
+       <TARGET_ILI ID="ILI011589" PART_OF_SPEECH="n" WORDNET_OFFSET="05265025"> </TARGET_ILI>
+      </EQ_RELATION>
+    </EQ_LINKS>
+ </WORD_MEANING>
+ 
+ 

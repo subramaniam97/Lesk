@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE lexicon [
+
+<!-- LEXICAL SAMPLE - FILE: 2/2        -->
+<!-- LEXICON FORMAT - **SWEDISH** -    -->
+<!--
+The lexical sample tasks senseval is a word sense disambiguation task
+for particular (preselected) lexical items.
+-->
+
+<!-- a lexicon is divided up by lexical item (for Swedish lemma-entries) 
+     and is associated with a language (should maybe use isoXXX character 
+     set encodings)  
+-->
+
+<!ELEMENT lexicon (lemma-entry+)>
+<!ATTLIST lexicon lang CDATA #REQUIRED>
+
+<!ELEMENT lemma-entry		(lexeme+)>
+<!ATTLIST lemma-entry		form		CDATA		#REQUIRED
+                   		id		ID		#REQUIRED
+	    		     	pos		(n|v|a)		"n"
+				inflection	CDATA		#REQUIRED>
+
+<!--  
+lexemes (senses) and cycles (sub-senses) must denote exactly one head element. One lemma can have 1 or more lexemes (since we provide only polysemous entries) and 1 lexeme can have 0 or more cycles. 
+-->
+
+<!ELEMENT  lexeme 	(definition, definition-ext?, compound*, 
+					synt-example*, cycle*, valency*, comment*)>
+<!ATTLIST lexeme	id  ID #REQUIRED>
+
+<!ELEMENT  cycle	(trans, definition?, definition-ext?, compound*, 
+					synt-example*, valency*, comment*)>
+<!ATTLIST cycle		id  ID #REQUIRED>
+
+<!ELEMENT  definition		(#PCDATA)>
+<!ELEMENT  definition-ext	(#PCDATA)>
+<!ELEMENT  synt-example	        (#PCDATA)>
+<!ELEMENT  compound		(#PCDATA)>
+<!ELEMENT  valency		(#PCDATA)>
+<!ELEMENT  comment		(#PCDATA)>
+]>
+
+<!-- TRIAL LEXICON FORMAT FOR **SWEDISH** WORDS -->
+<!-- Lexicon entries for the verb: "rimma" and the noun: "valuta" -->
+
+<lexicon lang="swe">
+
+	<lemma-entry form="rimma" id="rimma_1" pos="v" inflection="~de ~t">
+		<lexeme id="rimma_1_1">
+			<definition>författa text med rim</definition>
+			<synt-example>~ till gröten</synt-example>
+			<synt-example>~ på julklappspaketen</synt-example>
+			<cycle id="rimma_1_1_a">
+				<trans>förse med rim</trans>
+				<synt-example>~d vers</synt-example>
+			</cycle>
+			<cycle id="rimma_1_1_b">
+				<trans>finna ord som rimmar (med)</trans>
+				<definition-ext>visst annat ord e.d.</definition-ext>
+				<synt-example>~d vers</synt-example>
+			</cycle>
+			<valency>~(ngt), ~(på ngt)</valency>
+		</lexeme>
+		<lexeme id="rimma_1_2">
+			<definition>bilda ett rim</definition>
+			<definition-ext>om ord el. fras(er)</definition-ext>
+			<synt-example>"sol" ~r med "viol"</synt-example>
+			<synt-example>första raden ~r med sista</synt-example>
+			<synt-example>hitta ord som ~r</synt-example>
+			<cycle id="rimma_1_2_a">
+				<trans>stämma överens</trans>
+				<synt-example>hans beteende ~r illa med vad han kräver av 
+						andra</synt-example>
+				<synt-example>hans påstående ~r illa med hennes</synt-example>					
+			</cycle>
+			<valency>~(på el. med ngt)</valency>
+		</lexeme>
+		<lexeme id="rimma_1_3">
+			<definition>salta (kött, fläsk e.d.) lätt i konserverande 
+						syfte</definition>
+			<synt-example>~t sidfläsk</synt-example>
+			<synt-example>~d oxbringa</synt-example>
+			<valency>~ngt</valency>
+		</lexeme>
+	</lemma-entry>
+
+	<lemma-entry form="valuta" id="valuta_1" pos="n" inflection="~n valutor">
+		<lexeme id="valuta_1_1">
+			<definition>gällande betalningsmedel för visst land</definition>
+			<definition-ext>i förh. till motsvarande betalningsmedel i andra 
+						länder</definition-ext>
+			<compound>valutabestämmelse</compound>
+			<compound>valuatbörs</compound>
+			<compound>valutaförlust</compound>
+			<compound>valutanotering</compound>
+			<compound>valutaspekulation</compound>
+			<compound>dollarvaluta</compound>
+			<compound>turistvaluta</compound>
+			<synt-example>svensk ~</synt-example>
+			<synt-example>finsk ~</synt-example>
+			<synt-example>det var förbjudet att föra ut landets ~</synt-example>
+			<!-- -->
+		</lexeme>
+		<lexeme id="valuta_1_2">
+			<definition>(gott) utbyte av gjord insats</definition>
+			<definition-ext>i form av pengar, arbete etc.</definition-ext>
+			<synt-example>ta för dig av smörgåsbordet så att du får ~ för 
+					pengarna</synt-example>
+			<synt-example>de som gjorde sig mödan att ta sig upp på bergstoppen fick 
+					verkligen ~</synt-example>
+			<valency>~ (för ngt)</valency>
+		</lexeme>
+	</lemma-entry>
+</lexicon>

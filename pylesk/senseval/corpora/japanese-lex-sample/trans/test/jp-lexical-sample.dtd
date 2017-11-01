@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO8859-1" ?>
+
+<!--
+This is the DTD file for the evaluation data of SENSEVAL2 Japanese
+tasks. It originates with `lexical-sample.dtd'.
+ -->
+
+<!--
+The lexical sample tasks senseval is a word sense disambiguation task
+for particular (preselected) lexical items.
+
+Answers to a lexical sample task may be provided as a table of 
+INSTANCEID, SENSEID pairs, where INSTANCEID refers to the value
+of each "id" attribute of each "instance" element in documents 
+conforming to this dtd.  Additionally, answers may be embedded 
+in this document in order to distribute "gold standard" corpora or 
+to facilitate software processing of all the relevant data.
+ -->
+
+<!-- a corpus is divided up by lexical item and is associated
+     with a language (should maybe use isoXXX character set encodings) -->
+
+<!ELEMENT corpus (lexelt+)>
+<!ATTLIST corpus lang CDATA #REQUIRED>
+
+<!ELEMENT lexelt (instance+)>
+
+<!ATTLIST lexelt item CDATA #REQUIRED>
+
+<!--  
+Instances must denote exactly one head element, which may have satellites in
+the case of (discontinuous) multi word expressions.  Answers will be associated
+with the instances by the instances 'id' attribute.
+
+`artid' and `udc' attributes indicate the ID number and UDC code
+associated with the newspaper article containing the target instance,
+respectively. 
+ -->
+
+<!ELEMENT instance (answer*, context)>
+<!ATTLIST instance
+          id  ID #REQUIRED
+	  artid CDATA #REQUIRED
+	  udc  CDATA #IMPLIED>
+
+<!-- an answer has an explicit reference to the associated instance
+     it must specify the instance by referring to it's id -->
+
+<!ELEMENT answer EMPTY>
+<!ATTLIST answer 
+          instance IDREF #REQUIRED  
+          senseid  CDATA #IMPLIED>
+
+<!ELEMENT context (#PCDATA | mor | head | sat)*>
+<!ELEMENT head (#PCDATA | mor)*>
+<!ATTLIST head 
+   sats IDREFS #IMPLIED>
+
+<!ELEMENT sat (#PCDATA)>
+<!ATTLIST sat 
+          id ID #REQUIRED>
+
+<!--
+`mor' tag marks up a morpheme.
+
+`pos' and `bfm' attribute indicates a part-of-speech code and base
+form of a morpheme, respectively. See `pos-code.tbl' for details of
+part-of-speech code.
+ -->
+
+<!ELEMENT mor (#PCDATA)>
+<!ATTLIST mor pos CDATA #REQUIRED>
+<!ATTLIST mor bfm CDATA #IMPLIED>

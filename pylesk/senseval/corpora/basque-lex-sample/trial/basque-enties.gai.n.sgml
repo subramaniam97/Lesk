@@ -1,0 +1,179 @@
+<!SGML "ISO 8879:1986"
+CHARSET
+BASESET  "ISO 646-1983//CHARSET
+          International Reference Version (IRV)//ESC 2/5 4/0"
+DESCSET  0       9     UNUSED
+         9       1     9
+         10      1     10
+         11      2     UNUSED
+         13      1     13
+         14     12     UNUSED
+         26      1     UNUSED
+         27      5     UNUSED
+         32     95     32
+        127      1     UNUSED
+CAPACITY
+SGMLREF
+TOTALCAP   10000000
+ENTCAP       500000
+ENTCHCAP     500000
+ELEMCAP      500000
+GRPCAP      1000000
+EXGRPCAP     500000
+EXNMCAP      500000
+ATTCAP       500000
+ATTCHCAP     500000
+AVGRPCAP     500000
+NOTCAP       500000
+NOTCHCAP     500000
+IDCAP        500000
+IDREFCAP     500000
+MAPCAP       500000
+LKSETCAP     500000
+LKNMCAP      500000
+SCOPE    DOCUMENT
+SYNTAX
+SHUNCHAR CONTROLS 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+                  16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+                  127 255
+BASESET  "ISO 646-1983//CHARSET
+          International Reference Version (IRV)//ESC 2/5 4/0"
+DESCSET   0     128     0
+FUNCTION RE     13
+         RS     10
+         SPACE  32
+         TAB    SEPCHAR 9
+     --  EOF    SEPCHAR 26 --
+NAMING   LCNMSTRT ""
+         UCNMSTRT ""
+         LCNMCHAR "-."
+         UCNMCHAR "-."
+         NAMECASE GENERAL YES
+                  ENTITY  NO
+DELIM    GENERAL SGMLREF
+         SHORTREF SGMLREF
+NAMES    SGMLREF
+QUANTITY SGMLREF
+         ENTLVL   32
+         NAMELEN  32
+         LITLEN  2048
+         GRPCNT  253
+         GRPGTCNT  180
+         TAGLVL   24
+FEATURES
+MINIMIZE DATATAG NO     OMITTAG  YES    RANK     NO     SHORTTAG YES
+LINK     SIMPLE  NO     IMPLICIT NO     EXPLICIT NO
+OTHER    CONCUR  NO     SUBDOC   NO     FORMAL   NO
+APPINFO NONE>
+
+<!DOCTYPE tei.2 SYSTEM 'tei2.dtd' [
+<!ENTITY % TEI.dictionaries 'INCLUDE' >
+]>
+<tei.2>
+  <teiheader>
+    <filedesc>
+      <titlestmt>
+	<title></title>
+      </titlestmt>
+      <publicationstmt>
+	<!-- one of (authority distributor publisher p) -->
+	<p>p</p>
+      </publicationstmt>
+      <sourcedesc>
+	<!-- one of (recordingstmt scriptstmt listbibl biblstruct biblfull bibl p) -->
+	<bibl>p</bibl>
+      </sourcedesc>
+    </filedesc>
+  </teiheader>
+  <text>
+    <body>
+
+
+<entry>
+   <form><orth>gai</orth></form>
+   <GramGrp><pos>iz.</pos></GramGrp>
+   <usg type=time>1643</usg>
+   <sense n='1'>
+      <def>Gauzak osatzen dituzten materia motetako bakoitza.</def>
+      <eg><q>Gantza gai koipetsua da. Erretxina gai organikoa da.</q></eg>
+      <sense n='n1'>
+         <usg type='esamolde_azalpen'><hi rend=italic>Gai bakuna</hi> (kim.): osagaietan ezin bereiz daitekeen gaia.</usg>
+         <eg><q>Bromoa gai bakuna da.</q></eg>
+         <usg type='esamolde_azalpen'><hi rend=italic>Gai elkartua</hi>: zenbait gai bakunen konbinazioz eratua.</usg>
+      </sense>
+      <sense n='n2'>
+         <def>Zerbait egiteko edo osatzeko behar diren gauzetako bakoitza.</def>
+         <xr type =syn><lbl>Ik.</lbl><ref>ekai 2</ref></xr>
+         <usg type='esamolde_azalpen'><hi rend=italic>Soineko baten gaia</hi>: soinekoa egiteko behar den ekaia.</usg> 
+         <eg><q>Nire hiztegi handi horretarako gaiak biltzen. Lehen gaiak.</q></eg>
+      </sense>
+      <sense n='n3'>
+         <eg><q>Negar egiteko gai asko baduzu.</q></eg>
+      </sense>
+   </sense>
+   <sense n='2'>
+      <def>Jarduten edo gogoeta egiten den zera; elkarrizketa, hitzaldi, idazlan, arazo... baten mamia.</def>
+      <eg><q>Hitzaldiaren gaia. Txostenean ukitzen diren gaiak. Baserria gaitzat harturik hiru bertso bota zituen. Bertsolari txapelketako gai jartzailea. Argudio baten gaia.</q></eg> 
+      <eg><q>Eztabaidaren gaiak.</q></eg><note type='cf.'>eztabaidagai</note>
+      <eg><q>Polemika gai gogaikarria. Gai bera erabili du bere liburu guztietan. Eleberriaren gai nagusia. Sinfonia baten gaiak. Politika gaietan aditua. Euskal gaiak darabiltzan olerkia. Neurtitz gai hutsa ote zen bada Oihenartek beti ahotan daukan maitasun hori?</q></eg>
+      <eg><q>Gaika antolaturiko aurkibidea.</q><xr type=syn><lbl>Ik.</lbl><ref>ikasgai, irakurgai</ref></xr></eg>
+   </sense>
+   <sense n='3'>
+      <usg type='ohar_gram.'>Izen baten eskuinean.</usg>
+      <usg type='esamolde_azalpen'><hi rend=italic>Ikasle-gaia</hi>: ikasle izango dena, izateko bidean dena.</usg>
+      <xr type=syn><lbl>Ik.</lbl><ref>legegai</ref></xr>
+   </sense>
+   <sense n='4'>
+      <usg type=time>~1760</usg>
+      <usg type=plev>Zah.</usg>
+      <def>Gaitasuna.</def>
+      <eg><q>Itxuren arabera badu gai laneko.</q></eg>
+   </sense>
+   <sense n='5'>
+      <usg type=time>*1905, 1935</usg>
+      <usg type=geo>Batez ere gip.</usg>
+      <usg type='esamolde_azalpen'><hi rend=italic>Alaba zaharrena gai dugu</hi>: ezkongai dugu.</usg> 
+      <eg><q>Gai dagoenaren indarra.</q></eg>
+   </sense>
+   <re>
+      <form><orth>GAI EGIN, BIHURTU, BILAKATU...</orth></form>
+      <def>Adierazten dena zertzeko baldintzen, ahalmenen edo nolakotasunen jabe egin, bihurtu, bilakatu...</def>
+      <xr type =syn><lbl>Ik.</lbl><ref>2 gaitu 1</ref></xr>
+      <eg><q>Susta ezazu ene bihotza eta gai egizu zure ahoko hitzak entzuteko. Gai bihur gaitezen zerua iristeko. Gaiago bihurtu.</q></eg>
+   </re>
+   <re>
+      <form><orth>GAI EGON</orth></form>
+      <usg type=time>1803</usg>
+      <def>Prest egon.</def>
+      <eg><q>Txondorra gai dagoenean, gainerakoa egingo dugu.</q></eg>
+   </re>
+   <re>
+      <form><orth>GAI IZAN</orth></form>
+      <GramGrp><subc>da</subc><pos>ad.</pos></GramGrp>
+      <usg type=time>1617</usg>
+      <sense n='a'>
+         <def>Adierazten dena zertzeko baldintzen, ahalmenen edo nolakotasunen jabe izan, hartarako egokia edo duina izan.</def>
+         <xr type =syn><lbl>Ik.</lbl><ref>GAUZA IZAN</ref></xr>
+         <eg><q>Zerbaitetako gai izan. Entzule--irakurleak gaitzeko gai direnak. Gerrarako gai zirenen artean. Haren hitz bakoitza gai da bihotza erdiratzeko. Hau gabe ez gara gai pentsamentu on bat ere egiteko. Ez naizela jendarteko gai. Ezin uka berez gai denik euskara horretarako eta gehiagorako. Baina ez nintzen gai izan begi-zorrotz egoteko. Ez dela zure faltaz edo zu hartako ez gai izanez. Bestetarako gai ez naizenez gero.</q></eg>
+         <sense n='n1'>
+            <eg><q>Halaber, gaztaroko obra onak, zahartzarokoak baino gaiago eta baliotsuago dira. Zeren anitz baita ni baino honetako gaiagorik eta antzatsuagorik. Bekataria ere bekatu egin berrian da gaienik bekatutik ilkitzeko.</q></eg>
+         </sense>
+         <sense n='n2'>
+            <eg><q>Bizitzaren zatirik hoberena eta gaiena.</q></eg>
+         </sense>
+      </sense>
+      <sense n='b'>
+         <usg type=geo>Ipar.</usg>
+         <def>Merezi.</def>
+         <usg type='esamolde_azalpen'><hi rend=italic>Gai diren izarian sariztatuko dituelako uste zinezkoa</hi>: merezi duten neurrian.</usg>
+         <sense n='n1'>
+            <usg type='esamolde_azalpen'><hi rend=italic>Zerbaiten gai izan (norbait)</hi>: zerbait merezi.</usg>
+         </sense>
+      </sense>
+   </re>
+</entry>
+
+
+    </body>
+  </text>
+</tei.2>

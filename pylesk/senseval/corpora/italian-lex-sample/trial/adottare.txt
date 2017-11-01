@@ -1,0 +1,110 @@
+<WORD_MEANING ID="v@1150@" PART_OF_SPEECH="v">
+  <VARIANTS>
+    <LITERAL LEMMA="adottare" SENSE="2" DEFINITION="(fig.) scegliere un'idea, una regola di vita, una strategia, ecc." STATUS="Anto"> </LITERAL>
+    <LITERAL LEMMA="fare proprio" SENSE="1"> </LITERAL>
+    <LITERAL LEMMA="accettare" SENSE="6"> </LITERAL>
+   </VARIANTS>
+  <INTERNAL_LINKS>
+    <RELATION R_TYPE="xpos_near_synonym" ID="IR090655">
+      <TARGET_CONCEPT ID="n@21479@" PART_OF_SPEECH="n">
+        <LITERAL LEMMA="adozione" SENSE="2"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_hyperonym" ID="IR090656">
+      <TARGET_CONCEPT ID="v@1058@" PART_OF_SPEECH="v">
+        <LITERAL LEMMA="scegliere" SENSE="1"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_hyponym" ID="IR090657">
+      <TARGET_CONCEPT ID="v@7592@" PART_OF_SPEECH="v">
+        <LITERAL LEMMA="normalizzare" SENSE="1"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="has_hyponym" ID="IR090658">
+      <TARGET_CONCEPT ID="v@49300@" PART_OF_SPEECH="v">
+        <LITERAL LEMMA="riadottare" SENSE="2"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+    <RELATION R_TYPE="causes" ID="IR090659">
+      <TARGET_CONCEPT ID="v@1439@" PART_OF_SPEECH="v">
+        <LITERAL LEMMA="conformarsi" SENSE="1"> </LITERAL>
+       </TARGET_CONCEPT>
+     </RELATION>
+   </INTERNAL_LINKS>
+  <EQ_LINKS>
+    <EQ_RELATION R_TYPE="eq_synonym" ID="ER041297">
+      <TARGET_ILI ID="ILI017618" PART_OF_SPEECH="v" WORDNET_OFFSET="01334244"> </TARGET_ILI>
+     </EQ_RELATION>
+   </EQ_LINKS>
+ </WORD_MEANING>
+ 
+ 
+ <WORD_MEANING ID="v@1151@" PART_OF_SPEECH="v">
+   <VARIANTS>
+     <LITERAL LEMMA="adottare" SENSE="1" DEFINITION="assumere legalmente come figlio proprio un figlio altrui." STATUS="Anto"> </LITERAL>
+    </VARIANTS>
+   <INTERNAL_LINKS>
+     <RELATION R_TYPE="xpos_near_synonym" ID="IR090660">
+       <TARGET_CONCEPT ID="n@21478@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="adozione" SENSE="1"> </LITERAL>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_hyperonym" ID="IR090661">
+       <TARGET_CONCEPT ID="v@1152@" PART_OF_SPEECH="v">
+         <LITERAL LEMMA="assumere" SENSE="2"> </LITERAL>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_hyponym" ID="IR090662">
+       <TARGET_CONCEPT ID="v@49299@" PART_OF_SPEECH="v">
+         <LITERAL LEMMA="riadottare" SENSE="1"> </LITERAL>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="involved_agent" ID="IR090663">
+       <TARGET_CONCEPT ID="n@13677@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="adottante" SENSE="1"> </LITERAL>
+        </TARGET_CONCEPT>
+       <FEATURES REVERSED="T"> </FEATURES>
+      </RELATION>
+    </INTERNAL_LINKS>
+   <EQ_LINKS>
+     <EQ_RELATION R_TYPE="eq_synonym" ID="ER041298">
+       <TARGET_ILI ID="ILI017619" PART_OF_SPEECH="v" WORDNET_OFFSET="00245175"> </TARGET_ILI>
+      </EQ_RELATION>
+     <EQ_RELATION R_TYPE="eq_generalization" ID="ER041299">
+       <TARGET_ILI ID="ILI017620" PART_OF_SPEECH="v" ADD_ON_ID="2898"> </TARGET_ILI>
+      </EQ_RELATION>
+    </EQ_LINKS>
+ </WORD_MEANING>
+ 
+ 
+ 
+ <WORD_MEANING ID="v@8699@" PART_OF_SPEECH="v">
+   <VARIANTS>
+     <LITERAL LEMMA="attuare" SENSE="1" DEFINITION="mettere in atto." STATUS="Anto" EXAMPLES="&#34;Attuare un provvedimento.&#34;"> </LITERAL>
+     <LITERAL LEMMA="mettere in atto" SENSE="1"> </LITERAL>
+     <LITERAL LEMMA="adottare" SENSE="3"> </LITERAL>
+     <LITERAL LEMMA="prendere" SENSE="20" STATUS="Francesca"> </LITERAL>
+    </VARIANTS>
+   <INTERNAL_LINKS>
+     <RELATION R_TYPE="xpos_near_synonym" ID="IR110200">
+       <TARGET_CONCEPT ID="n@21555@" PART_OF_SPEECH="n">
+         <LITERAL LEMMA="attuazione" SENSE="1"> </LITERAL>
+        </TARGET_CONCEPT>
+      </RELATION>
+     <RELATION R_TYPE="has_hyperonym" ID="IR110201">
+       <TARGET_CONCEPT ID="v@170@" PART_OF_SPEECH="v">
+         <LITERAL LEMMA="rendere" SENSE="2"> </LITERAL>
+        </TARGET_CONCEPT>
+      </RELATION>
+    </INTERNAL_LINKS>
+   <EQ_LINKS>
+     <EQ_RELATION R_TYPE="eq_near_synonym" ID="ER063131">
+       <TARGET_ILI ID="ILI022497" PART_OF_SPEECH="v" WORDNET_OFFSET="00285901"> </TARGET_ILI>
+      </EQ_RELATION>
+     <EQ_RELATION R_TYPE="eq_near_synonym" ID="ER063132">
+       <TARGET_ILI ID="ILI022498" PART_OF_SPEECH="v" WORDNET_OFFSET="01449168"> </TARGET_ILI>
+      </EQ_RELATION>
+    </EQ_LINKS>
+ </WORD_MEANING>
+ 
+ 

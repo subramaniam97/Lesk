@@ -1,0 +1,19 @@
+		       English Senseval all words task 
+
+files:
+
+	README                         this file
+	all-words.dtd                  The dtd for senseval all words tasks.
+	eng-all-words.training.xml     The corpus.
+	wsj_0089.mrg		       Penn Treebank file for document 1 in 
+                                       the corpus.
+	wsj_0465.mrg		       ditto for document 2.
+	wsj_1286.mrg		       ditto for document 3.
+
+
+For the Lexical database, please see WordNet 1.7 prerelease.
+
+Scott Cotton
+
+
+
