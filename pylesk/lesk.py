@@ -1,6 +1,6 @@
 import string
 from itertools import chain
-
+from collections import defaultdict
 from nltk.corpus import wordnet as wn
 from nltk.corpus import stopwords
 from nltk import word_tokenize, pos_tag
@@ -140,7 +140,7 @@ def adapted_lesk(context_sentence, ambiguous_word, \
     return best_sense
 
 if __name__ == "__main__":
-    synonyms = []
+
 
 
     keypath = '/home/subbu/Desktop/MP/pylesk/senseval/Sval2.keys/Senseval2.key'
@@ -148,15 +148,29 @@ if __name__ == "__main__":
     keylist = []
     num = 0
     denom = 0
+    '''
+    synonyms = []
+    synset = allwords_wsd.disambiguate('the east bank circulates a lot of water')
+    print(synset)
+    for l in synset[2][1].lemmas():
+        synonyms.append(l.name())
+    print(set(synonyms))
+    '''
+
+    keysDict = defaultdict(list)
 
 
     with open(keypath) as kp:
         line = kp.readline()
         while line:
             tlist = line.split()
+            instanceID = tlist[1]
             tlist = tlist[2:]
-            keylist.append(tlist)
+            keysDict[instanceID] = tlist
+            #keylist.append(tlist)
             line = kp.readline()
+
+    #print(keysDict.items())
 
 
     tree = ET.parse("/home/subbu/Desktop/MP/pylesk/senseval/Sval2.xml/dataWithoutHead.xml")
@@ -164,23 +178,41 @@ if __name__ == "__main__":
     root = tree.getroot()
     root1 = tree1.getroot()
 
+    ctr = 0
     cnt = 0
     for lexltIndex in range(0, len(root)):
         for inst in range(0, len(root[lexltIndex])):
             try:
                 line = root[lexltIndex][inst][0].text
-                posTarget = len(root1[lexltIndex][inst][0].text.split())
-                synset = allwords_wsd.disambiguateWithHead(line, posTarget)
-                s = synset[0][1].lemmas()[0].key()
-                print(denom + 1, ": ", line.split()[posTarget],  s)
-                for x in keylist[denom]:
-                    if x == s:
-                        num += 1
-                        break
-            except:
-                pass
-            denom += 1
-            cnt += 1
-            #print("Line: ", cnt, "Accuracy: ", num / denom)
+                instanceID = root[lexltIndex][inst].attrib["id"]
+                #posTarget = len(root1[lexltIndex][inst][0].text.split())
+                posTarget = len(word_tokenize(root1[lexltIndex][inst][0].text))
 
-    print(num)
+                #print(instanceID, word_tokenize(root[lexltIndex][inst][0].text)[posTarget])
+                synset = allwords_wsd.disambiguateWithHead(line, posTarget)
+                #print('Selected: ', synset)
+                done = 0
+                for i in range(len(synset[0][1].lemmas())):
+                    if done == 1:
+                        break
+                    s = synset[0][1].lemmas()[i].key()
+                    #print(instanceID, s)
+                    #print(synset)
+
+                    #print(denom + 1, ": ", line.split()[posTarget],  s)
+                    for x in keysDict[instanceID]:
+                        if x == s:
+                            #print(instanceID, x, s)
+                            num += 1
+                            done = 1
+                            break
+                denom += 1
+                cnt += 1
+            except:
+                ctr += 1
+                cnt += 1
+                #print("error ", ctr)
+                pass
+
+            print("Line: ", cnt, "Accuracy: ", num / denom)
+    print("Accuracy: ", num / denom)

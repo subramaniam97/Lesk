@@ -15,6 +15,8 @@ Step 2: Iterates through the tokens and only disambiguate the content words.
 
 stopwords = stopwords.words('english') + list(punctuation)
 
+
+
 def disambiguate(sentence, algorithm=adapted_lesk,
                  context_is_lemmatized=False, similarity_option='path',
                  keepLemmas=False, prefersNone=True):
@@ -52,8 +54,9 @@ def disambiguateWithHead(sentence, posTarget, algorithm=adapted_lesk,
                  context_is_lemmatized=False, similarity_option='path',
                  keepLemmas=False, prefersNone=True):
     tagged_sentence = []
-    reqWord = sentence[posTarget]
     positionOfReqWord = posTarget
+    reqWord = word_tokenize(sentence)[posTarget]
+
     # Pre-lemmatize the sentence before WSD
     if not context_is_lemmatized:
         surface_words, lemmas, morphy_poss = lemmatize_sentence(sentence, keepWordPOS=True)
@@ -74,7 +77,6 @@ def disambiguateWithHead(sentence, posTarget, algorithm=adapted_lesk,
         tagged_sentence.append((reqWord, lemmas[positionOfReqWord], synset))
     else:
         tagged_sentence.append((reqWord, synset))
-
 
 
     # Change #NOT_IN_WN# and #STOPWORD/PUNCTUATION# into None.

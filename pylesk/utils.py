@@ -7,7 +7,7 @@ SS_PARAMETERS_TYPE_MAP = {'definition':str, 'lemma_names':list,
                           'hyponyms': list, 'member_holonyms':list,
                           'part_holonyms':list, 'substance_holonyms':list,
                           'member_meronyms':list, 'substance_meronyms': list,
-                          'part_meronyms':list, 'similar_tos':list}
+                          'part_meronyms':list, 'similar_tos':list, 'attributes':list}
 
 porter = PorterStemmer()
 wnl = WordNetLemmatizer()
@@ -50,8 +50,8 @@ def lemmatize_sentence(sentence, neverstem=False, keepWordPOS=False,
                        tokenizer=word_tokenize, postagger=pos_tag,
                        lemmatizer=wnl, stemmer=porter):
     words, lemmas, poss = [], [], []
-    for word, pos in postagger(sentence.split()):
-        pos = penn2morphy(pos)
+    for word, pos in postagger(tokenizer(sentence)):
+        pos = penn2morphy(pos, True)
         lemmas.append(lemmatize(word.lower(), pos, neverstem,
                                 lemmatizer, stemmer))
         poss.append(pos)

@@ -5,4 +5,4 @@ root = tree.getroot()
 root1 = tree1.getroot()
 
 
-print(len(root)) 
+print(root[0][0].attrib["id"])
