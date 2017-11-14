@@ -118,17 +118,19 @@ def computeOverlap(S, T):
         return 0
     if stS == -1:
         return 0
-    Sd = []
+    Sd1 = []
+    Sd2 = []
     for i in range(stS):
-        Sd.append(S[i])
+        Sd1.append(S[i])
     for i in range(enS + 1, m):
-        Sd.append(S[i])
+        Sd2.append(S[i])
 
-    Td = []
+    Td1 = []
+    Td2 = []
     for i in range(stT):
-        Td.append(T[i])
+        Td1.append(T[i])
     for i in range(enT + 1, n):
-        Td.append(T[i])
+        Td2.append(T[i])
 
 
     if checkNonContent(S[stS : enS + 1]) == 1:
@@ -136,7 +138,7 @@ def computeOverlap(S, T):
     else:
         score = 0
 
-    return score + computeOverlap(Sd, Td)
+    return score + computeOverlap(Sd1, Td1) + computeOverlap(Sd2, Td2)
 
 def compareGlossesList(a, b):
 
